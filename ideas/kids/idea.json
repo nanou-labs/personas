@@ -1,0 +1,17 @@
+{
+  "spec": 1,
+  "id": "kids",
+  "order": 5,
+  "author": "nanouai",
+  "persona": "parenting",
+  "needs": [
+    "google"
+  ],
+  "optional": [
+    "whatsapp"
+  ],
+  "title": "Kids' activities and routines",
+  "blurb": "Class reminders with leave-by times, school news and daily checklists.",
+  "sample": "Swimming at 5:30: leave by 5:05, and the goggles are still in the car.",
+  "firstMessage": "Help me keep track of the kids' activities: find their classes and school events in my calendar and mail, list them for the week, and remind me when it's time to leave."
+}

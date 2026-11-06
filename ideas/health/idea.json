@@ -1,0 +1,17 @@
+{
+  "spec": 1,
+  "id": "health",
+  "order": 6,
+  "author": "nanouai",
+  "persona": "medical",
+  "needs": [
+    "google"
+  ],
+  "optional": [
+    "outlook"
+  ],
+  "title": "Family health, organised",
+  "blurb": "Appointments with reminders, and lab results in plain words.",
+  "sample": "The pediatrician is tomorrow at 9:15. Bring the vaccination card.",
+  "firstMessage": "Find our upcoming medical appointments in my calendar and mail, list them, and remind me a week, a day and the morning before each one."
+}

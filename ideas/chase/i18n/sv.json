@@ -1,0 +1,6 @@
+{
+  "title": "Jaga ett svar åt mig",
+  "blurb": "Återbetalningar, garantiärenden, hyresvärdar: nanou påminner dig när ett svar dröjer.",
+  "sample": "Butiken har inte svarat om din återbetalning på 9 dagar. Ska jag skriva en påminnelse?",
+  "firstMessage": "Gå igenom min mejl efter saker jag fortfarande väntar på svar om (återbetalningar, garantiärenden, en butik, en hyresvärd). Lista dem med hur länge var och en har väntat, och påminn mig när något är försenat."
+}

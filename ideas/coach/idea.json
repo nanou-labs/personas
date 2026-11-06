@@ -1,0 +1,13 @@
+{
+  "spec": 1,
+  "id": "coach",
+  "order": 11,
+  "author": "nanouai",
+  "persona": "coach",
+  "needs": [],
+  "optional": [],
+  "title": "A coach in your pocket",
+  "blurb": "A daily workout checklist and a weekly check-in.",
+  "sample": "Today: 20 minutes, no jumping, easy on the knee. Shall we check in on Sunday?",
+  "firstMessage": "Be my coach: ask me about my goals, how much time I have and any injuries, then make a daily workout checklist and check in with me every Sunday."
+}

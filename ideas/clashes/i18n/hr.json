@@ -1,0 +1,6 @@
+{
+  "title": "Kraj preklapanjima u kalendaru",
+  "blurb": "nanou provjerava obiteljske kalendare i na vrijeme upozorava na preklapanja.",
+  "sample": "Pozor: roditeljski sastanak 12. preklapa se s tvojim letom.",
+  "firstMessage": "Provjeri moje kalendare za sljedeća 4 tjedna i reci mi ima li preklapanja ili dvostrukih rezervacija. Zatim prati i upozori me na vrijeme kad se pojavi novo."
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Relancer à ma place",
+  "blurb": "Remboursements, garanties, propriétaires : nanou te fait signe quand une réponse tarde.",
+  "sample": "Le magasin n'a pas répondu pour ton remboursement depuis 9 jours. Je prépare une relance ?",
+  "firstMessage": "Cherche dans mes mails ce à quoi j'attends encore une réponse (remboursements, garanties, un magasin, un propriétaire). Liste-les avec depuis combien de temps chacun attend, et fais-moi signe quand l'un d'eux est en retard."
+}

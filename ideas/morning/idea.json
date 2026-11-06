@@ -1,0 +1,20 @@
+{
+  "spec": 1,
+  "id": "morning",
+  "order": 1,
+  "author": "nanouai",
+  "persona": "assistant",
+  "needs": [
+    "google"
+  ],
+  "optional": [
+    "whatsapp",
+    "outlook",
+    "asana",
+    "slack"
+  ],
+  "title": "Your morning, ready",
+  "blurb": "A daily brief: today's calendar, what's due, reminders and the weather.",
+  "sample": "Morning! Three things today: the dentist at 4, the school form is due, and rain from noon.",
+  "firstMessage": "Set up a morning brief for me every day at 7:30: today's calendar, what's due or overdue in my mail, my reminders and the weather. Show me what today's would look like first."
+}

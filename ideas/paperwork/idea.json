@@ -1,0 +1,17 @@
+{
+  "spec": 1,
+  "id": "paperwork",
+  "order": 4,
+  "author": "nanouai",
+  "persona": "gestor",
+  "needs": [
+    "google"
+  ],
+  "optional": [
+    "outlook"
+  ],
+  "title": "Paperwork and deadlines",
+  "blurb": "Official letters explained, deadlines tracked and replies drafted.",
+  "sample": "The tax office wants one more document by the 15th. I've drafted the reply for you to check.",
+  "firstMessage": "Look through my mail for official letters from the last 3 months (tax, social security, fines, property tax), explain each one in plain words, list the deadlines and remind me before each one."
+}

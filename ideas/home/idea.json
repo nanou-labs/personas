@@ -1,0 +1,15 @@
+{
+  "spec": 1,
+  "id": "home",
+  "order": 12,
+  "author": "nanouai",
+  "persona": "architect",
+  "needs": [],
+  "optional": [
+    "google"
+  ],
+  "title": "Home projects",
+  "blurb": "Research and quotes for repairs or upgrades, with notes in one room.",
+  "sample": "For the solar panels, here's a fair price range and six questions to ask in every quote.",
+  "firstMessage": "Help me with a home project: ask me what it is (a repair, solar panels, a renovation), then research the options, what it should cost and what to ask for in quotes."
+}

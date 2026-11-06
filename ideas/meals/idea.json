@@ -1,0 +1,16 @@
+{
+  "spec": 1,
+  "id": "meals",
+  "order": 2,
+  "author": "nanouai",
+  "persona": "chef",
+  "needs": [],
+  "optional": [
+    "google",
+    "whatsapp"
+  ],
+  "title": "Meals, planned for the week",
+  "blurb": "Weekly meal plans, the shopping list, and the recipes you keep, in whatever form.",
+  "sample": "Here's the week: five dinners and one shopping list. Thursday's soup needs the beans soaked tonight.",
+  "firstMessage": "Help us plan this week's meals: ask me how many we are, what we like and what we avoid, and which recipes we already keep (links, photos, notes or a book). Then make a weekly plan and the shopping list, and remind me the evening before anything needs prep."
+}

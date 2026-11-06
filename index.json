@@ -12991,7 +12991,2121 @@
       }
     }
   ],
-  "ideas": [],
+  "ideas": [
+    {
+      "spec": 1,
+      "id": "morning",
+      "order": 1,
+      "author": "nanouai",
+      "persona": "assistant",
+      "needs": [
+        "google"
+      ],
+      "optional": [
+        "whatsapp",
+        "outlook",
+        "asana",
+        "slack"
+      ],
+      "title": "Your morning, ready",
+      "blurb": "A daily brief: today's calendar, what's due, reminders and the weather.",
+      "sample": "Morning! Three things today: the dentist at 4, the school form is due, and rain from noon.",
+      "firstMessage": "Set up a morning brief for me every day at 7:30: today's calendar, what's due or overdue in my mail, my reminders and the weather. Show me what today's would look like first.",
+      "i18n": {
+        "fr": {
+          "title": "Ta matinée, prête",
+          "blurb": "Un point quotidien : l'agenda du jour, ce qui arrive à échéance, les rappels et la météo.",
+          "sample": "Bonjour ! Trois choses aujourd'hui : le dentiste à 16h, le formulaire de l'école à rendre, et de la pluie dès midi.",
+          "firstMessage": "Prépare-moi un point du matin tous les jours à 7h30 : l'agenda du jour, ce qui arrive à échéance ou est en retard dans mes mails, mes rappels et la météo. Montre-moi d'abord à quoi ressemblerait celui d'aujourd'hui."
+        },
+        "es": {
+          "title": "Tu mañana, lista",
+          "blurb": "Un resumen diario: el calendario de hoy, lo que vence, los recordatorios y el tiempo.",
+          "sample": "¡Buenos días! Tres cosas hoy: el dentista a las 16:00, hay que entregar el formulario del colegio y lluvia desde mediodía.",
+          "firstMessage": "Prepárame un resumen cada mañana a las 7:30: el calendario de hoy, lo que vence o está atrasado en mi correo, mis recordatorios y el tiempo. Enséñame primero cómo quedaría el de hoy."
+        },
+        "de": {
+          "title": "Dein Morgen, vorbereitet",
+          "blurb": "Ein täglicher Überblick: der Kalender von heute, was fällig ist, Erinnerungen und das Wetter.",
+          "sample": "Guten Morgen! Heute drei Dinge: Zahnarzt um 16 Uhr, das Schulformular ist fällig, und ab Mittag Regen.",
+          "firstMessage": "Richte mir jeden Tag um 7:30 einen Morgenüberblick ein: den Kalender von heute, was in meinen Mails fällig oder überfällig ist, meine Erinnerungen und das Wetter. Zeig mir zuerst, wie er heute aussehen würde."
+        },
+        "it": {
+          "title": "La tua mattina, già pronta",
+          "blurb": "Un riepilogo ogni giorno: il calendario di oggi, le scadenze, i promemoria e il meteo.",
+          "sample": "Buongiorno! Tre cose oggi: il dentista alle 16, il modulo della scuola da consegnare e pioggia da mezzogiorno.",
+          "firstMessage": "Preparami un riepilogo ogni mattina alle 7:30: il calendario di oggi, cosa è in scadenza o in ritardo nella mia posta, i miei promemoria e il meteo. Prima fammi vedere come sarebbe quello di oggi."
+        },
+        "pt": {
+          "title": "A tua manhã, já pronta",
+          "blurb": "Um resumo diário: o calendário de hoje, o que está a vencer, lembretes e a meteorologia.",
+          "sample": "Bom dia! Três coisas hoje: o dentista às 16h, o formulário da escola tem de ser entregue e chuva a partir do meio-dia.",
+          "firstMessage": "Prepara-me um resumo todas as manhãs às 7:30: o calendário de hoje, o que está a vencer ou em atraso no meu email, os meus lembretes e a meteorologia. Mostra-me primeiro como ficaria o de hoje."
+        },
+        "bg": {
+          "title": "Сутринта ти, готова",
+          "blurb": "Дневен преглед: календарът за деня, какво предстои, напомняния и времето.",
+          "sample": "Добро утро! Три неща днес: зъболекар в 16:00, срокът за училищния формуляр изтича и дъжд от обед.",
+          "firstMessage": "Направи ми сутрешен преглед всеки ден в 7:30: календарът за деня, какво предстои или е просрочено в пощата ми, напомнянията ми и времето. Първо ми покажи как би изглеждал днешният."
+        },
+        "cs": {
+          "title": "Ráno připravené",
+          "blurb": "Denní přehled: dnešní kalendář, co je potřeba vyřídit, připomínky a počasí.",
+          "sample": "Dobré ráno! Dnes tři věci: zubař v 16:00, termín školního formuláře a od poledne déšť.",
+          "firstMessage": "Připrav mi každý den v 7:30 ranní přehled: dnešní kalendář, co je v mé poště potřeba vyřídit nebo už je po termínu, moje připomínky a počasí. Nejdřív mi ukaž, jak by vypadal ten dnešní."
+        },
+        "da": {
+          "title": "Din morgen, klar",
+          "blurb": "Et dagligt overblik: dagens kalender, hvad der skal nås, påmindelser og vejret.",
+          "sample": "Godmorgen! Tre ting i dag: tandlæge kl. 16, skolens blanket skal afleveres, og regn fra middag.",
+          "firstMessage": "Lav et morgenoverblik til mig hver dag kl. 7:30: dagens kalender, hvad der skal nås eller er overskredet i min mail, mine påmindelser og vejret. Vis mig først, hvordan dagens ville se ud."
+        },
+        "el": {
+          "title": "Το πρωινό σου, έτοιμο",
+          "blurb": "Μια καθημερινή σύνοψη: το σημερινό ημερολόγιο, τι λήγει, υπενθυμίσεις και ο καιρός.",
+          "sample": "Καλημέρα! Τρία πράγματα σήμερα: οδοντίατρος στις 4, λήγει η φόρμα του σχολείου και βροχή από το μεσημέρι.",
+          "firstMessage": "Φτιάξε μου μια πρωινή σύνοψη κάθε μέρα στις 7:30: το σημερινό ημερολόγιο, τι λήγει ή έχει καθυστερήσει στην αλληλογραφία μου, τις υπενθυμίσεις μου και τον καιρό. Δείξε μου πρώτα πώς θα ήταν η σημερινή."
+        },
+        "et": {
+          "title": "Sinu hommik, valmis",
+          "blurb": "Igapäevane ülevaade: tänane kalender, mis on tähtajaga, meeldetuletused ja ilm.",
+          "sample": "Tere hommikust! Täna kolm asja: hambaarst kell 16, kooli ankeedi tähtaeg ja keskpäevast vihm.",
+          "firstMessage": "Sea mulle üles hommikune ülevaade iga päev kell 7:30: tänane kalender, mis mu postis on tähtajaga või üle tähtaja, mu meeldetuletused ja ilm. Näita kõigepealt, milline tänane välja näeks."
+        },
+        "fi": {
+          "title": "Aamusi valmiina",
+          "blurb": "Päivittäinen katsaus: päivän kalenteri, erääntyvät asiat, muistutukset ja sää.",
+          "sample": "Huomenta! Tänään kolme asiaa: hammaslääkäri klo 16, koulun lomakkeen eräpäivä ja sadetta puolesta päivästä.",
+          "firstMessage": "Tee minulle aamukatsaus joka päivä klo 7.30: päivän kalenteri, mitä postissani erääntyy tai on myöhässä, muistutukseni ja sää. Näytä ensin, miltä tämän päivän katsaus näyttäisi."
+        },
+        "ga": {
+          "title": "Do mhaidin, réidh",
+          "blurb": "Achoimre laethúil: féilire an lae, cad atá dlite, meabhrúcháin agus an aimsir.",
+          "sample": "Maidin mhaith! Trí rud inniu: an fiaclóir ag 16:00, tá foirm na scoile dlite, agus báisteach ón meán lae.",
+          "firstMessage": "Socraigh achoimre maidine dom gach lá ag 7:30: féilire an lae, cad atá dlite nó thar téarma i mo ríomhphost, mo mheabhrúcháin agus an aimsir. Taispeáin dom ar dtús cén chuma a bheadh ar achoimre an lae inniu."
+        },
+        "hr": {
+          "title": "Tvoje jutro, spremno",
+          "blurb": "Dnevni pregled: današnji kalendar, rokovi, podsjetnici i vrijeme.",
+          "sample": "Dobro jutro! Danas tri stvari: zubar u 16:00, rok za školski obrazac i kiša od podneva.",
+          "firstMessage": "Postavi mi jutarnji pregled svaki dan u 7:30: današnji kalendar, što dospijeva ili je već kasno u mojoj pošti, moji podsjetnici i vremenska prognoza. Prvo mi pokaži kako bi izgledao današnji."
+        },
+        "hu": {
+          "title": "A reggeled, előkészítve",
+          "blurb": "Napi összefoglaló: a mai naptár, a határidők, az emlékeztetők és az időjárás.",
+          "sample": "Jó reggelt! Ma három dolog: fogorvos 16:00-kor, esedékes az iskolai űrlap, és déltől eső.",
+          "firstMessage": "Készíts nekem minden nap 7:30-ra reggeli összefoglalót: a mai naptár, ami esedékes vagy lejárt a leveleim között, az emlékeztetőim és az időjárás. Először mutasd meg, hogy nézne ki a mai."
+        },
+        "lt": {
+          "title": "Tavo rytas, paruoštas",
+          "blurb": "Kasdienė apžvalga: šiandienos kalendorius, terminai, priminimai ir orai.",
+          "sample": "Labas rytas! Šiandien trys dalykai: odontologas 16:00, baigiasi mokyklos formos terminas, o nuo vidurdienio lis.",
+          "firstMessage": "Paruošk man rytinę apžvalgą kasdien 7:30: šiandienos kalendorius, kas mano laiškuose turi būti padaryta ar jau vėluoja, mano priminimai ir orai. Pirmiausia parodyk, kaip atrodytų šiandienos."
+        },
+        "lv": {
+          "title": "Tavs rīts, sagatavots",
+          "blurb": "Ikdienas apskats: šodienas kalendārs, termiņi, atgādinājumi un laikapstākļi.",
+          "sample": "Labrīt! Šodien trīs lietas: zobārsts 16:00, jānodod skolas veidlapa, un no pusdienlaika līs.",
+          "firstMessage": "Iestati man rīta apskatu katru dienu 7:30: šodienas kalendārs, kam pastā tuvojas vai jau nokavēts termiņš, mani atgādinājumi un laikapstākļi. Vispirms parādi, kā izskatītos šodienas apskats."
+        },
+        "mt": {
+          "title": "Filgħodu tiegħek, lest",
+          "blurb": "Sommarju ta' kuljum: il-kalendarju tal-lum, x'għandu skadenza, tfakkiriet u t-temp.",
+          "sample": "Għodwa t-tajba! Tliet affarijiet illum: id-dentist fl-16:00, il-formola tal-iskola għandha skadenza, u x-xita minn nofsinhar.",
+          "firstMessage": "Issettjali sommarju ta' filgħodu kuljum fis-7:30: il-kalendarju tal-lum, x'għandu skadenza jew għaddielu ż-żmien fl-emails tiegħi, it-tfakkiriet tiegħi u t-temp. L-ewwel urini kif ikun jidher dak tal-lum."
+        },
+        "nl": {
+          "title": "Je ochtend, klaargezet",
+          "blurb": "Elke dag een overzicht: de agenda van vandaag, wat er moet gebeuren, herinneringen en het weer.",
+          "sample": "Goedemorgen! Drie dingen vandaag: de tandarts om 16.00 uur, het schoolformulier moet worden ingeleverd, en vanaf 12 uur regen.",
+          "firstMessage": "Maak elke dag om 7:30 een ochtendoverzicht voor me: de agenda van vandaag, wat er in mijn mail moet gebeuren of over tijd is, mijn herinneringen en het weer. Laat me eerst zien hoe dat van vandaag eruit zou zien."
+        },
+        "pl": {
+          "title": "Twój poranek gotowy",
+          "blurb": "Codzienny skrót: dzisiejszy kalendarz, terminy, przypomnienia i pogoda.",
+          "sample": "Dzień dobry! Dziś trzy sprawy: dentysta o 16:00, termin na formularz ze szkoły i deszcz od południa.",
+          "firstMessage": "Przygotowuj mi poranny skrót codziennie o 7:30: dzisiejszy kalendarz, co w mojej poczcie czeka na załatwienie lub jest po terminie, moje przypomnienia i pogoda. Najpierw pokaż mi, jak wyglądałby dzisiejszy."
+        },
+        "ro": {
+          "title": "Dimineața ta, pregătită",
+          "blurb": "Un rezumat zilnic: calendarul de azi, ce are termen, mementouri și vremea.",
+          "sample": "Bună dimineața! Trei lucruri azi: dentistul la 16:00, formularul de la școală e de predat și plouă de la prânz.",
+          "firstMessage": "Pregătește-mi un rezumat de dimineață în fiecare zi la 7:30: calendarul de azi, ce are termen sau a întârziat în mailurile mele, mementourile mele și vremea. Arată-mi mai întâi cum ar arăta cel de azi."
+        },
+        "sk": {
+          "title": "Tvoje ráno, pripravené",
+          "blurb": "Denný prehľad: dnešný kalendár, čo treba vybaviť, pripomienky a počasie.",
+          "sample": "Dobré ráno! Dnes tri veci: zubár o 16:00, termín školského formulára a od obeda dážď.",
+          "firstMessage": "Priprav mi každý deň o 7:30 ranný prehľad: dnešný kalendár, čo je v mojej pošte treba vybaviť alebo už je po termíne, moje pripomienky a počasie. Najprv mi ukáž, ako by vyzeral ten dnešný."
+        },
+        "sl": {
+          "title": "Tvoje jutro, pripravljeno",
+          "blurb": "Dnevni pregled: današnji koledar, kaj zapade, opomniki in vreme.",
+          "sample": "Dobro jutro! Danes tri stvari: zobozdravnik ob 16:00, rok za šolski obrazec in dež od poldneva.",
+          "firstMessage": "Pripravi mi jutranji pregled vsak dan ob 7:30: današnji koledar, kaj v moji pošti zapade ali je že zamujeno, moje opomnike in vreme. Najprej mi pokaži, kako bi bil videti današnji."
+        },
+        "sv": {
+          "title": "Din morgon, klar",
+          "blurb": "En daglig sammanfattning: dagens kalender, det som ska göras, påminnelser och vädret.",
+          "sample": "God morgon! Tre saker i dag: tandläkaren kl. 16, skolblanketten ska lämnas in och regn från lunch.",
+          "firstMessage": "Ställ in en morgonsammanfattning åt mig varje dag kl. 7:30: dagens kalender, det som ska göras eller är försenat i min mejl, mina påminnelser och vädret. Visa mig först hur dagens skulle se ut."
+        },
+        "tr": {
+          "title": "Sabahın hazır",
+          "blurb": "Günlük özet: bugünün takvimi, yaklaşan işler, hatırlatmalar ve hava durumu.",
+          "sample": "Günaydın! Bugün üç şey var: saat 16:00'da dişçi, okul formunun son günü ve öğlenden itibaren yağmur.",
+          "firstMessage": "Bana her gün saat 7:30'da bir sabah özeti hazırla: bugünün takvimi, e-postamda vadesi gelen ya da geciken işler, hatırlatmalarım ve hava durumu. Önce bugününkünün nasıl görüneceğini göster."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "meals",
+      "order": 2,
+      "author": "nanouai",
+      "persona": "chef",
+      "needs": [],
+      "optional": [
+        "google",
+        "whatsapp"
+      ],
+      "title": "Meals, planned for the week",
+      "blurb": "Weekly meal plans, the shopping list, and the recipes you keep, in whatever form.",
+      "sample": "Here's the week: five dinners and one shopping list. Thursday's soup needs the beans soaked tonight.",
+      "firstMessage": "Help us plan this week's meals: ask me how many we are, what we like and what we avoid, and which recipes we already keep (links, photos, notes or a book). Then make a weekly plan and the shopping list, and remind me the evening before anything needs prep.",
+      "i18n": {
+        "fr": {
+          "title": "Les repas de la semaine, planifiés",
+          "blurb": "Des menus de la semaine, la liste de courses et les recettes que tu gardes, sous n'importe quelle forme.",
+          "sample": "Voici la semaine : cinq dîners et une seule liste de courses. Pour la soupe de jeudi, fais tremper les haricots ce soir.",
+          "firstMessage": "Aide-nous à prévoir les repas de la semaine : demande-moi combien nous sommes, ce qu'on aime et ce qu'on évite, et quelles recettes on garde déjà (liens, photos, notes ou un livre). Ensuite, fais un menu de la semaine et la liste de courses, et préviens-moi la veille quand quelque chose doit être préparé à l'avance."
+        },
+        "es": {
+          "title": "Comidas planificadas para la semana",
+          "blurb": "Menús semanales, la lista de la compra y las recetas que guardas, en cualquier formato.",
+          "sample": "Aquí tienes la semana: cinco cenas y una sola lista de la compra. Para la sopa del jueves, deja las alubias en remojo esta noche.",
+          "firstMessage": "Ayúdanos a planificar las comidas de esta semana: pregúntame cuántos somos, qué nos gusta, qué evitamos y qué recetas ya guardamos (enlaces, fotos, notas o un libro). Luego haz un menú semanal y la lista de la compra, y avísame la noche antes si algo necesita preparación."
+        },
+        "de": {
+          "title": "Essen, für die Woche geplant",
+          "blurb": "Wochenpläne, die Einkaufsliste und deine Rezepte, egal in welcher Form.",
+          "sample": "Hier ist die Woche: fünf Abendessen und eine Einkaufsliste. Für die Suppe am Donnerstag die Bohnen heute Abend einweichen.",
+          "firstMessage": "Hilf uns, das Essen für diese Woche zu planen: Frag mich, wie viele wir sind, was wir mögen, was wir meiden und welche Rezepte wir schon haben (Links, Fotos, Notizen oder ein Buch). Mach dann einen Wochenplan und die Einkaufsliste und erinnere mich am Abend vorher, wenn etwas vorbereitet werden muss."
+        },
+        "it": {
+          "title": "Pasti pianificati per la settimana",
+          "blurb": "Menù settimanali, la lista della spesa e le ricette che conservi, in qualsiasi forma.",
+          "sample": "Ecco la settimana: cinque cene e una sola lista della spesa. Per la zuppa di giovedì metti i fagioli in ammollo stasera.",
+          "firstMessage": "Aiutaci a organizzare i pasti di questa settimana: chiedimi quanti siamo, cosa ci piace e cosa evitiamo, e quali ricette conserviamo già (link, foto, appunti o un libro). Poi fai un menù settimanale e la lista della spesa, e ricordamelo la sera prima se c'è qualcosa da preparare in anticipo."
+        },
+        "pt": {
+          "title": "Refeições planeadas para a semana",
+          "blurb": "Ementas semanais, a lista de compras e as receitas que guardas, em qualquer formato.",
+          "sample": "Aqui está a semana: cinco jantares e uma só lista de compras. Para a sopa de quinta, põe o feijão de molho esta noite.",
+          "firstMessage": "Ajuda-nos a planear as refeições desta semana: pergunta-me quantos somos, do que gostamos, o que evitamos e que receitas já guardamos (links, fotos, notas ou um livro). Depois faz uma ementa semanal e a lista de compras, e avisa-me na véspera quando alguma coisa precisar de ser preparada."
+        },
+        "bg": {
+          "title": "Храната, планирана за седмицата",
+          "blurb": "Седмично меню, списък за пазаруване и рецептите, които пазиш, в каквато и да е форма.",
+          "sample": "Ето седмицата: пет вечери и един списък за пазаруване. За супата в четвъртък бобът трябва да кисне от тази вечер.",
+          "firstMessage": "Помогни ни да планираме храната за седмицата: питай ме колко сме, какво обичаме и какво избягваме и кои рецепти вече пазим (линкове, снимки, бележки или книга). После направи седмично меню и списък за пазаруване и ми напомни вечерта преди всичко, което иска подготовка."
+        },
+        "cs": {
+          "title": "Jídlo naplánované na celý týden",
+          "blurb": "Týdenní jídelníčky, nákupní seznam a recepty, které si schováváš, v jakékoli podobě.",
+          "sample": "Tady je týden: pět večeří a jeden nákupní seznam. Na čtvrteční polévku je potřeba dnes večer namočit fazole.",
+          "firstMessage": "Pomoz nám naplánovat jídlo na tento týden: zeptej se mě, kolik nás je, co máme rádi a čemu se vyhýbáme a jaké recepty už máme schované (odkazy, fotky, poznámky nebo kuchařka). Pak udělej týdenní plán a nákupní seznam a večer předem mi připomeň všechno, co potřebuje přípravu."
+        },
+        "da": {
+          "title": "Måltider, planlagt for ugen",
+          "blurb": "Madplaner for ugen, indkøbslisten og de opskrifter, du gemmer, uanset form.",
+          "sample": "Her er ugen: fem aftensmåltider og én indkøbsliste. Til torsdagens suppe skal bønnerne i blød i aften.",
+          "firstMessage": "Hjælp os med at planlægge ugens måltider: spørg mig, hvor mange vi er, hvad vi kan lide, hvad vi undgår, og hvilke opskrifter vi allerede gemmer (links, billeder, noter eller en kogebog). Lav så en madplan for ugen og indkøbslisten, og mind mig om det aftenen før, hvis noget skal forberedes."
+        },
+        "el": {
+          "title": "Τα γεύματα της εβδομάδας, οργανωμένα",
+          "blurb": "Εβδομαδιαία μενού, η λίστα για τα ψώνια και οι συνταγές που κρατάς, σε όποια μορφή κι αν είναι.",
+          "sample": "Ορίστε η εβδομάδα: πέντε βραδινά και μία λίστα για ψώνια. Για τη σούπα της Πέμπτης, βάλε τα φασόλια να μουλιάσουν απόψε.",
+          "firstMessage": "Βοήθησέ μας να οργανώσουμε τα γεύματα της εβδομάδας: ρώτα με πόσοι είμαστε, τι μας αρέσει, τι αποφεύγουμε και ποιες συνταγές κρατάμε ήδη (συνδέσμους, φωτογραφίες, σημειώσεις ή ένα βιβλίο). Μετά φτιάξε ένα εβδομαδιαίο πλάνο και τη λίστα για τα ψώνια, και θύμισέ μου το προηγούμενο βράδυ ό,τι θέλει προετοιμασία."
+        },
+        "et": {
+          "title": "Söögid terveks nädalaks planeeritud",
+          "blurb": "Nädala menüüd, poenimekiri ja sinu retseptid, mis kujul tahes.",
+          "sample": "Siin on nädal: viis õhtusööki ja üks poenimekiri. Neljapäevase supi jaoks pane oad täna õhtul likku.",
+          "firstMessage": "Aita meil selle nädala söögid planeerida: küsi, mitu meid on, mis meile maitseb ja mida väldime ning milliseid retsepte me juba hoiame (lingid, fotod, märkmed või raamat). Siis koosta nädala menüü ja poenimekiri ning tuleta mulle eelmisel õhtul meelde kõike, mis vajab ettevalmistust."
+        },
+        "fi": {
+          "title": "Ateriat suunniteltuna koko viikolle",
+          "blurb": "Viikon ruokalistat, kauppalista ja talteen laittamasi reseptit, missä muodossa tahansa.",
+          "sample": "Tässä viikko: viisi päivällistä ja yksi kauppalista. Torstain keittoa varten pavut pitää laittaa likoamaan tänä iltana.",
+          "firstMessage": "Auta meitä suunnittelemaan tämän viikon ateriat: kysy, montako meitä on, mistä pidämme, mitä vältämme ja mitä reseptejä meillä on jo tallessa (linkit, kuvat, muistiinpanot tai keittokirja). Tee sitten viikon ruokalista ja kauppalista ja muistuta minua edellisenä iltana kaikesta, mikä vaatii valmistelua."
+        },
+        "ga": {
+          "title": "Béilí, pleanáilte don tseachtain",
+          "blurb": "Pleananna béilí seachtainiúla, an liosta siopadóireachta, agus na hoidis a choinníonn tú, cibé foirm ina bhfuil siad.",
+          "sample": "Seo an tseachtain: cúig dhinnéar agus liosta siopadóireachta amháin. Caithfear na pónairí don anraith Déardaoin a chur ar maos anocht.",
+          "firstMessage": "Cabhraigh linn béilí na seachtaine seo a phleanáil: fiafraigh díom cé mhéad duine atáimid, cad is maith linn agus cad a sheachnaímid, agus cé na hoidis atá againn cheana (naisc, grianghraif, nótaí nó leabhar). Ansin déan plean seachtainiúil agus an liosta siopadóireachta, agus cuir i gcuimhne dom an oíche roimh ré má tá ullmhúchán de dhíth ar aon rud."
+        },
+        "hr": {
+          "title": "Obroci, isplanirani za cijeli tjedan",
+          "blurb": "Tjedni jelovnici, popis za kupnju i recepti koje čuvaš, u bilo kojem obliku.",
+          "sample": "Evo tjedna: pet večera i jedan popis za kupnju. Za juhu u četvrtak grah treba namočiti večeras.",
+          "firstMessage": "Pomozi nam isplanirati obroke za ovaj tjedan: pitaj me koliko nas je, što volimo i što izbjegavamo te koje recepte već čuvamo (poveznice, fotografije, bilješke ili knjiga). Zatim napravi tjedni plan i popis za kupnju i podsjeti me večer prije ako nešto treba pripremiti."
+        },
+        "hu": {
+          "title": "Étkezések, egész hétre megtervezve",
+          "blurb": "Heti menük, bevásárlólista, és a receptjeid, bármilyen formában őrzöd őket.",
+          "sample": "Itt a hét: öt vacsora és egy bevásárlólista. A csütörtöki leveshez ma este be kell áztatni a babot.",
+          "firstMessage": "Segíts megtervezni a heti étkezéseinket: kérdezd meg, hányan vagyunk, mit szeretünk és mit kerülünk, és milyen recepteket őrzünk már (linkek, fotók, jegyzetek vagy egy könyv). Aztán készíts heti tervet és bevásárlólistát, és szólj előző este, ha valamit elő kell készíteni."
+        },
+        "lt": {
+          "title": "Valgiai, suplanuoti visai savaitei",
+          "blurb": "Savaitės valgiaraščiai, pirkinių sąrašas ir tavo saugomi receptai, bet kokio pavidalo.",
+          "sample": "Štai savaitė: penkios vakarienės ir vienas pirkinių sąrašas. Ketvirtadienio sriubai pupeles reikia užmerkti šįvakar.",
+          "firstMessage": "Padėk suplanuoti šios savaitės valgius: paklausk, kiek mūsų yra, ką mėgstame ir ko vengiame, ir kokius receptus jau saugome (nuorodos, nuotraukos, užrašai ar knyga). Tada sudaryk savaitės planą ir pirkinių sąrašą ir primink man vakarą prieš, jei ką nors reikia paruošti iš anksto."
+        },
+        "lv": {
+          "title": "Ēdienreizes, saplānotas visai nedēļai",
+          "blurb": "Nedēļas ēdienkartes, iepirkumu saraksts un tavas receptes, lai kādā formā tās glabātu.",
+          "sample": "Lūk, nedēļa: piecas vakariņas un viens iepirkumu saraksts. Ceturtdienas zupai pupiņas jāizmērcē jau šovakar.",
+          "firstMessage": "Palīdzi mums saplānot šīs nedēļas ēdienreizes: pajautā, cik mūsu ir, kas mums garšo un no kā izvairāmies, un kādas receptes mēs jau glabājam (saites, foto, piezīmes vai grāmata). Tad sastādi nedēļas plānu un iepirkumu sarakstu un atgādini man iepriekšējā vakarā, ja kaut kas jāsagatavo laikus."
+        },
+        "mt": {
+          "title": "Ikliet, ippjanati għall-ġimgħa",
+          "blurb": "Pjanijiet tal-ikel għall-ġimgħa, il-lista tax-xiri, u r-riċetti li żżomm, f'kull forma.",
+          "sample": "Hawn il-ġimgħa: ħames ikliet ta' filgħaxija u lista waħda tax-xiri. Għas-soppa tal-Ħamis, il-fażola trid titpoġġa fl-ilma llejla.",
+          "firstMessage": "Għinna nippjanaw l-ikliet ta' din il-ġimgħa: staqsini kemm aħna, x'jogħġobna u x'nevitaw, u liema riċetti diġà għandna (links, ritratti, noti jew ktieb). Imbagħad agħmel pjan tal-ġimgħa u l-lista tax-xiri, u fakkarni lejlet jekk xi ħaġa trid titħejja minn qabel."
+        },
+        "nl": {
+          "title": "Maaltijden, gepland voor de week",
+          "blurb": "Weekmenu's, het boodschappenlijstje en de recepten die je bewaart, in welke vorm dan ook.",
+          "sample": "Hier is de week: vijf avondmaaltijden en één boodschappenlijstje. Voor de soep van donderdag moeten de bonen vanavond weken.",
+          "firstMessage": "Help ons de maaltijden van deze week te plannen: vraag me met hoeveel we zijn, wat we lekker vinden, wat we vermijden en welke recepten we al bewaren (links, foto's, notities of een boek). Maak dan een weekmenu en het boodschappenlijstje, en herinner me de avond ervoor als er iets voorbereid moet worden."
+        },
+        "pl": {
+          "title": "Posiłki zaplanowane na cały tydzień",
+          "blurb": "Tygodniowe plany posiłków, lista zakupów i twoje przepisy, w dowolnej formie.",
+          "sample": "Oto tydzień: pięć kolacji i jedna lista zakupów. Do czwartkowej zupy trzeba dziś wieczorem namoczyć fasolę.",
+          "firstMessage": "Pomóż nam zaplanować posiłki na ten tydzień: zapytaj mnie, ile nas jest, co lubimy, czego unikamy i jakie przepisy już mamy (linki, zdjęcia, notatki albo książka). Potem ułóż plan na tydzień i listę zakupów i przypomnij mi wieczorem dzień wcześniej, jeśli coś trzeba przygotować."
+        },
+        "ro": {
+          "title": "Mesele, planificate pe săptămână",
+          "blurb": "Planuri de mese pe săptămână, lista de cumpărături și rețetele tale, în orice formă.",
+          "sample": "Iată săptămâna: cinci cine și o singură listă de cumpărături. Pentru supa de joi, fasolea trebuie pusă la înmuiat diseară.",
+          "firstMessage": "Ajută-ne să planificăm mesele săptămâna asta: întreabă-mă câți suntem, ce ne place, ce evităm și ce rețete avem deja (linkuri, poze, notițe sau o carte). Apoi fă un plan pe săptămână și lista de cumpărături și amintește-mi cu o seară înainte când ceva trebuie pregătit."
+        },
+        "sk": {
+          "title": "Jedlá naplánované na celý týždeň",
+          "blurb": "Týždenné jedálničky, nákupný zoznam a recepty, ktoré si odkladáš, v akejkoľvek podobe.",
+          "sample": "Tu je týždeň: päť večerí a jeden nákupný zoznam. Na štvrtkovú polievku treba dnes večer namočiť fazuľu.",
+          "firstMessage": "Pomôž nám naplánovať jedlá na tento týždeň: opýtaj sa ma, koľko nás je, čo máme radi, čomu sa vyhýbame a aké recepty už máme (odkazy, fotky, poznámky alebo kniha). Potom zostav týždenný plán a nákupný zoznam a pripomeň mi večer vopred, keď treba niečo pripraviť."
+        },
+        "sl": {
+          "title": "Obroki, načrtovani za ves teden",
+          "blurb": "Tedenski jedilniki, nakupovalni seznam in recepti, ki jih hraniš, v kakršni koli obliki.",
+          "sample": "Tu je teden: pet večerij in en nakupovalni seznam. Za četrtkovo juho je treba nocoj namočiti fižol.",
+          "firstMessage": "Pomagaj nam načrtovati obroke za ta teden: vprašaj me, koliko nas je, kaj imamo radi, čemu se izogibamo in katere recepte že hranimo (povezave, fotografije, zapiski ali knjiga). Nato sestavi tedenski načrt in nakupovalni seznam ter me opomni večer prej, kadar je treba kaj pripraviti."
+        },
+        "sv": {
+          "title": "Måltider, planerade för veckan",
+          "blurb": "Veckans matplaner, inköpslistan och recepten du sparar, i vilken form som helst.",
+          "sample": "Här är veckan: fem middagar och en inköpslista. Bönorna till torsdagens soppa behöver blötläggas i kväll.",
+          "firstMessage": "Hjälp oss planera veckans måltider: fråga mig hur många vi är, vad vi gillar och vad vi undviker, och vilka recept vi redan sparar (länkar, foton, anteckningar eller en bok). Gör sedan en veckoplan och inköpslistan, och påminn mig kvällen innan när något behöver förberedas."
+        },
+        "tr": {
+          "title": "Haftanın yemekleri planlı",
+          "blurb": "Haftalık yemek planları, alışveriş listesi ve sakladığın tarifler, hangi biçimde olursa olsun.",
+          "sample": "İşte hafta: beş akşam yemeği ve tek bir alışveriş listesi. Perşembe çorbası için fasulyeyi bu akşam ıslatman gerek.",
+          "firstMessage": "Bu haftanın yemeklerini planlamamıza yardım et: bana kaç kişi olduğumuzu, neleri sevdiğimizi, nelerden kaçındığımızı ve hangi tarifleri zaten sakladığımızı sor (bağlantılar, fotoğraflar, notlar ya da bir kitap). Sonra haftalık bir plan ve alışveriş listesi hazırla, hazırlık gereken bir şey varsa bir önceki akşam bana hatırlat."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "budget",
+      "order": 3,
+      "author": "nanouai",
+      "persona": "accountant",
+      "needs": [
+        "bank",
+        "google"
+      ],
+      "optional": [],
+      "title": "Understand the household budget",
+      "blurb": "Six months of spending sorted into categories, in a spreadsheet in Drive.",
+      "sample": "Groceries are a third of your spending, and two subscriptions went up this spring.",
+      "firstMessage": "Help me understand our household budget: look at the last 6 months of the bank account, sort spending into categories and make a spreadsheet in Drive. Then tell me where the money goes.",
+      "i18n": {
+        "fr": {
+          "title": "Comprendre le budget du foyer",
+          "blurb": "Six mois de dépenses classées par catégorie, dans un tableur sur Drive.",
+          "sample": "Les courses représentent un tiers de tes dépenses, et deux abonnements ont augmenté ce printemps.",
+          "firstMessage": "Aide-moi à comprendre le budget du foyer : regarde les 6 derniers mois du compte bancaire, classe les dépenses par catégorie et fais un tableur sur Drive. Ensuite, dis-moi où va l'argent."
+        },
+        "es": {
+          "title": "Entender el presupuesto familiar",
+          "blurb": "Seis meses de gastos por categorías, en una hoja de cálculo en Drive.",
+          "sample": "La compra es un tercio de tus gastos, y dos suscripciones subieron esta primavera.",
+          "firstMessage": "Ayúdame a entender el presupuesto de casa: revisa los últimos 6 meses de la cuenta bancaria, ordena los gastos por categorías y haz una hoja de cálculo en Drive. Luego dime en qué se va el dinero."
+        },
+        "de": {
+          "title": "Das Haushaltsbudget verstehen",
+          "blurb": "Sechs Monate Ausgaben nach Kategorien, in einer Tabelle in Drive.",
+          "sample": "Lebensmittel machen ein Drittel deiner Ausgaben aus, und zwei Abos sind diesen Frühling teurer geworden.",
+          "firstMessage": "Hilf mir, unser Haushaltsbudget zu verstehen: Sieh dir die letzten 6 Monate des Bankkontos an, ordne die Ausgaben nach Kategorien und leg eine Tabelle in Drive an. Sag mir dann, wohin das Geld geht."
+        },
+        "it": {
+          "title": "Capire il budget di casa",
+          "blurb": "Sei mesi di spese divise per categoria, in un foglio di calcolo su Drive.",
+          "sample": "La spesa alimentare è un terzo delle tue uscite, e due abbonamenti sono aumentati questa primavera.",
+          "firstMessage": "Aiutami a capire il budget di casa: guarda gli ultimi 6 mesi del conto in banca, dividi le spese per categoria e crea un foglio di calcolo su Drive. Poi dimmi dove vanno i soldi."
+        },
+        "pt": {
+          "title": "Perceber o orçamento da casa",
+          "blurb": "Seis meses de despesas por categoria, numa folha de cálculo no Drive.",
+          "sample": "As compras de supermercado são um terço dos teus gastos, e duas subscrições subiram esta primavera.",
+          "firstMessage": "Ajuda-me a perceber o orçamento da casa: vê os últimos 6 meses da conta bancária, organiza as despesas por categoria e faz uma folha de cálculo no Drive. Depois diz-me para onde vai o dinheiro."
+        },
+        "bg": {
+          "title": "Разбери семейния бюджет",
+          "blurb": "Шест месеца разходи, подредени по категории, в таблица в Drive.",
+          "sample": "Храната е една трета от разходите ти, а два абонамента поскъпнаха тази пролет.",
+          "firstMessage": "Помогни ми да разбера семейния ни бюджет: прегледай последните 6 месеца от банковата сметка, подреди разходите по категории и направи таблица в Drive. После ми кажи къде отиват парите."
+        },
+        "cs": {
+          "title": "Pochopit rodinný rozpočet",
+          "blurb": "Půl roku výdajů roztříděných do kategorií v tabulce na Disku.",
+          "sample": "Potraviny tvoří třetinu tvých výdajů a dvě předplatná letos na jaře podražila.",
+          "firstMessage": "Pomoz mi pochopit náš rodinný rozpočet: projdi posledních 6 měsíců na bankovním účtu, roztřiď výdaje do kategorií a udělej tabulku na Disku. Pak mi řekni, kam peníze odcházejí."
+        },
+        "da": {
+          "title": "Forstå husholdningens budget",
+          "blurb": "Seks måneders forbrug sorteret i kategorier i et regneark i Drive.",
+          "sample": "Dagligvarer er en tredjedel af dit forbrug, og to abonnementer steg i foråret.",
+          "firstMessage": "Hjælp mig med at forstå vores husholdningsbudget: gå de sidste 6 måneder på bankkontoen igennem, sortér forbruget i kategorier, og lav et regneark i Drive. Fortæl mig så, hvor pengene går hen."
+        },
+        "el": {
+          "title": "Κατάλαβε τον οικογενειακό προϋπολογισμό",
+          "blurb": "Έξι μήνες έξοδα χωρισμένα σε κατηγορίες, σε ένα υπολογιστικό φύλλο στο Drive.",
+          "sample": "Τα ψώνια για το σπίτι είναι το ένα τρίτο των εξόδων σου, και δύο συνδρομές ακρίβυναν αυτή την άνοιξη.",
+          "firstMessage": "Βοήθησέ με να καταλάβω τον οικογενειακό μας προϋπολογισμό: δες τους τελευταίους 6 μήνες του τραπεζικού λογαριασμού, χώρισε τα έξοδα σε κατηγορίες και φτιάξε ένα υπολογιστικό φύλλο στο Drive. Μετά πες μου πού πηγαίνουν τα χρήματα."
+        },
+        "et": {
+          "title": "Mõista pere eelarvet",
+          "blurb": "Kuue kuu kulud kategooriatesse jaotatud, tabelina Drive'is.",
+          "sample": "Toidukaubad on kolmandik sinu kuludest ja kaks tellimust läksid sel kevadel kallimaks.",
+          "firstMessage": "Aita mul mõista meie pere eelarvet: vaata läbi pangakonto viimased 6 kuud, jaota kulud kategooriatesse ja tee Drive'i tabel. Siis ütle, kuhu raha läheb."
+        },
+        "fi": {
+          "title": "Ymmärrä kotitalouden budjetti",
+          "blurb": "Puolen vuoden menot luokiteltuina, taulukkona Drivessa.",
+          "sample": "Ruokaostokset ovat kolmannes menoistasi, ja kaksi tilausta kallistui tänä keväänä.",
+          "firstMessage": "Auta minua ymmärtämään kotitaloutemme budjettia: käy läpi pankkitilin viimeiset 6 kuukautta, luokittele menot ja tee taulukko Driveen. Kerro sitten, mihin rahat menevät."
+        },
+        "ga": {
+          "title": "Tuiscint ar bhuiséad an tí",
+          "blurb": "Sé mhí de chaiteachas curtha i gcatagóirí, i scarbhileog in Drive.",
+          "sample": "Is ar earraí grósaera a théann trian de do chaiteachas, agus d’ardaigh dhá shíntiús an t-earrach seo.",
+          "firstMessage": "Cabhraigh liom buiséad an tí a thuiscint: féach ar na 6 mhí dheireanacha den chuntas bainc, cuir an caiteachas i gcatagóirí agus déan scarbhileog in Drive. Ansin inis dom cá dtéann an t-airgead."
+        },
+        "hr": {
+          "title": "Razumjeti kućni budžet",
+          "blurb": "Šest mjeseci potrošnje razvrstano po kategorijama, u tablici na Disku.",
+          "sample": "Namirnice su trećina tvoje potrošnje, a dvije pretplate poskupjele su ovog proljeća.",
+          "firstMessage": "Pomozi mi razumjeti naš kućni budžet: pregledaj zadnjih 6 mjeseci na bankovnom računu, razvrstaj potrošnju po kategorijama i napravi tablicu na Disku. Zatim mi reci kamo odlazi novac."
+        },
+        "hu": {
+          "title": "Átlátható családi költségvetés",
+          "blurb": "Hat hónap kiadásai kategóriákba rendezve, egy táblázatban a Drive-on.",
+          "sample": "A kiadásaid harmada élelmiszer, és két előfizetés is drágult tavasszal.",
+          "firstMessage": "Segíts átlátni a családi költségvetésünket: nézd át a bankszámla elmúlt 6 hónapját, rendezd a kiadásokat kategóriákba, és készíts róla táblázatot a Drive-on. Aztán mondd el, mire megy el a pénz."
+        },
+        "lt": {
+          "title": "Suprask namų biudžetą",
+          "blurb": "Šešių mėnesių išlaidos, suskirstytos į kategorijas, lentelėje Drive.",
+          "sample": "Maisto produktai sudaro trečdalį tavo išlaidų, o šį pavasarį pabrango dvi prenumeratos.",
+          "firstMessage": "Padėk man suprasti mūsų namų biudžetą: peržiūrėk paskutinius 6 banko sąskaitos mėnesius, suskirstyk išlaidas į kategorijas ir sukurk lentelę Drive. Tada pasakyk, kur keliauja pinigai."
+        },
+        "lv": {
+          "title": "Saproti mājsaimniecības budžetu",
+          "blurb": "Sešu mēnešu tēriņi, sakārtoti kategorijās, izklājlapā Drive.",
+          "sample": "Pārtika ir trešdaļa tavu tēriņu, un šopavasar sadārdzinājās divi abonementi.",
+          "firstMessage": "Palīdzi man saprast mūsu mājsaimniecības budžetu: apskati bankas konta pēdējos 6 mēnešus, sakārto tēriņus kategorijās un izveido izklājlapu Drive. Tad pasaki, kur aiziet nauda."
+        },
+        "mt": {
+          "title": "Ifhem il-baġit tad-dar",
+          "blurb": "Sitt xhur ta' nfiq maqsum f'kategoriji, fi spreadsheet f'Drive.",
+          "sample": "L-ikel jieħu terz tal-infiq tiegħek, u żewġ abbonamenti żdiedu dir-rebbiegħa.",
+          "firstMessage": "Għinni nifhem il-baġit tad-dar tagħna: ħares lejn l-aħħar 6 xhur tal-kont tal-bank, aqsam l-infiq f'kategoriji u agħmel spreadsheet f'Drive. Imbagħad għidli fejn qed imorru l-flus."
+        },
+        "nl": {
+          "title": "Het huishoudbudget begrijpen",
+          "blurb": "Zes maanden uitgaven per categorie, in een spreadsheet in Drive.",
+          "sample": "Boodschappen zijn een derde van je uitgaven, en twee abonnementen zijn dit voorjaar duurder geworden.",
+          "firstMessage": "Help me ons huishoudbudget te begrijpen: bekijk de laatste 6 maanden van de bankrekening, deel de uitgaven in categorieën in en maak een spreadsheet in Drive. Vertel me daarna waar het geld naartoe gaat."
+        },
+        "pl": {
+          "title": "Zrozum domowy budżet",
+          "blurb": "Wydatki z sześciu miesięcy podzielone na kategorie, w arkuszu na Dysku.",
+          "sample": "Zakupy spożywcze to jedna trzecia twoich wydatków, a dwie subskrypcje podrożały tej wiosny.",
+          "firstMessage": "Pomóż mi zrozumieć nasz domowy budżet: przejrzyj ostatnie 6 miesięcy na koncie bankowym, podziel wydatki na kategorie i zrób arkusz na Dysku. Potem powiedz mi, na co idą pieniądze."
+        },
+        "ro": {
+          "title": "Înțelege bugetul casei",
+          "blurb": "Cheltuielile din ultimele șase luni, pe categorii, într-un tabel în Drive.",
+          "sample": "Mâncarea e o treime din cheltuielile tale, iar două abonamente s-au scumpit primăvara asta.",
+          "firstMessage": "Ajută-mă să înțeleg bugetul casei: uită-te la ultimele 6 luni din contul bancar, împarte cheltuielile pe categorii și fă un tabel în Drive. Apoi spune-mi pe ce se duc banii."
+        },
+        "sk": {
+          "title": "Pochop rodinný rozpočet",
+          "blurb": "Výdavky za šesť mesiacov roztriedené do kategórií, v tabuľke na Disku.",
+          "sample": "Potraviny tvoria tretinu tvojich výdavkov a dve predplatné tejto jari zdraželi.",
+          "firstMessage": "Pomôž mi pochopiť náš rodinný rozpočet: pozri sa na posledných 6 mesiacov na bankovom účte, roztrieď výdavky do kategórií a urob tabuľku na Disku. Potom mi povedz, kam idú peniaze."
+        },
+        "sl": {
+          "title": "Razumi družinski proračun",
+          "blurb": "Šest mesecev stroškov, razvrščenih v kategorije, v preglednici v Drivu.",
+          "sample": "Živila so tretjina tvojih stroškov, dve naročnini pa sta se to pomlad podražili.",
+          "firstMessage": "Pomagaj mi razumeti naš družinski proračun: preglej zadnjih 6 mesecev na bančnem računu, razvrsti stroške v kategorije in naredi preglednico v Drivu. Nato mi povej, kam gre denar."
+        },
+        "sv": {
+          "title": "Förstå hushållets budget",
+          "blurb": "Sex månaders utgifter sorterade i kategorier, i ett kalkylark i Drive.",
+          "sample": "Mat står för en tredjedel av dina utgifter, och två abonnemang blev dyrare i våras.",
+          "firstMessage": "Hjälp mig förstå vår hushållsbudget: gå igenom de senaste 6 månaderna på bankkontot, sortera utgifterna i kategorier och gör ett kalkylark i Drive. Berätta sedan vart pengarna tar vägen."
+        },
+        "tr": {
+          "title": "Ev bütçesini anla",
+          "blurb": "Altı aylık harcamalar kategorilere ayrılmış, Drive'da bir tabloda.",
+          "sample": "Market alışverişi harcamalarının üçte biri, iki abonelik de bu bahar zamlandı.",
+          "firstMessage": "Ev bütçemizi anlamama yardım et: banka hesabının son 6 ayına bak, harcamaları kategorilere ayır ve Drive'da bir tablo oluştur. Sonra paranın nereye gittiğini söyle."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "paperwork",
+      "order": 4,
+      "author": "nanouai",
+      "persona": "gestor",
+      "needs": [
+        "google"
+      ],
+      "optional": [
+        "outlook"
+      ],
+      "title": "Paperwork and deadlines",
+      "blurb": "Official letters explained, deadlines tracked and replies drafted.",
+      "sample": "The tax office wants one more document by the 15th. I've drafted the reply for you to check.",
+      "firstMessage": "Look through my mail for official letters from the last 3 months (tax, social security, fines, property tax), explain each one in plain words, list the deadlines and remind me before each one.",
+      "i18n": {
+        "fr": {
+          "title": "Paperasse et échéances",
+          "blurb": "Les courriers officiels expliqués, les échéances suivies et les réponses préparées.",
+          "sample": "Les impôts demandent encore un document avant le 15. J'ai préparé la réponse, tu n'as plus qu'à vérifier.",
+          "firstMessage": "Cherche dans mes mails les courriers officiels des 3 derniers mois (impôts, sécurité sociale, amendes, taxe foncière), explique chacun avec des mots simples, liste les échéances et préviens-moi avant chacune."
+        },
+        "es": {
+          "title": "Papeleo y plazos",
+          "blurb": "Cartas oficiales explicadas, plazos controlados y respuestas redactadas.",
+          "sample": "Hacienda pide un documento más antes del día 15. Te he preparado la respuesta para que la revises.",
+          "firstMessage": "Busca en mi correo las cartas oficiales de los últimos 3 meses (impuestos, seguridad social, multas, impuesto de bienes inmuebles), explícame cada una con palabras sencillas, haz una lista de los plazos y avísame antes de cada uno."
+        },
+        "de": {
+          "title": "Papierkram und Fristen",
+          "blurb": "Behördenbriefe erklärt, Fristen im Blick und Antworten vorbereitet.",
+          "sample": "Das Finanzamt will bis zum 15. noch ein Dokument. Ich habe dir die Antwort zum Prüfen entworfen.",
+          "firstMessage": "Such in meinen Mails nach offiziellen Schreiben der letzten 3 Monate (Steuern, Sozialversicherung, Bußgelder, Grundsteuer), erklär mir jedes in einfachen Worten, liste die Fristen auf und erinnere mich vor jeder einzelnen."
+        },
+        "it": {
+          "title": "Pratiche e scadenze",
+          "blurb": "Lettere ufficiali spiegate, scadenze sotto controllo e risposte preparate.",
+          "sample": "L'Agenzia delle Entrate chiede un altro documento entro il 15. Ti ho preparato la risposta da controllare.",
+          "firstMessage": "Cerca nella mia posta le lettere ufficiali degli ultimi 3 mesi (tasse, previdenza sociale, multe, tasse sulla casa), spiegami ognuna con parole semplici, elenca le scadenze e ricordamele prima di ciascuna."
+        },
+        "pt": {
+          "title": "Papelada e prazos",
+          "blurb": "Cartas oficiais explicadas, prazos acompanhados e respostas preparadas.",
+          "sample": "As Finanças pedem mais um documento até dia 15. Preparei a resposta para reveres.",
+          "firstMessage": "Procura no meu email cartas oficiais dos últimos 3 meses (impostos, segurança social, multas, IMI), explica-me cada uma por palavras simples, faz a lista dos prazos e avisa-me antes de cada um."
+        },
+        "bg": {
+          "title": "Документи и срокове",
+          "blurb": "Официалните писма обяснени, сроковете следени, отговорите в чернова.",
+          "sample": "Данъчните искат още един документ до 15-ти. Подготвих отговора, за да го прегледаш.",
+          "firstMessage": "Прегледай пощата ми за официални писма от последните 3 месеца (данъци, осигуровки, глоби, данък сгради), обясни всяко с прости думи, изброй сроковете и ми напомни преди всеки от тях."
+        },
+        "cs": {
+          "title": "Papíry a termíny",
+          "blurb": "Úřední dopisy vysvětlené, termíny pohlídané a odpovědi předepsané.",
+          "sample": "Finanční úřad chce do 15. ještě jeden dokument. Návrh odpovědi máš připravený ke kontrole.",
+          "firstMessage": "Projdi mou poštu a najdi úřední dopisy za poslední 3 měsíce (daně, sociální pojištění, pokuty, daň z nemovitosti), každý mi vysvětli jednoduše, vypiš termíny a před každým mi to připomeň."
+        },
+        "da": {
+          "title": "Papirarbejde og frister",
+          "blurb": "Officielle breve forklaret, frister fulgt og svar skrevet i kladde.",
+          "sample": "Skattestyrelsen vil have ét dokument mere senest den 15. Jeg har skrevet et udkast til svar, som du kan tjekke.",
+          "firstMessage": "Gå min mail igennem for officielle breve fra de sidste 3 måneder (skat, sociale ydelser, bøder, ejendomsskat), forklar hvert brev med almindelige ord, list fristerne, og mind mig om hver af dem i god tid."
+        },
+        "el": {
+          "title": "Χαρτιά και προθεσμίες",
+          "blurb": "Επίσημα έγγραφα εξηγημένα, προθεσμίες υπό έλεγχο και απαντήσεις σε πρόχειρο.",
+          "sample": "Η εφορία θέλει ένα ακόμη έγγραφο έως τις 15. Έγραψα την απάντηση σε πρόχειρο για να τη δεις.",
+          "firstMessage": "Ψάξε στην αλληλογραφία μου για επίσημα έγγραφα των τελευταίων 3 μηνών (φόροι, ασφαλιστικά, πρόστιμα, φόρος ακινήτων), εξήγησέ μου το καθένα με απλά λόγια, κάνε λίστα με τις προθεσμίες και θύμισέ μου πριν από την καθεμία."
+        },
+        "et": {
+          "title": "Paberid ja tähtajad",
+          "blurb": "Ametlikud kirjad lahti seletatud, tähtajad jälgitud ja vastuste mustandid valmis.",
+          "sample": "Maksuamet tahab 15. kuupäevaks veel üht dokumenti. Vastuse mustand on sulle ülevaatamiseks valmis.",
+          "firstMessage": "Otsi mu postist viimase 3 kuu ametlikud kirjad (maksud, sotsiaalkindlustus, trahvid, maamaks), seleta igaüks lihtsate sõnadega lahti, pane tähtajad kirja ja tuleta enne igaüht meelde."
+        },
+        "fi": {
+          "title": "Paperiasiat ja määräajat",
+          "blurb": "Viralliset kirjeet selitettyinä, määräajat seurannassa ja vastaukset luonnoksina.",
+          "sample": "Verottaja haluaa vielä yhden asiakirjan 15. päivään mennessä. Vastausluonnos odottaa tarkistustasi.",
+          "firstMessage": "Käy postini läpi ja etsi viimeisen 3 kuukauden viralliset kirjeet (verot, sosiaaliturva, sakot, kiinteistövero), selitä jokainen selkokielellä, listaa määräajat ja muistuta minua ennen jokaista."
+        },
+        "ga": {
+          "title": "Páipéarachas agus spriocdhátaí",
+          "blurb": "Litreacha oifigiúla mínithe, spriocdhátaí faoi smacht agus freagraí dréachtaithe.",
+          "sample": "Teastaíonn doiciméad amháin eile ó oifig na cánach faoin 15ú. Dhréachtaigh mé an freagra duit le seiceáil.",
+          "firstMessage": "Cuardaigh i mo ríomhphost litreacha oifigiúla ó na 3 mhí dheireanacha (cáin, leas sóisialach, fíneálacha, cáin mhaoine), mínigh gach ceann i bhfocail shimplí, liostaigh na spriocdhátaí agus cuir i gcuimhne dom roimh gach ceann acu."
+        },
+        "hr": {
+          "title": "Papirologija i rokovi",
+          "blurb": "Službena pisma objašnjena, rokovi praćeni, odgovori pripremljeni.",
+          "sample": "Porezna uprava traži još jedan dokument do 15. Evo nacrta odgovora da ga provjeriš.",
+          "firstMessage": "Pregledaj moju poštu i pronađi službena pisma iz zadnja 3 mjeseca (porez, socijalno osiguranje, kazne, porez na nekretnine), objasni svako jednostavnim riječima, navedi rokove i podsjeti me prije svakog."
+        },
+        "hu": {
+          "title": "Ügyintézés és határidők",
+          "blurb": "Hivatalos levelek érthetően, határidők szem előtt, válaszok megfogalmazva.",
+          "sample": "Az adóhivatal 15-ig még egy dokumentumot kér. Megírtam a választ, nézd át.",
+          "firstMessage": "Keresd meg a leveleim között az elmúlt 3 hónap hivatalos leveleit (adó, társadalombiztosítás, bírságok, ingatlanadó), magyarázd el mindegyiket egyszerűen, sorold fel a határidőket, és mindegyik előtt emlékeztess."
+        },
+        "lt": {
+          "title": "Popieriai ir terminai",
+          "blurb": "Oficialūs laiškai paaiškinti, terminai sekami, atsakymai parengti.",
+          "sample": "Mokesčių inspekcija iki 15 d. prašo dar vieno dokumento. Paruošiau atsakymą, kad galėtum patikrinti.",
+          "firstMessage": "Peržiūrėk mano laiškus ir surask oficialius laiškus iš paskutinių 3 mėnesių (mokesčiai, socialinis draudimas, baudos, nekilnojamojo turto mokestis), kiekvieną paaiškink paprastais žodžiais, išvardyk terminus ir primink man prieš kiekvieną."
+        },
+        "lv": {
+          "title": "Papīri un termiņi",
+          "blurb": "Oficiālas vēstules izskaidrotas, termiņi izsekoti, atbildes sagatavotas.",
+          "sample": "Nodokļu iestāde līdz 15. datumam prasa vēl vienu dokumentu. Atbildes melnraksts ir gatavs, pārbaudi to.",
+          "firstMessage": "Pārskati manu pastu un atrodi oficiālas vēstules no pēdējiem 3 mēnešiem (nodokļi, sociālā apdrošināšana, sodi, nekustamā īpašuma nodoklis), katru izskaidro vienkāršiem vārdiem, uzskaiti termiņus un atgādini man pirms katra."
+        },
+        "mt": {
+          "title": "Karti u skadenzi",
+          "blurb": "Ittri uffiċjali spjegati, skadenzi segwiti u tweġibiet abbozzati.",
+          "sample": "L-uffiċċju tat-taxxa jrid dokument ieħor sal-15. Abbozzajtlek it-tweġiba biex tiċċekkjaha.",
+          "firstMessage": "Fittex fl-emails tiegħi għal ittri uffiċjali tal-aħħar 3 xhur (taxxa, sigurtà soċjali, multi, taxxa fuq il-proprjetà), spjega kull waħda bi kliem sempliċi, elenka l-iskadenzi u fakkarni qabel kull waħda."
+        },
+        "nl": {
+          "title": "Papierwerk en deadlines",
+          "blurb": "Officiële brieven uitgelegd, deadlines bijgehouden en antwoorden opgesteld.",
+          "sample": "De Belastingdienst wil vóór de 15e nog één document. Ik heb het antwoord voor je klaargezet om na te kijken.",
+          "firstMessage": "Zoek in mijn mail naar officiële brieven van de afgelopen 3 maanden (belastingen, sociale zekerheid, boetes, onroerendezaakbelasting), leg ze elk in gewone woorden uit, zet de deadlines op een rij en herinner me voor elke deadline."
+        },
+        "pl": {
+          "title": "Urzędowe pisma i terminy",
+          "blurb": "Pisma z urzędów wyjaśnione, terminy pod kontrolą, odpowiedzi przygotowane do wysłania.",
+          "sample": "Urząd skarbowy chce jeszcze jednego dokumentu do 15. Szkic odpowiedzi czeka na twoje sprawdzenie.",
+          "firstMessage": "Przejrzyj moją pocztę i znajdź urzędowe pisma z ostatnich 3 miesięcy (podatki, ubezpieczenie społeczne, mandaty, podatek od nieruchomości), wyjaśnij każde prostymi słowami, wypisz terminy i przypomnij mi przed każdym z nich."
+        },
+        "ro": {
+          "title": "Hârtii și termene",
+          "blurb": "Scrisori oficiale explicate, termene urmărite și răspunsuri pregătite.",
+          "sample": "Fiscul mai vrea un document până pe 15. Ți-am pregătit răspunsul ca să-l verifici.",
+          "firstMessage": "Caută în mailurile mele scrisorile oficiale din ultimele 3 luni (impozite, asigurări sociale, amenzi, impozitul pe clădiri), explică-mi-o pe fiecare pe înțeles, fă lista termenelor și amintește-mi înainte de fiecare."
+        },
+        "sk": {
+          "title": "Úradné papiere a termíny",
+          "blurb": "Úradné listy vysvetlené, termíny pod kontrolou a odpovede pripravené.",
+          "sample": "Daňový úrad chce do 15. ešte jeden doklad. Návrh odpovede čaká na tvoju kontrolu.",
+          "firstMessage": "Prejdi moju poštu a nájdi úradné listy za posledné 3 mesiace (dane, sociálne poistenie, pokuty, daň z nehnuteľností), každý mi vysvetli jednoducho, vypíš termíny a pred každým mi to pripomeň."
+        },
+        "sl": {
+          "title": "Papirji in roki",
+          "blurb": "Uradna pisma razložena, roki pod nadzorom in odgovori pripravljeni.",
+          "sample": "Davčna uprava do 15. želi še en dokument. Osnutek odgovora te čaka v pregled.",
+          "firstMessage": "V moji pošti poišči uradna pisma iz zadnjih 3 mesecev (davki, socialno zavarovanje, globe, davek na nepremičnine), vsako razloži preprosto, naštej roke in me pred vsakim opomni."
+        },
+        "sv": {
+          "title": "Pappersarbete och deadlines",
+          "blurb": "Myndighetsbrev förklarade, deadlines bevakade och svar förberedda.",
+          "sample": "Skatteverket vill ha ett dokument till senast den 15:e. Jag har skrivit ett svarsutkast som du kan kolla.",
+          "firstMessage": "Gå igenom min mejl efter myndighetsbrev från de senaste 3 månaderna (skatt, socialförsäkring, böter, fastighetsavgift), förklara vart och ett med enkla ord, lista deadlines och påminn mig före var och en."
+        },
+        "tr": {
+          "title": "Evrak işleri ve son tarihler",
+          "blurb": "Resmî yazılar açıklanır, son tarihler takip edilir, yanıt taslakları hazırlanır.",
+          "sample": "Vergi dairesi ayın 15'ine kadar bir belge daha istiyor. Yanıt taslağını kontrol etmen için hazırladım.",
+          "firstMessage": "E-postamda son 3 aydaki resmî yazıları bul (vergi, sosyal güvenlik, cezalar, emlak vergisi), her birini sade bir dille açıkla, son tarihleri listele ve her birinden önce bana hatırlat."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "kids",
+      "order": 5,
+      "author": "nanouai",
+      "persona": "parenting",
+      "needs": [
+        "google"
+      ],
+      "optional": [
+        "whatsapp"
+      ],
+      "title": "Kids' activities and routines",
+      "blurb": "Class reminders with leave-by times, school news and daily checklists.",
+      "sample": "Swimming at 5:30: leave by 5:05, and the goggles are still in the car.",
+      "firstMessage": "Help me keep track of the kids' activities: find their classes and school events in my calendar and mail, list them for the week, and remind me when it's time to leave.",
+      "i18n": {
+        "fr": {
+          "title": "Activités et routines des enfants",
+          "blurb": "Des rappels de cours avec l'heure de départ, les nouvelles de l'école et des listes du quotidien.",
+          "sample": "Natation à 17h30 : départ à 17h05, et les lunettes sont encore dans la voiture.",
+          "firstMessage": "Aide-moi à suivre les activités des enfants : trouve leurs cours et les événements de l'école dans mon agenda et mes mails, liste-les pour la semaine et préviens-moi quand il est l'heure de partir."
+        },
+        "es": {
+          "title": "Actividades y rutinas de los niños",
+          "blurb": "Recordatorios de clases con la hora de salir, noticias del colegio y listas diarias.",
+          "sample": "Natación a las 17:30: sal a las 17:05, y las gafas siguen en el coche.",
+          "firstMessage": "Ayúdame a llevar las actividades de los niños: busca sus clases y los eventos del colegio en mi calendario y mi correo, haz una lista para la semana y avísame cuando sea hora de salir."
+        },
+        "de": {
+          "title": "Aktivitäten und Routinen der Kinder",
+          "blurb": "Erinnerungen an Kurse mit Losgehzeit, Neues aus der Schule und tägliche Checklisten.",
+          "sample": "Schwimmen um 17:30: los um 17:05, und die Schwimmbrille liegt noch im Auto.",
+          "firstMessage": "Hilf mir, die Aktivitäten der Kinder im Blick zu behalten: Such ihre Kurse und Schultermine in meinem Kalender und meinen Mails, liste sie für die Woche auf und erinnere mich, wenn es Zeit zum Losgehen ist."
+        },
+        "it": {
+          "title": "Attività e routine dei bambini",
+          "blurb": "Promemoria dei corsi con l'ora di uscita, notizie dalla scuola e checklist quotidiane.",
+          "sample": "Nuoto alle 17:30: esci alle 17:05, e gli occhialini sono ancora in macchina.",
+          "firstMessage": "Aiutami a tenere traccia delle attività dei bambini: trova i loro corsi e gli eventi della scuola nel mio calendario e nella posta, elencali per la settimana e avvisami quando è ora di uscire."
+        },
+        "pt": {
+          "title": "Atividades e rotinas dos miúdos",
+          "blurb": "Lembretes das aulas com a hora de sair, novidades da escola e listas diárias.",
+          "sample": "Natação às 17h30: sai às 17h05, e os óculos ainda estão no carro.",
+          "firstMessage": "Ajuda-me a acompanhar as atividades dos miúdos: encontra as aulas e os eventos da escola no meu calendário e no meu email, faz a lista da semana e avisa-me quando for hora de sair."
+        },
+        "bg": {
+          "title": "Занимания и режим на децата",
+          "blurb": "Напомняния за часовете с кога да тръгнеш, новини от училище и дневни списъци.",
+          "sample": "Плуване в 17:30: тръгни до 17:05, а очилата още са в колата.",
+          "firstMessage": "Помогни ми да следя заниманията на децата: намери часовете и училищните им събития в календара и пощата ми, изброй ги за седмицата и ми напомни, когато е време да тръгваме."
+        },
+        "cs": {
+          "title": "Kroužky a režim dětí",
+          "blurb": "Připomínky kroužků s časem odchodu, zprávy ze školy a denní checklisty.",
+          "sample": "Plavání v 17:30: vyraz nejpozději v 17:05 a brýle jsou pořád v autě.",
+          "firstMessage": "Pomoz mi mít přehled o aktivitách dětí: najdi jejich kroužky a školní akce v mém kalendáři a poště, vypiš je na tento týden a připomeň mi, když je čas vyrazit."
+        },
+        "da": {
+          "title": "Børnenes aktiviteter og rutiner",
+          "blurb": "Påmindelser om aktiviteter med hvornår I skal gå, nyt fra skolen og daglige tjeklister.",
+          "sample": "Svømning kl. 17.30: tag af sted senest 17.05, og svømmebrillerne ligger stadig i bilen.",
+          "firstMessage": "Hjælp mig med at holde styr på børnenes aktiviteter: find deres fritidsaktiviteter og skolebegivenheder i min kalender og mail, list dem for ugen, og mind mig om, når det er tid til at tage af sted."
+        },
+        "el": {
+          "title": "Δραστηριότητες και ρουτίνες των παιδιών",
+          "blurb": "Υπενθυμίσεις για μαθήματα με ώρα αναχώρησης, νέα από το σχολείο και καθημερινές λίστες.",
+          "sample": "Κολύμβηση στις 5:30: φύγε έως τις 5:05, και τα γυαλιά είναι ακόμη στο αυτοκίνητο.",
+          "firstMessage": "Βοήθησέ με να παρακολουθώ τις δραστηριότητες των παιδιών: βρες τα μαθήματα και τις σχολικές τους εκδηλώσεις στο ημερολόγιο και την αλληλογραφία μου, κάνε λίστα για την εβδομάδα και θύμισέ μου όταν είναι ώρα να φύγουμε."
+        },
+        "et": {
+          "title": "Laste trennid ja rutiinid",
+          "blurb": "Meeldetuletused trennidest koos väljumisajaga, kooliuudised ja päeva kontrollnimekirjad.",
+          "sample": "Ujumine kell 17.30: mine hiljemalt 17.05 ja ujumisprillid on ikka autos.",
+          "firstMessage": "Aita mul laste tegevustel silm peal hoida: leia mu kalendrist ja postist nende trennid ja kooliüritused, pane need nädala kaupa kirja ja tuleta meelde, kui on aeg minna."
+        },
+        "fi": {
+          "title": "Lasten harrastukset ja rutiinit",
+          "blurb": "Muistutukset harrastuksista lähtöaikoineen, koulun tiedotteet ja päivän tarkistuslistat.",
+          "sample": "Uinti klo 17.30: lähde viimeistään 17.05, ja uimalasit ovat yhä autossa.",
+          "firstMessage": "Auta minua pysymään kärryillä lasten harrastuksista: etsi heidän harrastuksensa ja koulun tapahtumat kalenteristani ja postistani, listaa ne viikolle ja muistuta minua, kun on aika lähteä."
+        },
+        "ga": {
+          "title": "Gníomhaíochtaí agus gnáthaimh na bpáistí",
+          "blurb": "Meabhrúcháin ranganna le ham imeachta, nuacht ón scoil agus seicliostaí laethúla.",
+          "sample": "Snámh ag 17:30: imigh faoi 17:05, agus tá na gloiní snámha fós sa charr.",
+          "firstMessage": "Cabhraigh liom súil a choinneáil ar ghníomhaíochtaí na bpáistí: aimsigh a gcuid ranganna agus imeachtaí scoile i m’fhéilire agus i mo ríomhphost, liostaigh iad don tseachtain, agus cuir i gcuimhne dom nuair is mithid imeacht."
+        },
+        "hr": {
+          "title": "Dječje aktivnosti i rutine",
+          "blurb": "Podsjetnici za aktivnosti s vremenom polaska, školske vijesti i dnevni popisi.",
+          "sample": "Plivanje u 17:30: kreni do 17:05, a naočale za plivanje još su u autu.",
+          "firstMessage": "Pomozi mi pratiti dječje aktivnosti: pronađi njihove treninge, tečajeve i školske događaje u mom kalendaru i pošti, popiši ih za ovaj tjedan i podsjeti me kad je vrijeme za polazak."
+        },
+        "hu": {
+          "title": "A gyerekek programjai és napirendje",
+          "blurb": "Emlékeztetők a különórákra indulási idővel, iskolai hírek és napi teendőlisták.",
+          "sample": "Úszás 17:30-kor: 17:05-ig indulj el, és az úszószemüveg még az autóban van.",
+          "firstMessage": "Segíts követni a gyerekek programjait: keresd meg a különóráikat és az iskolai eseményeket a naptáramban és a leveleimben, sorold fel őket erre a hétre, és szólj, amikor indulni kell."
+        },
+        "lt": {
+          "title": "Vaikų veiklos ir dienotvarkė",
+          "blurb": "Būrelių priminimai su išvykimo laiku, mokyklos naujienos ir kasdieniai sąrašai.",
+          "sample": "Plaukimas 17:30: išvažiuok iki 17:05, o plaukimo akiniai vis dar mašinoje.",
+          "firstMessage": "Padėk man sekti vaikų veiklas: surask jų būrelius ir mokyklos renginius mano kalendoriuje ir laiškuose, išvardyk juos šiai savaitei ir primink, kai laikas išvažiuoti."
+        },
+        "lv": {
+          "title": "Bērnu nodarbības un ikdiena",
+          "blurb": "Atgādinājumi par nodarbībām ar izbraukšanas laiku, skolas jaunumi un ikdienas saraksti.",
+          "sample": "Peldēšana 17:30: izbrauc līdz 17:05, un peldbrilles vēl ir mašīnā.",
+          "firstMessage": "Palīdzi man sekot līdzi bērnu nodarbībām: atrodi viņu pulciņus un skolas pasākumus manā kalendārā un pastā, uzskaiti tos šai nedēļai un atgādini, kad laiks doties ceļā."
+        },
+        "mt": {
+          "title": "L-attivitajiet u r-rutini tat-tfal",
+          "blurb": "Tfakkiriet tal-lezzjonijiet b'meta trid titlaq, aħbarijiet mill-iskola u listi ta' kuljum.",
+          "sample": "Għawm fil-17:30: itlaq sal-17:05, u n-nuċċalijiet tal-għawm għadhom fil-karozza.",
+          "firstMessage": "Għinni nżomm kont tal-attivitajiet tat-tfal: sib il-lezzjonijiet u l-avvenimenti tal-iskola tagħhom fil-kalendarju u fl-emails tiegħi, elenkahom għal din il-ġimgħa, u fakkarni meta jkun wasal il-ħin li nitlaq."
+        },
+        "nl": {
+          "title": "Activiteiten en routines van de kinderen",
+          "blurb": "Herinneringen voor lessen met vertrektijd, nieuws van school en dagelijkse checklists.",
+          "sample": "Zwemmen om 17.30 uur: vertrek om 17.05 uur, en de zwembril ligt nog in de auto.",
+          "firstMessage": "Help me de activiteiten van de kinderen bij te houden: zoek hun lessen en schoolactiviteiten in mijn agenda en mail, zet ze voor de week op een rij en laat me weten wanneer het tijd is om te vertrekken."
+        },
+        "pl": {
+          "title": "Zajęcia i codzienność dzieci",
+          "blurb": "Przypomnienia o zajęciach z godziną wyjścia, wiadomości ze szkoły i codzienne listy.",
+          "sample": "Basen o 17:30: wyjdź do 17:05, a okularki wciąż są w samochodzie.",
+          "firstMessage": "Pomóż mi ogarnąć zajęcia dzieci: znajdź ich zajęcia i wydarzenia szkolne w moim kalendarzu i poczcie, wypisz je na ten tydzień i przypominaj mi, kiedy trzeba wychodzić."
+        },
+        "ro": {
+          "title": "Activitățile și rutina copiilor",
+          "blurb": "Mementouri pentru activități cu ora de plecare, noutăți de la școală și liste zilnice.",
+          "sample": "Înot la 17:30: pleacă până la 17:05, iar ochelarii de înot sunt încă în mașină.",
+          "firstMessage": "Ajută-mă să țin evidența activităților copiilor: găsește-le cursurile și evenimentele de la școală în calendarul și mailurile mele, fă lista pe săptămâna asta și amintește-mi când e timpul să plecăm."
+        },
+        "sk": {
+          "title": "Krúžky a režim detí",
+          "blurb": "Pripomienky krúžkov s časom odchodu, správy zo školy a denné zoznamy.",
+          "sample": "Plávanie o 17:30: vyraz do 17:05 a plavecké okuliare sú stále v aute.",
+          "firstMessage": "Pomôž mi mať prehľad o aktivitách detí: nájdi ich krúžky a školské akcie v mojom kalendári a pošte, vypíš ich na tento týždeň a pripomeň mi, keď je čas vyraziť."
+        },
+        "sl": {
+          "title": "Otroške dejavnosti in rutine",
+          "blurb": "Opomniki za dejavnosti s časom odhoda, novice iz šole in dnevni seznami.",
+          "sample": "Plavanje ob 17:30: odidi do 17:05, plavalna očala pa so še v avtu.",
+          "firstMessage": "Pomagaj mi slediti otroškim dejavnostim: v mojem koledarju in pošti poišči njihove krožke in šolske dogodke, naštej jih za ta teden in me opomni, ko je čas za odhod."
+        },
+        "sv": {
+          "title": "Barnens aktiviteter och rutiner",
+          "blurb": "Påminnelser om aktiviteter med när ni behöver gå, nyheter från skolan och dagliga checklistor.",
+          "sample": "Simning kl. 17:30: gå senast 17:05, och simglasögonen ligger kvar i bilen.",
+          "firstMessage": "Hjälp mig hålla koll på barnens aktiviteter: hitta deras aktiviteter och skolhändelser i min kalender och mejl, lista dem för veckan och påminn mig när det är dags att gå."
+        },
+        "tr": {
+          "title": "Çocukların etkinlikleri ve rutinleri",
+          "blurb": "Çıkış saatiyle ders hatırlatmaları, okul haberleri ve günlük kontrol listeleri.",
+          "sample": "Yüzme 17:30'da: en geç 17:05'te çık, yüzücü gözlükleri hâlâ arabada.",
+          "firstMessage": "Çocukların etkinliklerini takip etmeme yardım et: takvimimde ve e-postamda derslerini ve okul etkinliklerini bul, bu hafta için listele ve çıkma vakti gelince bana hatırlat."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "health",
+      "order": 6,
+      "author": "nanouai",
+      "persona": "medical",
+      "needs": [
+        "google"
+      ],
+      "optional": [
+        "outlook"
+      ],
+      "title": "Family health, organised",
+      "blurb": "Appointments with reminders, and lab results in plain words.",
+      "sample": "The pediatrician is tomorrow at 9:15. Bring the vaccination card.",
+      "firstMessage": "Find our upcoming medical appointments in my calendar and mail, list them, and remind me a week, a day and the morning before each one.",
+      "i18n": {
+        "fr": {
+          "title": "La santé de la famille, organisée",
+          "blurb": "Des rendez-vous avec rappels, et les résultats d'analyses en mots simples.",
+          "sample": "Le pédiatre, c'est demain à 9h15. Pense au carnet de vaccination.",
+          "firstMessage": "Trouve nos prochains rendez-vous médicaux dans mon agenda et mes mails, liste-les et préviens-moi une semaine avant, la veille et le matin de chacun."
+        },
+        "es": {
+          "title": "La salud de la familia, organizada",
+          "blurb": "Citas con recordatorios y resultados de análisis con palabras sencillas.",
+          "sample": "El pediatra es mañana a las 9:15. Lleva la cartilla de vacunación.",
+          "firstMessage": "Busca nuestras próximas citas médicas en mi calendario y mi correo, haz una lista y avísame una semana antes, un día antes y la mañana de cada una."
+        },
+        "de": {
+          "title": "Familiengesundheit, gut organisiert",
+          "blurb": "Termine mit Erinnerungen und Laborwerte in einfachen Worten.",
+          "sample": "Der Kinderarzt ist morgen um 9:15. Denk an den Impfpass.",
+          "firstMessage": "Such unsere nächsten Arzttermine in meinem Kalender und meinen Mails, liste sie auf und erinnere mich eine Woche, einen Tag und am Morgen vor jedem Termin."
+        },
+        "it": {
+          "title": "La salute della famiglia, in ordine",
+          "blurb": "Appuntamenti con promemoria e risultati delle analisi con parole semplici.",
+          "sample": "Il pediatra è domani alle 9:15. Porta il libretto delle vaccinazioni.",
+          "firstMessage": "Trova i nostri prossimi appuntamenti medici nel mio calendario e nella posta, elencali e ricordameli una settimana prima, il giorno prima e la mattina di ciascuno."
+        },
+        "pt": {
+          "title": "A saúde da família, organizada",
+          "blurb": "Consultas com lembretes e resultados de análises por palavras simples.",
+          "sample": "O pediatra é amanhã às 9h15. Leva o boletim de vacinas.",
+          "firstMessage": "Encontra as nossas próximas consultas médicas no meu calendário e no meu email, faz a lista e avisa-me uma semana antes, na véspera e na manhã de cada uma."
+        },
+        "bg": {
+          "title": "Здравето на семейството, подредено",
+          "blurb": "Часове при лекар с напомняния и резултати от изследвания с прости думи.",
+          "sample": "Педиатърът е утре в 9:15. Вземи имунизационния картон.",
+          "firstMessage": "Намери предстоящите ни часове при лекар в календара и пощата ми, изброй ги и ми напомни седмица, ден и сутринта преди всеки."
+        },
+        "cs": {
+          "title": "Zdraví rodiny v pořádku",
+          "blurb": "Návštěvy lékaře s připomínkami a výsledky vyšetření srozumitelně.",
+          "sample": "Pediatr je zítra v 9:15. Vezmi očkovací průkaz.",
+          "firstMessage": "Najdi v mém kalendáři a poště naše nadcházející návštěvy u lékaře, vypiš je a připomeň mi každou týden předem, den předem a ráno v ten den."
+        },
+        "da": {
+          "title": "Familiens helbred, på plads",
+          "blurb": "Aftaler med påmindelser og prøvesvar forklaret med almindelige ord.",
+          "sample": "Børnelægen er i morgen kl. 9.15. Husk vaccinationskortet.",
+          "firstMessage": "Find vores kommende lægeaftaler i min kalender og mail, list dem, og mind mig om hver af dem en uge før, dagen før og om morgenen samme dag."
+        },
+        "el": {
+          "title": "Η υγεία της οικογένειας, οργανωμένη",
+          "blurb": "Ραντεβού με υπενθυμίσεις, και αποτελέσματα εξετάσεων με απλά λόγια.",
+          "sample": "Ο παιδίατρος είναι αύριο στις 9:15. Πάρε το βιβλιάριο εμβολίων.",
+          "firstMessage": "Βρες τα επόμενα ιατρικά μας ραντεβού στο ημερολόγιο και την αλληλογραφία μου, κάνε τα λίστα και θύμισέ μου μία εβδομάδα πριν, μία μέρα πριν και το πρωί του καθενός."
+        },
+        "et": {
+          "title": "Pere tervis korras",
+          "blurb": "Arstiajad meeldetuletustega ja analüüsitulemused lihtsate sõnadega.",
+          "sample": "Lastearst on homme kell 9.15. Võta vaktsineerimispass kaasa.",
+          "firstMessage": "Leia mu kalendrist ja postist meie tulevased arstiajad, pane need kirja ja tuleta igaüht meelde nädal enne, päev enne ja sama päeva hommikul."
+        },
+        "fi": {
+          "title": "Perheen terveys järjestyksessä",
+          "blurb": "Lääkäriajat muistutuksineen ja laboratoriotulokset selkokielellä.",
+          "sample": "Lastenlääkäri on huomenna klo 9.15. Ota rokotuskortti mukaan.",
+          "firstMessage": "Etsi tulevat lääkäriaikamme kalenteristani ja postistani, listaa ne ja muistuta minua jokaisesta viikkoa ja päivää ennen sekä samana aamuna."
+        },
+        "ga": {
+          "title": "Sláinte an teaghlaigh, eagraithe",
+          "blurb": "Coinní le meabhrúcháin, agus torthaí saotharlainne i bhfocail shimplí.",
+          "sample": "Tá coinne leis an bpéidiatraiceoir amárach ag 9:15. Tabhair an cárta vacsaínithe leat.",
+          "firstMessage": "Aimsigh ár gcoinní leighis atá le teacht i m’fhéilire agus i mo ríomhphost, liostaigh iad, agus cuir i gcuimhne dom seachtain, lá agus an mhaidin roimh gach ceann acu."
+        },
+        "hr": {
+          "title": "Zdravlje obitelji, posloženo",
+          "blurb": "Pregledi s podsjetnicima i nalazi objašnjeni jednostavnim riječima.",
+          "sample": "Pedijatar je sutra u 9:15. Ponesi knjižicu cijepljenja.",
+          "firstMessage": "Pronađi naše nadolazeće liječničke preglede u mom kalendaru i pošti, popiši ih i podsjeti me tjedan dana, dan prije i ujutro prije svakog."
+        },
+        "hu": {
+          "title": "A család egészsége, rendben",
+          "blurb": "Orvosi időpontok emlékeztetőkkel, leletek érthető szavakkal.",
+          "sample": "A gyerekorvos holnap 9:15-kor van. Vidd az oltási könyvet.",
+          "firstMessage": "Keresd meg a közelgő orvosi időpontjainkat a naptáramban és a leveleimben, sorold fel őket, és emlékeztess mindegyik előtt egy héttel, egy nappal és aznap reggel."
+        },
+        "lt": {
+          "title": "Šeimos sveikata, sutvarkyta",
+          "blurb": "Vizitai pas gydytoją su priminimais, tyrimų rezultatai paprastais žodžiais.",
+          "sample": "Pas pediatrą rytoj 9:15. Pasiimk skiepų kortelę.",
+          "firstMessage": "Surask mūsų artėjančius vizitus pas gydytoją mano kalendoriuje ir laiškuose, išvardyk juos ir primink man savaitę, dieną ir rytą prieš kiekvieną."
+        },
+        "lv": {
+          "title": "Ģimenes veselība, sakārtota",
+          "blurb": "Vizītes ar atgādinājumiem un analīžu rezultāti vienkāršiem vārdiem.",
+          "sample": "Pie pediatra rīt 9:15. Paņem līdzi vakcinācijas karti.",
+          "firstMessage": "Atrodi mūsu gaidāmās vizītes pie ārsta manā kalendārā un pastā, uzskaiti tās un atgādini man nedēļu, dienu un rītu pirms katras."
+        },
+        "mt": {
+          "title": "Is-saħħa tal-familja, organizzata",
+          "blurb": "Appuntamenti bi tfakkiriet, u riżultati tat-testijiet bi kliem sempliċi.",
+          "sample": "Il-pedjatra għada fid-9:15. Ġib miegħek il-karta tat-tilqim.",
+          "firstMessage": "Sib l-appuntamenti mediċi li ġejjin tagħna fil-kalendarju u fl-emails tiegħi, elenkahom, u fakkarni ġimgħa qabel, ġurnata qabel u filgħodu stess ta' kull wieħed."
+        },
+        "nl": {
+          "title": "De gezondheid van het gezin, geregeld",
+          "blurb": "Afspraken met herinneringen, en labuitslagen in gewone woorden.",
+          "sample": "De kinderarts is morgen om 9.15 uur. Neem het vaccinatieboekje mee.",
+          "firstMessage": "Zoek onze komende medische afspraken in mijn agenda en mail, zet ze op een rij en herinner me een week, een dag en de ochtend voor elke afspraak."
+        },
+        "pl": {
+          "title": "Zdrowie rodziny pod kontrolą",
+          "blurb": "Wizyty z przypomnieniami i wyniki badań prostymi słowami.",
+          "sample": "Pediatra jutro o 9:15. Zabierz książeczkę szczepień.",
+          "firstMessage": "Znajdź nasze nadchodzące wizyty lekarskie w moim kalendarzu i poczcie, wypisz je i przypomnij mi o każdej tydzień, dzień i rano przed nią."
+        },
+        "ro": {
+          "title": "Sănătatea familiei, în ordine",
+          "blurb": "Programări cu mementouri și rezultate de analize explicate pe înțeles.",
+          "sample": "Pediatrul e mâine la 9:15. Ia carnetul de vaccinări.",
+          "firstMessage": "Găsește programările noastre medicale viitoare în calendarul și mailurile mele, fă o listă cu ele și amintește-mi cu o săptămână, cu o zi și în dimineața dinaintea fiecăreia."
+        },
+        "sk": {
+          "title": "Zdravie rodiny pod kontrolou",
+          "blurb": "Návštevy lekára s pripomienkami a výsledky vyšetrení zrozumiteľne.",
+          "sample": "Pediater je zajtra o 9:15. Zober očkovací preukaz.",
+          "firstMessage": "Nájdi naše nadchádzajúce návštevy lekára v mojom kalendári a pošte, vypíš ich a pripomeň mi každú týždeň vopred, deň vopred a ráno v ten deň."
+        },
+        "sl": {
+          "title": "Zdravje družine, urejeno",
+          "blurb": "Termini pri zdravniku z opomniki in izvidi, razloženi preprosto.",
+          "sample": "Pediater je jutri ob 9:15. Vzemi cepilno knjižico.",
+          "firstMessage": "V mojem koledarju in pošti poišči naše prihodnje zdravniške termine, jih naštej in me opomni teden, dan in zjutraj pred vsakim."
+        },
+        "sv": {
+          "title": "Familjens hälsa, ordnad",
+          "blurb": "Bokade tider med påminnelser, och provsvar med enkla ord.",
+          "sample": "Barnläkaren är i morgon kl. 9:15. Ta med vaccinationskortet.",
+          "firstMessage": "Hitta våra kommande läkartider i min kalender och mejl, lista dem och påminn mig en vecka, en dag och samma morgon före var och en."
+        },
+        "tr": {
+          "title": "Ailenin sağlığı, düzenli",
+          "blurb": "Hatırlatmalı randevular ve sade bir dille tahlil sonuçları.",
+          "sample": "Çocuk doktoru yarın 9:15'te. Aşı kartını yanına al.",
+          "firstMessage": "Takvimimde ve e-postamda yaklaşan doktor randevularımızı bul, listele ve her birinden bir hafta, bir gün önce ve o sabah bana hatırlat."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "clashes",
+      "order": 7,
+      "author": "nanouai",
+      "persona": "assistant",
+      "needs": [
+        "google"
+      ],
+      "optional": [
+        "outlook"
+      ],
+      "title": "No more calendar clashes",
+      "blurb": "nanou checks the family's calendars and warns early about conflicts.",
+      "sample": "Heads up: parents' evening on the 12th clashes with your flight.",
+      "firstMessage": "Check my calendars for the next 4 weeks and tell me about any clashes or double bookings. Then keep an eye out and warn me early when a new one appears.",
+      "i18n": {
+        "fr": {
+          "title": "Fini les conflits d'agenda",
+          "blurb": "nanou vérifie les agendas de la famille et prévient tôt en cas de conflit.",
+          "sample": "Attention : la réunion parents-profs du 12 tombe en même temps que ton vol.",
+          "firstMessage": "Vérifie mes agendas pour les 4 prochaines semaines et signale-moi les conflits ou doubles réservations. Ensuite, garde un œil dessus et préviens-moi tôt quand un nouveau apparaît."
+        },
+        "es": {
+          "title": "Se acabaron los choques de calendario",
+          "blurb": "nanou revisa los calendarios de la familia y avisa pronto de los conflictos.",
+          "sample": "Ojo: la reunión de padres del día 12 coincide con tu vuelo.",
+          "firstMessage": "Revisa mis calendarios para las próximas 4 semanas y dime si hay choques o citas duplicadas. Luego sigue vigilando y avísame pronto cuando aparezca uno nuevo."
+        },
+        "de": {
+          "title": "Schluss mit Terminkonflikten",
+          "blurb": "nanou prüft die Kalender der Familie und warnt früh vor Überschneidungen.",
+          "sample": "Achtung: Der Elternabend am 12. überschneidet sich mit deinem Flug.",
+          "firstMessage": "Prüf meine Kalender für die nächsten 4 Wochen und sag mir, wo sich Termine überschneiden oder doppelt gebucht sind. Behalte sie danach im Blick und warne mich früh, wenn eine neue Überschneidung auftaucht."
+        },
+        "it": {
+          "title": "Basta sovrapposizioni in calendario",
+          "blurb": "nanou controlla i calendari della famiglia e avvisa per tempo dei conflitti.",
+          "sample": "Attenzione: il colloquio con gli insegnanti del 12 si sovrappone al tuo volo.",
+          "firstMessage": "Controlla i miei calendari per le prossime 4 settimane e dimmi se ci sono sovrapposizioni o doppie prenotazioni. Poi continua a tenerli d'occhio e avvisami per tempo quando ne compare una nuova."
+        },
+        "pt": {
+          "title": "Acabaram-se os conflitos de agenda",
+          "blurb": "O nanou verifica os calendários da família e avisa cedo quando há conflitos.",
+          "sample": "Atenção: a reunião de pais do dia 12 coincide com o teu voo.",
+          "firstMessage": "Verifica os meus calendários para as próximas 4 semanas e diz-me se há conflitos ou marcações duplicadas. Depois continua atento e avisa-me cedo quando aparecer um novo."
+        },
+        "bg": {
+          "title": "Без застъпвания в календара",
+          "blurb": "nanou проверява календарите на семейството и предупреждава навреме за конфликти.",
+          "sample": "Внимание: родителската среща на 12-ти се застъпва с полета ти.",
+          "firstMessage": "Провери календарите ми за следващите 4 седмици и ми кажи за застъпвания или двойни ангажименти. После следи и ме предупреждавай навреме, когато се появи ново."
+        },
+        "cs": {
+          "title": "Konec kolizí v kalendáři",
+          "blurb": "nanou kontroluje rodinné kalendáře a včas upozorní na kolize.",
+          "sample": "Pozor: třídní schůzky 12. se kryjí s tvým letem.",
+          "firstMessage": "Zkontroluj moje kalendáře na příští 4 týdny a řekni mi o všech kolizích nebo dvojích rezervacích. Pak to dál hlídej a včas mě upozorni, když se objeví nová."
+        },
+        "da": {
+          "title": "Slut med kalenderkonflikter",
+          "blurb": "nanou tjekker familiens kalendere og advarer i god tid om konflikter.",
+          "sample": "Pas på: forældremødet den 12. støder sammen med dit fly.",
+          "firstMessage": "Tjek mine kalendere for de næste 4 uger, og fortæl mig om konflikter eller dobbeltbookinger. Hold så øje fremover, og advar mig i god tid, når der dukker en ny op."
+        },
+        "el": {
+          "title": "Τέλος οι συγκρούσεις στο ημερολόγιο",
+          "blurb": "Το nanou ελέγχει τα ημερολόγια της οικογένειας και προειδοποιεί έγκαιρα για συγκρούσεις.",
+          "sample": "Προσοχή: η ενημέρωση γονέων στις 12 συμπίπτει με την πτήση σου.",
+          "firstMessage": "Έλεγξε τα ημερολόγιά μου για τις επόμενες 4 εβδομάδες και πες μου για τυχόν συγκρούσεις ή διπλές κρατήσεις. Μετά συνέχισε να προσέχεις και προειδοποίησέ με έγκαιρα όταν εμφανίζεται καινούργια."
+        },
+        "et": {
+          "title": "Kalendris enam kattumisi pole",
+          "blurb": "nanou kontrollib pere kalendreid ja hoiatab kattumiste eest varakult.",
+          "sample": "Tähelepanu: 12. kuupäeva lastevanemate koosolek kattub sinu lennuga.",
+          "firstMessage": "Kontrolli mu kalendreid järgmise 4 nädala jaoks ja anna teada kattumistest või topeltbroneeringutest. Siis hoia silm peal ja hoiata mind varakult, kui tekib uus."
+        },
+        "fi": {
+          "title": "Ei enää päällekkäisyyksiä kalenterissa",
+          "blurb": "nanou tarkistaa perheen kalenterit ja varoittaa päällekkäisyyksistä ajoissa.",
+          "sample": "Huomio: vanhempainilta 12. päivä menee päällekkäin lentosi kanssa.",
+          "firstMessage": "Tarkista kalenterini seuraavan 4 viikon ajalta ja kerro päällekkäisyyksistä tai tuplavarauksista. Pidä sitten silmällä ja varoita minua ajoissa, kun uusi ilmaantuu."
+        },
+        "ga": {
+          "title": "Deireadh le coinbhleachtaí féilire",
+          "blurb": "Seiceálann nanou féilirí an teaghlaigh agus tugann sé rabhadh luath faoi choinbhleachtaí.",
+          "sample": "Aire duit: tá oíche na dtuismitheoirí ar an 12ú ag teacht salach ar d’eitilt.",
+          "firstMessage": "Seiceáil m’fhéilirí do na 4 seachtaine atá romhainn agus inis dom faoi aon choinbhleacht nó áirithint dhúbailte. Ansin coinnigh súil amach agus tabhair rabhadh luath dom nuair a thagann ceann nua chun cinn."
+        },
+        "hr": {
+          "title": "Kraj preklapanjima u kalendaru",
+          "blurb": "nanou provjerava obiteljske kalendare i na vrijeme upozorava na preklapanja.",
+          "sample": "Pozor: roditeljski sastanak 12. preklapa se s tvojim letom.",
+          "firstMessage": "Provjeri moje kalendare za sljedeća 4 tjedna i reci mi ima li preklapanja ili dvostrukih rezervacija. Zatim prati i upozori me na vrijeme kad se pojavi novo."
+        },
+        "hu": {
+          "title": "Nincs több ütközés a naptárban",
+          "blurb": "A nanou átnézi a család naptárait, és időben szól az ütközésekről.",
+          "sample": "Figyelem: a 12-i szülői értekezlet ütközik a repülőutaddal.",
+          "firstMessage": "Nézd át a naptáraimat a következő 4 hétre, és szólj, ha van ütközés vagy dupla foglalás. Aztán tartsd szemmel, és szólj időben, ha új jelenik meg."
+        },
+        "lt": {
+          "title": "Jokių kalendoriaus persidengimų",
+          "blurb": "nanou tikrina šeimos kalendorius ir iš anksto įspėja apie persidengimus.",
+          "sample": "Dėmesio: 12 d. tėvų susirinkimas sutampa su tavo skrydžiu.",
+          "firstMessage": "Patikrink mano kalendorius ateinančioms 4 savaitėms ir pasakyk, ar yra persidengimų ar dvigubų rezervacijų. Tada sek toliau ir iš anksto įspėk, kai atsiras naujas."
+        },
+        "lv": {
+          "title": "Vairs nekādu pārklāšanos kalendārā",
+          "blurb": "nanou pārbauda ģimenes kalendārus un laikus brīdina par pārklāšanos.",
+          "sample": "Uzmanību: vecāku sapulce 12. datumā pārklājas ar tavu lidojumu.",
+          "firstMessage": "Pārbaudi manus kalendārus nākamajām 4 nedēļām un pasaki, vai ir kādas pārklāšanās vai dubultas rezervācijas. Tad turpini sekot un laikus brīdini mani, kad parādās jauna."
+        },
+        "mt": {
+          "title": "Xejn aktar ħabtiet fil-kalendarju",
+          "blurb": "nanou tiċċekkja l-kalendarji tal-familja u twissik kmieni dwar kunflitti.",
+          "sample": "Attent: il-laqgħa tal-ġenituri fit-12 taħbat mat-titjira tiegħek.",
+          "firstMessage": "Iċċekkja l-kalendarji tiegħi għall-4 ġimgħat li ġejjin u għidli jekk hemmx ħabtiet jew double bookings. Imbagħad ibqa' attenta u wissini kmieni meta tidher waħda ġdida."
+        },
+        "nl": {
+          "title": "Geen botsingen meer in de agenda",
+          "blurb": "nanou controleert de agenda's van het gezin en waarschuwt vroeg bij conflicten.",
+          "sample": "Let op: de ouderavond op de 12e valt samen met je vlucht.",
+          "firstMessage": "Controleer mijn agenda's voor de komende 4 weken en vertel me of er afspraken botsen of dubbel geboekt zijn. Houd ze daarna in de gaten en waarschuw me vroeg als er een nieuwe botsing opduikt."
+        },
+        "pl": {
+          "title": "Koniec z kolizjami w kalendarzu",
+          "blurb": "nanou sprawdza kalendarze rodziny i wcześnie ostrzega przed kolizjami.",
+          "sample": "Uwaga: wywiadówka 12. koliduje z twoim lotem.",
+          "firstMessage": "Sprawdź moje kalendarze na najbliższe 4 tygodnie i powiedz mi o wszystkich kolizjach i podwójnych rezerwacjach. Potem miej na to oko i ostrzeż mnie wcześnie, gdy pojawi się nowa."
+        },
+        "ro": {
+          "title": "Gata cu suprapunerile din calendar",
+          "blurb": "nanou verifică calendarele familiei și te avertizează din timp despre suprapuneri.",
+          "sample": "Atenție: ședința cu părinții de pe 12 se suprapune cu zborul tău.",
+          "firstMessage": "Verifică-mi calendarele pentru următoarele 4 săptămâni și spune-mi dacă se suprapune ceva sau e programat de două ori. Apoi fii atent și avertizează-mă din timp când apare o suprapunere nouă."
+        },
+        "sk": {
+          "title": "Koniec kolíziám v kalendári",
+          "blurb": "nanou kontroluje kalendáre rodiny a včas upozorní na kolízie.",
+          "sample": "Pozor: rodičovské združenie 12. sa kryje s tvojím letom.",
+          "firstMessage": "Skontroluj moje kalendáre na najbližšie 4 týždne a povedz mi o všetkých kolíziách a dvojitých rezerváciách. Potom to sleduj a včas ma upozorni, keď sa objaví nová."
+        },
+        "sl": {
+          "title": "Konec prekrivanj v koledarju",
+          "blurb": "nanou preverja družinske koledarje in pravočasno opozori na prekrivanja.",
+          "sample": "Pozor: roditeljski sestanek 12. se prekriva s tvojim letom.",
+          "firstMessage": "Preveri moje koledarje za naslednje 4 tedne in mi povej za vsa prekrivanja ali dvojne rezervacije. Nato bodi pozorna in me pravočasno opozori, ko se pojavi novo."
+        },
+        "sv": {
+          "title": "Slut på krockar i kalendern",
+          "blurb": "nanou går igenom familjens kalendrar och varnar tidigt för krockar.",
+          "sample": "Obs: föräldramötet den 12:e krockar med ditt flyg.",
+          "firstMessage": "Gå igenom mina kalendrar för de kommande 4 veckorna och berätta om alla krockar eller dubbelbokningar. Håll sedan utkik och varna mig tidigt när en ny dyker upp."
+        },
+        "tr": {
+          "title": "Takvim çakışmalarına son",
+          "blurb": "nanou ailenin takvimlerine bakar ve çakışmalara karşı erkenden uyarır.",
+          "sample": "Dikkat: ayın 12'sindeki veli toplantısı uçuşunla çakışıyor.",
+          "firstMessage": "Önümüzdeki 4 hafta için takvimlerime bak ve çakışan ya da iki kez ayrılmış her şeyi söyle. Sonra gözünü dört aç ve yeni bir çakışma çıktığında beni erkenden uyar."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "chase",
+      "order": 8,
+      "author": "nanouai",
+      "persona": "deals",
+      "needs": [
+        "google"
+      ],
+      "optional": [
+        "whatsapp",
+        "outlook"
+      ],
+      "title": "Chase a reply for me",
+      "blurb": "Refunds, warranty claims, landlords: nanou nudges you when an answer is late.",
+      "sample": "The shop hasn't answered about your refund in 9 days. Shall I draft a nudge?",
+      "firstMessage": "Look through my mail for things I'm still waiting on a reply to (refunds, warranty claims, a shop, a landlord). List them with how long each has been waiting, and nudge me when one is overdue.",
+      "i18n": {
+        "fr": {
+          "title": "Relancer à ma place",
+          "blurb": "Remboursements, garanties, propriétaires : nanou te fait signe quand une réponse tarde.",
+          "sample": "Le magasin n'a pas répondu pour ton remboursement depuis 9 jours. Je prépare une relance ?",
+          "firstMessage": "Cherche dans mes mails ce à quoi j'attends encore une réponse (remboursements, garanties, un magasin, un propriétaire). Liste-les avec depuis combien de temps chacun attend, et fais-moi signe quand l'un d'eux est en retard."
+        },
+        "es": {
+          "title": "Persigue una respuesta por mí",
+          "blurb": "Reembolsos, garantías, caseros: nanou te avisa cuando una respuesta se retrasa.",
+          "sample": "La tienda lleva 9 días sin responder sobre tu reembolso. ¿Te preparo un recordatorio?",
+          "firstMessage": "Busca en mi correo las cosas a las que sigo esperando respuesta (reembolsos, garantías, una tienda, un casero). Haz una lista con cuánto tiempo lleva esperando cada una y avísame cuando alguna se retrase."
+        },
+        "de": {
+          "title": "Hak für mich nach",
+          "blurb": "Erstattungen, Garantiefälle, Vermieter: nanou erinnert dich, wenn eine Antwort ausbleibt.",
+          "sample": "Der Laden hat seit 9 Tagen nicht auf deine Erstattung geantwortet. Soll ich eine Erinnerung entwerfen?",
+          "firstMessage": "Such in meinen Mails nach Dingen, auf die ich noch eine Antwort erwarte (Erstattungen, Garantiefälle, ein Geschäft, ein Vermieter). Liste sie auf, mit wie lange jede schon wartet, und gib mir Bescheid, wenn eine überfällig ist."
+        },
+        "it": {
+          "title": "Sollecita una risposta per me",
+          "blurb": "Rimborsi, garanzie, padroni di casa: nanou ti avvisa quando una risposta tarda.",
+          "sample": "Il negozio non risponde sul tuo rimborso da 9 giorni. Ti preparo un sollecito?",
+          "firstMessage": "Cerca nella mia posta le cose per cui aspetto ancora una risposta (rimborsi, garanzie, un negozio, un padrone di casa). Elencale con da quanto tempo aspetta ciascuna e avvisami quando una è in ritardo."
+        },
+        "pt": {
+          "title": "Insiste por mim numa resposta",
+          "blurb": "Reembolsos, garantias, senhorios: o nanou avisa-te quando uma resposta tarda.",
+          "sample": "A loja não responde sobre o teu reembolso há 9 dias. Preparo um lembrete?",
+          "firstMessage": "Procura no meu email as coisas a que ainda estou à espera de resposta (reembolsos, garantias, uma loja, um senhorio). Faz a lista com há quanto tempo cada uma está à espera e avisa-me quando alguma estiver atrasada."
+        },
+        "bg": {
+          "title": "Гони отговор вместо мен",
+          "blurb": "Възстановявания, гаранции, хазяи: nanou ти напомня, когато отговорът закъснява.",
+          "sample": "Магазинът не ти е отговорил за връщането на парите от 9 дни. Да подготвя ли напомняне?",
+          "firstMessage": "Прегледай пощата ми за неща, по които още чакам отговор (възстановяване на пари, гаранционни рекламации, магазин, хазяин). Изброй ги с колко отдавна чака всяко и ме подсети, когато някое закъснее."
+        },
+        "cs": {
+          "title": "Pohlídej odpověď za mě",
+          "blurb": "Vrácení peněz, reklamace, pronajímatelé: nanou se ozve, když odpověď nepřichází.",
+          "sample": "Obchod ti už 9 dní neodpověděl ohledně vrácení peněz. Mám připravit připomínku?",
+          "firstMessage": "Projdi mou poštu a najdi věci, na které pořád čekám odpověď (vrácení peněz, reklamace, obchod, pronajímatel). Vypiš je s tím, jak dlouho už každá čeká, a připomeň se mi, když je některá po termínu."
+        },
+        "da": {
+          "title": "Følg op på et svar for mig",
+          "blurb": "Refusioner, reklamationer, udlejere: nanou giver dig et prik, når et svar trækker ud.",
+          "sample": "Butikken har ikke svaret om din refusion i 9 dage. Skal jeg skrive et udkast til en påmindelse?",
+          "firstMessage": "Gå min mail igennem for ting, jeg stadig venter på svar på (refusioner, reklamationer, en butik, en udlejer). List dem med, hvor længe hver har ventet, og giv mig et prik, når et svar er forsinket."
+        },
+        "el": {
+          "title": "Κυνήγα μια απάντηση για μένα",
+          "blurb": "Επιστροφές χρημάτων, εγγυήσεις, ιδιοκτήτες: το nanou σε σκουντάει όταν μια απάντηση αργεί.",
+          "sample": "Το κατάστημα δεν έχει απαντήσει για την επιστροφή χρημάτων εδώ και 9 μέρες. Να γράψω μια υπενθύμιση;",
+          "firstMessage": "Ψάξε στην αλληλογραφία μου για πράγματα που ακόμα περιμένω απάντηση (επιστροφές χρημάτων, αιτήματα εγγύησης, ένα κατάστημα, ένας ιδιοκτήτης). Κάνε τα λίστα με το πόσο καιρό περιμένει το καθένα, και σκούντα με όταν κάποιο καθυστερεί."
+        },
+        "et": {
+          "title": "Aja minu eest vastust taga",
+          "blurb": "Raha tagastused, garantiinõuded, üürileandjad: nanou annab märku, kui vastus hilineb.",
+          "sample": "Pood pole sinu raha tagastuse kohta 9 päeva vastanud. Kas koostan meeldetuletuse?",
+          "firstMessage": "Otsi mu postist asjad, millele ma ikka veel vastust ootan (raha tagastused, garantiinõuded, mõni pood, üürileandja). Pane need kirja koos sellega, kui kaua igaüks on oodanud, ja anna mulle märku, kui mõni hilineb."
+        },
+        "fi": {
+          "title": "Patista vastausta puolestani",
+          "blurb": "Palautukset, takuuasiat, vuokranantajat: nanou tökkää sinua, kun vastaus viipyy.",
+          "sample": "Kauppa ei ole vastannut palautuksestasi 9 päivään. Laadinko muistutuksen?",
+          "firstMessage": "Etsi postistani asiat, joihin odotan yhä vastausta (palautukset, takuuasiat, jokin kauppa, vuokranantaja). Listaa ne ja kerro, kuinka kauan kukin on odottanut, ja tökkää minua, kun jokin on myöhässä."
+        },
+        "ga": {
+          "title": "Lean freagra dom",
+          "blurb": "Aisíocaíochtaí, éilimh bharántais, tiarnaí talún: cuireann nanou i gcuimhne duit nuair a bhíonn freagra déanach.",
+          "sample": "Níor fhreagair an siopa faoi d’aisíocaíocht le 9 lá. An ndréachtóidh mé meabhrúchán?",
+          "firstMessage": "Cuardaigh i mo ríomhphost rudaí a bhfuilim fós ag fanacht ar fhreagra orthu (aisíocaíochtaí, éilimh bharántais, siopa, tiarna talún). Liostaigh iad le cé chomh fada is atá gach ceann ag fanacht, agus cuir i gcuimhne dom nuair a bhíonn ceann acu thar téarma."
+        },
+        "hr": {
+          "title": "Požuri odgovor umjesto mene",
+          "blurb": "Povrati novca, reklamacije, stanodavci: nanou te podsjeti kad odgovor kasni.",
+          "sample": "Trgovina ti već 9 dana nije odgovorila o povratu novca. Da napišem podsjetnik?",
+          "firstMessage": "Pregledaj moju poštu i pronađi stvari na koje još čekam odgovor (povrat novca, reklamacije, trgovina, stanodavac). Popiši ih s time koliko dugo svaka čeka i podsjeti me kad neka kasni."
+        },
+        "hu": {
+          "title": "Sürgesd meg helyettem a választ",
+          "blurb": "Visszatérítések, garanciális ügyek, főbérlők: a nanou szól, ha késik a válasz.",
+          "sample": "A bolt 9 napja nem válaszolt a visszatérítésedről. Írjak egy emlékeztetőt?",
+          "firstMessage": "Keresd meg a leveleim között, mire várok még választ (visszatérítés, garanciális ügy, egy bolt, a főbérlő). Sorold fel őket azzal, hogy mindegyik mióta vár, és szólj, ha valamelyik már késik."
+        },
+        "lt": {
+          "title": "Paragink atsakyti už mane",
+          "blurb": "Grąžinimai, garantiniai reikalavimai, nuomotojai: nanou primena, kai atsakymas vėluoja.",
+          "sample": "Parduotuvė jau 9 dienas neatsako dėl tavo pinigų grąžinimo. Parengti priminimą?",
+          "firstMessage": "Peržiūrėk mano laiškus ir surask, kur vis dar laukiu atsakymo (pinigų grąžinimai, garantiniai reikalavimai, parduotuvė, nuomotojas). Išvardyk juos su tuo, kiek laiko kiekvienas laukia, ir primink, kai kuris nors vėluoja."
+        },
+        "lv": {
+          "title": "Pasteidzini atbildi manā vietā",
+          "blurb": "Naudas atmaksas, garantijas prasības, izīrētāji: nanou atgādina, kad atbilde kavējas.",
+          "sample": "Veikals jau 9 dienas nav atbildējis par tavu naudas atmaksu. Uzrakstīt atgādinājumu?",
+          "firstMessage": "Pārskati manu pastu un atrodi lietas, uz kurām joprojām gaidu atbildi (naudas atmaksa, garantijas prasība, veikals, izīrētājs). Uzskaiti tās ar to, cik ilgi katra gaida, un atgādini man, kad kāda kavējas."
+        },
+        "mt": {
+          "title": "Segwi tweġiba għalija",
+          "blurb": "Rifużjonijiet, garanziji, sidien tad-dar: nanou tfakkrek meta tweġiba tkun qed iddum.",
+          "sample": "Il-ħanut ilu 9 ijiem ma jwieġbek dwar ir-rifużjoni. Nabbozzalek tfakkira?",
+          "firstMessage": "Fittex fl-emails tiegħi għal affarijiet li għadni qed nistenna tweġiba dwarhom (rifużjonijiet, talbiet ta' garanzija, ħanut, sid il-kera). Elenkahom b'kemm ilha tistenna kull waħda, u fakkarni meta waħda tkun iddum wisq."
+        },
+        "nl": {
+          "title": "Zit voor mij achter een antwoord aan",
+          "blurb": "Terugbetalingen, garantieclaims, verhuurders: nanou seint je als een antwoord uitblijft.",
+          "sample": "De winkel heeft al 9 dagen niet gereageerd over je terugbetaling. Zal ik een herinnering opstellen?",
+          "firstMessage": "Zoek in mijn mail naar dingen waarop ik nog op antwoord wacht (terugbetalingen, garantieclaims, een winkel, een verhuurder). Zet ze op een rij met hoe lang elk al wacht, en geef me een seintje als er een over tijd is."
+        },
+        "pl": {
+          "title": "Dopilnuj odpowiedzi za mnie",
+          "blurb": "Zwroty, reklamacje, właściciel mieszkania: nanou daje znać, gdy odpowiedź się spóźnia.",
+          "sample": "Sklep od 9 dni nie odpowiedział w sprawie twojego zwrotu. Przygotować przypomnienie?",
+          "firstMessage": "Przejrzyj moją pocztę i znajdź sprawy, w których wciąż czekam na odpowiedź (zwroty, reklamacje gwarancyjne, sklep, właściciel mieszkania). Wypisz je z tym, jak długo każda czeka, i daj mi znać, gdy któraś się przeciągnie."
+        },
+        "ro": {
+          "title": "Urmărește un răspuns pentru mine",
+          "blurb": "Rambursări, garanții, proprietari: nanou îți dă de știre când un răspuns întârzie.",
+          "sample": "Magazinul nu ți-a răspuns de 9 zile despre rambursare. Să-ți pregătesc un mesaj de reamintire?",
+          "firstMessage": "Caută în mailurile mele lucrurile la care încă aștept un răspuns (rambursări, cereri în garanție, un magazin, proprietarul). Fă o listă cu ele și de cât timp așteaptă fiecare, și dă-mi de știre când unul a întârziat."
+        },
+        "sk": {
+          "title": "Postráž za mňa odpoveď",
+          "blurb": "Vrátenie peňazí, reklamácie, prenajímateľ: nanou ti dá vedieť, keď odpoveď mešká.",
+          "sample": "Obchod ti už 9 dní neodpovedal ohľadom vrátenia peňazí. Mám pripraviť pripomienku?",
+          "firstMessage": "Prejdi moju poštu a nájdi veci, na ktoré ešte stále čakám odpoveď (vrátenie peňazí, reklamácie, obchod, prenajímateľ). Vypíš ich aj s tým, ako dlho každá čaká, a daj mi vedieť, keď niektorá mešká."
+        },
+        "sl": {
+          "title": "Spremljaj odgovor namesto mene",
+          "blurb": "Vračila, garancije, najemodajalci: nanou te opozori, ko odgovor zamuja.",
+          "sample": "Trgovina ti glede vračila ne odgovarja že 9 dni. Naj pripravim opomnik?",
+          "firstMessage": "V moji pošti poišči stvari, na katere še čakam odgovor (vračila, garancijski zahtevki, trgovina, najemodajalec). Naštej jih skupaj s tem, kako dolgo že čakam na vsako, in me opozori, ko kateri zamuja."
+        },
+        "sv": {
+          "title": "Jaga ett svar åt mig",
+          "blurb": "Återbetalningar, garantiärenden, hyresvärdar: nanou påminner dig när ett svar dröjer.",
+          "sample": "Butiken har inte svarat om din återbetalning på 9 dagar. Ska jag skriva en påminnelse?",
+          "firstMessage": "Gå igenom min mejl efter saker jag fortfarande väntar på svar om (återbetalningar, garantiärenden, en butik, en hyresvärd). Lista dem med hur länge var och en har väntat, och påminn mig när något är försenat."
+        },
+        "tr": {
+          "title": "Benim yerime yanıtın peşine düş",
+          "blurb": "İadeler, garanti talepleri, ev sahipleri: yanıt gecikince nanou sana haber verir.",
+          "sample": "Mağaza 9 gündür iaden hakkında yanıt vermedi. Bir hatırlatma taslağı hazırlayayım mı?",
+          "firstMessage": "E-postamda hâlâ yanıt beklediğim konuları bul (iadeler, garanti talepleri, bir mağaza, ev sahibi). Her birinin ne kadar süredir beklediğiyle birlikte listele ve biri geciktiğinde bana haber ver."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "insurance",
+      "order": 9,
+      "author": "nanouai",
+      "persona": "insurance",
+      "needs": [
+        "google"
+      ],
+      "optional": [
+        "outlook"
+      ],
+      "title": "Insurance and contract renewals",
+      "blurb": "Renewals spotted in your mail, options compared, reminders before the deadline.",
+      "sample": "Your car insurance renews on 1 March at €612, up €80 on last year.",
+      "firstMessage": "Find my insurance and contract renewals in my mail (car, home, internet, energy), list them with their renewal dates and prices, and remind me a month before each one.",
+      "i18n": {
+        "fr": {
+          "title": "Renouvellements d'assurances et de contrats",
+          "blurb": "Les renouvellements repérés dans tes mails, les options comparées, un rappel avant l'échéance.",
+          "sample": "Ton assurance auto se renouvelle le 1er mars à 612 €, soit 80 € de plus que l'an dernier.",
+          "firstMessage": "Trouve dans mes mails mes renouvellements d'assurances et de contrats (voiture, logement, internet, énergie), liste-les avec leurs dates de renouvellement et leurs prix, et préviens-moi un mois avant chacun."
+        },
+        "es": {
+          "title": "Renovaciones de seguros y contratos",
+          "blurb": "Renovaciones detectadas en tu correo, opciones comparadas y recordatorios antes del plazo.",
+          "sample": "El seguro del coche se renueva el 1 de marzo por 612 €, 80 € más que el año pasado.",
+          "firstMessage": "Busca en mi correo las renovaciones de mis seguros y contratos (coche, hogar, internet, energía), haz una lista con sus fechas de renovación y precios, y avísame un mes antes de cada una."
+        },
+        "de": {
+          "title": "Versicherungen und Vertragsverlängerungen",
+          "blurb": "Verlängerungen in deinen Mails gefunden, Optionen verglichen, Erinnerungen vor der Frist.",
+          "sample": "Deine Autoversicherung verlängert sich am 1. März für 612 €, 80 € mehr als letztes Jahr.",
+          "firstMessage": "Such in meinen Mails nach Verlängerungen meiner Versicherungen und Verträge (Auto, Wohnung, Internet, Energie), liste sie mit Verlängerungsdatum und Preis auf und erinnere mich einen Monat vor jeder."
+        },
+        "it": {
+          "title": "Rinnovi di assicurazioni e contratti",
+          "blurb": "Rinnovi trovati nella tua posta, opzioni a confronto, promemoria prima della scadenza.",
+          "sample": "L'assicurazione dell'auto si rinnova il 1° marzo a 612 €, 80 € in più dell'anno scorso.",
+          "firstMessage": "Trova nella mia posta i rinnovi delle mie assicurazioni e dei contratti (auto, casa, internet, energia), elencali con date di rinnovo e prezzi e ricordameli un mese prima di ciascuno."
+        },
+        "pt": {
+          "title": "Renovações de seguros e contratos",
+          "blurb": "Renovações detetadas no teu email, opções comparadas e lembretes antes do prazo.",
+          "sample": "O seguro do carro renova a 1 de março por 612 €, mais 80 € do que no ano passado.",
+          "firstMessage": "Encontra no meu email as renovações dos meus seguros e contratos (carro, casa, internet, energia), faz a lista com as datas de renovação e os preços, e avisa-me um mês antes de cada uma."
+        },
+        "bg": {
+          "title": "Подновяване на застраховки и договори",
+          "blurb": "Подновяванията открити в пощата ти, сравнени варианти, напомняния преди срока.",
+          "sample": "Застраховката на колата ти се подновява на 1 март за 612 €, с 80 € повече от миналата година.",
+          "firstMessage": "Намери в пощата ми подновяванията на застраховки и договори (кола, жилище, интернет, ток), изброй ги с датите на подновяване и цените и ми напомни месец преди всяко."
+        },
+        "cs": {
+          "title": "Obnovy pojištění a smluv",
+          "blurb": "Obnovy najité v poště, porovnané možnosti, připomínka před termínem.",
+          "sample": "Pojištění auta se obnovuje 1. března za 612 €, o 80 € víc než loni.",
+          "firstMessage": "Najdi v mé poště obnovy pojištění a smluv (auto, domácnost, internet, energie), vypiš je s daty obnovy a cenami a měsíc před každou mi to připomeň."
+        },
+        "da": {
+          "title": "Fornyelse af forsikringer og aftaler",
+          "blurb": "Fornyelser fundet i din mail, muligheder sammenlignet, påmindelser før fristen.",
+          "sample": "Din bilforsikring fornyes den 1. marts til 612 €, 80 € mere end sidste år.",
+          "firstMessage": "Find mine forsikrings- og aftalefornyelser i min mail (bil, hus, internet, energi), list dem med fornyelsesdato og pris, og mind mig om hver af dem en måned før."
+        },
+        "el": {
+          "title": "Ανανεώσεις ασφαλειών και συμβολαίων",
+          "blurb": "Ανανεώσεις που βρέθηκαν στην αλληλογραφία σου, επιλογές σε σύγκριση, υπενθυμίσεις πριν την προθεσμία.",
+          "sample": "Η ασφάλεια του αυτοκινήτου σου ανανεώνεται την 1η Μαρτίου στα 612 €, 80 € πάνω από πέρσι.",
+          "firstMessage": "Βρες τις ανανεώσεις ασφαλειών και συμβολαίων στην αλληλογραφία μου (αυτοκίνητο, σπίτι, ίντερνετ, ενέργεια), κάνε τες λίστα με τις ημερομηνίες ανανέωσης και τις τιμές, και θύμισέ μου έναν μήνα πριν από την καθεμία."
+        },
+        "et": {
+          "title": "Kindlustuste ja lepingute pikendused",
+          "blurb": "Pikendused sinu postist leitud, võimalused võrreldud, meeldetuletus enne tähtaega.",
+          "sample": "Sinu autokindlustus pikeneb 1. märtsil hinnaga 612 €, 80 € rohkem kui eelmisel aastal.",
+          "firstMessage": "Leia mu postist kindlustuste ja lepingute pikendused (auto, kodu, internet, energia), pane need kirja koos pikenduskuupäevade ja hindadega ning tuleta igaüht meelde kuu aega enne."
+        },
+        "fi": {
+          "title": "Vakuutusten ja sopimusten uusinnat",
+          "blurb": "Uusinnat poimittuna postistasi, vaihtoehdot vertailtuina, muistutus ennen määräaikaa.",
+          "sample": "Autovakuutuksesi uusiutuu 1.3. hintaan 612 €, 80 € enemmän kuin viime vuonna.",
+          "firstMessage": "Etsi postistani vakuutusten ja sopimusten uusinnat (auto, koti, netti, energia), listaa ne uusintapäivineen ja hintoineen ja muistuta minua kuukautta ennen jokaista."
+        },
+        "ga": {
+          "title": "Athnuachan árachais agus conarthaí",
+          "blurb": "Athnuachain aimsithe i do ríomhphost, roghanna curtha i gcomparáid, meabhrúcháin roimh an spriocdháta.",
+          "sample": "Athnuafar d’árachas cairr ar an 1 Márta ar €612, €80 níos mó ná anuraidh.",
+          "firstMessage": "Aimsigh athnuachain m’árachais agus mo chonarthaí i mo ríomhphost (carr, teach, idirlíon, fuinneamh), liostaigh iad lena ndátaí athnuachana agus a bpraghsanna, agus cuir i gcuimhne dom mí roimh gach ceann acu."
+        },
+        "hr": {
+          "title": "Obnove osiguranja i ugovora",
+          "blurb": "Obnove pronađene u pošti, usporedba opcija, podsjetnici prije roka.",
+          "sample": "Tvoje auto-osiguranje obnavlja se 1. ožujka po cijeni od 612 €, 80 € više nego lani.",
+          "firstMessage": "Pronađi u mojoj pošti obnove osiguranja i ugovora (auto, stan, internet, energija), popiši ih s datumima obnove i cijenama i podsjeti me mjesec dana prije svake."
+        },
+        "hu": {
+          "title": "Biztosítások és szerződések megújítása",
+          "blurb": "Megújítások a leveleidből, ajánlatok összevetve, emlékeztető a határidő előtt.",
+          "sample": "Az autóbiztosításod március 1-jén újul meg 612 €-ért, 80 €-val drágábban, mint tavaly.",
+          "firstMessage": "Keresd meg a leveleim között a biztosításaim és szerződéseim megújítását (autó, lakás, internet, energia), sorold fel őket a megújítási dátummal és az árral, és mindegyik előtt egy hónappal emlékeztess."
+        },
+        "lt": {
+          "title": "Draudimų ir sutarčių atnaujinimai",
+          "blurb": "Atnaujinimai rasti tavo laiškuose, pasiūlymai palyginti, priminimai prieš terminą.",
+          "sample": "Tavo automobilio draudimas atsinaujina kovo 1 d. už 612 €, 80 € brangiau nei pernai.",
+          "firstMessage": "Surask mano laiškuose draudimų ir sutarčių atnaujinimus (automobilis, namai, internetas, energija), išvardyk juos su atnaujinimo datomis ir kainomis ir primink man mėnesį prieš kiekvieną."
+        },
+        "lv": {
+          "title": "Apdrošināšanas un līgumu atjaunošana",
+          "blurb": "Atjaunošanas atrastas tavā pastā, piedāvājumi salīdzināti, atgādinājumi pirms termiņa.",
+          "sample": "Tava auto apdrošināšana atjaunojas 1. martā par 612 €, par 80 € dārgāk nekā pērn.",
+          "firstMessage": "Atrodi manā pastā apdrošināšanas un līgumu atjaunošanas (auto, mājoklis, internets, enerģija), uzskaiti tās ar atjaunošanas datumiem un cenām un atgādini man mēnesi pirms katras."
+        },
+        "mt": {
+          "title": "Tiġdid ta' assigurazzjonijiet u kuntratti",
+          "blurb": "Tiġdidiet misjuba fl-emails tiegħek, għażliet imqabbla, tfakkiriet qabel l-iskadenza.",
+          "sample": "L-assigurazzjoni tal-karozza tiġġedded fl-1 ta' Marzu b'€612, €80 aktar mis-sena l-oħra.",
+          "firstMessage": "Sib it-tiġdid tal-assigurazzjonijiet u l-kuntratti tiegħi fl-emails (karozza, dar, internet, enerġija), elenkahom bid-dati tat-tiġdid u l-prezzijiet tagħhom, u fakkarni xahar qabel kull wieħed."
+        },
+        "nl": {
+          "title": "Verlengingen van verzekeringen en contracten",
+          "blurb": "Verlengingen gevonden in je mail, opties vergeleken, herinneringen voor de deadline.",
+          "sample": "Je autoverzekering wordt op 1 maart verlengd voor € 612, € 80 meer dan vorig jaar.",
+          "firstMessage": "Zoek in mijn mail de verlengingen van mijn verzekeringen en contracten (auto, woning, internet, energie), zet ze op een rij met verlengdatum en prijs, en herinner me een maand voor elke verlenging."
+        },
+        "pl": {
+          "title": "Odnowienia ubezpieczeń i umów",
+          "blurb": "Odnowienia wyłapane w poczcie, porównane opcje, przypomnienia przed terminem.",
+          "sample": "Twoje ubezpieczenie samochodu odnawia się 1 marca za 612 €, o 80 € więcej niż rok temu.",
+          "firstMessage": "Znajdź w mojej poczcie odnowienia ubezpieczeń i umów (samochód, dom, internet, energia), wypisz je z datami odnowienia i cenami i przypomnij mi o każdym miesiąc wcześniej."
+        },
+        "ro": {
+          "title": "Reînnoiri de asigurări și contracte",
+          "blurb": "Reînnoiri găsite în mailuri, opțiuni comparate, mementouri înainte de termen.",
+          "sample": "Asigurarea mașinii se reînnoiește pe 1 martie la 612 €, cu 80 € mai mult decât anul trecut.",
+          "firstMessage": "Găsește în mailurile mele reînnoirile de asigurări și contracte (mașină, locuință, internet, energie), fă o listă cu datele de reînnoire și prețurile și amintește-mi cu o lună înainte de fiecare."
+        },
+        "sk": {
+          "title": "Obnovy poistiek a zmlúv",
+          "blurb": "Obnovy nájdené v pošte, porovnané možnosti a pripomienky pred termínom.",
+          "sample": "Tvoje poistenie auta sa obnovuje 1. marca za 612 €, o 80 € viac ako minulý rok.",
+          "firstMessage": "Nájdi v mojej pošte obnovy poistiek a zmlúv (auto, domácnosť, internet, energie), vypíš ich s dátumami obnovy a cenami a pripomeň mi každú mesiac vopred."
+        },
+        "sl": {
+          "title": "Podaljšanja zavarovanj in pogodb",
+          "blurb": "Podaljšanja, najdena v pošti, primerjane možnosti in opomniki pred rokom.",
+          "sample": "Tvoje avtomobilsko zavarovanje se 1. marca podaljša za 612 €, 80 € več kot lani.",
+          "firstMessage": "V moji pošti poišči podaljšanja zavarovanj in pogodb (avto, dom, internet, energija), jih naštej z datumi podaljšanja in cenami ter me opomni mesec pred vsakim."
+        },
+        "sv": {
+          "title": "Förnyelse av försäkringar och avtal",
+          "blurb": "Förnyelser hittade i din mejl, alternativ jämförda, påminnelser före sista dagen.",
+          "sample": "Din bilförsäkring förnyas den 1 mars för 612 €, 80 € mer än i fjol.",
+          "firstMessage": "Hitta förnyelser av mina försäkringar och avtal i min mejl (bil, hem, internet, el), lista dem med förnyelsedatum och priser och påminn mig en månad före var och en."
+        },
+        "tr": {
+          "title": "Sigorta ve sözleşme yenilemeleri",
+          "blurb": "E-postanda bulunan yenilemeler, karşılaştırılan seçenekler, son tarihten önce hatırlatmalar.",
+          "sample": "Araç sigortan 1 Mart'ta 612 € ile yenileniyor, geçen yıldan 80 € fazla.",
+          "firstMessage": "E-postamda sigorta ve sözleşme yenilemelerimi bul (araba, ev, internet, enerji), yenileme tarihleri ve fiyatlarıyla listele ve her birinden bir ay önce bana hatırlat."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "networth",
+      "order": 10,
+      "author": "nanouai",
+      "persona": "accountant",
+      "needs": [
+        "bank"
+      ],
+      "optional": [
+        "coinbase",
+        "kraken",
+        "wallets"
+      ],
+      "title": "Net worth at a glance",
+      "blurb": "One total across your accounts, and how it's moving.",
+      "sample": "Your total is up 2.1% this month. Here's what moved it.",
+      "firstMessage": "Add up the balances of all my connected accounts into one total, show me how it changed over the last few months, and send me the total every Monday.",
+      "i18n": {
+        "fr": {
+          "title": "Ton patrimoine en un coup d'œil",
+          "blurb": "Un total pour tous tes comptes, et son évolution.",
+          "sample": "Ton total a pris 2,1 % ce mois-ci. Voici ce qui l'a fait bouger.",
+          "firstMessage": "Additionne les soldes de tous mes comptes connectés en un seul total, montre-moi son évolution sur les derniers mois et envoie-moi le total chaque lundi."
+        },
+        "es": {
+          "title": "Tu patrimonio de un vistazo",
+          "blurb": "Un solo total de todas tus cuentas, y cómo evoluciona.",
+          "sample": "Tu total ha subido un 2,1 % este mes. Esto es lo que lo ha movido.",
+          "firstMessage": "Suma los saldos de todas mis cuentas conectadas en un solo total, enséñame cómo ha cambiado en los últimos meses y envíame el total cada lunes."
+        },
+        "de": {
+          "title": "Dein Vermögen auf einen Blick",
+          "blurb": "Eine Summe über alle deine Konten, und wie sie sich entwickelt.",
+          "sample": "Dein Gesamtwert ist diesen Monat um 2,1 % gestiegen. Das hat ihn bewegt.",
+          "firstMessage": "Rechne die Kontostände all meiner verbundenen Konten zu einer Summe zusammen, zeig mir, wie sie sich in den letzten Monaten verändert hat, und schick mir die Summe jeden Montag."
+        },
+        "it": {
+          "title": "Il tuo patrimonio a colpo d'occhio",
+          "blurb": "Un unico totale di tutti i tuoi conti, e come cambia.",
+          "sample": "Il tuo totale è salito del 2,1% questo mese. Ecco cosa l'ha fatto muovere.",
+          "firstMessage": "Somma i saldi di tutti i miei conti collegati in un unico totale, mostrami come è cambiato negli ultimi mesi e mandami il totale ogni lunedì."
+        },
+        "pt": {
+          "title": "O teu património num relance",
+          "blurb": "Um só total de todas as tuas contas, e como está a evoluir.",
+          "sample": "O teu total subiu 2,1% este mês. Eis o que o fez mexer.",
+          "firstMessage": "Soma os saldos de todas as minhas contas ligadas num só total, mostra-me como mudou nos últimos meses e envia-me o total todas as segundas-feiras."
+        },
+        "bg": {
+          "title": "Нетното ти състояние с един поглед",
+          "blurb": "Една обща сума от всичките ти сметки и как се променя.",
+          "sample": "Общата ти сума е нагоре с 2,1% този месец. Ето какво я промени.",
+          "firstMessage": "Събери наличностите от всички свързани сметки в една обща сума, покажи ми как се е променяла през последните няколко месеца и ми пращай сумата всеки понеделник."
+        },
+        "cs": {
+          "title": "Čisté jmění na první pohled",
+          "blurb": "Jeden součet napříč tvými účty a jak se vyvíjí.",
+          "sample": "Tvůj součet je tento měsíc výš o 2,1 %. Tady je, co ho posunulo.",
+          "firstMessage": "Sečti zůstatky všech mých připojených účtů do jednoho součtu, ukaž mi, jak se měnil za posledních pár měsíců, a každé pondělí mi ho pošli."
+        },
+        "da": {
+          "title": "Din formue på et øjeblik",
+          "blurb": "Én samlet sum for dine konti, og hvordan den udvikler sig.",
+          "sample": "Din samlede sum er steget 2,1 % denne måned. Her er, hvad der flyttede den.",
+          "firstMessage": "Læg saldiene på alle mine forbundne konti sammen til én samlet sum, vis mig, hvordan den har ændret sig de sidste par måneder, og send mig summen hver mandag."
+        },
+        "el": {
+          "title": "Η περιουσία σου με μια ματιά",
+          "blurb": "Ένα σύνολο για όλους τους λογαριασμούς σου, και πώς κινείται.",
+          "sample": "Το σύνολό σου ανέβηκε 2,1% αυτόν τον μήνα. Δες τι το κίνησε.",
+          "firstMessage": "Άθροισε τα υπόλοιπα όλων των συνδεδεμένων λογαριασμών μου σε ένα σύνολο, δείξε μου πώς άλλαξε τους τελευταίους μήνες και στείλε μου το σύνολο κάθε Δευτέρα."
+        },
+        "et": {
+          "title": "Sinu varad ühe pilguga",
+          "blurb": "Üks kogusumma kõigist sinu kontodest ja kuidas see muutub.",
+          "sample": "Sinu kogusumma on sel kuul 2,1% kasvanud. Siin on, mis seda liigutas.",
+          "firstMessage": "Liida kõigi mu ühendatud kontode saldod üheks kogusummaks, näita, kuidas see on viimastel kuudel muutunud, ja saada mulle kogusumma igal esmaspäeval."
+        },
+        "fi": {
+          "title": "Varallisuus yhdellä silmäyksellä",
+          "blurb": "Yksi summa kaikista tileistäsi, ja miten se kehittyy.",
+          "sample": "Kokonaissummasi nousi tässä kuussa 2,1 %. Tässä, mikä sitä liikutti.",
+          "firstMessage": "Laske kaikkien yhdistettyjen tilieni saldot yhteen yhdeksi summaksi, näytä, miten se on muuttunut viime kuukausina, ja lähetä summa minulle joka maanantai."
+        },
+        "ga": {
+          "title": "Glanfhiúchas d’aon sracfhéachaint",
+          "blurb": "Iomlán amháin thar do chuntais go léir, agus conas atá sé ag athrú.",
+          "sample": "Tá d’iomlán suas 2.1% an mhí seo. Seo a d’athraigh é.",
+          "firstMessage": "Suimigh iarmhéideanna mo chuntas ceangailte go léir in iomlán amháin, taispeáin dom conas a d’athraigh sé le cúpla mí anuas, agus seol an t-iomlán chugam gach Luan."
+        },
+        "hr": {
+          "title": "Neto imovina na prvi pogled",
+          "blurb": "Jedan zbroj svih tvojih računa i kako se mijenja.",
+          "sample": "Tvoj je zbroj ovaj mjesec porastao 2,1 %. Evo što ga je pomaknulo.",
+          "firstMessage": "Zbroji stanja svih mojih povezanih računa u jedan iznos, pokaži mi kako se mijenjao zadnjih nekoliko mjeseci i šalji mi zbroj svakog ponedjeljka."
+        },
+        "hu": {
+          "title": "A vagyonod egy pillantással",
+          "blurb": "Egyetlen összeg az összes fiókodból, és hogy hogyan alakul.",
+          "sample": "Az összeged ebben a hónapban 2,1%-kal nőtt. Mutatom, mi mozgatta.",
+          "firstMessage": "Add össze az összes csatlakoztatott fiókom egyenlegét egyetlen összegbe, mutasd meg, hogyan változott az elmúlt pár hónapban, és minden hétfőn küldd el az összeget."
+        },
+        "lt": {
+          "title": "Grynasis turtas vienu žvilgsniu",
+          "blurb": "Viena suma iš visų tavo paskyrų ir kaip ji keičiasi.",
+          "sample": "Šį mėnesį tavo suma išaugo 2,1 %. Štai kas ją pakeitė.",
+          "firstMessage": "Sudėk visų mano prijungtų paskyrų likučius į vieną sumą, parodyk, kaip ji keitėsi per pastaruosius kelis mėnesius, ir kiekvieną pirmadienį atsiųsk man sumą."
+        },
+        "lv": {
+          "title": "Neto vērtība vienā skatienā",
+          "blurb": "Viena kopsumma no visiem taviem kontiem un tas, kā tā mainās.",
+          "sample": "Šomēnes tava kopsumma pieaugusi par 2,1 %. Lūk, kas to ietekmēja.",
+          "firstMessage": "Saskaiti visu manu pievienoto kontu atlikumus vienā kopsummā, parādi, kā tā mainījusies pēdējo mēnešu laikā, un katru pirmdienu sūti man kopsummu."
+        },
+        "mt": {
+          "title": "Il-ġid nett f'daqqa t'għajn",
+          "blurb": "Total wieħed tal-kontijiet kollha tiegħek, u kif qed jinbidel.",
+          "sample": "It-total tiegħek tela' 2.1% dan ix-xahar. Hawn x'ċaqlaqu.",
+          "firstMessage": "Għodd il-bilanċi tal-kontijiet konnessi kollha tiegħi f'total wieħed, urini kif inbidel f'dawn l-aħħar ftit xhur, u ibgħatli t-total kull nhar ta' Tnejn."
+        },
+        "nl": {
+          "title": "Je vermogen in één oogopslag",
+          "blurb": "Eén totaal over al je rekeningen, en hoe het zich ontwikkelt.",
+          "sample": "Je totaal is deze maand 2,1% gestegen. Dit is waardoor.",
+          "firstMessage": "Tel de saldi van al mijn gekoppelde rekeningen op tot één totaal, laat me zien hoe het de afgelopen maanden is veranderd en stuur me elke maandag het totaal."
+        },
+        "pl": {
+          "title": "Majątek w pigułce",
+          "blurb": "Jedna suma ze wszystkich twoich kont i to, jak się zmienia.",
+          "sample": "Twoja suma wzrosła w tym miesiącu o 2,1%. Oto, co na to wpłynęło.",
+          "firstMessage": "Zsumuj salda wszystkich moich połączonych kont w jedną kwotę, pokaż, jak zmieniała się w ostatnich miesiącach, i wysyłaj mi tę sumę w każdy poniedziałek."
+        },
+        "ro": {
+          "title": "Averea netă dintr-o privire",
+          "blurb": "Un singur total pentru toate conturile tale și cum evoluează.",
+          "sample": "Totalul tău a crescut cu 2,1% luna asta. Iată ce l-a mișcat.",
+          "firstMessage": "Adună soldurile tuturor conturilor mele conectate într-un singur total, arată-mi cum s-a schimbat în ultimele câteva luni și trimite-mi totalul în fiecare luni."
+        },
+        "sk": {
+          "title": "Majetok na prvý pohľad",
+          "blurb": "Jeden súčet zo všetkých tvojich účtov a ako sa mení.",
+          "sample": "Tvoj súčet tento mesiac stúpol o 2,1 %. Tu je, čo ho pohlo.",
+          "firstMessage": "Spočítaj zostatky všetkých mojich pripojených účtov do jedného súčtu, ukáž mi, ako sa menil za posledných pár mesiacov, a každý pondelok mi pošli súčet."
+        },
+        "sl": {
+          "title": "Premoženje na en pogled",
+          "blurb": "En seštevek vseh tvojih računov in kako se spreminja.",
+          "sample": "Tvoj seštevek je ta mesec zrasel za 2,1 %. Tole ga je premaknilo.",
+          "firstMessage": "Seštej stanja vseh mojih povezanih računov v en znesek, pokaži mi, kako se je spreminjal v zadnjih nekaj mesecih, in mi vsak ponedeljek pošlji seštevek."
+        },
+        "sv": {
+          "title": "Förmögenheten i en blick",
+          "blurb": "En summa för alla dina konton, och hur den förändras.",
+          "sample": "Din summa har ökat med 2,1 % den här månaden. Här är vad som påverkade den.",
+          "firstMessage": "Lägg ihop saldona på alla mina anslutna konton till en summa, visa hur den har förändrats de senaste månaderna och skicka mig summan varje måndag."
+        },
+        "tr": {
+          "title": "Bir bakışta net varlık",
+          "blurb": "Tüm hesaplarının tek bir toplamı ve nasıl değiştiği.",
+          "sample": "Toplamın bu ay %2,1 arttı. İşte değişime yol açanlar.",
+          "firstMessage": "Bağlı tüm hesaplarımın bakiyelerini tek bir toplamda topla, son birkaç ayda nasıl değiştiğini göster ve toplamı bana her pazartesi gönder."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "coach",
+      "order": 11,
+      "author": "nanouai",
+      "persona": "coach",
+      "needs": [],
+      "optional": [],
+      "title": "A coach in your pocket",
+      "blurb": "A daily workout checklist and a weekly check-in.",
+      "sample": "Today: 20 minutes, no jumping, easy on the knee. Shall we check in on Sunday?",
+      "firstMessage": "Be my coach: ask me about my goals, how much time I have and any injuries, then make a daily workout checklist and check in with me every Sunday.",
+      "i18n": {
+        "fr": {
+          "title": "Un coach dans ta poche",
+          "blurb": "Une liste d'exercices quotidienne et un point chaque semaine.",
+          "sample": "Aujourd'hui : 20 minutes, sans sauts, en ménageant le genou. On fait le point dimanche ?",
+          "firstMessage": "Sois mon coach : demande-moi mes objectifs, le temps dont je dispose et mes éventuelles blessures, puis fais-moi une liste d'exercices quotidienne et fais le point avec moi chaque dimanche."
+        },
+        "es": {
+          "title": "Un entrenador en el bolsillo",
+          "blurb": "Una lista diaria de ejercicios y un repaso cada semana.",
+          "sample": "Hoy: 20 minutos, sin saltos y con cuidado con la rodilla. ¿Hacemos balance el domingo?",
+          "firstMessage": "Sé mi entrenador: pregúntame por mis objetivos, cuánto tiempo tengo y si tengo alguna lesión, luego haz una lista diaria de ejercicios y haz un repaso conmigo cada domingo."
+        },
+        "de": {
+          "title": "Ein Coach für die Hosentasche",
+          "blurb": "Eine tägliche Trainings-Checkliste und ein wöchentlicher Check-in.",
+          "sample": "Heute: 20 Minuten, ohne Springen, schonend fürs Knie. Ziehen wir am Sonntag Bilanz?",
+          "firstMessage": "Sei mein Coach: Frag mich nach meinen Zielen, wie viel Zeit ich habe und nach Verletzungen, mach mir dann eine tägliche Trainings-Checkliste und melde dich jeden Sonntag bei mir."
+        },
+        "it": {
+          "title": "Un coach in tasca",
+          "blurb": "Una checklist di allenamento ogni giorno e un punto della situazione ogni settimana.",
+          "sample": "Oggi: 20 minuti, niente salti, piano con il ginocchio. Facciamo il punto domenica?",
+          "firstMessage": "Fammi da coach: chiedimi i miei obiettivi, quanto tempo ho ed eventuali infortuni, poi fammi una checklist di allenamento quotidiana e fai il punto con me ogni domenica."
+        },
+        "pt": {
+          "title": "Um treinador no bolso",
+          "blurb": "Uma lista diária de treino e um ponto da situação semanal.",
+          "sample": "Hoje: 20 minutos, sem saltos, com cuidado com o joelho. Fazemos o ponto da situação no domingo?",
+          "firstMessage": "Sê o meu treinador: pergunta-me quais são os meus objetivos, quanto tempo tenho e se tenho alguma lesão, depois faz-me uma lista diária de treino e faz o ponto da situação comigo todos os domingos."
+        },
+        "bg": {
+          "title": "Треньор в джоба ти",
+          "blurb": "Дневен списък с упражнения и седмична проверка.",
+          "sample": "Днес: 20 минути, без скокове, внимателно с коляното. Да се чуем ли в неделя?",
+          "firstMessage": "Бъди мой треньор: питай ме за целите ми, колко време имам и дали имам контузии, после направи дневен списък с упражнения и проверявай как съм всяка неделя."
+        },
+        "cs": {
+          "title": "Trenér v kapse",
+          "blurb": "Denní cvičební checklist a týdenní kontrola.",
+          "sample": "Dnes: 20 minut, bez skákání, šetrně ke koleni. Probereme to v neděli?",
+          "firstMessage": "Buď můj trenér: zeptej se mě na moje cíle, kolik mám času a jestli mám nějaká zranění, pak udělej denní cvičební checklist a každou neděli se mě zeptej, jak to jde."
+        },
+        "da": {
+          "title": "En coach i lommen",
+          "blurb": "En daglig træningstjekliste og et ugentligt tjek.",
+          "sample": "I dag: 20 minutter, ingen hop, skån knæet. Skal vi gøre status på søndag?",
+          "firstMessage": "Vær min coach: spørg mig om mine mål, hvor meget tid jeg har, og om jeg har skader, lav så en daglig træningstjekliste, og tjek ind med mig hver søndag."
+        },
+        "el": {
+          "title": "Ένας προπονητής στην τσέπη σου",
+          "blurb": "Μια καθημερινή λίστα ασκήσεων και ένας εβδομαδιαίος απολογισμός.",
+          "sample": "Σήμερα: 20 λεπτά, χωρίς άλματα, προσεκτικά με το γόνατο. Τα λέμε την Κυριακή;",
+          "firstMessage": "Γίνε ο προπονητής μου: ρώτα με για τους στόχους μου, πόσο χρόνο έχω και αν έχω τραυματισμούς, μετά φτιάξε μια καθημερινή λίστα ασκήσεων και ρώτα με πώς πάω κάθε Κυριακή."
+        },
+        "et": {
+          "title": "Treener taskus",
+          "blurb": "Igapäevane treeningu kontrollnimekiri ja iganädalane ülevaatus.",
+          "sample": "Täna: 20 minutit, ilma hüpeteta, põlve säästes. Kas teeme pühapäeval kokkuvõtte?",
+          "firstMessage": "Ole mu treener: küsi mu eesmärkide, minu vaba aja ja võimalike vigastuste kohta, siis koosta igapäevane treeningu kontrollnimekiri ja küsi minult igal pühapäeval, kuidas läheb."
+        },
+        "fi": {
+          "title": "Valmentaja taskussa",
+          "blurb": "Päivittäinen treenilista ja viikoittainen tsekkaus.",
+          "sample": "Tänään: 20 minuuttia, ei hyppyjä, polvea säästellen. Tsekataanko sunnuntaina?",
+          "firstMessage": "Ole valmentajani: kysy tavoitteistani, paljonko minulla on aikaa ja onko minulla vammoja, tee sitten päivittäinen treenilista ja kysy joka sunnuntai, miten menee."
+        },
+        "ga": {
+          "title": "Traenálaí i do phóca",
+          "blurb": "Seicliosta aclaíochta laethúil agus seiceáil seachtainiúil.",
+          "sample": "Inniu: 20 nóiméad, gan léim, go réidh ar an nglúin. An ndéanfaimid seiceáil isteach Dé Domhnaigh?",
+          "firstMessage": "Bí i do thraenálaí agam: fiafraigh díom faoi mo spriocanna, cé mhéad ama atá agam agus faoi aon ghortú, ansin déan seicliosta aclaíochta laethúil agus seiceáil isteach liom gach Domhnach."
+        },
+        "hr": {
+          "title": "Trener u džepu",
+          "blurb": "Dnevni popis vježbi i tjedna provjera.",
+          "sample": "Danas: 20 minuta, bez skakanja, nježno s koljenom. Da se čujemo u nedjelju?",
+          "firstMessage": "Budi moj trener: pitaj me o mojim ciljevima, koliko vremena imam i imam li ozljeda, zatim napravi dnevni popis vježbi i javi mi se svake nedjelje da provjerimo napredak."
+        },
+        "hu": {
+          "title": "Edző a zsebedben",
+          "blurb": "Napi edzéslista és heti átbeszélés.",
+          "sample": "Ma: 20 perc, ugrálás nélkül, kíméld a térded. Vasárnap átbeszéljük?",
+          "firstMessage": "Légy az edzőm: kérdezz a céljaimról, arról, mennyi időm van, és van-e sérülésem, aztán készíts napi edzéslistát, és minden vasárnap kérdezd meg, hogy haladok."
+        },
+        "lt": {
+          "title": "Treneris kišenėje",
+          "blurb": "Kasdienis treniruočių sąrašas ir savaitinis pasitikrinimas.",
+          "sample": "Šiandien: 20 minučių, be šuolių, tausok kelį. Pasitikrinam sekmadienį?",
+          "firstMessage": "Būk mano treneris: paklausk apie mano tikslus, kiek turiu laiko ir ar turiu traumų, tada sudaryk kasdienį treniruočių sąrašą ir kiekvieną sekmadienį pasiteirauk, kaip man sekasi."
+        },
+        "lv": {
+          "title": "Treneris kabatā",
+          "blurb": "Ikdienas treniņu saraksts un iknedēļas pārrunas.",
+          "sample": "Šodien: 20 minūtes, bez lēkšanas, saudzē ceļgalu. Pārrunājam svētdien?",
+          "firstMessage": "Esi mans treneris: pajautā par maniem mērķiem, cik daudz laika man ir un vai man ir traumas, tad izveido ikdienas treniņu sarakstu un katru svētdienu pajautā, kā man veicas."
+        },
+        "mt": {
+          "title": "Coach fil-but",
+          "blurb": "Lista ta' eżerċizzju ta' kuljum u check-in kull ġimgħa.",
+          "sample": "Illum: 20 minuta, xejn qbiż, bil-mod fuq l-irkoppa. Nagħmlu check-in il-Ħadd?",
+          "firstMessage": "Kun il-coach tiegħi: staqsini dwar l-għanijiet tiegħi, kemm għandi ħin u jekk għandix xi korrimenti, imbagħad agħmel lista ta' eżerċizzju ta' kuljum u staqsini kif sejjer kull nhar ta' Ħadd."
+        },
+        "nl": {
+          "title": "Een coach op zak",
+          "blurb": "Een dagelijkse trainingschecklist en een wekelijkse check-in.",
+          "sample": "Vandaag: 20 minuten, niet springen, rustig aan met de knie. Zullen we zondag even bijpraten?",
+          "firstMessage": "Wees mijn coach: vraag me naar mijn doelen, hoeveel tijd ik heb en eventuele blessures, maak dan een dagelijkse trainingschecklist en check elke zondag bij me in."
+        },
+        "pl": {
+          "title": "Trener w kieszeni",
+          "blurb": "Codzienna lista ćwiczeń i cotygodniowe podsumowanie.",
+          "sample": "Dziś: 20 minut, bez skoków, oszczędzaj kolano. Podsumujemy w niedzielę?",
+          "firstMessage": "Bądź moim trenerem: zapytaj mnie o cele, ile mam czasu i o ewentualne kontuzje, potem przygotuj codzienną listę ćwiczeń i w każdą niedzielę sprawdzaj, jak mi idzie."
+        },
+        "ro": {
+          "title": "Un antrenor în buzunar",
+          "blurb": "O listă zilnică de exerciții și o verificare în fiecare săptămână.",
+          "sample": "Azi: 20 de minute, fără sărituri, ușor cu genunchiul. Facem bilanțul duminică?",
+          "firstMessage": "Fii antrenorul meu: întreabă-mă ce obiective am, cât timp am și dacă am vreo accidentare, apoi fă-mi o listă zilnică de exerciții și întreabă-mă cum merge în fiecare duminică."
+        },
+        "sk": {
+          "title": "Tréner vo vrecku",
+          "blurb": "Denný zoznam cvičení a týždenná kontrola.",
+          "sample": "Dnes: 20 minút, bez skákania, šetri koleno. Skontrolujeme to v nedeľu?",
+          "firstMessage": "Buď môj tréner: opýtaj sa ma na moje ciele, koľko mám času a či mám nejaké zranenia, potom mi priprav denný zoznam cvičení a každú nedeľu sa ma opýtaj, ako mi to ide."
+        },
+        "sl": {
+          "title": "Trenerka v žepu",
+          "blurb": "Dnevni seznam vadbe in tedensko preverjanje.",
+          "sample": "Danes: 20 minut, brez skakanja, nežno s kolenom. Preveriva v nedeljo?",
+          "firstMessage": "Bodi moja trenerka: vprašaj me o mojih ciljih, koliko časa imam in o morebitnih poškodbah, nato pripravi dnevni seznam vadbe in vsako nedeljo preveri, kako mi gre."
+        },
+        "sv": {
+          "title": "En coach i fickan",
+          "blurb": "En daglig träningschecklista och en avstämning varje vecka.",
+          "sample": "I dag: 20 minuter, inga hopp, var snäll mot knät. Ska vi stämma av på söndag?",
+          "firstMessage": "Var min coach: fråga mig om mina mål, hur mycket tid jag har och om eventuella skador, gör sedan en daglig träningschecklista och stäm av med mig varje söndag."
+        },
+        "tr": {
+          "title": "Cebindeki koç",
+          "blurb": "Günlük egzersiz listesi ve haftalık değerlendirme.",
+          "sample": "Bugün: 20 dakika, zıplama yok, dizini yorma. Pazar günü bir değerlendirelim mi?",
+          "firstMessage": "Koçum ol: hedeflerimi, ne kadar vaktim olduğunu ve sakatlıklarım olup olmadığını sor, sonra günlük bir egzersiz listesi hazırla ve her pazar benimle durumu değerlendir."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "home",
+      "order": 12,
+      "author": "nanouai",
+      "persona": "architect",
+      "needs": [],
+      "optional": [
+        "google"
+      ],
+      "title": "Home projects",
+      "blurb": "Research and quotes for repairs or upgrades, with notes in one room.",
+      "sample": "For the solar panels, here's a fair price range and six questions to ask in every quote.",
+      "firstMessage": "Help me with a home project: ask me what it is (a repair, solar panels, a renovation), then research the options, what it should cost and what to ask for in quotes.",
+      "i18n": {
+        "fr": {
+          "title": "Projets pour la maison",
+          "blurb": "Recherches et devis pour des réparations ou des améliorations, avec les notes dans un seul salon.",
+          "sample": "Pour les panneaux solaires, voici une fourchette de prix raisonnable et six questions à poser pour chaque devis.",
+          "firstMessage": "Aide-moi pour un projet à la maison : demande-moi ce que c'est (une réparation, des panneaux solaires, une rénovation), puis renseigne-toi sur les options, ce que ça devrait coûter et ce qu'il faut demander dans les devis."
+        },
+        "es": {
+          "title": "Proyectos para casa",
+          "blurb": "Investigación y presupuestos para reparaciones o mejoras, con las notas en una sala.",
+          "sample": "Para las placas solares, aquí tienes un rango de precios razonable y seis preguntas para cada presupuesto.",
+          "firstMessage": "Ayúdame con un proyecto para casa: pregúntame qué es (una reparación, placas solares, una reforma), luego investiga las opciones, cuánto debería costar y qué pedir en los presupuestos."
+        },
+        "de": {
+          "title": "Projekte rund ums Haus",
+          "blurb": "Recherche und Angebote für Reparaturen oder Modernisierungen, mit Notizen in einem Raum.",
+          "sample": "Für die Solaranlage: hier eine faire Preisspanne und sechs Fragen für jedes Angebot.",
+          "firstMessage": "Hilf mir bei einem Projekt im Haus: Frag mich, worum es geht (eine Reparatur, Solarmodule, eine Renovierung), dann recherchiere die Möglichkeiten, was es kosten sollte und wonach ich in Angeboten fragen sollte."
+        },
+        "it": {
+          "title": "Progetti per la casa",
+          "blurb": "Ricerche e preventivi per riparazioni o migliorie, con le note in un'unica stanza.",
+          "sample": "Per i pannelli solari, ecco una fascia di prezzo ragionevole e sei domande da fare per ogni preventivo.",
+          "firstMessage": "Aiutami con un progetto per la casa: chiedimi di cosa si tratta (una riparazione, i pannelli solari, una ristrutturazione), poi informati sulle opzioni, su quanto dovrebbe costare e su cosa chiedere nei preventivi."
+        },
+        "pt": {
+          "title": "Projetos para a casa",
+          "blurb": "Pesquisa e orçamentos para reparações ou melhorias, com as notas numa só sala.",
+          "sample": "Para os painéis solares, aqui tens um intervalo de preços justo e seis perguntas a fazer em cada orçamento.",
+          "firstMessage": "Ajuda-me com um projeto para a casa: pergunta-me o que é (uma reparação, painéis solares, uma remodelação), depois pesquisa as opções, quanto deve custar e o que pedir nos orçamentos."
+        },
+        "bg": {
+          "title": "Проекти за дома",
+          "blurb": "Проучване и оферти за ремонти или подобрения, с бележки в една стая.",
+          "sample": "За соларните панели: ето разумен ценови диапазон и шест въпроса за всяка оферта.",
+          "firstMessage": "Помогни ми с проект за дома: питай ме какъв е (ремонт, соларни панели, обновяване), после проучи вариантите, колко би трябвало да струва и какво да питам при офертите."
+        },
+        "cs": {
+          "title": "Projekty pro domov",
+          "blurb": "Průzkum a nabídky na opravy nebo vylepšení, s poznámkami v jedné místnosti.",
+          "sample": "K solárním panelům: tady je férové cenové rozpětí a šest otázek do každé nabídky.",
+          "firstMessage": "Pomoz mi s projektem doma: zeptej se mě, o co jde (oprava, solární panely, rekonstrukce), pak prozkoumej možnosti, kolik by to mělo stát a na co se ptát v nabídkách."
+        },
+        "da": {
+          "title": "Projekter i hjemmet",
+          "blurb": "Research og tilbud på reparationer eller forbedringer, med noter samlet i ét rum.",
+          "sample": "Til solcellerne: her er et rimeligt prisleje og seks spørgsmål at stille i hvert tilbud.",
+          "firstMessage": "Hjælp mig med et projekt i hjemmet: spørg mig, hvad det er (en reparation, solceller, en renovering), og undersøg så mulighederne, hvad det bør koste, og hvad jeg skal spørge om, når jeg indhenter tilbud."
+        },
+        "el": {
+          "title": "Έργα για το σπίτι",
+          "blurb": "Έρευνα και προσφορές για επισκευές ή αναβαθμίσεις, με σημειώσεις σε ένα δωμάτιο.",
+          "sample": "Για τα φωτοβολταϊκά: ένα λογικό εύρος τιμών και έξι ερωτήσεις για κάθε προσφορά.",
+          "firstMessage": "Βοήθησέ με σε ένα έργο για το σπίτι: ρώτα με τι είναι (μια επισκευή, ηλιακά πάνελ, μια ανακαίνιση), και μετά ψάξε τις επιλογές, πόσο θα πρέπει να κοστίζει και τι να ζητήσω στις προσφορές."
+        },
+        "et": {
+          "title": "Kodu projektid",
+          "blurb": "Uuringud ja hinnapakkumised remondiks või uuendusteks, märkmed ühes toas.",
+          "sample": "Päikesepaneelide jaoks: siin on mõistlik hinnavahemik ja kuus küsimust, mida igas pakkumises küsida.",
+          "firstMessage": "Aita mind ühe kodu projektiga: küsi, mis see on (remont, päikesepaneelid, renoveerimine), siis uuri võimalusi, kui palju see maksma peaks ja mida hinnapakkumistes küsida."
+        },
+        "fi": {
+          "title": "Kodin projektit",
+          "blurb": "Selvitykset ja tarjoukset korjauksiin tai parannuksiin, muistiinpanot yhdessä huoneessa.",
+          "sample": "Aurinkopaneeleista: tässä kohtuullinen hintahaarukka ja kuusi kysymystä jokaiseen tarjoukseen.",
+          "firstMessage": "Auta minua kodin projektissa: kysy, mistä on kyse (korjaus, aurinkopaneelit, remontti), ja selvitä sitten vaihtoehdot, mitä sen pitäisi maksaa ja mitä tarjouksia pyytäessä kannattaa kysyä."
+        },
+        "ga": {
+          "title": "Tionscadail tí",
+          "blurb": "Taighde agus luachana do dheisiúcháin nó feabhsuithe, le nótaí i seomra amháin.",
+          "sample": "Maidir leis na painéil ghréine, seo raon praghais cothrom agus sé cheist le cur i ngach luachan.",
+          "firstMessage": "Cabhraigh liom le tionscadal tí: fiafraigh díom cad é (deisiúchán, painéil ghréine, athchóiriú), ansin déan taighde ar na roghanna, ar cé mhéad ba cheart a bheith air agus ar cad ba cheart a iarraidh sna luachana."
+        },
+        "hr": {
+          "title": "Projekti za dom",
+          "blurb": "Istraživanje i ponude za popravke ili poboljšanja, s bilješkama u jednoj sobi.",
+          "sample": "Za solarne panele, evo poštenog raspona cijena i šest pitanja za svaku ponudu.",
+          "firstMessage": "Pomozi mi s projektom za dom: pitaj me o čemu se radi (popravak, solarni paneli, renovacija), zatim istraži mogućnosti, koliko bi trebalo koštati i što tražiti u ponudama."
+        },
+        "hu": {
+          "title": "Otthoni projektek",
+          "blurb": "Utánajárás és árajánlatok javításhoz vagy felújításhoz, jegyzetekkel egy szobában.",
+          "sample": "A napelemekhez: itt egy reális ársáv és hat kérdés, amit minden ajánlatnál tegyél fel.",
+          "firstMessage": "Segíts egy otthoni projektben: kérdezd meg, miről van szó (javítás, napelem, felújítás), aztán járj utána a lehetőségeknek, hogy mennyibe kerülhet, és mit kérjek az árajánlatokban."
+        },
+        "lt": {
+          "title": "Namų projektai",
+          "blurb": "Remonto ar patobulinimų paieška ir pasiūlymai, su užrašais viename kambaryje.",
+          "sample": "Saulės baterijoms: štai sąžiningas kainų intervalas ir šeši klausimai kiekvienam pasiūlymui.",
+          "firstMessage": "Padėk man su namų projektu: paklausk, kas tai (remontas, saulės baterijos, renovacija), tada išnagrinėk galimybes, kiek tai turėtų kainuoti ir ko klausti prašant pasiūlymų."
+        },
+        "lv": {
+          "title": "Mājas projekti",
+          "blurb": "Izpēte un piedāvājumi remontiem vai uzlabojumiem, ar piezīmēm vienā istabā.",
+          "sample": "Saules paneļiem: lūk, godīgs cenu diapazons un seši jautājumi, ko uzdot par katru piedāvājumu.",
+          "firstMessage": "Palīdzi man ar mājas projektu: pajautā, kas tas ir (remonts, saules paneļi, renovācija), tad izpēti iespējas, cik tam vajadzētu maksāt un ko prasīt piedāvājumos."
+        },
+        "mt": {
+          "title": "Proġetti tad-dar",
+          "blurb": "Riċerka u kwotazzjonijiet għal tiswijiet jew titjib, bin-noti f'kamra waħda.",
+          "sample": "Għall-pannelli solari, hawn medda ġusta ta' prezzijiet u sitt mistoqsijiet li għandek tagħmel f'kull kwotazzjoni.",
+          "firstMessage": "Għinni bi proġett tad-dar: staqsini x'inhu (tiswija, pannelli solari, rinnovazzjoni), imbagħad fittex l-għażliet, kemm suppost jiswa u x'għandi nitlob fil-kwotazzjonijiet."
+        },
+        "nl": {
+          "title": "Klussen in huis",
+          "blurb": "Onderzoek en offertes voor reparaties of verbeteringen, met de notities in één kamer.",
+          "sample": "Voor de zonnepanelen: hier is een redelijke prijsrange en zes vragen voor elke offerte.",
+          "firstMessage": "Help me met een klus in huis: vraag me wat het is (een reparatie, zonnepanelen, een verbouwing), zoek dan de opties uit, wat het zou moeten kosten en waar ik in offertes naar moet vragen."
+        },
+        "pl": {
+          "title": "Projekty w domu",
+          "blurb": "Informacje i wyceny napraw lub ulepszeń, z notatkami w jednym pokoju.",
+          "sample": "Co do paneli słonecznych: oto uczciwy przedział cen i sześć pytań do każdej wyceny.",
+          "firstMessage": "Pomóż mi z projektem w domu: zapytaj mnie, o co chodzi (naprawa, panele słoneczne, remont), potem sprawdź możliwości, ile to powinno kosztować i o co pytać przy wycenach."
+        },
+        "ro": {
+          "title": "Proiecte pentru casă",
+          "blurb": "Informații și oferte pentru reparații sau îmbunătățiri, cu notițele într-o singură cameră.",
+          "sample": "Pentru panourile solare, iată un interval de preț corect și șase întrebări de pus la fiecare ofertă.",
+          "firstMessage": "Ajută-mă cu un proiect pentru casă: întreabă-mă despre ce e vorba (o reparație, panouri solare, o renovare), apoi caută variantele, cât ar trebui să coste și ce să cer în oferte."
+        },
+        "sk": {
+          "title": "Projekty v domácnosti",
+          "blurb": "Prieskum a cenové ponuky na opravy či vylepšenia, s poznámkami v jednej miestnosti.",
+          "sample": "K solárnym panelom: tu je férové cenové rozpätie a šesť otázok do každej cenovej ponuky.",
+          "firstMessage": "Pomôž mi s projektom doma: opýtaj sa ma, o čo ide (oprava, solárne panely, rekonštrukcia), potom zisti možnosti, koľko by to malo stáť a čo si pýtať v cenových ponukách."
+        },
+        "sl": {
+          "title": "Projekti doma",
+          "blurb": "Raziskava in ponudbe za popravila ali izboljšave, z zapiski v eni sobi.",
+          "sample": "Za sončne panele: tu je pošten cenovni razpon in šest vprašanj za vsako ponudbo.",
+          "firstMessage": "Pomagaj mi pri projektu doma: vprašaj me, za kaj gre (popravilo, sončne celice, prenova), nato razišči možnosti, koliko naj bi stalo in kaj vprašati pri ponudbah."
+        },
+        "sv": {
+          "title": "Hemprojekt",
+          "blurb": "Research och offerter för reparationer eller förbättringar, med anteckningarna i ett rum.",
+          "sample": "För solpanelerna: här är ett rimligt prisspann och sex frågor att ställa i varje offert.",
+          "firstMessage": "Hjälp mig med ett hemprojekt: fråga mig vad det gäller (en reparation, solpaneler, en renovering), ta sedan reda på alternativen, vad det borde kosta och vad jag ska be om i offerterna."
+        },
+        "tr": {
+          "title": "Ev projeleri",
+          "blurb": "Onarım ya da iyileştirmeler için araştırma ve teklifler, notlar tek bir odada.",
+          "sample": "Güneş panelleri için makul bir fiyat aralığı ve her teklifte sorulacak altı soru burada.",
+          "firstMessage": "Bir ev projesinde bana yardım et: ne olduğunu sor (bir onarım, güneş panelleri, bir tadilat), sonra seçenekleri, maliyetin ne olması gerektiğini ve tekliflerde neler istemem gerektiğini araştır."
+        }
+      }
+    },
+    {
+      "spec": 1,
+      "id": "learn",
+      "order": 13,
+      "author": "nanouai",
+      "persona": "learning",
+      "needs": [],
+      "optional": [],
+      "title": "Learn and reflect",
+      "blurb": "Book takeaways, course notes, and the patterns in what you learn.",
+      "sample": "This week's takeaway keeps coming back to habits. Two minutes to go over it?",
+      "firstMessage": "Help me learn and reflect: ask me what I'm reading or studying, keep notes of the key takeaways here, and every week ask me what stuck and what I'd like to try.",
+      "i18n": {
+        "fr": {
+          "title": "Apprendre et prendre du recul",
+          "blurb": "Ce qu'on retient des livres, des notes de cours, et les fils conducteurs de ce que tu apprends.",
+          "sample": "Ce que tu retiens cette semaine revient toujours aux habitudes. Deux minutes pour en parler ?",
+          "firstMessage": "Aide-moi à apprendre et à prendre du recul : demande-moi ce que je lis ou étudie, garde ici des notes des points clés, et chaque semaine demande-moi ce que j'ai retenu et ce que j'aimerais essayer."
+        },
+        "es": {
+          "title": "Aprender y reflexionar",
+          "blurb": "Lo que te llevas de los libros, apuntes de cursos y los patrones de lo que aprendes.",
+          "sample": "Lo que te llevas esta semana siempre vuelve a los hábitos. ¿Dos minutos para repasarlo?",
+          "firstMessage": "Ayúdame a aprender y reflexionar: pregúntame qué estoy leyendo o estudiando, guarda aquí notas de las ideas clave y cada semana pregúntame qué se me ha quedado y qué me gustaría probar."
+        },
+        "de": {
+          "title": "Lernen und reflektieren",
+          "blurb": "Erkenntnisse aus Büchern, Kursnotizen und die Muster in dem, was du lernst.",
+          "sample": "Deine Erkenntnis der Woche dreht sich immer wieder um Gewohnheiten. Zwei Minuten, um sie durchzugehen?",
+          "firstMessage": "Hilf mir beim Lernen und Reflektieren: Frag mich, was ich gerade lese oder lerne, halte hier die wichtigsten Erkenntnisse fest und frag mich jede Woche, was hängen geblieben ist und was ich ausprobieren möchte."
+        },
+        "it": {
+          "title": "Imparare e riflettere",
+          "blurb": "Cosa ti resta dei libri, appunti dei corsi e i temi ricorrenti in quello che impari.",
+          "sample": "Quello che hai imparato questa settimana torna sempre alle abitudini. Due minuti per ripassarlo?",
+          "firstMessage": "Aiutami a imparare e riflettere: chiedimi cosa sto leggendo o studiando, tieni qui gli appunti dei punti chiave e ogni settimana chiedimi cosa mi è rimasto e cosa vorrei provare."
+        },
+        "pt": {
+          "title": "Aprender e refletir",
+          "blurb": "O que retiras dos livros, apontamentos de cursos e os padrões no que aprendes.",
+          "sample": "O que retiveste esta semana volta sempre aos hábitos. Dois minutos para rever?",
+          "firstMessage": "Ajuda-me a aprender e a refletir: pergunta-me o que estou a ler ou a estudar, guarda aqui notas das ideias principais e todas as semanas pergunta-me o que ficou e o que gostava de experimentar."
+        },
+        "bg": {
+          "title": "Учи и размишлявай",
+          "blurb": "Изводи от книги, бележки от курсове и закономерностите в това, което учиш.",
+          "sample": "Изводът тази седмица все се връща към навиците. Две минути да го прегледаме?",
+          "firstMessage": "Помогни ми да уча и да размишлявам: питай ме какво чета или уча, записвай тук основните изводи и всяка седмица ме питай какво ми е останало и какво искам да опитам."
+        },
+        "cs": {
+          "title": "Učit se a přemýšlet",
+          "blurb": "Poznatky z knih, poznámky z kurzů a souvislosti v tom, co se učíš.",
+          "sample": "Poznatek tohoto týdne se pořád vrací ke zvykům. Projdeme to za dvě minuty?",
+          "firstMessage": "Pomoz mi učit se a přemýšlet: zeptej se mě, co čtu nebo studuji, zapisuj sem hlavní poznatky a každý týden se mě zeptej, co mi utkvělo a co chci vyzkoušet."
+        },
+        "da": {
+          "title": "Lær og reflektér",
+          "blurb": "Pointer fra bøger, kursusnoter og mønstrene i det, du lærer.",
+          "sample": "Ugens pointe bliver ved med at handle om vaner. To minutter til at gå den igennem?",
+          "firstMessage": "Hjælp mig med at lære og reflektere: spørg mig, hvad jeg læser eller studerer, skriv de vigtigste pointer ned her, og spørg mig hver uge, hvad der har sat sig fast, og hvad jeg gerne vil prøve."
+        },
+        "el": {
+          "title": "Μάθε και αναλογίσου",
+          "blurb": "Ό,τι κράτησες από βιβλία, σημειώσεις μαθημάτων και τα μοτίβα σε όσα μαθαίνεις.",
+          "sample": "Αυτή την εβδομάδα όλα γυρίζουν στις συνήθειες. Δύο λεπτά να το δούμε;",
+          "firstMessage": "Βοήθησέ με να μαθαίνω και να αναλογίζομαι: ρώτα με τι διαβάζω ή τι μελετάω, κράτα εδώ σημειώσεις με τα βασικά συμπεράσματα, και κάθε εβδομάδα ρώτα με τι μου έμεινε και τι θα ήθελα να δοκιμάσω."
+        },
+        "et": {
+          "title": "Õpi ja mõtiskle",
+          "blurb": "Raamatute peamised mõtted, kursuse märkmed ja mustrid selles, mida õpid.",
+          "sample": "Selle nädala mõte jõuab ikka tagasi harjumusteni. Kaks minutit, et see üle vaadata?",
+          "firstMessage": "Aita mul õppida ja mõtiskleda: küsi, mida ma loen või õpin, pane siia kirja peamised mõtted ja küsi igal nädalal, mis meelde jäi ja mida tahaksin proovida."
+        },
+        "fi": {
+          "title": "Opi ja pohdi",
+          "blurb": "Kirjojen opit, kurssimuistiinpanot ja toistuvat teemat siinä, mitä opit.",
+          "sample": "Tämän viikon opit palaavat yhä tapoihin. Käydäänkö ne läpi kahdessa minuutissa?",
+          "firstMessage": "Auta minua oppimaan ja pohtimaan: kysy, mitä luen tai opiskelen, kirjaa tänne tärkeimmät opit ja kysy joka viikko, mikä jäi mieleen ja mitä haluaisin kokeilla."
+        },
+        "ga": {
+          "title": "Foghlaim agus machnamh",
+          "blurb": "Príomhphointí leabhar, nótaí cúrsa, agus na patrúin sa mhéid a fhoghlaimíonn tú.",
+          "sample": "Filleann príomhphointe na seachtaine seo ar nósanna arís agus arís eile. Dhá nóiméad chun dul siar air?",
+          "firstMessage": "Cabhraigh liom foghlaim agus machnamh a dhéanamh: fiafraigh díom cad atá á léamh nó á staidéar agam, coinnigh nótaí de na príomhphointí anseo, agus gach seachtain fiafraigh díom cad a d’fhan liom agus cad ba mhaith liom a thriail."
+        },
+        "hr": {
+          "title": "Uči i razmišljaj",
+          "blurb": "Ključne misli iz knjiga, bilješke s tečajeva i obrasci u onome što učiš.",
+          "sample": "Ovotjedna misao stalno se vraća navikama. Dvije minute da je prođemo?",
+          "firstMessage": "Pomozi mi učiti i razmišljati: pitaj me što čitam ili učim, ovdje vodi bilješke o ključnim mislima i svaki tjedan me pitaj što mi je ostalo u glavi i što želim isprobati."
+        },
+        "hu": {
+          "title": "Tanulás és elmélyülés",
+          "blurb": "Tanulságok könyvekből, jegyzetek tanfolyamokról, és a minták abban, amit tanulsz.",
+          "sample": "Az e heti tanulság újra és újra a szokásokhoz tér vissza. Két perc, és átnézzük?",
+          "firstMessage": "Segíts tanulni és elgondolkodni: kérdezd meg, mit olvasok vagy tanulok, itt jegyezd fel a legfontosabb tanulságokat, és minden héten kérdezd meg, mi maradt meg, és mit szeretnék kipróbálni."
+        },
+        "lt": {
+          "title": "Mokykis ir apmąstyk",
+          "blurb": "Knygų įžvalgos, kursų užrašai ir dėsningumai tame, ką mokaisi.",
+          "sample": "Šios savaitės įžvalga vis grįžta prie įpročių. Dvi minutės ją aptarti?",
+          "firstMessage": "Padėk man mokytis ir apmąstyti: paklausk, ką skaitau ar studijuoju, čia užsirašyk svarbiausias įžvalgas ir kiekvieną savaitę paklausk, kas įsiminė ir ką norėčiau išbandyti."
+        },
+        "lv": {
+          "title": "Mācies un pārdomā",
+          "blurb": "Atziņas no grāmatām, kursu piezīmes un likumsakarības tajā, ko mācies.",
+          "sample": "Šīs nedēļas atziņa atkal un atkal atgriežas pie ieradumiem. Divas minūtes, lai to pārrunātu?",
+          "firstMessage": "Palīdzi man mācīties un pārdomāt: pajautā, ko es lasu vai mācos, pieraksti šeit galvenās atziņas un katru nedēļu pajautā, kas palicis atmiņā un ko es gribētu izmēģināt."
+        },
+        "mt": {
+          "title": "Tgħallem u rrifletti",
+          "blurb": "Punti ewlenin mill-kotba, noti tal-korsijiet, u x-xejriet f'dak li titgħallem.",
+          "sample": "Il-punt ewlieni ta' din il-ġimgħa jibqa' jerġa' lura għad-drawwiet. Żewġ minuti biex nirrevedu?",
+          "firstMessage": "Għinni nitgħallem u nirrifletti: staqsini x'qed naqra jew nistudja, żomm noti tal-punti ewlenin hawn, u kull ġimgħa staqsini x'baqagħli f'moħħi u x'nixtieq nipprova."
+        },
+        "nl": {
+          "title": "Leren en reflecteren",
+          "blurb": "Inzichten uit boeken, cursusnotities en de patronen in wat je leert.",
+          "sample": "Je les van deze week komt steeds terug op gewoontes. Twee minuten om het door te nemen?",
+          "firstMessage": "Help me leren en reflecteren: vraag me wat ik lees of studeer, houd hier notities bij van de belangrijkste inzichten, en vraag me elke week wat is blijven hangen en wat ik wil uitproberen."
+        },
+        "pl": {
+          "title": "Nauka i refleksja",
+          "blurb": "Wnioski z książek, notatki z kursów i to, co powtarza się w tym, czego się uczysz.",
+          "sample": "Wniosek z tego tygodnia ciągle wraca do nawyków. Omówimy go w dwie minuty?",
+          "firstMessage": "Pomóż mi się uczyć i zastanawiać: zapytaj mnie, co czytam lub czego się uczę, zapisuj tu najważniejsze wnioski i co tydzień pytaj mnie, co zostało mi w głowie i co chcę wypróbować."
+        },
+        "ro": {
+          "title": "Învață și reflectează",
+          "blurb": "Idei din cărți, notițe de la cursuri și tiparele din ce înveți.",
+          "sample": "Ideea săptămânii revine mereu la obiceiuri. Două minute să o recapitulăm?",
+          "firstMessage": "Ajută-mă să învăț și să reflectez: întreabă-mă ce citesc sau ce studiez, notează aici ideile principale și în fiecare săptămână întreabă-mă ce mi-a rămas și ce aș vrea să încerc."
+        },
+        "sk": {
+          "title": "Uč sa a premýšľaj",
+          "blurb": "Poznatky z kníh, poznámky z kurzov a vzorce v tom, čo sa učíš.",
+          "sample": "Poznatok tohto týždňa sa stále vracia k návykom. Prejdeme si ho za dve minúty?",
+          "firstMessage": "Pomôž mi učiť sa a premýšľať: opýtaj sa ma, čo čítam alebo študujem, zapisuj si tu hlavné poznatky a každý týždeň sa ma opýtaj, čo mi utkvelo a čo chcem vyskúšať."
+        },
+        "sl": {
+          "title": "Uči se in razmišljaj",
+          "blurb": "Spoznanja iz knjig, zapiski s tečajev in vzorci v tem, kar se učiš.",
+          "sample": "Spoznanje tega tedna se vedno vrača k navadam. Ga pregledava v dveh minutah?",
+          "firstMessage": "Pomagaj mi učiti se in razmišljati: vprašaj me, kaj berem ali študiram, tukaj zapisuj ključna spoznanja in vsak teden me vprašaj, kaj mi je ostalo in kaj želim preizkusiti."
+        },
+        "sv": {
+          "title": "Lär dig och reflektera",
+          "blurb": "Lärdomar från böcker, kursanteckningar och mönstren i det du lär dig.",
+          "sample": "Veckans lärdom kommer hela tiden tillbaka till vanor. Två minuter att gå igenom den?",
+          "firstMessage": "Hjälp mig att lära och reflektera: fråga mig vad jag läser eller studerar, anteckna de viktigaste lärdomarna här och fråga mig varje vecka vad som fastnade och vad jag vill testa."
+        },
+        "tr": {
+          "title": "Öğren ve düşün",
+          "blurb": "Kitaplardan çıkarımlar, kurs notları ve öğrendiklerindeki örüntüler.",
+          "sample": "Bu haftanın çıkarımı hep alışkanlıklara dönüyor. Üzerinden geçmek için iki dakikan var mı?",
+          "firstMessage": "Öğrenmeme ve üzerine düşünmeme yardım et: ne okuduğumu ya da çalıştığımı sor, önemli çıkarımları burada not al ve her hafta bana aklımda neyin kaldığını ve neyi denemek istediğimi sor."
+        }
+      }
+    }
+  ],
   "accessories": {
     "apple": {
       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 64 64\" data-covers-sprout=\"false\">\n<path d=\"M18.5 44.2C16.6 42.6 12.2 43 12.2 48C12.2 52.2 15 55.4 17 55.4C17.9 55.4 18.1 54.9 18.5 54.9C18.9 54.9 19.1 55.4 20 55.4C22 55.4 24.8 52.2 24.8 48C24.8 43 20.4 42.6 18.5 44.2Z\" fill=\"#d9534f\" stroke=\"#a83a36\" stroke-width=\"1\" stroke-linejoin=\"round\"/>\n<path d=\"M18.5 44.2Q18.4 41.8 19.6 40.4\" fill=\"none\" stroke=\"#6b4a32\" stroke-width=\"1.2\" stroke-linecap=\"round\"/>\n<path d=\"M19.4 41.6Q22.6 39.6 24.4 41.4Q21.6 43.4 19.4 41.6Z\" fill=\"#6aa84f\" stroke=\"#4d7d3a\" stroke-width=\".7\" stroke-linejoin=\"round\"/>\n<path d=\"M14.6 47.2Q15 45.4 16.6 45\" fill=\"none\" stroke=\"#f6c2bd\" stroke-width=\"1.1\" stroke-linecap=\"round\"/>\n</svg>",

@@ -1,0 +1,19 @@
+{
+  "spec": 1,
+  "id": "networth",
+  "order": 10,
+  "author": "nanouai",
+  "persona": "accountant",
+  "needs": [
+    "bank"
+  ],
+  "optional": [
+    "coinbase",
+    "kraken",
+    "wallets"
+  ],
+  "title": "Net worth at a glance",
+  "blurb": "One total across your accounts, and how it's moving.",
+  "sample": "Your total is up 2.1% this month. Here's what moved it.",
+  "firstMessage": "Add up the balances of all my connected accounts into one total, show me how it changed over the last few months, and send me the total every Monday."
+}

@@ -1,0 +1,13 @@
+{
+  "spec": 1,
+  "id": "learn",
+  "order": 13,
+  "author": "nanouai",
+  "persona": "learning",
+  "needs": [],
+  "optional": [],
+  "title": "Learn and reflect",
+  "blurb": "Book takeaways, course notes, and the patterns in what you learn.",
+  "sample": "This week's takeaway keeps coming back to habits. Two minutes to go over it?",
+  "firstMessage": "Help me learn and reflect: ask me what I'm reading or studying, keep notes of the key takeaways here, and every week ask me what stuck and what I'd like to try."
+}

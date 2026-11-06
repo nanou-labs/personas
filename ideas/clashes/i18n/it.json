@@ -1,0 +1,6 @@
+{
+  "title": "Basta sovrapposizioni in calendario",
+  "blurb": "nanou controlla i calendari della famiglia e avvisa per tempo dei conflitti.",
+  "sample": "Attenzione: il colloquio con gli insegnanti del 12 si sovrappone al tuo volo.",
+  "firstMessage": "Controlla i miei calendari per le prossime 4 settimane e dimmi se ci sono sovrapposizioni o doppie prenotazioni. Poi continua a tenerli d'occhio e avvisami per tempo quando ne compare una nuova."
+}

@@ -1,0 +1,17 @@
+{
+  "spec": 1,
+  "id": "insurance",
+  "order": 9,
+  "author": "nanouai",
+  "persona": "insurance",
+  "needs": [
+    "google"
+  ],
+  "optional": [
+    "outlook"
+  ],
+  "title": "Insurance and contract renewals",
+  "blurb": "Renewals spotted in your mail, options compared, reminders before the deadline.",
+  "sample": "Your car insurance renews on 1 March at €612, up €80 on last year.",
+  "firstMessage": "Find my insurance and contract renewals in my mail (car, home, internet, energy), list them with their renewal dates and prices, and remind me a month before each one."
+}

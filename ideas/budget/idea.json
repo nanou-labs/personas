@@ -1,0 +1,16 @@
+{
+  "spec": 1,
+  "id": "budget",
+  "order": 3,
+  "author": "nanouai",
+  "persona": "accountant",
+  "needs": [
+    "bank",
+    "google"
+  ],
+  "optional": [],
+  "title": "Understand the household budget",
+  "blurb": "Six months of spending sorted into categories, in a spreadsheet in Drive.",
+  "sample": "Groceries are a third of your spending, and two subscriptions went up this spring.",
+  "firstMessage": "Help me understand our household budget: look at the last 6 months of the bank account, sort spending into categories and make a spreadsheet in Drive. Then tell me where the money goes."
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Sabahın hazır",
+  "blurb": "Günlük özet: bugünün takvimi, yaklaşan işler, hatırlatmalar ve hava durumu.",
+  "sample": "Günaydın! Bugün üç şey var: saat 16:00'da dişçi, okul formunun son günü ve öğlenden itibaren yağmur.",
+  "firstMessage": "Bana her gün saat 7:30'da bir sabah özeti hazırla: bugünün takvimi, e-postamda vadesi gelen ya da geciken işler, hatırlatmalarım ve hava durumu. Önce bugününkünün nasıl görüneceğini göster."
+}

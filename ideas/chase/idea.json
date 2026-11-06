@@ -1,0 +1,18 @@
+{
+  "spec": 1,
+  "id": "chase",
+  "order": 8,
+  "author": "nanouai",
+  "persona": "deals",
+  "needs": [
+    "google"
+  ],
+  "optional": [
+    "whatsapp",
+    "outlook"
+  ],
+  "title": "Chase a reply for me",
+  "blurb": "Refunds, warranty claims, landlords: nanou nudges you when an answer is late.",
+  "sample": "The shop hasn't answered about your refund in 9 days. Shall I draft a nudge?",
+  "firstMessage": "Look through my mail for things I'm still waiting on a reply to (refunds, warranty claims, a shop, a landlord). List them with how long each has been waiting, and nudge me when one is overdue."
+}

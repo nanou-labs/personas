@@ -1,0 +1,17 @@
+{
+  "spec": 1,
+  "id": "clashes",
+  "order": 7,
+  "author": "nanouai",
+  "persona": "assistant",
+  "needs": [
+    "google"
+  ],
+  "optional": [
+    "outlook"
+  ],
+  "title": "No more calendar clashes",
+  "blurb": "nanou checks the family's calendars and warns early about conflicts.",
+  "sample": "Heads up: parents' evening on the 12th clashes with your flight.",
+  "firstMessage": "Check my calendars for the next 4 weeks and tell me about any clashes or double bookings. Then keep an eye out and warn me early when a new one appears."
+}

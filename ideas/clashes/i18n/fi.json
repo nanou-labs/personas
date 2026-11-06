@@ -1,0 +1,6 @@
+{
+  "title": "Ei enää päällekkäisyyksiä kalenterissa",
+  "blurb": "nanou tarkistaa perheen kalenterit ja varoittaa päällekkäisyyksistä ajoissa.",
+  "sample": "Huomio: vanhempainilta 12. päivä menee päällekkäin lentosi kanssa.",
+  "firstMessage": "Tarkista kalenterini seuraavan 4 viikon ajalta ja kerro päällekkäisyyksistä tai tuplavarauksista. Pidä sitten silmällä ja varoita minua ajoissa, kun uusi ilmaantuu."
+}

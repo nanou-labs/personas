@@ -1,0 +1,6 @@
+{
+  "title": "Takvim çakışmalarına son",
+  "blurb": "nanou ailenin takvimlerine bakar ve çakışmalara karşı erkenden uyarır.",
+  "sample": "Dikkat: ayın 12'sindeki veli toplantısı uçuşunla çakışıyor.",
+  "firstMessage": "Önümüzdeki 4 hafta için takvimlerime bak ve çakışan ya da iki kez ayrılmış her şeyi söyle. Sonra gözünü dört aç ve yeni bir çakışma çıktığında beni erkenden uyar."
+}

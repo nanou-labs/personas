@@ -1,0 +1,6 @@
+{
+  "title": "Persigue una respuesta por mí",
+  "blurb": "Reembolsos, garantías, caseros: nanou te avisa cuando una respuesta se retrasa.",
+  "sample": "La tienda lleva 9 días sin responder sobre tu reembolso. ¿Te preparo un recordatorio?",
+  "firstMessage": "Busca en mi correo las cosas a las que sigo esperando respuesta (reembolsos, garantías, una tienda, un casero). Haz una lista con cuánto tiempo lleva esperando cada una y avísame cuando alguna se retrase."
+}
