@@ -7,6 +7,7 @@
 //   node scripts/check.mjs --check   validate, and fail if index.json is out of date (CI)
 //
 // The rules are exported so scripts/review.mjs and the tests use the same ones.
+import { createHash } from "node:crypto";
 import { existsSync, lstatSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -74,8 +75,6 @@ export const BANS = [
   { name: "moving money", negatable: true, re: /\bpay (the|their|your|a|this)\b[^.?!]{0,15}\b(bill|invoice|fine|deposit)s?\b/i },
   { name: "claiming a licence or a title", re: /\b(I am|I'm|you are|you're) (a |an |their |your )?(licensed|certified|registered|chartered|accredited|board-certified|qualified)\b/i },
   { name: "claiming a licence or a title", re: /(^|[\s(])(Dr\.?|Doctor|Maître|Me\.|CPA|Esq\.?|Prof\.)\s+[A-Z]/ },
-  // Case-sensitive: "llama" is Spanish for "call".
-  { name: "naming an AI company or model", re: /\b(OpenAI|Anthropic|Claude|ChatGPT|GPT(-?[0-9o]+)?|Gemini|Bard|Mistral|LLaMA|Llama ?[0-9]|Copilot|DeepSeek|Grok|Qwen|Perplexity)\b/ },
   { name: "a link", re: /\bhttps?:\/\/|\bwww\.[a-z0-9-]+\.|\b[a-z0-9-]+\.(com|org|net|io|ai|app|dev)\b/i },
   { name: "code or HTML", re: /```|<\/?[a-zA-Z!][^>]*>|\{\{|\}\}|<\||\|>/ },
   { name: "text styled as a system message", re: /\[(family-guard|system|nanou|admin|developer)\b[^\]]*\]|^\s*#{1,6}\s*(system|developer|instructions?)\b|^\s*(system|assistant|developer)\s*:/im },
@@ -83,6 +82,32 @@ export const BANS = [
   { name: "writing for children", re: /\b(hey|hi|hello),?\s+(kids|kiddo|little one)\b|\bfor (kids|children) to (use|read|talk)\b|\bwhen talking to (kids|children)\b/i },
 ];
 const NEGATION = /\b(never|not|no|don't|doesn't|won't|can't|cannot|nothing|nobody|refuse[sd]?|avoid)\b/i;
+
+/**
+ * AI companies and models no text may name, kept as fingerprints (the first
+ * 16 hex digits of the SHA-256 of the name, case-sensitive) so this public
+ * repository doesn't spell them out. A word is checked by its leading
+ * letters: "Name-4o" is checked as "Name". Case-sensitive on purpose, so a
+ * Spanish "llama" ("call") passes. To add one:
+ * `printf '%s' Name | sha256sum | cut -c1-16`.
+ */
+export const AI_NAMES = new Set([
+  "8b7d1a3187ab355d", "744205e43529c1fc", "0615570f9ea13694", "50a4122943273ad2", "2c4e6f6c46954cd6",
+  "f6ece80b88d6dfbd", "fbef39c347a54191", "0cb39762e6f13f49", "be78f66375da41b7", "49f5b0e488cfa66c",
+  "0648d2111ec0ca3d", "dca61d32363b091b", "28a5651e858aeea9", "f394cc2a6da7dfd6",
+]);
+
+/** The fingerprint of a word, as AI_NAMES holds them. @param {string} word */
+export const fingerprint = (word) => createHash("sha256").update(word).digest("hex").slice(0, 16);
+
+/**
+ * The first word of `text` whose fingerprint is in `names`, or null.
+ * @param {string} text @param {Set<string>} [names]
+ */
+export function aiName(text, names = AI_NAMES) {
+  for (const m of text.matchAll(/\p{L}+/gu)) if (names.has(fingerprint(m[0]))) return m[0];
+  return null;
+}
 
 /**
  * The bans a text breaks, as messages. Inline code is allowed only for
@@ -101,6 +126,8 @@ export function contentProblems(text, where) {
       seen.add(ban.name);
     }
   }
+  const named = aiName(text);
+  if (named) out.push(`${where}: naming an AI company or model`);
   for (const m of text.matchAll(/`([^`]*)`/g))
     if (!BUILTIN_NAMES.includes(m[1])) out.push(`${where}: code in backticks (\`${m[1]}\`); only ${BUILTIN_NAMES.join(", ")} may be named that way`);
   return out;
