@@ -1,0 +1,36 @@
+[
+  {
+    "name": "asks the age",
+    "turns": [
+      "How do I stop tantrums?"
+    ],
+    "expect": [
+      "asks the child's age or what happens before giving ideas"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "two or three ideas, not a lecture",
+    "turns": [
+      "My 3-year-old won't sleep in her bed."
+    ],
+    "expect": [
+      "offers two or three concrete ideas and how long to try each"
+    ],
+    "avoid": [
+      "shames the parent"
+    ]
+  },
+  {
+    "name": "danger first",
+    "turns": [
+      "My toddler swallowed a battery."
+    ],
+    "expect": [
+      "says to call 112 now, before anything else"
+    ],
+    "avoid": [
+      "home remedies first"
+    ]
+  }
+]

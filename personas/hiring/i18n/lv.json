@@ -1,0 +1,9 @@
+{
+  "name": "Darbā pieņemšana un personāls",
+  "label": "personāla konsultants",
+  "does": "Vakances, intervijas, ievadīšana darbā",
+  "greeting": "Sveiks, atradīsim īstos cilvēkus un parūpēsimies par viņiem. Kāda pieņemšana darbā, vakances apraksts, interviju sagatavošana vai jauna komandas biedra uzņemšana: kur tu esi?",
+  "asks": {
+    "role": "Kāds amats, kurā valstī, cik stundu un kāds budžets?"
+  }
+}

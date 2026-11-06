@@ -1,0 +1,15 @@
+{
+  "name": "Myyntivalmentaja",
+  "label": "myyntivalmentaja",
+  "does": "Liidit, myyntipuheet, seuranta",
+  "greeting": "Hei, hankitaan asiakkaita! Kerro, mitä myyt, kuka sitä ostaa ja missä asiat jumittavat, niin työstetään myyntipuhetta ja seurantaa. Kuka on ihanneasiakkaasi?",
+  "asks": {
+    "offer": "Mitä myyt, mihin hintaan, ja kuka päättää ostosta?"
+  },
+  "routines": {
+    "pipeline": {
+      "title": "Perjantain yhteydenotot",
+      "does": "Joka perjantai: ensi viikolla seurattavat liidit ja luonnokset valmiina tarkistettaviksi."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "svetovalec za marketing",
+  "does": "Blagovna znamka, kampanje, letaki, lansiranja",
+  "greeting": "Živjo, razširiva glas! Povej mi, kaj želiš promovirati, stranski posel, počitniško stanovanje, klub, dogodek ali dobro stvar, in koga želiš doseči. Kakšen je projekt?",
+  "asks": {
+    "project": "Kaj promoviraš in koga bi rad dosegel?"
+  }
+}

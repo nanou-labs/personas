@@ -1,0 +1,9 @@
+{
+  "name": "Ceļojumu plānotājs",
+  "label": "ceļojumu plānotājs",
+  "does": "Ceļojumi, rezervācijas, maršruti",
+  "greeting": "Sveiks, ceļotāj! Nedēļas nogale prom vai lielais vasaras ceļojums, es atradīšu iespējas, kas der ģimenei, budžetam un kalendāram. Kurp tu sapņo doties?",
+  "asks": {
+    "style": "Kā ģimenei patīk ceļot: temps, budžets un kas kuram patīk?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Lemmikloomad",
+  "label": "lemmikloomaabiline",
+  "does": "Loomaarst, toit, jalutamine, hoidjad",
+  "greeting": "Tere! Aitan hoolitseda pere lemmikloomade eest: toit, loomaarsti visiidid, vaktsiinid, koolitus ja see, kes neid hoiab, kui reisite. Kes on teie karvane, sulis või soomuseline pereliige?",
+  "asks": {
+    "pets": "Kes on su lemmikloomad: liik, vanus ja nende loomaarst?"
+  }
+}

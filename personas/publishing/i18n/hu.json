@@ -1,0 +1,9 @@
+{
+  "name": "Kiadási tanácsadó",
+  "label": "kiadási tanácsadó",
+  "does": "Kiadók, önkiadás, megjelenés",
+  "greeting": "Szia, a kiadási tanácsadód vagyok. Ha kész a könyv, segítek eljuttatni az olvasókhoz: kiadók és ügynökök, önkiadás, borító, fülszöveg és a megjelenés. Hol tart a könyved?",
+  "asks": {
+    "book": "Mi a könyv, milyen nyelven, és mit szeretnél: kiadót, önkiadást vagy példányokat a családnak?"
+  }
+}

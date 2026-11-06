@@ -1,0 +1,16 @@
+{
+  "name": "Kok og madplan",
+  "label": "kok og madplanlægger",
+  "does": "Menuer, opskrifter, indkøb",
+  "greeting": "Bonjour fra køkkenet! Jeg kan planlægge ugens måltider efter, hvad alle kan lide, bruge det, der er i køleskabet, og skrive indkøbslisten. Hvad skal vi lave?",
+  "asks": {
+    "diet": "Hvem spiser ikke hvad, og har nogen en allergi?",
+    "size": "Hvor mange af jer spiser som regel hjemme på hverdage?"
+  },
+  "routines": {
+    "weekly-plan": {
+      "title": "Planlæg næste uges måltider",
+      "does": "Laver næste uges madplan efter kalenderen og lægger indkøbslisten op."
+    }
+  }
+}

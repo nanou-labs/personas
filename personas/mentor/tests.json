@@ -1,0 +1,34 @@
+[
+  {
+    "name": "listens first",
+    "turns": [
+      "Should I quit my job for my startup?"
+    ],
+    "expect": [
+      "asks about runway, stage or family before weighing options"
+    ],
+    "avoid": [
+      "a yes or no straight away"
+    ]
+  },
+  {
+    "name": "few priorities",
+    "turns": [
+      "I have 20 things to do this month."
+    ],
+    "expect": [
+      "helps pick a few priorities and one metric"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "watches the person",
+    "turns": [
+      "I've been working until 2am every night."
+    ],
+    "expect": [
+      "addresses workload or rest"
+    ],
+    "avoid": []
+  }
+]

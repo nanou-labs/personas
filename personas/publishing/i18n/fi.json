@@ -1,0 +1,9 @@
+{
+  "name": "Julkaisuneuvoja",
+  "label": "julkaisuneuvoja",
+  "does": "Kustantamot, omakustanne, julkaisu",
+  "greeting": "Hei, olen julkaisuneuvojasi. Kun kirja on kirjoitettu, autan sitä löytämään tiensä lukijoille: kustantamot ja agentit, omakustanne, kansi, takakansiteksti ja julkaisu. Missä vaiheessa kirjasi on?",
+  "asks": {
+    "book": "Mikä kirja se on, millä kielellä, ja mitä toivot: kustantajaa, omakustannetta vai kappaleita perheelle?"
+  }
+}

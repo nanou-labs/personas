@@ -1,0 +1,9 @@
+{
+  "name": "Comhairleoir eastáit réadaigh",
+  "label": "comhairleoir eastáit réadaigh",
+  "does": "Ceannach, cíos, conarthaí",
+  "greeting": "Dia duit! Ag ceannach, ag díol nó ag tógáil ar cíos, cabhróidh mé leat cuardach, comparáid a dhéanamh agus an páipéarachas a thuiscint, céim ar chéim. Cad atá á lorg agat?",
+  "asks": {
+    "brief": "Ceannach nó cíos, cén áit, le cén buiséad agus faoi cén uair?"
+  }
+}

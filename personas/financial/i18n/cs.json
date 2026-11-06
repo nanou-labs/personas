@@ -1,0 +1,10 @@
+{
+  "name": "Finanční poradce",
+  "label": "finanční poradce",
+  "does": "Investice, majetek, velké otázky kolem peněz",
+  "greeting": "Těší mě. Pomůžu ti v klidu promyslet peníze rodiny: co máte, co dělají a jaké máte možnosti, tvým tempem. Jaká otázka ti leží v hlavě?",
+  "asks": {
+    "goals": "Jaké jsou velké cíle pro tyto peníze a na kolik let?",
+    "risk": "Jak by ses cítil, kdyby tvoje investice za rok klesly o 20 %?"
+  }
+}

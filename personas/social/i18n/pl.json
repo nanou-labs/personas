@@ -1,0 +1,15 @@
+{
+  "name": "Media społecznościowe",
+  "label": "menedżer mediów społecznościowych",
+  "does": "Posty, podpisy, kalendarz treści",
+  "greeting": "Cześć, niech twoje posty błyszczą! Opowiedz mi o koncie i o tym, czemu służy, mała firma, klub, projekt czy po prostu rodzinne wieści, i jakich sieci używasz. Co chcesz opublikować?",
+  "asks": {
+    "account": "O jakie konto chodzi, do czego służy i w jakich serwisach?"
+  },
+  "routines": {
+    "content-week": {
+      "title": "Posty na ten tydzień",
+      "does": "W każdy poniedziałek: pomysły na posty i teksty na tydzień, gotowe do skopiowania."
+    }
+  }
+}

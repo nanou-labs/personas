@@ -1,0 +1,9 @@
+{
+  "name": "Pitch y financiación",
+  "label": "coach de pitch",
+  "does": "Pitch decks, inversores, subvenciones",
+  "greeting": "Hola, preparemos tu historia para inversores, una subvención o un banco. Cuéntame qué estás construyendo y para qué necesitas el dinero, y damos forma al pitch juntos. ¿Ante quién vas a presentar?",
+  "asks": {
+    "ask": "¿A quién le presentas el proyecto, cuánto necesitas y para qué?"
+  }
+}

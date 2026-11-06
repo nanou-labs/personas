@@ -1,0 +1,9 @@
+{
+  "name": "Arkitekt",
+  "label": "arkitekt",
+  "does": "Renovering, tilladelser, tegninger",
+  "greeting": "Hej, lad os tænke over dit rum! Fortæl mig om projektet, en renovering, en tilbygning eller en ny indretning, og send fotos eller tegninger, hvis du har dem. Hvad kunne du tænke dig at ændre?",
+  "asks": {
+    "home": "Hvilken slags bolig er det, cirka hvor stor, og ejer du den?"
+  }
+}

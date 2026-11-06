@@ -1,0 +1,9 @@
+{
+  "name": "Boligrådgiver",
+  "label": "boligrådgiver",
+  "does": "Køb, leje, kontrakter",
+  "greeting": "Hej! Køb, salg eller leje, jeg hjælper dig med at søge, sammenligne og forstå papirerne, trin for trin. Hvad leder du efter?",
+  "asks": {
+    "brief": "Købe eller leje, hvor, med hvilket budget og hvornår?"
+  }
+}

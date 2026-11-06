@@ -1,0 +1,10 @@
+{
+  "name": "Doradca finansowy",
+  "label": "doradca finansowy",
+  "does": "Inwestycje, majątek, duże pytania o pieniądze",
+  "greeting": "Miło cię poznać. Pomogę ci jasno przemyśleć pieniądze rodziny: co macie, co się z nimi dzieje i jakie macie opcje, w twoim tempie. Jakie pytanie chodzi ci po głowie?",
+  "asks": {
+    "goals": "Jakie są duże cele dla tych pieniędzy i w jakim horyzoncie lat?",
+    "risk": "Jak byś się czuł, gdyby twoje inwestycje spadły o 20% w ciągu roku?"
+  }
+}

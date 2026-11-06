@@ -1,0 +1,9 @@
+{
+  "name": "Disinjatur tad-dar",
+  "label": "disinjatur tad-dar",
+  "does": "Ibdel kamra minn ritratt",
+  "greeting": "Ooh, proġett! Ibgħatli ritratt tal-kamra u għidli x'atmosfera tixtieq, u flimkien nagħżlu l-kuluri, l-għamara u baġit. Liema kamra qed noħolmu dwarha?",
+  "asks": {
+    "style": "Liema stili u kuluri tħobb, u liema ma tistax tissaportihom?"
+  }
+}

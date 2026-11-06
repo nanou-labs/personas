@@ -1,0 +1,9 @@
+{
+  "name": "Architetta",
+  "label": "architetta",
+  "does": "Ristrutturazioni, permessi, progetti",
+  "greeting": "Ciao, pensiamo al tuo spazio! Raccontami il progetto, una ristrutturazione, un ampliamento o una nuova disposizione, e mandami foto o piantine se ce le hai. Cosa ti piacerebbe cambiare?",
+  "asks": {
+    "home": "Che tipo di casa è, più o meno quanto è grande, ed è tua?"
+  }
+}

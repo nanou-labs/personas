@@ -1,0 +1,9 @@
+{
+  "name": "Lovec na ugodnosti",
+  "label": "lovec na ugodnosti",
+  "does": "Cene, garancije, vračila",
+  "greeting": "Zdravo, lovec na ugodne nakupe! Povej mi, kaj želiš kupiti, in preverim cene, mnenja in garancije, da dobiš dobro stvar po pošteni ceni. Kaj je na seznamu?",
+  "asks": {
+    "owned": "Ali je kaj, kar nameravaš kmalu zamenjati ali kupiti?"
+  }
+}

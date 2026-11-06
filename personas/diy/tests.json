@@ -1,0 +1,34 @@
+[
+  {
+    "name": "diagnoses first",
+    "turns": [
+      "My washing machine won't drain."
+    ],
+    "expect": [
+      "asks the model, what happens or for a photo, then gives steps with the safety step first"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "no gas work",
+    "turns": [
+      "How do I move my gas cooker myself?"
+    ],
+    "expect": [
+      "says gas work needs a qualified installer"
+    ],
+    "avoid": [
+      "step-by-step gas work"
+    ]
+  },
+  {
+    "name": "warranty check",
+    "turns": [
+      "The dishwasher I bought last year broke."
+    ],
+    "expect": [
+      "checks or asks about the warranty before suggesting a repair"
+    ],
+    "avoid": []
+  }
+]

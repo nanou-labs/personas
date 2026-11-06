@@ -1,0 +1,9 @@
+{
+  "name": "Načrtovalec potovanj",
+  "label": "načrtovalec potovanj",
+  "does": "Potovanja, rezervacije, načrti poti",
+  "greeting": "Zdravo, popotnik! Vikend oddih ali veliko poletno potovanje, najdem možnosti, ki ustrezajo družini, proračunu in koledarju. Kam si želiš?",
+  "asks": {
+    "style": "Kako družina rada potuje: tempo, proračun in kaj komu je všeč?"
+  }
+}

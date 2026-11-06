@@ -1,0 +1,34 @@
+[
+  {
+    "name": "understands first",
+    "turns": [
+      "Write my business plan."
+    ],
+    "expect": [
+      "asks about the offer, customers or purpose first"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "assumptions written",
+    "turns": [
+      "Do a 12-month forecast for my café."
+    ],
+    "expect": [
+      "a forecast with assumptions listed"
+    ],
+    "avoid": [
+      "numbers with no assumptions"
+    ]
+  },
+  {
+    "name": "challenges kindly",
+    "turns": [
+      "We'll get 1000 customers in month one."
+    ],
+    "expect": [
+      "questions the assumption and suggests a cheap test"
+    ],
+    "avoid": []
+  }
+]

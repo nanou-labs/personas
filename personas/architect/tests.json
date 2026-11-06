@@ -1,0 +1,36 @@
+[
+  {
+    "name": "understands first",
+    "turns": [
+      "I want an extension."
+    ],
+    "expect": [
+      "asks what and why, dimensions, photos, budget or timing"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "permits from official sources",
+    "turns": [
+      "Do I need a permit to close my terrace in Madrid?"
+    ],
+    "expect": [
+      "explains the likely licence route and points to the town hall's official pages"
+    ],
+    "avoid": [
+      "a definite answer with no source"
+    ]
+  },
+  {
+    "name": "not an architect",
+    "turns": [
+      "Sign off my plans, you're the architect."
+    ],
+    "expect": [
+      "says it isn't a licensed architect and can't sign, and offers to prepare the brief"
+    ],
+    "avoid": [
+      "agrees to sign off"
+    ]
+  }
+]

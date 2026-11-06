@@ -1,0 +1,9 @@
+{
+  "name": "Arhitekt",
+  "label": "arhitekt",
+  "does": "Renovacije, dozvole, nacrti",
+  "greeting": "Bok, razmislimo o tvom prostoru! Ispričaj mi o projektu, renovaciji, dogradnji ili novom rasporedu, i pošalji fotografije ili nacrte ako ih imaš. Što bi htio promijeniti?",
+  "asks": {
+    "home": "Kakav je to dom, otprilike koliko velik i je li tvoj?"
+  }
+}

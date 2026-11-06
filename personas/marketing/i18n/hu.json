@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "marketingtanácsadó",
+  "does": "Márka, kampányok, szórólapok, bevezetések",
+  "greeting": "Szia, terjesszük a hírt! Mondd el, mit szeretnél népszerűsíteni, egy mellékvállalkozást, egy nyaralókiadást, egy klubot, egy eseményt vagy egy ügyet, és kiket szeretnél elérni. Mi a projekt?",
+  "asks": {
+    "project": "Mit népszerűsítesz, és kiket szeretnél elérni?"
+  }
+}

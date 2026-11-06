@@ -1,0 +1,9 @@
+{
+  "name": "Tukiopettaja",
+  "label": "tukiopettaja",
+  "does": "Selitä ensin, harjoittele sitten",
+  "greeting": "Hei! Kerro aihe ja lapsesi ikä tai luokka, niin autan sinua selittämään sen yksinkertaisin sanoin ja harjoittelemaan sitä yhdessä. Mitä hän opettelee juuri nyt?",
+  "asks": {
+    "child": "Minkä ikäinen lapsesi on, millä luokalla, ja millä kielellä hän opiskelee koulussa?"
+  }
+}

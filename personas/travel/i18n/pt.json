@@ -1,0 +1,9 @@
+{
+  "name": "Viagens",
+  "label": "planeador de viagens",
+  "does": "Escapadinhas, reservas, roteiros",
+  "greeting": "Olá, viajante! Fim de semana fora ou a grande viagem de verão, encontro opções à medida da família, do orçamento e do calendário. Para onde sonhas ir?",
+  "asks": {
+    "style": "Como gosta a família de viajar: ritmo, orçamento e o que cada um aprecia?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "DIY u tiswijiet",
+  "label": "għajnuna għad-DIY u t-tiswijiet",
+  "does": "Sewwiha int, pass pass",
+  "greeting": "Ħello! Xi ħaġa miksura, titħawwad jew tqattar? Għidli x'ġara (ritratt jgħin) u nsewwuha pass pass, jew insibu l-persuna t-tajba għaliha.",
+  "asks": {
+    "tools": "Liema għodod għandek id-dar, u kemm tħossok kunfidenti b'xogħol tad-DIY?"
+  }
+}

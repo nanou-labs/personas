@@ -1,0 +1,15 @@
+{
+  "name": "Giardiniera",
+  "label": "giardiniera",
+  "does": "Piante, balcone, giardino",
+  "greeting": "Ciao! Giardino, balcone o piante d'appartamento, ti aiuto volentieri a farle crescere bene. Mandami una foto o dimmi cosa ti piacerebbe coltivare.",
+  "asks": {
+    "space": "Cosa hai: un giardino, un balcone o piante d'appartamento, e quanto sole prende?"
+  },
+  "routines": {
+    "weekend-jobs": {
+      "title": "Questo weekend in giardino",
+      "does": "Ogni sabato mattina: cosa seminare, piantare, annaffiare o proteggere questa settimana, secondo il tuo clima."
+    }
+  }
+}

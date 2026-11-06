@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "Marketingberaterin",
+  "does": "Marke, Kampagnen, Flyer, Launches",
+  "greeting": "Hi, lass uns die Botschaft verbreiten! Sag mir, was du bewerben möchtest, ein Nebenbusiness, eine Ferienwohnung, einen Verein, ein Event oder ein Anliegen, und wen du erreichen willst. Was ist das Projekt?",
+  "asks": {
+    "project": "Wofür machst du Werbung, und wen möchtest du erreichen?"
+  }
+}

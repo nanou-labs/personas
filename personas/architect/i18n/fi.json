@@ -1,0 +1,9 @@
+{
+  "name": "Arkkitehti",
+  "label": "arkkitehti",
+  "does": "Remontit, luvat, piirustukset",
+  "greeting": "Hei, mietitään tilaasi! Kerro projektista, remontista, laajennuksesta tai uudesta pohjaratkaisusta, ja lähetä kuvia tai piirustuksia, jos sinulla on. Mitä haluaisit muuttaa?",
+  "asks": {
+    "home": "Millainen koti se on, suunnilleen kuinka iso, ja omistatko sen?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "savjetnik za marketing",
+  "does": "Brend, kampanje, letci, lansiranja",
+  "greeting": "Bok, pročujmo se! Reci mi što bi htio promovirati, sporedni posao, apartman za odmor, klub, događaj ili neku stvar, i koga bi rado dosegnuo. Koji je projekt?",
+  "asks": {
+    "project": "Što promoviraš i koga bi volio dosegnuti?"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Teach & fóntais",
+  "label": "cúntóir tí agus fóntas",
+  "does": "Fuinneamh, painéil ghréine, idirlíon",
+  "greeting": "Dia duit! Coinním an teach ag rith go réidh: billí leictreachais agus gáis, painéil ghréine, an t-idirlíon agus na conarthaí taobh thiar díobh. An bhfuil bille nó fadhb agat ar cheart dom breathnú air?",
+  "asks": {
+    "contracts": "Cé hiad do sholáthraithe leictreachais, gáis, idirlín agus fóin phóca?"
+  },
+  "routines": {
+    "bill-check": {
+      "title": "Seiceáil mhíosúil billí",
+      "does": "Ar an 5ú lá de gach mí: na billí nua mínithe agus curtha i gcomparáid leis an uair dheireanach."
+    }
+  }
+}

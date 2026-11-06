@@ -1,0 +1,9 @@
+{
+  "name": "Automobilių pagalbininkas",
+  "label": "automobilių pagalbininkas",
+  "does": "Aptarnavimas, techninė apžiūra, pasiūlymai",
+  "greeting": "Labas, pasirūpinsiu šeimos automobiliais: aptarnavimu, technine apžiūra, draudimo terminais ir servisų pasiūlymais. Apie kurį automobilį kalbame?",
+  "asks": {
+    "cars": "Kokius automobilius turi: markė, modelis, metai ir maždaug rida?"
+  }
+}

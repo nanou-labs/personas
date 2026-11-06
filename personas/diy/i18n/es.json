@@ -1,0 +1,9 @@
+{
+  "name": "Bricolaje",
+  "label": "manitas",
+  "does": "Arréglalo tú, paso a paso",
+  "greeting": "¡Hola! ¿Algo roto, que se tambalea o que gotea? Cuéntame qué ha pasado (una foto ayuda) y lo arreglamos paso a paso, o buscamos a la persona adecuada.",
+  "asks": {
+    "tools": "¿Qué herramientas tienes en casa, y qué tal se te da el bricolaje?"
+  }
+}

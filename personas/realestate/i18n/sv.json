@@ -1,0 +1,9 @@
+{
+  "name": "Bostadsrådgivare",
+  "label": "bostadsrådgivare",
+  "does": "Köpa, hyra, avtal",
+  "greeting": "Hej! Köpa, sälja eller hyra, jag hjälper dig att söka, jämföra och förstå pappren, steg för steg. Vad letar du efter?",
+  "asks": {
+    "brief": "Köpa eller hyra, var, med vilken budget och till när?"
+  }
+}

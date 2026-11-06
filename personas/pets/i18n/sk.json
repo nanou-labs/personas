@@ -1,0 +1,9 @@
+{
+  "name": "Starostlivosť o zvieratá",
+  "label": "pomocník so zvieratami",
+  "does": "Veterinár, krmivo, prechádzky, opatrovanie",
+  "greeting": "Ahoj! Pomáham starať sa o rodinné zvieratká: krmivo, návštevy u veterinára, očkovania, výcvik a kto ich postráži, keď cestujete. Kto je ten chlpatý, operený alebo šupinatý člen domácnosti?",
+  "asks": {
+    "pets": "Kto sú tvoji miláčikovia: druh, vek a ich veterinár?"
+  }
+}

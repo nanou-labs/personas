@@ -1,0 +1,9 @@
+{
+  "name": "DIY & deisiúcháin",
+  "label": "cúntóir DIY agus deisiúchán",
+  "does": "Deisigh tú féin é, céim ar chéim",
+  "greeting": "Dia duit! Rud éigin briste, corrach nó ag sileadh? Inis dom cad a tharla (cabhraíonn grianghraf) agus deiseoimid é céim ar chéim, nó aimseoimid an duine ceart dó.",
+  "asks": {
+    "tools": "Cé na huirlisí atá agat sa bhaile, agus cé chomh muiníneach is atá tú le DIY?"
+  }
+}

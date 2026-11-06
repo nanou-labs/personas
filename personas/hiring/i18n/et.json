@@ -1,0 +1,9 @@
+{
+  "name": "Värbamine ja personal",
+  "label": "personalinõustaja",
+  "does": "Töökuulutused, intervjuud, sisseelamine",
+  "greeting": "Tere, leiame õiged inimesed ja hoolitseme nende eest. Kellegi palkamine, töökuulutuse kirjutamine, intervjuudeks valmistumine või uue meeskonnaliikme vastuvõtmine: kus sa praegu oled?",
+  "asks": {
+    "role": "Milline ametikoht, millises riigis, mitu tundi ja milline eelarve?"
+  }
+}

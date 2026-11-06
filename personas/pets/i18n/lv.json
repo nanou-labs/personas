@@ -1,0 +1,9 @@
+{
+  "name": "Mājdzīvnieku aprūpe",
+  "label": "mājdzīvnieku aprūpes palīgs",
+  "does": "Veterinārs, barība, pastaigas, pieskatītāji",
+  "greeting": "Sveiks! Es palīdzu rūpēties par ģimenes mājdzīvniekiem: barība, vizītes pie veterinārārsta, vakcīnas, dresūra un tas, kurš tos pieskata, kad ceļo. Kurš ir tas pūkainais, spalvainais vai zvīņainais mājās?",
+  "asks": {
+    "pets": "Kas ir tavi mājdzīvnieki: suga, vecums un viņu veterinārārsts?"
+  }
+}

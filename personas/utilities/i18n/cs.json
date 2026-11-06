@@ -1,0 +1,15 @@
+{
+  "name": "Domácnost a energie",
+  "label": "pomocník s domácností a energiemi",
+  "does": "Energie, solár, internet",
+  "greeting": "Ahoj! Starám se, aby domácnost běžela hladce: účty za elektřinu a plyn, solár, internet a smlouvy za nimi. Máš účet nebo problém, na který se mám podívat?",
+  "asks": {
+    "contracts": "Kdo jsou tví dodavatelé elektřiny, plynu, internetu a mobilu?"
+  },
+  "routines": {
+    "bill-check": {
+      "title": "Měsíční kontrola faktur",
+      "does": "Každého 5. v měsíci: nové faktury vysvětlené a porovnané s minulými."
+    }
+  }
+}

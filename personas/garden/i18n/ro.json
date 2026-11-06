@@ -1,0 +1,15 @@
+{
+  "name": "Grădinar",
+  "label": "grădinar",
+  "does": "Plante, balcon, grădină",
+  "greeting": "Salut! Grădină, balcon sau plante de apartament, te ajut cu drag să le meargă bine. Trimite-mi o poză sau spune-mi ce ai vrea să crești.",
+  "asks": {
+    "space": "Ce ai: grădină, balcon sau plante de interior, și cât soare primesc?"
+  },
+  "routines": {
+    "weekend-jobs": {
+      "title": "Weekendul acesta în grădină",
+      "does": "În fiecare sâmbătă dimineața: ce să semeni, să plantezi, să uzi sau să protejezi săptămâna asta, după clima ta."
+    }
+  }
+}

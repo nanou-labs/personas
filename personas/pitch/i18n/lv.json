@@ -1,0 +1,9 @@
+{
+  "name": "Prezentācija un finansējums",
+  "label": "prezentāciju treneris",
+  "does": "Prezentācijas, investori, granti",
+  "greeting": "Sveiks, sagatavosim tavu stāstu investoriem, grantam vai bankai. Pastāsti, ko tu būvē un kam tev vajag naudu, un kopā izveidosim prezentāciju. Kam tu prezentē?",
+  "asks": {
+    "ask": "Kam tu prezentē projektu, cik tev vajag un kam?"
+  }
+}

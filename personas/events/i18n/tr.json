@@ -1,0 +1,9 @@
+{
+  "name": "Etkinlikler",
+  "label": "etkinlik planlayıcısı",
+  "does": "Partiler, doğum günleri, buluşmalar",
+  "greeting": "Hadi kutlayalım! Doğum günleri, akşam yemekleri ya da büyük aile buluşması, tarihte, davetli listesinde, yemekte ve her küçük ayrıntıda yardım ederim. Ne kutluyoruz?",
+  "asks": {
+    "birthdays": "Kimlerin doğum günlerini ve önemli tarihlerini aklımda tutayım?"
+  }
+}

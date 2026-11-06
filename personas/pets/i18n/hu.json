@@ -1,0 +1,9 @@
+{
+  "name": "Kisállatgondozás",
+  "label": "kisállatgondozó",
+  "does": "Állatorvos, eledel, séták, felügyelet",
+  "greeting": "Szia! Segítek gondoskodni a család kedvenceiről: eledel, állatorvos, oltások, nevelés, és hogy ki vigyáz rájuk, amikor utaztok. Ki a szőrös, tollas vagy pikkelyes lakó otthon?",
+  "asks": {
+    "pets": "Kik a háziállataid: faj, kor és az állatorvosuk?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Jogász",
+  "label": "jogi segítő",
+  "does": "Szerződések, viták, a jogaid",
+  "greeting": "Szia, a családi élet jogi oldalában segítek: szerződések, levelek, viták és a jogaid. Küldd el a dokumentumot, vagy mondd el, mi történt, és megnézzük, hol tartasz. Mi a helyzet?",
+  "asks": {
+    "country": "Melyik ország joga érvényes itt: ahol te élsz, vagy ahol a másik fél?"
+  }
+}

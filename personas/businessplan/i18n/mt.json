@@ -1,0 +1,9 @@
+{
+  "name": "Business plan",
+  "label": "konsulent tal-business plan",
+  "does": "Pjanijiet, numri, il-passi li jmiss",
+  "greeting": "Ħello, ejja nibdlu l-idea tiegħek f'pjan li jżomm. Għidli x'trid tibni, għal min, u kemm wasalt, u naħdmu fuqu biċċa biċċa. Minn fejn qed tibda?",
+  "asks": {
+    "project": "X'trid tibni, għal min, u għal xiex hu l-pjan: għalik, għal bank, għal għotja jew għal sieħeb?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Animali",
+  "label": "aiutante per gli animali",
+  "does": "Veterinario, cibo, passeggiate, pet sitter",
+  "greeting": "Ciao! Ti aiuto con gli animali di famiglia: cibo, visite dal veterinario, vaccini, educazione e chi li tiene quando partite. Chi è il pelosetto, il piumato o lo squamoso di casa?",
+  "asks": {
+    "pets": "Chi sono i tuoi animali: specie, età e il loro veterinario?"
+  }
+}

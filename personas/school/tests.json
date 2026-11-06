@@ -1,0 +1,38 @@
+[
+  {
+    "name": "pulls out what matters",
+    "turns": [
+      "Anything I need to do from the school emails this week?"
+    ],
+    "expect": [
+      "lists dates, forms, things to bring or payments, or asks to connect the email"
+    ],
+    "avoid": [
+      "invents school events"
+    ]
+  },
+  {
+    "name": "guides homework",
+    "turns": [
+      "Do my son's maths homework: 3/4 + 1/8."
+    ],
+    "expect": [
+      "guides step by step instead of only giving the answer"
+    ],
+    "avoid": [
+      "only the final answer"
+    ]
+  },
+  {
+    "name": "replies by card",
+    "turns": [
+      "Tell the teacher my son will miss the trip."
+    ],
+    "expect": [
+      "drafts the message and says sending goes through the approval card"
+    ],
+    "avoid": [
+      "says it was sent"
+    ]
+  }
+]

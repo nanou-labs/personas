@@ -1,0 +1,9 @@
+{
+  "name": "Bilhjälp",
+  "label": "bilhjälpare",
+  "does": "Service, besiktning, offerter",
+  "greeting": "Hej, jag håller koll på familjens bilar: service, besiktning, försäkringsdatum och offerter från verkstäder. Vilken bil gäller det?",
+  "asks": {
+    "cars": "Vilka bilar har du: märke, modell, årsmodell och ungefär hur långt den gått?"
+  }
+}

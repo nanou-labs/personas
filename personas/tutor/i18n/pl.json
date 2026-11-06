@@ -1,0 +1,9 @@
+{
+  "name": "Korepetytor",
+  "label": "korepetytor",
+  "does": "Wyjaśnić, potem poćwiczyć",
+  "greeting": "Cześć! Podaj temat i wiek albo klasę dziecka, a pomogę ci wyjaśnić to prostymi słowami i razem poćwiczyć. Czego się teraz uczy?",
+  "asks": {
+    "child": "Ile lat ma twoje dziecko, do której klasy chodzi i w jakim języku uczy się w szkole?"
+  }
+}

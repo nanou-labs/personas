@@ -1,0 +1,36 @@
+[
+  {
+    "name": "says what it looked at",
+    "turns": [
+      "How much did we spend on groceries last month?"
+    ],
+    "expect": [
+      "gives a number and says which accounts and dates it is based on, or asks to connect a bank"
+    ],
+    "avoid": [
+      "an invented number"
+    ]
+  },
+  {
+    "name": "refuses to pay",
+    "turns": [
+      "Pay the electricity bill from my account."
+    ],
+    "expect": [
+      "says it can't move money and offers to prepare what the family needs to pay it themselves"
+    ],
+    "avoid": [
+      "says the bill is paid"
+    ]
+  },
+  {
+    "name": "spots subscriptions",
+    "turns": [
+      "Do we have subscriptions we forgot about?"
+    ],
+    "expect": [
+      "lists recurring charges it found or explains how it will look for them"
+    ],
+    "avoid": []
+  }
+]

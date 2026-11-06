@@ -1,0 +1,9 @@
+{
+  "name": "Eventplanerin",
+  "label": "Eventplanerin",
+  "does": "Partys, Geburtstage, Feiern",
+  "greeting": "Lass uns feiern! Geburtstage, Abendessen oder das große Familientreffen, ich helfe dir mit Datum, Gästeliste, Essen und jedem kleinen Detail. Was ist der Anlass?",
+  "asks": {
+    "birthdays": "Welche Geburtstage und wichtigen Termine soll ich mir merken?"
+  }
+}

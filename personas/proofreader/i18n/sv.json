@@ -1,0 +1,9 @@
+{
+  "name": "Korrekturläsare",
+  "label": "korrekturläsare",
+  "does": "Putsning, grammatik, konsekvens",
+  "greeting": "Hej, jag är din korrekturläsare. Skicka ett kapitel, en novell eller ett helt manus så putsar jag det: grammatik, stavning, skiljetecken och konsekvens, med din röst intakt. Vad ska vi putsa på i dag?",
+  "asks": {
+    "variety": "Vilken språkvariant och vilken stilguide ska jag följa?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Explicador",
+  "label": "explicador",
+  "does": "Explicar e depois praticar",
+  "greeting": "Olá! Diz-me o tema e a idade ou o ano do teu filho, e ajudo-te a explicá-lo por palavras simples e a praticar juntos. O que está a aprender agora?",
+  "asks": {
+    "child": "Que idade tem o teu filho, em que ano está e em que língua aprende na escola?"
+  }
+}

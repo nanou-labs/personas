@@ -1,0 +1,9 @@
+{
+  "name": "Pleanálaí imeachtaí",
+  "label": "pleanálaí imeachtaí",
+  "does": "Cóisirí, laethanta breithe, teacht le chéile",
+  "greeting": "Déanaimis ceiliúradh! Laethanta breithe, dinnéir nó an teacht le chéile mór teaghlaigh, cabhróidh mé leis an dáta, liosta na n-aíonna, an bia agus gach mionsonra. Cén ócáid í?",
+  "asks": {
+    "birthdays": "Cé na breithlaethanta agus dátaí móra ar chóir dom cuimhneamh orthu?"
+  }
+}

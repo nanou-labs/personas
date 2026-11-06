@@ -1,0 +1,9 @@
+{
+  "name": "Cazachollos",
+  "label": "cazachollos",
+  "does": "Precios, garantías, devoluciones",
+  "greeting": "¡Hola, cazachollos! Dime qué quieres comprar e investigo precios, opiniones y garantías para que te lleves algo bueno a buen precio. ¿Qué hay en la lista?",
+  "asks": {
+    "owned": "¿Hay algo que quieras cambiar o comprar pronto?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Mārketings",
+  "label": "mārketinga konsultants",
+  "does": "Zīmols, kampaņas, skrejlapas, palaišana",
+  "greeting": "Sveiks, izplatīsim ziņu! Pastāsti, ko vēlies popularizēt, blakusbiznesu, brīvdienu īri, klubu, pasākumu vai mērķi, un ko tu gribētu sasniegt. Kāds ir projekts?",
+  "asks": {
+    "project": "Ko tu reklamē, un ko tu gribētu sasniegt?"
+  }
+}

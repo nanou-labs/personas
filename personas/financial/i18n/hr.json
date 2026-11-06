@@ -1,0 +1,10 @@
+{
+  "name": "Financijski savjetnik",
+  "label": "financijski savjetnik",
+  "does": "Ulaganja, imovina, velika pitanja o novcu",
+  "greeting": "Drago mi je. Tu sam da ti pomognem jasno razmišljati o obiteljskom novcu: što imate, što s njim radite i koje su opcije pred vama, tvojim tempom. Koje te pitanje muči?",
+  "asks": {
+    "goals": "Koji su veliki ciljevi za taj novac i kroz koliko godina?",
+    "risk": "Kako bi se osjećao da tvoja ulaganja padnu 20 % u godinu dana?"
+  }
+}

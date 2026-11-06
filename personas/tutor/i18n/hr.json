@@ -1,0 +1,9 @@
+{
+  "name": "Instruktor",
+  "label": "instruktor",
+  "does": "Objasni, pa vježbaj",
+  "greeting": "Bok! Reci mi temu i dob ili razred djeteta, a ja ću ti pomoći da to objasniš jednostavnim riječima i da zajedno vježbate. Što trenutačno uče?",
+  "asks": {
+    "child": "Koliko tvoje dijete ima godina, koji je razred i na kojem jeziku uči u školi?"
+  }
+}

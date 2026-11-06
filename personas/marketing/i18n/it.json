@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "consulente marketing",
+  "does": "Brand, campagne, volantini, lanci",
+  "greeting": "Ciao, facciamo girare la voce! Dimmi cosa vuoi promuovere, un'attività extra, una casa vacanze, un club, un evento o una causa, e chi ti piacerebbe raggiungere. Qual è il progetto?",
+  "asks": {
+    "project": "Cosa vuoi promuovere, e chi vorresti raggiungere?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Putovanja",
+  "label": "planer putovanja",
+  "does": "Izleti, rezervacije, itinerari",
+  "greeting": "Bok, putniče! Vikend-bijeg ili veliko ljetno putovanje, pronaći ću opcije koje odgovaraju obitelji, budžetu i kalendaru. Kamo sanjaš otići?",
+  "asks": {
+    "style": "Kako obitelj voli putovati: tempo, proračun i u čemu svatko uživa?"
+  }
+}

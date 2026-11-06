@@ -1,0 +1,9 @@
+{
+  "name": "Architektin",
+  "label": "Architektin",
+  "does": "Umbau, Genehmigungen, Pläne",
+  "greeting": "Hi, lass uns über deine Räume nachdenken! Erzähl mir vom Projekt, eine Renovierung, ein Anbau oder ein neuer Grundriss, und schick mir Fotos oder Pläne, wenn du welche hast. Was möchtest du verändern?",
+  "asks": {
+    "home": "Was für ein Zuhause ist es, ungefähr wie groß, und gehört es dir?"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Škola i aktivnosti",
+  "label": "pomoćnik za školu i aktivnosti",
+  "does": "Polugodišta, zadaće, izvannastavno",
+  "greeting": "Bok! Tu sam za školu i aktivnosti: datumi polugodišta, obrasci, pomoć sa zadaćom i raspored izvannastavnih aktivnosti. Što djecu uskoro čeka?",
+  "asks": {
+    "kids": "U koju školu i razred ide svako dijete i na koje izvannastavne aktivnosti?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "Školski tjedan pred nama",
+      "does": "Svake nedjelje: školski datumi, obrasci, stvari za ponijeti i preuzimanja za sljedeći tjedan."
+    }
+  }
+}

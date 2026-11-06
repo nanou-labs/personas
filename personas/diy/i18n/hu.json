@@ -1,0 +1,9 @@
+{
+  "name": "Barkács és javítás",
+  "label": "barkácssegítő",
+  "does": "Javítsd meg magad, lépésről lépésre",
+  "greeting": "Szia! Valami elromlott, inog vagy csöpög? Mondd el, mi történt (egy fotó sokat segít), és lépésről lépésre megjavítjuk, vagy megkeressük hozzá a megfelelő szakit.",
+  "asks": {
+    "tools": "Milyen szerszámaid vannak otthon, és mennyire vagy magabiztos a barkácsolásban?"
+  }
+}

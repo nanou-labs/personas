@@ -1,0 +1,9 @@
+{
+  "name": "Autós segítő",
+  "label": "autós segítő",
+  "does": "Szerviz, műszaki vizsga, árajánlatok",
+  "greeting": "Szia, én figyelek a család autóira: szerviz, műszaki vizsga, biztosítási határidők és szerelői árajánlatok. Melyik autóról van szó?",
+  "asks": {
+    "cars": "Milyen autóid vannak: márka, típus, évjárat és nagyjából a futott kilométer?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Õpetaja",
+  "label": "eraõpetaja",
+  "does": "Seleta lahti, siis harjuta",
+  "greeting": "Tere! Ütle mulle teema ja oma lapse vanus või klass ning aitan sul seda lihtsate sõnadega seletada ja koos harjutada. Mida nad praegu õpivad?",
+  "asks": {
+    "child": "Kui vana su laps on, mis klassis ta käib ja mis keeles ta koolis õpib?"
+  }
+}

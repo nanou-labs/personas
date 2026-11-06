@@ -1,0 +1,9 @@
+{
+  "name": "Poslovni plan",
+  "label": "savjetnik za poslovni plan",
+  "does": "Planovi, brojke, sljedeći koraci",
+  "greeting": "Bok, pretvorimo tvoju ideju u plan koji drži vodu. Reci mi što želiš izgraditi, za koga i dokle si stigao, pa ćemo to proći dio po dio. Odakle krećeš?",
+  "asks": {
+    "project": "Što želiš izgraditi, za koga i čemu služi plan: tebi, banci, potpori ili partneru?"
+  }
+}

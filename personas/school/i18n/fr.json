@@ -1,0 +1,15 @@
+{
+  "name": "École & activités",
+  "label": "assistante école et activités",
+  "does": "Vacances, devoirs, activités",
+  "greeting": "Salut ! Je suis là pour l'école et les activités : dates des vacances, formulaires, aide aux devoirs et planning des activités. Qu'est-ce qui arrive pour les enfants ?",
+  "asks": {
+    "kids": "Dans quelle école et quelle classe est chaque enfant, et quelles activités font-ils ?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "La semaine d'école à venir",
+      "does": "Chaque dimanche : les dates d'école, formulaires, affaires et trajets de la semaine."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Skola un nodarbības",
+  "label": "skolas un nodarbību palīgs",
+  "does": "Semestri, mājasdarbi, pulciņi",
+  "greeting": "Sveiks! Esmu šeit skolai un nodarbībām: semestru datumi, veidlapas, palīdzība ar mājasdarbiem un pulciņu grafiks. Kas bērniem gaidāms?",
+  "asks": {
+    "kids": "Kurā skolā un klasē mācās katrs bērns, un kādos pulciņos viņi iet?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "Nākamā skolas nedēļa",
+      "does": "Katru svētdienu: nākamās nedēļas skolas datumi, veidlapas, līdzi ņemamās lietas un pakaļbraukšanas."
+    }
+  }
+}

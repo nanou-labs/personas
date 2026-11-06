@@ -1,0 +1,9 @@
+{
+  "name": "Podnikateľský plán",
+  "label": "poradca pre podnikateľský plán",
+  "does": "Plány, čísla, ďalšie kroky",
+  "greeting": "Ahoj, premeňme tvoj nápad na plán, ktorý obstojí. Povedz mi, čo chceš vybudovať, pre koho a ako ďaleko si, a prejdeme to kúsok po kúsku. Odkiaľ začíname?",
+  "asks": {
+    "project": "Čo chceš vybudovať, pre koho a na čo je plán: pre teba, banku, grant alebo partnera?"
+  }
+}

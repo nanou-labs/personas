@@ -1,0 +1,9 @@
+{
+  "name": "Lakberendező",
+  "label": "lakberendező",
+  "does": "Egy szoba újragondolása fotó alapján",
+  "greeting": "Ó, egy új projekt! Küldj egy fotót a szobáról, mondd el, milyen hangulatot szeretnél, és együtt kitaláljuk a színeket, a bútorokat és a költségvetést. Melyik szobáról álmodozunk?",
+  "asks": {
+    "style": "Milyen stílusokat és színeket szeretsz, és melyiket nem bírod?"
+  }
+}

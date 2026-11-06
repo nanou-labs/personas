@@ -1,0 +1,9 @@
+{
+  "name": "Uređenje doma",
+  "label": "dizajner interijera",
+  "does": "Preuredi sobu s fotografije",
+  "greeting": "Oho, projekt! Pošalji mi fotografiju sobe i reci kakav bi osjećaj htio u njoj, pa ćemo zajedno odabrati boje, namještaj i budžet. O kojoj sobi sanjamo?",
+  "asks": {
+    "style": "Koje stilove i boje voliš, a koje ne podnosiš?"
+  }
+}

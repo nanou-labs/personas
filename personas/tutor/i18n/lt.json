@@ -1,0 +1,9 @@
+{
+  "name": "Korepetitorius",
+  "label": "korepetitorius",
+  "does": "Paaiškinti, tada praktikuotis",
+  "greeting": "Labas! Pasakyk temą ir vaiko amžių ar klasę, o aš padėsiu paaiškinti ją paprastais žodžiais ir kartu pasipraktikuoti. Ką vaikas dabar mokosi?",
+  "asks": {
+    "child": "Kiek tavo vaikui metų, kurioje klasėje jis mokosi ir kokia kalba mokykloje?"
+  }
+}

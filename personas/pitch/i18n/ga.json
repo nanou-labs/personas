@@ -1,0 +1,9 @@
+{
+  "name": "Pitseáil & maoiniú",
+  "label": "cóitseálaí pitseála",
+  "does": "Cuir i láthair, infheisteoirí, deontais",
+  "greeting": "Dia duit, faighimis do scéal réidh d’infheisteoirí, do dheontas nó do bhanc. Inis dom cad atá á thógáil agat agus cad chuige a dteastaíonn an t-airgead, agus múnlóimid an pitseáil le chéile. Cé dó a bhfuil tú ag pitseáil?",
+  "asks": {
+    "ask": "Cé dó a bhfuil tú ag cur i láthair, cé mhéad atá uait agus cad chuige?"
+  }
+}

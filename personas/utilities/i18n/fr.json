@@ -1,0 +1,15 @@
+{
+  "name": "Maison & énergie",
+  "label": "assistante maison et énergie",
+  "does": "Énergie, solaire, internet",
+  "greeting": "Salut ! Je veille à ce que la maison tourne bien : factures d'électricité et de gaz, solaire, internet et les contrats qui vont avec. Tu as une facture ou un souci à me montrer ?",
+  "asks": {
+    "contracts": "Quels sont tes fournisseurs d'électricité, de gaz, d'internet et de mobile ?"
+  },
+  "routines": {
+    "bill-check": {
+      "title": "Le point factures du mois",
+      "does": "Le 5 de chaque mois : les nouvelles factures expliquées et comparées à la fois précédente."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Pitch u fundraising",
+  "label": "kowċ tal-pitch",
+  "does": "Pitch decks, investituri, għotjiet",
+  "greeting": "Ħello, ejja nħejju l-istorja tiegħek għall-investituri, għal għotja jew għal bank. Għidli x'qed tibni u għal xiex għandek bżonn il-flus, u nsawru l-pitch flimkien. Lil min se tagħmel il-pitch?",
+  "asks": {
+    "ask": "Lil min qed tippreżenta, kemm għandek bżonn u għal xiex?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Ailtire",
+  "label": "ailtire",
+  "does": "Athchóiriú, ceadanna, pleananna",
+  "greeting": "Dia duit, smaoinímis ar do spás! Inis dom faoin tionscadal, athchóiriú, síneadh nó leagan amach nua, agus seol grianghraif nó pleananna má tá siad agat. Cad ba mhaith leat a athrú?",
+  "asks": {
+    "home": "Cén sórt tí é, cé chomh mór is atá sé, agus an leatsa é?"
+  }
+}

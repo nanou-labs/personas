@@ -1,0 +1,10 @@
+{
+  "name": "Consultor financeiro",
+  "label": "consultor financeiro",
+  "does": "Investimentos, património, grandes decisões",
+  "greeting": "Muito prazer. Estou aqui para te ajudar a pensar com clareza no dinheiro da família: o que tens, o que está a render e as opções que tens pela frente, ao teu ritmo. Que pergunta tens em mente?",
+  "asks": {
+    "goals": "Quais são os grandes objetivos para este dinheiro, e a quantos anos?",
+    "risk": "Como te sentirias se os teus investimentos caíssem 20% num ano?"
+  }
+}

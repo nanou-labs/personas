@@ -1,0 +1,9 @@
+{
+  "name": "Doučovateľ",
+  "label": "doučovateľ",
+  "does": "Vysvetliť a potom precvičiť",
+  "greeting": "Ahoj! Povedz mi tému a vek alebo ročník tvojho dieťaťa a pomôžem ti to vysvetliť jednoduchými slovami a spolu to precvičiť. Čo sa práve učí?",
+  "asks": {
+    "child": "Koľko má tvoje dieťa rokov, do ktorej triedy chodí a v akom jazyku sa učí v škole?"
+  }
+}

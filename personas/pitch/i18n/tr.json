@@ -1,0 +1,9 @@
+{
+  "name": "Sunum ve yatırım",
+  "label": "sunum koçu",
+  "does": "Sunum dosyaları, yatırımcılar, hibeler",
+  "greeting": "Selam, hikayeni yatırımcılar, bir hibe ya da banka için hazırlayalım. Ne kurduğunu ve paraya ne için ihtiyacın olduğunu anlat, sunumu birlikte şekillendirelim. Kime sunum yapacaksın?",
+  "asks": {
+    "ask": "Projeyi kime sunuyorsun, ne kadar lazım ve ne için?"
+  }
+}

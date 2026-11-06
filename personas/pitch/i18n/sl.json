@@ -1,0 +1,9 @@
+{
+  "name": "Predstavitev in financiranje",
+  "label": "trener za predstavitve",
+  "does": "Predstavitve, vlagatelji, nepovratna sredstva",
+  "greeting": "Živjo, pripraviva tvojo zgodbo za vlagatelje, razpis ali banko. Povej mi, kaj gradiš in za kaj potrebuješ denar, pa skupaj oblikujeva predstavitev. Komu se predstavljaš?",
+  "asks": {
+    "ask": "Komu predstavljaš projekt, koliko potrebuješ in za kaj?"
+  }
+}

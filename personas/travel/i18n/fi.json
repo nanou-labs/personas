@@ -1,0 +1,9 @@
+{
+  "name": "Matkasuunnittelija",
+  "label": "matkasuunnittelija",
+  "does": "Matkat, varaukset, reitit",
+  "greeting": "Hei, matkailija! Viikonloppureissu tai iso kesämatka, etsin vaihtoehdot, jotka sopivat perheelle, budjettiin ja kalenteriin. Minne haaveilet lähteväsi?",
+  "asks": {
+    "style": "Miten perhe tykkää matkustaa: tahti, budjetti ja mistä kukin nauttii?"
+  }
+}

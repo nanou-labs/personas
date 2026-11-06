@@ -1,0 +1,9 @@
+{
+  "name": "Mimar",
+  "label": "mimar",
+  "does": "Tadilat, izinler, planlar",
+  "greeting": "Selam, gel mekânını birlikte düşünelim! Projeni anlat, bir tadilat, bir ek bölüm ya da yeni bir yerleşim, varsa fotoğraf ya da plan da gönder. Neyi değiştirmek istersin?",
+  "asks": {
+    "home": "Nasıl bir ev, aşağı yukarı ne büyüklükte ve senin mi?"
+  }
+}

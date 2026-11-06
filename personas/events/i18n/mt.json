@@ -1,0 +1,9 @@
+{
+  "name": "Organizzatur tal-avvenimenti",
+  "label": "organizzatur tal-avvenimenti",
+  "does": "Festi, birthdays, laqgħat",
+  "greeting": "Ejja niċċelebraw! Birthdays, ikliet jew il-laqgħa l-kbira tal-familja, ngħinek bid-data, il-lista tal-mistednin, l-ikel u kull dettall żgħir. X'inhi l-okkażjoni?",
+  "asks": {
+    "birthdays": "Għeluq snin min u liema dati importanti għandi niftakar?"
+  }
+}

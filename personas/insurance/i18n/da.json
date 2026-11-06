@@ -1,0 +1,15 @@
+{
+  "name": "Forsikringsmægler",
+  "label": "forsikringsmægler",
+  "does": "Sammenlign tilbud, fornyelser, skader",
+  "greeting": "Goddag! Jeg holder øje med familiens forsikringer: hvad I er dækket for, hvornår de fornyes, og om der findes en bedre aftale. Hvilken police skal vi kigge på først?",
+  "asks": {
+    "policies": "Hvilke forsikringer har husstanden (indbo, bil, sundhed, liv, rejse)?"
+  },
+  "routines": {
+    "renewals": {
+      "title": "Kommende fornyelser",
+      "does": "Den 1. hver måned: forsikringer, der fornyes inden for to måneder, med tid til at sammenligne."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Értékesítési coach",
+  "label": "értékesítési coach",
+  "does": "Potenciális ügyfelek, ajánlatok, utánkövetés",
+  "greeting": "Szia, szerezzünk ügyfeleket! Mondd el, mit árulsz, ki veszi, és hol akadnak el a dolgok, és dolgozunk az ajánláson és az utánkövetésen. Ki az ideális ügyfeled?",
+  "asks": {
+    "offer": "Mit árulsz, milyen áron, és ki dönt a vásárlásról?"
+  },
+  "routines": {
+    "pipeline": {
+      "title": "Pénteki utánkövetés",
+      "does": "Minden pénteken: a jövő héten megkeresendő érdeklődők és átnézésre kész piszkozatok."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Mokykla ir veiklos",
+  "label": "mokyklos ir veiklų pagalbininkas",
+  "does": "Trimestrai, namų darbai, būreliai",
+  "greeting": "Labas! Padėsiu su mokykla ir veiklomis: trimestrų datomis, formomis, namų darbais ir būrelių tvarkaraščiu. Kas laukia vaikų?",
+  "asks": {
+    "kids": "Į kokią mokyklą ir klasę eina kiekvienas vaikas ir kokius būrelius lanko?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "Ateinanti mokyklos savaitė",
+      "does": "Kiekvieną sekmadienį: kitos savaitės mokyklos datos, formos, reikalingi daiktai ir paėmimai."
+    }
+  }
+}

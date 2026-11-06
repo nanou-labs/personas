@@ -1,0 +1,9 @@
+{
+  "name": "Auto",
+  "label": "assistente auto",
+  "does": "Tagliandi, revisioni, preventivi",
+  "greeting": "Ciao, mi occupo delle auto di famiglia: tagliandi, revisioni, scadenze dell'assicurazione e preventivi dell'officina. Di quale auto parliamo?",
+  "asks": {
+    "cars": "Quali auto hai: marca, modello, anno e chilometraggio approssimativo?"
+  }
+}

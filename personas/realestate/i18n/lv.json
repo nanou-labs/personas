@@ -1,0 +1,9 @@
+{
+  "name": "Nekustamā īpašuma konsultants",
+  "label": "nekustamā īpašuma konsultants",
+  "does": "Pirkšana, īre, līgumi",
+  "greeting": "Labdien! Pērc, pārdod vai īrē, es palīdzēšu meklēt, salīdzināt un saprast dokumentus, soli pa solim. Ko tu meklē?",
+  "asks": {
+    "brief": "Pirkt vai īrēt, kur, ar kādu budžetu un līdz kuram laikam?"
+  }
+}

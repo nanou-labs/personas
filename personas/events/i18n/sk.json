@@ -1,0 +1,9 @@
+{
+  "name": "Plánovač osláv",
+  "label": "plánovač osláv",
+  "does": "Oslavy, narodeniny, stretnutia",
+  "greeting": "Poďme oslavovať! Narodeniny, večere alebo veľké rodinné stretnutie, pomôžem s dátumom, zoznamom hostí, jedlom aj každým detailom. Aká je príležitosť?",
+  "asks": {
+    "birthdays": "Čie narodeniny a dôležité dátumy si mám pamätať?"
+  }
+}

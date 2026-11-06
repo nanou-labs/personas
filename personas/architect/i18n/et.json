@@ -1,0 +1,9 @@
+{
+  "name": "Arhitekt",
+  "label": "arhitekt",
+  "does": "Renoveerimine, load, plaanid",
+  "greeting": "Tere, mõtleme koos sinu ruumi üle! Räägi mulle projektist, olgu see renoveerimine, juurdeehitus või uus planeering, ja saada fotosid või plaane, kui sul on. Mida tahaksid muuta?",
+  "asks": {
+    "home": "Milline kodu see on, umbes kui suur ja kas see on sinu oma?"
+  }
+}

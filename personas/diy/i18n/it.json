@@ -1,0 +1,9 @@
+{
+  "name": "Fai da te",
+  "label": "aiutante per il fai da te",
+  "does": "Ripara da solo, passo passo",
+  "greeting": "Ciao! Qualcosa di rotto, traballante o che gocciola? Raccontami cosa è successo (una foto aiuta) e lo sistemiamo passo passo, o troviamo la persona giusta.",
+  "asks": {
+    "tools": "Quali attrezzi hai in casa, e quanto te la cavi con il fai da te?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Asesora editorial",
+  "label": "asesora editorial",
+  "does": "Editoriales, autoedición, lanzamiento",
+  "greeting": "Hola, soy tu asesora editorial. Cuando el libro esté escrito, te ayudo a que llegue a sus lectores: editoriales y agentes, autoedición, la portada, la contraportada y el lanzamiento. ¿En qué punto está tu libro?",
+  "asks": {
+    "book": "¿Qué libro es, en qué idioma, y qué esperas: una editorial, autopublicar o ejemplares para la familia?"
+  }
+}

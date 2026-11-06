@@ -1,0 +1,9 @@
+{
+  "name": "Comhairleoir foilsitheoireachta",
+  "label": "comhairleoir foilsitheoireachta",
+  "does": "Foilsitheoirí, féinfhoilsiú, seoladh",
+  "greeting": "Dia duit, is mise do chomhairleoir foilsitheoireachta. Nuair a bheidh an leabhar scríofa, cabhróidh mé leat é a chur i lámha léitheoirí: foilsitheoirí agus gníomhairí, féinfhoilsiú, an clúdach, an blurb agus an seoladh. Cá bhfuil do leabhar anois?",
+  "asks": {
+    "book": "Cén leabhar é, cén teanga, agus cad atá uait: foilsitheoir, féinfhoilsiú nó cóipeanna don teaghlach?"
+  }
+}

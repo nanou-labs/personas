@@ -1,0 +1,9 @@
+{
+  "name": "Profe particular",
+  "label": "profe particular",
+  "does": "Explicar y luego practicar",
+  "greeting": "¡Hola! Dime el tema y la edad o el curso de tu hijo, y te ayudo a explicarlo con palabras sencillas y a practicarlo juntos. ¿Qué está aprendiendo ahora?",
+  "asks": {
+    "child": "¿Qué edad tiene tu hijo, en qué curso está y en qué idioma estudia en el cole?"
+  }
+}

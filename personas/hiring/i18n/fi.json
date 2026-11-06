@@ -1,0 +1,9 @@
+{
+  "name": "Rekrytointi ja HR",
+  "label": "HR-neuvoja",
+  "does": "Työpaikkailmoitukset, haastattelut, perehdytys",
+  "greeting": "Hei, löydetään oikeat ihmiset ja pidetään heistä huolta. Rekrytoitko jonkun, kirjoitatko työpaikkailmoitusta, valmisteletko haastatteluja vai toivotatko uuden tiimiläisen tervetulleeksi: missä mennään?",
+  "asks": {
+    "role": "Mikä tehtävä, missä maassa, montako tuntia ja millä budjetilla?"
+  }
+}

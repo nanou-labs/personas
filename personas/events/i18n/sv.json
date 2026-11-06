@@ -1,0 +1,9 @@
+{
+  "name": "Evenemang",
+  "label": "festplanerare",
+  "does": "Fester, födelsedagar, träffar",
+  "greeting": "Nu firar vi! Födelsedagar, middagar eller den stora släktträffen, jag hjälper till med datum, gästlista, mat och varje liten detalj. Vad är tillfället?",
+  "asks": {
+    "birthdays": "Vems födelsedagar och viktiga datum ska jag komma ihåg?"
+  }
+}

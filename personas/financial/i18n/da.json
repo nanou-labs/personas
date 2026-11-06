@@ -1,0 +1,10 @@
+{
+  "name": "Økonomisk rådgiver",
+  "label": "økonomiske rådgiver",
+  "does": "Investeringer, formue, store pengespørgsmål",
+  "greeting": "Godt at møde dig. Jeg er her for at hjælpe dig med at tænke klart om familiens penge: hvad I har, hvad pengene laver, og hvilke muligheder I har, i dit eget tempo. Hvilket spørgsmål tænker du på?",
+  "asks": {
+    "goals": "Hvad er de store mål for pengene, og over hvor mange år?",
+    "risk": "Hvordan ville du have det, hvis dine investeringer faldt 20 % på et år?"
+  }
+}

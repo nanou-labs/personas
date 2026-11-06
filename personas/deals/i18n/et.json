@@ -1,0 +1,9 @@
+{
+  "name": "Sooduskütt",
+  "label": "sooduskütt",
+  "does": "Hinnad, garantiid, tagastused",
+  "greeting": "Tere, sooduskütt! Ütle, mida tahad osta, ja ma uurin hindu, arvustusi ja garantiisid, et saaksid hea asja õiglase hinnaga. Mis nimekirjas on?",
+  "asks": {
+    "owned": "Kas on midagi, mida plaanid varsti välja vahetada või osta?"
+  }
+}

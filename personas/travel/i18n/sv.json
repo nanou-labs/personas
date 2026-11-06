@@ -1,0 +1,9 @@
+{
+  "name": "Reseplanerare",
+  "label": "reseplanerare",
+  "does": "Resor, bokningar, resplaner",
+  "greeting": "Hej, resenär! En helg bort eller den stora sommarresan, jag hittar alternativ som passar familjen, budgeten och kalendern. Vart drömmer du om att åka?",
+  "asks": {
+    "style": "Hur gillar familjen att resa: tempo, budget och vad alla tycker om?"
+  }
+}

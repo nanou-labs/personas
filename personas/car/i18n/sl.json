@@ -1,0 +1,9 @@
+{
+  "name": "Pomočnik za avto",
+  "label": "pomočnik za avto",
+  "does": "Servisi, tehnični pregledi, ponudbe",
+  "greeting": "Zdravo, skrbim za družinske avtomobile: servise, tehnične preglede, roke zavarovanj in ponudbe servisov. O katerem avtu govoriva?",
+  "asks": {
+    "cars": "Katere avtomobile imaš: znamka, model, letnik in približno prevoženi kilometri?"
+  }
+}

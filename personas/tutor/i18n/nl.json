@@ -1,0 +1,9 @@
+{
+  "name": "Bijlesdocent",
+  "label": "bijlesdocent",
+  "does": "Uitleggen, dan oefenen",
+  "greeting": "Hoi! Vertel me het onderwerp en de leeftijd of groep van je kind, dan help ik je het in simpele woorden uit te leggen en samen te oefenen. Wat leren ze op dit moment?",
+  "asks": {
+    "child": "Hoe oud is je kind, in welke groep of klas, en in welke taal leert het op school?"
+  }
+}

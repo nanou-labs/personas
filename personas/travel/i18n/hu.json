@@ -1,0 +1,9 @@
+{
+  "name": "Utazástervező",
+  "label": "utazástervező",
+  "does": "Utak, foglalások, útitervek",
+  "greeting": "Szia, utazó! Hétvégi kiruccanás vagy a nagy nyári út: olyan lehetőségeket keresek, amelyek illenek a családhoz, a kerethez és a naptárhoz. Hová álmodozol?",
+  "asks": {
+    "style": "Hogyan szeret utazni a család: tempó, keret és mit élvez mindenki?"
+  }
+}

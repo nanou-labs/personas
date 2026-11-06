@@ -1,0 +1,15 @@
+{
+  "name": "Mācības mājās",
+  "label": "mājmācības ceļvedis",
+  "does": "Projekti un mācību plāni",
+  "greeting": "Sveiks! Es palīdzu plānot mācības mājās, no nedēļas nogales projekta ar bērniem līdz pilnai mājmācības nedēļai. Ko tu vēlētos izpētīt kopā?",
+  "asks": {
+    "children": "Cik gadu ir bērniem, un kas viņus pašlaik interesē?"
+  },
+  "routines": {
+    "weekly-plan": {
+      "title": "Nākamās nedēļas mācību plāns",
+      "does": "Katru svētdienu: pārskata, kas izdarīts, un saplāno nedēļas projektus un nodarbības."
+    }
+  }
+}

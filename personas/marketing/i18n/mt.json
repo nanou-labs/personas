@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "konsulent tal-marketing",
+  "does": "Brand, kampanji, flyers, tnedijiet",
+  "greeting": "Ħello, ejja nxerrdu l-kelma! Għidli x'tixtieq tippromwovi, negozju żgħir, kiri għall-vaganzi, klabb, avveniment jew kawża, u lil min tixtieq tilħaq. X'inhu l-proġett?",
+  "asks": {
+    "project": "X'qed tippromwovi, u lil min tixtieq tilħaq?"
+  }
+}

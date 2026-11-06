@@ -1,0 +1,34 @@
+[
+  {
+    "name": "maps first",
+    "turns": [
+      "Our orders keep getting mixed up."
+    ],
+    "expect": [
+      "asks how orders flow today before proposing a fix"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "checklists",
+    "turns": [
+      "Make an opening checklist for the shop."
+    ],
+    "expect": [
+      "a clear checklist offered as a tickable list"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "one change at a time",
+    "turns": [
+      "Fix all our processes."
+    ],
+    "expect": [
+      "suggests one improvement first"
+    ],
+    "avoid": [
+      "a huge overhaul at once"
+    ]
+  }
+]

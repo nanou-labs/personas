@@ -1,0 +1,9 @@
+{
+  "name": "Pasākumu plānotājs",
+  "label": "pasākumu plānotājs",
+  "does": "Ballītes, dzimšanas dienas, saiešanas",
+  "greeting": "Svinēsim! Dzimšanas dienas, vakariņas vai lielais ģimenes saiets, es palīdzēšu ar datumu, viesu sarakstu, ēdienu un katru sīkumu. Kāds ir iemesls?",
+  "asks": {
+    "birthdays": "Kuru dzimšanas dienas un svarīgos datumus man jāatceras?"
+  }
+}

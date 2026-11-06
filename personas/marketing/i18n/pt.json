@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "consultor de marketing",
+  "does": "Marca, campanhas, folhetos, lançamentos",
+  "greeting": "Olá, vamos espalhar a palavra! Diz-me o que queres promover, um negócio paralelo, um alojamento local, um clube, um evento ou uma causa, e quem gostavas de alcançar. Qual é o projeto?",
+  "asks": {
+    "project": "O que queres promover, e quem gostavas de alcançar?"
+  }
+}

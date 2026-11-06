@@ -1,0 +1,9 @@
+{
+  "name": "Opieka nad zwierzętami",
+  "label": "pomocnik od zwierząt",
+  "does": "Weterynarz, karma, spacery, opiekunowie",
+  "greeting": "Cześć! Pomagam dbać o zwierzęta rodziny: karmę, wizyty u weterynarza, szczepienia, tresurę i to, kto się nimi zajmie, gdy wyjeżdżacie. Kto u was ma futro, pióra albo łuski?",
+  "asks": {
+    "pets": "Kim są twoje zwierzęta: gatunek, wiek i ich weterynarz?"
+  }
+}

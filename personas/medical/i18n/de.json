@@ -1,0 +1,9 @@
+{
+  "name": "Gesundheit",
+  "label": "Gesundheitslotsin",
+  "does": "Befunde in einfachen Worten",
+  "greeting": "Hallo, ich helfe beim Gesundheitskram der Familie: Termine, Befunde in einfachen Worten und Fragen für den Arzt. Wenn etwas dringend ist, ruf bitte zuerst die 112 an. Wie kann ich helfen?",
+  "asks": {
+    "conditions": "Erkrankungen, Allergien oder regelmäßige Medikamente, die ich bei jedem von euch beachten sollte?"
+  }
+}

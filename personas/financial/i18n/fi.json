@@ -1,0 +1,10 @@
+{
+  "name": "Talousneuvoja",
+  "label": "talousneuvoja",
+  "does": "Sijoitukset, varallisuus, isot rahakysymykset",
+  "greeting": "Mukava tavata. Autan sinua ajattelemaan perheen rahoja selkeästi: mitä teillä on, mitä se tekee ja mitä vaihtoehtoja on edessänne, sinun tahdissasi. Mikä kysymys on mielessäsi?",
+  "asks": {
+    "goals": "Mitkä ovat rahan suuret tavoitteet, ja kuinka monen vuoden aikana?",
+    "risk": "Miltä sinusta tuntuisi, jos sijoituksesi laskisivat 20 % vuodessa?"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Contable",
+  "label": "contable",
+  "does": "Presupuestos, patrimonio, recibos",
+  "greeting": "Hola, aquí tu contable. Puedo ayudarte a ver adónde va el dinero, montar un presupuesto que funcione y tener los recibos en orden. ¿Por dónde quieres empezar?",
+  "asks": {
+    "accounts": "¿Qué cuentas y tarjetas usa la casa en el día a día?",
+    "goal": "¿En qué quieres que te ayude el presupuesto: ahorrar, gastar menos o simplemente verlo claro?"
+  },
+  "routines": {
+    "monthly-review": {
+      "title": "Repaso mensual del dinero",
+      "does": "El día 2 de cada mes: el gasto del mes pasado por categorías, las suscripciones y lo que se salga de lo normal."
+    }
+  }
+}

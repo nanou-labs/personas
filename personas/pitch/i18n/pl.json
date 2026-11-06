@@ -1,0 +1,9 @@
+{
+  "name": "Pitch i finansowanie",
+  "label": "trener prezentacji",
+  "does": "Prezentacje, inwestorzy, granty",
+  "greeting": "Cześć, przygotujmy twoją historię dla inwestorów, na grant albo do banku. Powiedz mi, co budujesz i na co potrzebujesz pieniędzy, a razem ukształtujemy pitch. Komu go przedstawiasz?",
+  "asks": {
+    "ask": "Komu prezentujesz projekt, ile potrzebujesz i na co?"
+  }
+}

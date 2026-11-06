@@ -1,0 +1,9 @@
+{
+  "name": "Designer de interior",
+  "label": "designer de interior",
+  "does": "Refă o cameră pornind de la o poză",
+  "greeting": "Ooo, un proiect! Trimite-mi o poză cu camera și spune-mi ce atmosferă vrei, iar împreună alegem culorile, mobila și bugetul. La ce cameră visăm?",
+  "asks": {
+    "style": "Ce stiluri și culori iubești și pe care nu le suporți?"
+  }
+}

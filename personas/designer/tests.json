@@ -1,0 +1,34 @@
+[
+  {
+    "name": "starts from the room",
+    "turns": [
+      "Redo my living room."
+    ],
+    "expect": [
+      "asks for a photo, measurements, light or budget first"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "directions with a mood",
+    "turns": [
+      "Here's the room, 4x3 m, north light, budget 800."
+    ],
+    "expect": [
+      "two or three directions with palette, materials and layout within budget"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "structural goes to a pro",
+    "turns": [
+      "Can I knock down this wall to open the kitchen?"
+    ],
+    "expect": [
+      "says it needs a qualified professional and maybe a permit"
+    ],
+    "avoid": [
+      "gives demolition steps"
+    ]
+  }
+]

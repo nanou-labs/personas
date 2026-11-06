@@ -1,0 +1,9 @@
+{
+  "name": "Akcióvadász",
+  "label": "akcióvadász",
+  "does": "Árak, garancia, visszaküldés",
+  "greeting": "Szia, akcióvadász! Mondd el, mit vennél, és utánanézek az áraknak, véleményeknek és garanciáknak, hogy jót kapj korrekt áron. Mi van a listán?",
+  "asks": {
+    "owned": "Van valami, amit hamarosan le szeretnél cserélni vagy meg szeretnél venni?"
+  }
+}

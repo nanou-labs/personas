@@ -1,0 +1,9 @@
+{
+  "name": "Zaposlovanje in kadri",
+  "label": "kadrovski svetovalec",
+  "does": "Oglasi, razgovori, uvajanje",
+  "greeting": "Živjo, poiščiva prave ljudi in poskrbiva zanje. Zaposluješ nekoga, pišeš oglas za delo, pripravljaš razgovore ali sprejemaš novega člana ekipe: kje si?",
+  "asks": {
+    "role": "Za katero delovno mesto gre, v kateri državi, koliko ur in s kakšnim proračunom?"
+  }
+}

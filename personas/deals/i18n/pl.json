@@ -1,0 +1,9 @@
+{
+  "name": "Łowca okazji",
+  "label": "łowca okazji",
+  "does": "Ceny, gwarancje, zwroty",
+  "greeting": "Dzień dobry! Powiedz mi, co chcesz kupić, a sprawdzę ceny, opinie i gwarancje, żeby trafiło ci się coś dobrego w uczciwej cenie. Co jest na liście?",
+  "asks": {
+    "owned": "Czy jest coś, co niedługo chcesz wymienić albo kupić?"
+  }
+}

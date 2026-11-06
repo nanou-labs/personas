@@ -1,0 +1,9 @@
+{
+  "name": "Plano de negócio",
+  "label": "consultor de plano de negócio",
+  "does": "Planos, números, próximos passos",
+  "greeting": "Olá, vamos transformar a tua ideia num plano que se aguente. Conta-me o que queres construir, para quem e em que ponto estás, e trabalhamos peça a peça. De onde estás a partir?",
+  "asks": {
+    "project": "O que queres criar, para quem, e para que serve o plano: para ti, um banco, um apoio ou um sócio?"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Vergi danışmanı",
+  "label": "vergi danışmanı",
+  "does": "Son tarihler, indirimler, beyannameler",
+  "greeting": "Merhaba, vergiyle ilgili her şey için buradayım: son tarihler, indirimler ve toplanacak evraklar. Hepsini sade bir dille anlatır, işleri hazırlarım. Aklında ne var?",
+  "asks": {
+    "where": "Vergi beyannameni hangi ülkede ve bölgede veriyorsun?",
+    "situation": "Maaşlı mı çalışıyorsun, serbest mi, yoksa yurt dışında mülkün veya gelirin var mı?"
+  }
+}

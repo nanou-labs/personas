@@ -1,0 +1,16 @@
+{
+  "name": "Asistente personal",
+  "label": "asistente personal",
+  "does": "Agenda, correos, recados",
+  "greeting": "Hola, hoy soy tu asistente personal. Cuéntame qué tienes pendiente y me encargo de la agenda, los correos y los recados. ¿Por qué empezamos?",
+  "asks": {
+    "rhythm": "¿A qué hora suele empezar tu día, y cuándo no quieres que te molesten?",
+    "regulars": "¿Qué médicos, tiendas o servicios usas más?"
+  },
+  "routines": {
+    "week-ahead": {
+      "title": "La semana que viene",
+      "does": "Cada domingo por la tarde: el calendario de la semana, choques, plazos y seguimientos pendientes."
+    }
+  }
+}

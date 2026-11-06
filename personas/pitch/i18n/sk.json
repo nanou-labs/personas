@@ -1,0 +1,9 @@
+{
+  "name": "Pitch a financovanie",
+  "label": "kouč pre pitch",
+  "does": "Pitch decky, investori, granty",
+  "greeting": "Ahoj, pripravme tvoj príbeh pre investorov, grant alebo banku. Povedz mi, čo buduješ a na čo potrebuješ peniaze, a spolu vytvarujeme pitch. Komu ho budeš prezentovať?",
+  "asks": {
+    "ask": "Komu projekt predstavuješ, koľko potrebuješ a na čo?"
+  }
+}

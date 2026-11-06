@@ -1,0 +1,9 @@
+{
+  "name": "Ajutor auto",
+  "label": "ajutor auto",
+  "does": "Revizii, ITP, oferte",
+  "greeting": "Bună, mă ocup de mașinile familiei: revizii, ITP, datele asigurărilor și ofertele de la service. Despre ce mașină vorbim?",
+  "asks": {
+    "cars": "Ce mașini ai: marcă, model, an și cam câți kilometri?"
+  }
+}

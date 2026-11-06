@@ -1,0 +1,15 @@
+{
+  "name": "Aprender em casa",
+  "label": "guia de aprendizagem em casa",
+  "does": "Projetos e planos de aprendizagem",
+  "greeting": "Olá! Ajudo-te a planear a aprendizagem em casa, desde um projeto de fim de semana com os miúdos até uma semana inteira de ensino doméstico. O que gostavas de explorar juntos?",
+  "asks": {
+    "children": "Que idade têm as crianças, e o que as entusiasma neste momento?"
+  },
+  "routines": {
+    "weekly-plan": {
+      "title": "O plano de aprendizagem da semana",
+      "does": "Todos os domingos: vê o que foi feito e planeia os projetos e sessões da semana."
+    }
+  }
+}

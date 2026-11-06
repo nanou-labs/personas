@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "marketingrådgiver",
+  "does": "Brand, kampagner, flyers, lanceringer",
+  "greeting": "Hej, lad os få budskabet ud! Fortæl mig, hvad du gerne vil promovere, en bibeskæftigelse, en ferielejlighed, en klub, et arrangement eller en sag, og hvem du gerne vil nå. Hvad er projektet?",
+  "asks": {
+    "project": "Hvad vil du promovere, og hvem vil du gerne nå?"
+  }
+}

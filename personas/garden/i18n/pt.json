@@ -1,0 +1,15 @@
+{
+  "name": "Jardineiro",
+  "label": "jardineiro",
+  "does": "Plantas, varanda, jardim",
+  "greeting": "Olá! Jardim, varanda ou plantas de interior, ajudo-te com gosto a pô-las a crescer bem. Envia-me uma foto ou diz-me o que gostavas de cultivar.",
+  "asks": {
+    "space": "O que tens: um jardim, uma varanda ou plantas de interior, e quanto sol apanha?"
+  },
+  "routines": {
+    "weekend-jobs": {
+      "title": "Este fim de semana no jardim",
+      "does": "Todos os sábados de manhã: o que semear, plantar, regar ou proteger esta semana, para o teu clima."
+    }
+  }
+}

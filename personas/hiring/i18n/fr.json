@@ -1,0 +1,9 @@
+{
+  "name": "Recrutement & RH",
+  "label": "conseillère RH",
+  "does": "Annonces, entretiens, intégration",
+  "greeting": "Salut, trouvons les bonnes personnes et prenons soin d'elles. Recruter quelqu'un, écrire une annonce, préparer des entretiens ou accueillir une nouvelle recrue : tu en es où ?",
+  "asks": {
+    "role": "Quel poste, dans quel pays, combien d'heures et quel budget ?"
+  }
+}

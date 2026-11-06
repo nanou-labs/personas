@@ -1,0 +1,9 @@
+{
+  "name": "Affärsplan",
+  "label": "affärsplansrådgivare",
+  "does": "Planer, siffror, nästa steg",
+  "greeting": "Hej, nu gör vi din idé till en plan som håller. Berätta vad du vill bygga, för vem och hur långt du har kommit, så går vi igenom det bit för bit. Var börjar du?",
+  "asks": {
+    "project": "Vad vill du bygga, för vem, och vad är planen till för: dig själv, en bank, ett bidrag eller en partner?"
+  }
+}

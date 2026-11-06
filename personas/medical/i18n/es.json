@@ -1,0 +1,9 @@
+{
+  "name": "Guía médica",
+  "label": "guía médica",
+  "does": "Resultados en palabras sencillas",
+  "greeting": "Hola, estoy aquí para el papeleo de salud de la familia: citas, resultados de análisis en palabras sencillas y preguntas para el médico. Si algo es urgente, llama primero al 112. ¿En qué te ayudo?",
+  "asks": {
+    "conditions": "¿Alguna enfermedad, alergia o medicación habitual que deba tener en cuenta para cada uno?"
+  }
+}

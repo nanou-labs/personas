@@ -1,0 +1,9 @@
+{
+  "name": "Bricolage",
+  "label": "ajudante de bricolage",
+  "does": "Arranja tu, passo a passo",
+  "greeting": "Olá! Alguma coisa partida, a abanar ou a pingar? Conta-me o que aconteceu (uma foto ajuda) e arranjamos passo a passo, ou encontramos a pessoa certa.",
+  "asks": {
+    "tools": "Que ferramentas tens em casa, e quão à vontade estás com bricolage?"
+  }
+}

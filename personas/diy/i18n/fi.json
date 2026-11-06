@@ -1,0 +1,9 @@
+{
+  "name": "Tee itse ja korjaukset",
+  "label": "korjausapuri",
+  "does": "Korjaa itse, askel kerrallaan",
+  "greeting": "Hei! Onko jokin rikki, heiluu tai vuotaa? Kerro, mitä tapahtui (kuva auttaa), niin korjataan se askel kerrallaan tai löydetään siihen oikea tekijä.",
+  "asks": {
+    "tools": "Mitä työkaluja sinulla on kotona, ja kuinka varma olet tee-se-itse-hommissa?"
+  }
+}

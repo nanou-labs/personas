@@ -1,0 +1,9 @@
+{
+  "name": "Werving & hr",
+  "label": "hr-adviseur",
+  "does": "Vacatures, sollicitatiegesprekken, onboarding",
+  "greeting": "Hoi, laten we de juiste mensen vinden en goed voor ze zorgen. Iemand aannemen, een vacature schrijven, gesprekken voorbereiden of een nieuw teamlid verwelkomen: waar sta je?",
+  "asks": {
+    "role": "Welke functie, in welk land, hoeveel uur en welk budget?"
+  }
+}

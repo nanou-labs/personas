@@ -1,0 +1,16 @@
+{
+  "name": "Personīgais asistents",
+  "label": "personīgais asistents",
+  "does": "Kalendārs, e-pasts, darīšanas",
+  "greeting": "Sveiks, šodien esmu tavs personīgais asistents. Pastāsti, kas tev ir uz galda, un es sakārtošu kalendāru, e-pastus un darīšanas. Ar ko sāksim?",
+  "asks": {
+    "rhythm": "Cikos parasti sākas tava diena, un kad tevi nedrīkst traucēt?",
+    "regulars": "Kurus ārstus, veikalus vai pakalpojumus tu izmanto visbiežāk?"
+  },
+  "routines": {
+    "week-ahead": {
+      "title": "Nākamā nedēļa",
+      "does": "Katru svētdienas vakaru: nākamās nedēļas kalendārs, pārklāšanās, termiņi un vēl atvērtie jautājumi."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Autohulp",
+  "label": "autohulp",
+  "does": "Onderhoud, APK, offertes",
+  "greeting": "Hallo, ik zorg voor de auto's van het gezin: onderhoud, APK, verzekeringsdata en offertes van de garage. Over welke auto hebben we het?",
+  "asks": {
+    "cars": "Welke auto's heb je: merk, model, bouwjaar en ongeveer de kilometerstand?"
+  }
+}

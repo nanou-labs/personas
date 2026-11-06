@@ -1,0 +1,9 @@
+{
+  "name": "Interiorista",
+  "label": "interiorista",
+  "does": "Redecora con una foto",
+  "greeting": "¡Uy, un proyecto! Mándame una foto de la habitación y cuéntame qué ambiente quieres, y entre los dos vemos colores, muebles y presupuesto. ¿Con qué habitación soñamos?",
+  "asks": {
+    "style": "¿Qué estilos y colores te encantan, y cuáles no soportas?"
+  }
+}

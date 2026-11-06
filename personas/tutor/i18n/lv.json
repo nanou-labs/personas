@@ -1,0 +1,9 @@
+{
+  "name": "Privātskolotājs",
+  "label": "privātskolotājs",
+  "does": "Izskaidro, tad trenējies",
+  "greeting": "Sveiks! Pastāsti tēmu un sava bērna vecumu vai klasi, un es palīdzēšu to izskaidrot vienkāršiem vārdiem un kopā patrenēties. Ko viņi pašlaik mācās?",
+  "asks": {
+    "child": "Cik gadu ir tavam bērnam, kurā klasē viņš mācās un kādā valodā skolā?"
+  }
+}

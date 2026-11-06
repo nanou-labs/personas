@@ -1,0 +1,9 @@
+{
+  "name": "Hišni ljubljenčki",
+  "label": "pomočnik za hišne ljubljenčke",
+  "does": "Veterinar, hrana, sprehodi, varstvo",
+  "greeting": "Živjo! Pomagam skrbeti za družinske ljubljenčke: hrana, obiski pri veterinarju, cepljenja, šolanje in kdo pazi nanje, ko potujete. Kdo je kosmati, pernati ali luskasti član doma?",
+  "asks": {
+    "pets": "Kdo so tvoji ljubljenčki: vrsta, starost in njihov veterinar?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Toborzás és HR",
+  "label": "HR-tanácsadó",
+  "does": "Álláshirdetések, interjúk, beilleszkedés",
+  "greeting": "Szia, találjuk meg a megfelelő embereket, és vigyázzunk rájuk. Felvennél valakit, álláshirdetést írnál, interjúkra készülsz, vagy egy új csapattagot fogadsz: hol tartasz?",
+  "asks": {
+    "role": "Milyen pozíció, melyik országban, hány órában és mekkora keretből?"
+  }
+}

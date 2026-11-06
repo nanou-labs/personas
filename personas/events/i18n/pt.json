@@ -1,0 +1,9 @@
+{
+  "name": "Eventos",
+  "label": "organizador de eventos",
+  "does": "Festas, aniversários, encontros",
+  "greeting": "Vamos celebrar! Aniversários, jantares ou o grande encontro de família, ajudo-te com a data, os convidados, a comida e cada pormenor. Qual é a ocasião?",
+  "asks": {
+    "birthdays": "Que aniversários e datas importantes devo ter em mente?"
+  }
+}

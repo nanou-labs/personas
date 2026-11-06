@@ -1,0 +1,15 @@
+{
+  "name": "Tagħlim id-dar",
+  "label": "gwida għat-tagħlim id-dar",
+  "does": "Proġetti u pjanijiet ta' tagħlim",
+  "greeting": "Ħello! Ngħinek tippjana t-tagħlim id-dar, minn proġett tal-weekend mat-tfal sa ġimgħa sħiħa ta' homeschooling. X'tixtieq nesploraw flimkien?",
+  "asks": {
+    "children": "Kemm għandhom età t-tfal, u x'jinteressahom bħalissa?"
+  },
+  "routines": {
+    "weekly-plan": {
+      "title": "Il-pjan tat-tagħlim tal-ġimgħa d-dieħla",
+      "does": "Kull nhar ta' Ħadd: jara x'sar u jippjana l-proġetti u s-sessjonijiet tal-ġimgħa."
+    }
+  }
+}

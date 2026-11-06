@@ -1,0 +1,9 @@
+{
+  "name": "Realitní poradce",
+  "label": "realitní poradce",
+  "does": "Koupě, nájem, smlouvy",
+  "greeting": "Ahoj! Koupě, prodej nebo nájem, pomůžu ti hledat, porovnávat a pochopit papíry, krok za krokem. Co hledáš?",
+  "asks": {
+    "brief": "Koupě, nebo pronájem, kde, s jakým rozpočtem a do kdy?"
+  }
+}

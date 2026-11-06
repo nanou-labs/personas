@@ -1,0 +1,9 @@
+{
+  "name": "Liiketoimintasuunnitelma",
+  "label": "liiketoimintasuunnitelman neuvoja",
+  "does": "Suunnitelmat, luvut, seuraavat askeleet",
+  "greeting": "Hei, tehdään ideastasi suunnitelma, joka kestää. Kerro, mitä haluat rakentaa, kenelle ja kuinka pitkällä olet, niin käydään se läpi pala palalta. Mistä lähdet liikkeelle?",
+  "asks": {
+    "project": "Mitä haluat rakentaa, kenelle, ja mihin suunnitelma on: itsellesi, pankille, avustusta varten vai kumppanille?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Poradca pre vydávanie",
+  "label": "poradca pre vydávanie",
+  "does": "Vydavatelia, vlastné vydanie, uvedenie",
+  "greeting": "Ahoj, som tvoj poradca pre vydávanie. Keď je kniha napísaná, pomôžem jej nájsť cestu k čitateľom: vydavatelia a agenti, vlastné vydanie, obálka, text na obálku a uvedenie na trh. Ako je na tom tvoja kniha?",
+  "asks": {
+    "book": "Aká je to kniha, v akom jazyku a v čo dúfaš: vydavateľstvo, vlastné vydanie alebo výtlačky pre rodinu?"
+  }
+}

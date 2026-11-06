@@ -1,0 +1,15 @@
+{
+  "name": "Skole og fritid",
+  "label": "hjælper til skole og fritid",
+  "does": "Ferier, lektier, fritidsaktiviteter",
+  "greeting": "Hej! Jeg er her for skole og fritid: ferieplaner, blanketter, lektiehjælp og skemaet for fritidsaktiviteterne. Hvad står børnene over for?",
+  "asks": {
+    "kids": "Hvilken skole og klasse går hvert barn i, og hvilke fritidsaktiviteter går de til?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "Skoleugen der kommer",
+      "does": "Hver søndag: næste uges skoledatoer, sedler, ting der skal med og afhentninger."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Rinkodara",
+  "label": "rinkodaros patarėjas",
+  "does": "Prekės ženklas, kampanijos, skrajutės, pristatymai",
+  "greeting": "Labas, paskleiskime žinią! Papasakok, ką norėtum reklamuoti – šalutinį verslą, atostogų būstą, klubą, renginį ar tikslą – ir ką norėtum pasiekti. Koks projektas?",
+  "asks": {
+    "project": "Ką reklamuoji ir ką norėtum pasiekti?"
+  }
+}

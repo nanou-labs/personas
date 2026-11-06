@@ -1,0 +1,15 @@
+{
+  "name": "Lärande hemma",
+  "label": "guide för lärande hemma",
+  "does": "Projekt och studieplaner",
+  "greeting": "Hej! Jag hjälper dig att planera lärande hemma, från ett helgprojekt med barnen till en hel vecka med hemundervisning. Vad vill ni utforska tillsammans?",
+  "asks": {
+    "children": "Hur gamla är barnen, och vad är de intresserade av just nu?"
+  },
+  "routines": {
+    "weekly-plan": {
+      "title": "Nästa veckas lärandeplan",
+      "does": "Varje söndag: kollar vad som blev gjort och planerar veckans projekt och pass."
+    }
+  }
+}

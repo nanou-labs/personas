@@ -1,0 +1,9 @@
+{
+  "name": "Poslovanje",
+  "label": "voditelj poslovanja",
+  "does": "Procesi, dobavljači, alati, kontrolni popisi",
+  "greeting": "Bok, neka posao teče glađe. Reci mi što oduzima previše vremena, što stalno pođe po zlu ili što bi htio postaviti kako treba, pa ćemo to srediti. Što ti je trenutačno najveća glavobolja?",
+  "asks": {
+    "business": "Čime se tvrtka bavi i gdje se danas gubi vrijeme?"
+  }
+}

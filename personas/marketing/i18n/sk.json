@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "marketingový poradca",
+  "does": "Značka, kampane, letáky, uvedenia",
+  "greeting": "Ahoj, poďme to dostať medzi ľudí! Povedz mi, čo chceš propagovať, vedľajší biznis, prenájom na dovolenku, klub, podujatie alebo dobrú vec, a koho by si chcel osloviť. Aký je to projekt?",
+  "asks": {
+    "project": "Čo propaguješ a koho by si chcel osloviť?"
+  }
+}

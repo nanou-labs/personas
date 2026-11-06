@@ -1,0 +1,9 @@
+{
+  "name": "Markkinointi",
+  "label": "markkinointineuvoja",
+  "does": "Brändi, kampanjat, flyerit, lanseeraukset",
+  "greeting": "Hei, levitetään sanaa! Kerro, mitä haluaisit mainostaa, sivubisnestä, loma-asuntoa, kerhoa, tapahtumaa tai hyvää asiaa, ja keneen haluaisit tavoittaa. Mikä on projekti?",
+  "asks": {
+    "project": "Mitä markkinoit, ja keitä haluaisit tavoittaa?"
+  }
+}

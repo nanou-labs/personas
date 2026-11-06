@@ -1,0 +1,9 @@
+{
+  "name": "Arhitekts",
+  "label": "arhitekts",
+  "does": "Renovācija, atļaujas, plāni",
+  "greeting": "Sveiks, padomāsim par tavu telpu! Pastāsti par projektu, renovāciju, piebūvi vai jaunu plānojumu, un atsūti foto vai plānus, ja tev tādi ir. Ko tu vēlētos mainīt?",
+  "asks": {
+    "home": "Kāds tas ir mājoklis, aptuveni cik liels, un vai tas pieder tev?"
+  }
+}

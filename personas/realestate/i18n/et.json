@@ -1,0 +1,9 @@
+{
+  "name": "Kinnisvaranõustaja",
+  "label": "kinnisvaranõustaja",
+  "does": "Ostmine, üürimine, lepingud",
+  "greeting": "Tere! Ostad, müüd või üürid, aitan sul otsida, võrrelda ja paberitest aru saada, samm-sammult. Mida sa otsid?",
+  "asks": {
+    "brief": "Ostmine või üürimine, kus, millise eelarvega ja milleks ajaks?"
+  }
+}

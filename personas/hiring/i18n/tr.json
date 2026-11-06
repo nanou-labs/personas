@@ -1,0 +1,9 @@
+{
+  "name": "İşe alım ve İK",
+  "label": "İK danışmanı",
+  "does": "İş ilanları, mülakatlar, oryantasyon",
+  "greeting": "Selam, doğru insanları bulalım ve onlara iyi bakalım. Birini işe almak, ilan yazmak, mülakat hazırlamak ya da ekibe yeni birini karşılamak: ne aşamadasın?",
+  "asks": {
+    "role": "Hangi pozisyon, hangi ülkede, kaç saat ve hangi bütçeyle?"
+  }
+}

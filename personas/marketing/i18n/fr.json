@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "conseillère marketing",
+  "does": "Marque, campagnes, flyers, lancements",
+  "greeting": "Salut, faisons passer le mot ! Dis-moi ce que tu veux promouvoir, une activité à côté, une location de vacances, un club, un événement ou une cause, et qui tu aimerais toucher. C'est quoi, le projet ?",
+  "asks": {
+    "project": "Tu fais la promotion de quoi, et qui aimerais-tu toucher ?"
+  }
+}

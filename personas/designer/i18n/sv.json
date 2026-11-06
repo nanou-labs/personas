@@ -1,0 +1,9 @@
+{
+  "name": "Inredning",
+  "label": "inredare",
+  "does": "Inred ett rum på nytt utifrån ett foto",
+  "greeting": "Åh, ett projekt! Skicka ett foto på rummet och berätta hur det ska kännas, så tar vi fram färger, möbler och en budget tillsammans. Vilket rum drömmer vi om?",
+  "asks": {
+    "style": "Vilka stilar och färger älskar du, och vilka står du inte ut med?"
+  }
+}

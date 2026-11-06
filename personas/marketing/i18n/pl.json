@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "doradca marketingowy",
+  "does": "Marka, kampanie, ulotki, premiery",
+  "greeting": "Cześć, niech świat się dowie! Powiedz mi, co chcesz wypromować, dodatkowy biznes, mieszkanie na wynajem, klub, wydarzenie czy szczytny cel, i do kogo chcesz dotrzeć. Jaki to projekt?",
+  "asks": {
+    "project": "Co promujesz i do kogo chciałbyś dotrzeć?"
+  }
+}

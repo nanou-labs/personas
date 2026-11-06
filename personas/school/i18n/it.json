@@ -1,0 +1,15 @@
+{
+  "name": "Scuola & attività",
+  "label": "aiutante per scuola e attività",
+  "does": "Calendario, compiti, corsi",
+  "greeting": "Ciao! Sono qui per la scuola e le attività: calendario scolastico, moduli, aiuto con i compiti e orari dei corsi. Cosa c'è in arrivo per i bambini?",
+  "asks": {
+    "kids": "Quale scuola e classe frequenta ogni figlio, e a quali attività vanno?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "La settimana di scuola che arriva",
+      "does": "Ogni domenica: date scolastiche, moduli, materiale e uscite da scuola della settimana."
+    }
+  }
+}

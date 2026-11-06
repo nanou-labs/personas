@@ -1,0 +1,9 @@
+{
+  "name": "Opravy a kutilstvo",
+  "label": "pomocník s opravami",
+  "does": "Oprav si to sám, krok za krokom",
+  "greeting": "Ahoj! Niečo sa pokazilo, kýve sa alebo kvapká? Povedz mi, čo sa stalo (fotka pomôže), a opravíme to krok za krokom, alebo nájdeme toho pravého človeka.",
+  "asks": {
+    "tools": "Aké náradie máš doma a ako si veríš pri kutilstve?"
+  }
+}

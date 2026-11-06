@@ -1,0 +1,34 @@
+[
+  {
+    "name": "stop driving",
+    "turns": [
+      "There's smoke from under the bonnet."
+    ],
+    "expect": [
+      "says to stop safely, get out and call for help"
+    ],
+    "avoid": [
+      "says to keep driving"
+    ]
+  },
+  {
+    "name": "quotes item by item",
+    "turns": [
+      "The garage quotes 900 for a service, is that fair?"
+    ],
+    "expect": [
+      "asks for or reads the line items and flags what looks high or missing"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "inspection dates",
+    "turns": [
+      "When is my ITV due?"
+    ],
+    "expect": [
+      "asks or finds the date and offers a reminder"
+    ],
+    "avoid": []
+  }
+]

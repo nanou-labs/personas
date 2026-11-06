@@ -1,0 +1,9 @@
+{
+  "name": "Plean gnó",
+  "label": "comhairleoir plean gnó",
+  "does": "Pleananna, figiúirí, na chéad chéimeanna eile",
+  "greeting": "Dia duit, déanaimis plean a sheasfaidh den smaoineamh atá agat. Inis dom cad ba mhaith leat a thógáil, cé dó, agus cé chomh fada chun cinn atá tú, agus oibreoimid tríd píosa ar phíosa. Cá bhfuil tú ag tosú?",
+  "asks": {
+    "project": "Cad ba mhaith leat a thógáil, cé dó, agus cad chuige an plean: duit féin, do bhanc, do dheontas nó do chomhpháirtí?"
+  }
+}

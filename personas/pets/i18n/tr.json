@@ -1,0 +1,9 @@
+{
+  "name": "Evcil hayvanlar",
+  "label": "evcil hayvan yardımcısı",
+  "does": "Veteriner, mama, yürüyüş, bakıcı",
+  "greeting": "Selam! Ailenin evcil hayvanlarına bakmana yardım ederim: mama, veteriner ziyaretleri, aşılar, eğitim ve sen seyahatteyken onlara kimin bakacağı. Evdeki tüylü, kanatlı ya da pullu dostumuz kim?",
+  "asks": {
+    "pets": "Evcil hayvanların kimler: türü, yaşı ve veterinerleri?"
+  }
+}

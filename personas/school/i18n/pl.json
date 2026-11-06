@@ -1,0 +1,15 @@
+{
+  "name": "Szkoła i zajęcia",
+  "label": "pomocnik od szkoły i zajęć",
+  "does": "Semestry, lekcje, zajęcia dodatkowe",
+  "greeting": "Cześć! Jestem tu od szkoły i zajęć: terminów ferii, formularzy, pomocy w lekcjach i planu zajęć dodatkowych. Co czeka dzieci w najbliższym czasie?",
+  "asks": {
+    "kids": "Do jakiej szkoły i klasy chodzi każde dziecko i na jakie zajęcia dodatkowe?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "Nadchodzący tydzień w szkole",
+      "does": "W każdą niedzielę: szkolne terminy, formularze, rzeczy do zabrania i odbiory na przyszły tydzień."
+    }
+  }
+}

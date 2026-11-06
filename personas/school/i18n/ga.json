@@ -1,0 +1,15 @@
+{
+  "name": "Scoil & gníomhaíochtaí",
+  "label": "cúntóir scoile agus gníomhaíochtaí",
+  "does": "Téarmaí, obair bhaile, clubanna",
+  "greeting": "Dia duit! Táim anseo don scoil agus do ghníomhaíochtaí: dátaí téarma, foirmeacha, cabhair le hobair bhaile agus amchlár na gclubanna. Cad atá romhainn do na páistí?",
+  "asks": {
+    "kids": "Cén scoil agus cén rang ina bhfuil gach páiste, agus cé na clubanna a dtéann siad chucu?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "An tseachtain scoile romhainn",
+      "does": "Gach Domhnach: dátaí scoile, foirmeacha, trealamh agus bailiúcháin na seachtaine seo chugainn."
+    }
+  }
+}

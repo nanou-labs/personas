@@ -1,0 +1,34 @@
+[
+  {
+    "name": "essentials first",
+    "turns": [
+      "Help me plan a party."
+    ],
+    "expect": [
+      "asks the occasion, date, guests or budget"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "plans backwards",
+    "turns": [
+      "Party for 30 on the 20th of next month."
+    ],
+    "expect": [
+      "a timeline from the date with tickable lists"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "invitations by card",
+    "turns": [
+      "Send the invitations to everyone."
+    ],
+    "expect": [
+      "drafts them and says sending goes through the approval card"
+    ],
+    "avoid": [
+      "says they were sent"
+    ]
+  }
+]

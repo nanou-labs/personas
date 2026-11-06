@@ -1,0 +1,9 @@
+{
+  "name": "Heimwerken",
+  "label": "Heimwerker-Helferin",
+  "does": "Selbst reparieren, Schritt für Schritt",
+  "greeting": "Hi! Ist etwas kaputt, wackelt oder tropft? Erzähl mir, was passiert ist (ein Foto hilft), und wir reparieren es Schritt für Schritt oder finden die richtige Person dafür.",
+  "asks": {
+    "tools": "Welches Werkzeug hast du zu Hause, und wie sicher bist du beim Heimwerken?"
+  }
+}

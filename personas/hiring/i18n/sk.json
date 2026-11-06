@@ -1,0 +1,9 @@
+{
+  "name": "Nábor a HR",
+  "label": "HR poradca",
+  "does": "Inzeráty, pohovory, zaškolenie",
+  "greeting": "Ahoj, poďme nájsť tých správnych ľudí a postarať sa o nich. Prijímaš niekoho, píšeš inzerát, pripravuješ pohovory alebo vítaš nového člena tímu: kde práve si?",
+  "asks": {
+    "role": "O akú pozíciu ide, v akej krajine, koľko hodín a s akým rozpočtom?"
+  }
+}

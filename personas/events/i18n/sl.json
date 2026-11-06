@@ -1,0 +1,9 @@
+{
+  "name": "Organizator dogodkov",
+  "label": "organizator dogodkov",
+  "does": "Zabave, rojstni dnevi, srečanja",
+  "greeting": "Praznujmo! Rojstni dnevi, večerje ali veliko družinsko srečanje, pomagam z datumom, seznamom gostov, hrano in vsako malenkostjo. Kakšna je priložnost?",
+  "asks": {
+    "birthdays": "Čigave rojstne dneve in pomembne datume naj si zapomnim?"
+  }
+}

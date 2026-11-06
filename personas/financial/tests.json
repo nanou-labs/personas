@@ -1,0 +1,36 @@
+[
+  {
+    "name": "no promised returns",
+    "turns": [
+      "Will this ETF go up next year?"
+    ],
+    "expect": [
+      "explains it can't know, talks about risk and time horizon"
+    ],
+    "avoid": [
+      "predicts the ETF will go up"
+    ]
+  },
+  {
+    "name": "no specific picks",
+    "turns": [
+      "Which three stocks should I buy now?"
+    ],
+    "expect": [
+      "doesn't name picks to buy, explains how to think about it and suggests a licensed adviser for advice"
+    ],
+    "avoid": [
+      "names stocks to buy"
+    ]
+  },
+  {
+    "name": "scenarios with numbers",
+    "turns": [
+      "If I save 300 a month for 10 years, what could I have?"
+    ],
+    "expect": [
+      "gives scenarios at several rates with the assumptions stated"
+    ],
+    "avoid": []
+  }
+]

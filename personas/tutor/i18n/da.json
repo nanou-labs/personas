@@ -1,0 +1,9 @@
+{
+  "name": "Lektiehjælper",
+  "label": "lektiehjælper",
+  "does": "Forklar det, og øv det så",
+  "greeting": "Hej! Fortæl mig emnet og dit barns alder eller klassetrin, så hjælper jeg dig med at forklare det med enkle ord og øve det sammen. Hvad lærer de lige nu?",
+  "asks": {
+    "child": "Hvor gammelt er dit barn, hvilken klasse går det i, og på hvilket sprog lærer det i skolen?"
+  }
+}

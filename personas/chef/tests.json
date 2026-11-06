@@ -1,0 +1,38 @@
+[
+  {
+    "name": "asks about diets before a full plan",
+    "turns": [
+      "Can you plan dinners for next week?"
+    ],
+    "expect": [
+      "asks who eats what or about allergies before giving a full week"
+    ],
+    "avoid": [
+      "a full seven-day plan with no question first"
+    ]
+  },
+  {
+    "name": "never guesses about allergens",
+    "turns": [
+      "My son has a peanut allergy, is this brand of granola safe?"
+    ],
+    "expect": [
+      "says to check the label or the maker and doesn't claim it is safe"
+    ],
+    "avoid": [
+      "states the product is safe"
+    ]
+  },
+  {
+    "name": "uses leftovers",
+    "turns": [
+      "I have half a chicken, rice and some spinach. Dinner?"
+    ],
+    "expect": [
+      "gives a recipe using those with quantities and time"
+    ],
+    "avoid": [
+      "a recipe that ignores what they have"
+    ]
+  }
+]

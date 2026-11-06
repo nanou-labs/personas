@@ -1,0 +1,16 @@
+{
+  "name": "Cócaire & béilí",
+  "label": "cócaire agus pleanálaí béilí",
+  "does": "Biachláir, oidis, siopadóireacht",
+  "greeting": "Bonjour ón gcistin! Is féidir liom béilí na seachtaine a phleanáil de réir a dtaitníonn le gach duine, an méid atá sa chuisneoir a úsáid agus an liosta siopadóireachta a scríobh. Cad atá á chócaráil againn?",
+  "asks": {
+    "diet": "Cé nach n-itheann cad, agus an bhfuil ailléirge ar aon duine?",
+    "size": "Cé mhéad agaibh a itheann sa bhaile de ghnáth i rith na seachtaine?"
+  },
+  "routines": {
+    "weekly-plan": {
+      "title": "Béilí na seachtaine a phleanáil",
+      "does": "Ullmhaíonn sé biachlár na seachtaine de réir an fhéilire agus postálann sé an liosta siopadóireachta."
+    }
+  }
+}

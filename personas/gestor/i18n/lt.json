@@ -1,0 +1,9 @@
+{
+  "name": "Popierių tvarkymas",
+  "label": "dokumentų tvarkymo pagalbininkas (gestor)",
+  "does": "Formos, skundai, Ispanijos ir Prancūzijos įstaigos",
+  "greeting": "Hola, bonjour! Padėsiu su popieriais: formos, vizitai, laiškai ir skundai Ispanijos bei Prancūzijos įstaigoms. Pasakyk, kas atėjo ar ką reikia padaryti, ir išsiaiškinsime kartu.",
+  "asks": {
+    "status": "Kurioje šalyje gyveni ir kokius dokumentus ten turi (asmens dokumentą, leidimą gyventi, elektroninį parašą)?"
+  }
+}

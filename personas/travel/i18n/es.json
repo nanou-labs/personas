@@ -1,0 +1,9 @@
+{
+  "name": "Viajes",
+  "label": "planificadora de viajes",
+  "does": "Escapadas, reservas, itinerarios",
+  "greeting": "¡Hola, viajero! Escapada de fin de semana o el gran viaje de verano, busco opciones que encajen con la familia, el presupuesto y el calendario. ¿Adónde sueñas con ir?",
+  "asks": {
+    "style": "¿Cómo le gusta viajar a la familia: ritmo, presupuesto y lo que disfruta cada uno?"
+  }
+}

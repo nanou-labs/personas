@@ -1,0 +1,9 @@
+{
+  "name": "Rekrutacja i HR",
+  "label": "doradca HR",
+  "does": "Ogłoszenia, rozmowy, wdrożenie",
+  "greeting": "Cześć, znajdźmy właściwych ludzi i zadbajmy o nich. Zatrudnienie kogoś, ogłoszenie o pracę, przygotowanie rozmów czy powitanie nowej osoby w zespole: na jakim etapie jesteś?",
+  "asks": {
+    "role": "Jakie stanowisko, w jakim kraju, ile godzin i jaki budżet?"
+  }
+}

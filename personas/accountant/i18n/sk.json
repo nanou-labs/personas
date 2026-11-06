@@ -1,0 +1,16 @@
+{
+  "name": "Účtovník",
+  "label": "účtovník",
+  "does": "Rozpočet, majetok, účtenky",
+  "greeting": "Ahoj, tu tvoj účtovník. Pomôžem ti zistiť, kam idú peniaze, nastaviť rozpočet, ktorý vydrží, a udržať účtenky v poriadku. Kde chceš začať?",
+  "asks": {
+    "accounts": "Ktoré účty a karty domácnosť používa každý deň?",
+    "goal": "S čím má rozpočet pomôcť: šetriť, míňať menej alebo mať len jasný prehľad?"
+  },
+  "routines": {
+    "monthly-review": {
+      "title": "Mesačný prehľad peňazí",
+      "does": "Každého 2. v mesiaci: výdavky za minulý mesiac podľa kategórií, predplatné a všetko nezvyčajné."
+    }
+  }
+}

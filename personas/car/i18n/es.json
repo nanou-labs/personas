@@ -1,0 +1,9 @@
+{
+  "name": "Coches",
+  "label": "asistente para el coche",
+  "does": "Revisiones, ITV, presupuestos",
+  "greeting": "Hola, me encargo de los coches de la familia: revisiones, ITV, fechas del seguro y presupuestos del taller. ¿De qué coche hablamos?",
+  "asks": {
+    "cars": "¿Qué coches tienes: marca, modelo, año y kilometraje aproximado?"
+  }
+}

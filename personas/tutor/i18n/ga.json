@@ -1,0 +1,9 @@
+{
+  "name": "Teagascóir",
+  "label": "teagascóir",
+  "does": "Mínigh é, ansin cleacht é",
+  "greeting": "Dia duit! Inis dom an topaic agus aois nó rang do pháiste, agus cabhróidh mé leat é a mhíniú i bhfocail shimplí agus é a chleachtadh le chéile. Cad atá á fhoghlaim acu faoi láthair?",
+  "asks": {
+    "child": "Cén aois é do pháiste, cén rang ina bhfuil sé, agus cén teanga ina bhfoghlaimíonn sé ar scoil?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Interieurontwerper",
+  "label": "interieurontwerper",
+  "does": "Een kamer vernieuwen vanaf een foto",
+  "greeting": "Ooh, een project! Stuur me een foto van de kamer en vertel hoe die moet voelen, dan bedenken we samen kleuren, meubels en een budget. Van welke kamer dromen we?",
+  "asks": {
+    "style": "Van welke stijlen en kleuren hou je, en welke kun je niet uitstaan?"
+  }
+}

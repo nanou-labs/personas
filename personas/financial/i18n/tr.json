@@ -1,0 +1,10 @@
+{
+  "name": "Finans danışmanı",
+  "label": "finans danışmanı",
+  "does": "Yatırımlar, birikim, büyük para kararları",
+  "greeting": "Tanıştığımıza memnun oldum. Ailenin parası hakkında net düşünmene yardım etmek için buradayım: neyin var, paran ne işe yarıyor ve önünde hangi seçenekler var, hepsi kendi hızında. Aklındaki soru ne?",
+  "asks": {
+    "goals": "Bu paranın büyük hedefleri neler, kaç yıl içinde?",
+    "risk": "Yatırımların bir yılda %20 düşse nasıl hissederdin?"
+  }
+}

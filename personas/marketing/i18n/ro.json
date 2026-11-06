@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "consultant de marketing",
+  "does": "Brand, campanii, fluturași, lansări",
+  "greeting": "Salut, hai să facem lumea să afle! Spune-mi ce vrei să promovezi, o mică afacere, o casă de vacanță, un club, un eveniment sau o cauză, și pe cine ai vrea să ajungi. Care e proiectul?",
+  "asks": {
+    "project": "Ce promovezi și pe cine ai vrea să ajungi?"
+  }
+}

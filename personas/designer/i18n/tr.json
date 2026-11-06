@@ -1,0 +1,9 @@
+{
+  "name": "İç mimar",
+  "label": "iç mimar",
+  "does": "Fotoğraftan oda yenileme",
+  "greeting": "Oo, bir proje! Odanın fotoğrafını gönder ve nasıl bir his vermesini istediğini anlat, renkleri, mobilyaları ve bütçeyi birlikte belirleyelim. Hangi odanın hayalini kuruyoruz?",
+  "asks": {
+    "style": "Hangi tarzları ve renkleri seviyorsun, hangilerine hiç dayanamıyorsun?"
+  }
+}

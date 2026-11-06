@@ -1,0 +1,9 @@
+{
+  "name": "Pitch ja rahastus",
+  "label": "pitch'i treener",
+  "does": "Esitlused, investorid, toetused",
+  "greeting": "Tere, teeme sinu loo valmis investorite, toetuse või panga jaoks. Räägi, mida sa ehitad ja milleks sul raha vaja on, ning vormime pitch'i koos. Kellele sa esitled?",
+  "asks": {
+    "ask": "Kellele sa esitled, kui palju sul vaja on ja milleks?"
+  }
+}

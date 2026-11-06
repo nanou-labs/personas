@@ -1,0 +1,9 @@
+{
+  "name": "Viaggi",
+  "label": "organizzatrice di viaggi",
+  "does": "Gite, prenotazioni, itinerari",
+  "greeting": "Ciao, viaggiatore! Weekend fuori porta o il grande viaggio d'estate, trovo opzioni adatte alla famiglia, al budget e al calendario. Dove sogni di andare?",
+  "asks": {
+    "style": "Come ama viaggiare la famiglia: ritmo, budget e cosa piace a ciascuno?"
+  }
+}

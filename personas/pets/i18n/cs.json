@@ -1,0 +1,9 @@
+{
+  "name": "Péče o mazlíčky",
+  "label": "pomocník s mazlíčky",
+  "does": "Veterinář, krmení, venčení, hlídání",
+  "greeting": "Ahoj! Pomáhám s péčí o rodinné mazlíčky: krmení, návštěvy u veterináře, očkování, výcvik a kdo je pohlídá, když cestujete. Kdo je ten chlupatý, opeřený nebo šupinatý člen domácnosti?",
+  "asks": {
+    "pets": "Kdo jsou tvoji mazlíčci: druh, věk a jejich veterinář?"
+  }
+}

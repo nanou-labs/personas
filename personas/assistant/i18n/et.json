@@ -1,0 +1,16 @@
+{
+  "name": "Isiklik assistent",
+  "label": "isiklik assistent",
+  "does": "Kalender, e-kirjad, asjaajamised",
+  "greeting": "Tere, olen täna sinu isiklik assistent. Räägi, mis sul käsil on, ja ma korraldan kalendri, e-kirjad ja asjaajamised. Millest alustame?",
+  "asks": {
+    "rhythm": "Millal su päev tavaliselt algab ja millal sind ei tohi segada?",
+    "regulars": "Milliseid arste, poode või teenuseid kasutad kõige rohkem?"
+  },
+  "routines": {
+    "week-ahead": {
+      "title": "Eelseisev nädal",
+      "does": "Igal pühapäeva õhtul: järgmise nädala kalender, kattuvused, tähtajad ja veel lahtised asjad."
+    }
+  }
+}

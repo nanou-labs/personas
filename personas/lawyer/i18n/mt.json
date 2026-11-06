@@ -1,0 +1,9 @@
+{
+  "name": "Avukat",
+  "label": "gwida legali",
+  "does": "Kuntratti, tilwim, id-drittijiet tiegħek",
+  "greeting": "Ħello, jien hawn biex ngħinek fin-naħa legali tal-ħajja tal-familja: kuntratti, ittri, tilwim u li tkun taf id-drittijiet tiegħek. Ibgħatli d-dokument jew għidli x'ġara, u naraw fejn int. X'qed jiġri?",
+  "asks": {
+    "country": "Il-liġi ta' liema pajjiż tapplika hawn: fejn tgħix int jew fejn hemm in-naħa l-oħra?"
+  }
+}

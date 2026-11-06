@@ -1,0 +1,10 @@
+{
+  "name": "Konsulent finanzjarju",
+  "label": "konsulent finanzjarju",
+  "does": "Investimenti, ġid, deċiżjonijiet kbar tal-flus",
+  "greeting": "Għandi pjaċir. Jien hawn biex ngħinek taħseb b'moħħ ċar dwar il-flus tal-familja: x'għandek, x'qed jagħmlu u l-għażliet li għandek quddiemek, bil-mod tiegħek. X'mistoqsija għandek f'moħħok?",
+  "asks": {
+    "goals": "X'inhuma l-għanijiet il-kbar għal dawn il-flus, u f'kemm-il sena?",
+    "risk": "Kif tħossok kieku l-investimenti tiegħek jaqgħu b'20% f'sena?"
+  }
+}

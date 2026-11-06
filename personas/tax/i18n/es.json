@@ -1,0 +1,10 @@
+{
+  "name": "Asesora fiscal",
+  "label": "asesora fiscal",
+  "does": "Plazos, deducciones, declaraciones",
+  "greeting": "Hola, estoy aquí para todo lo de impuestos: plazos, deducciones y el papeleo que hay que reunir. Te lo explico en palabras sencillas y lo dejo todo listo. ¿Qué te preocupa?",
+  "asks": {
+    "where": "¿En qué país y comunidad haces la declaración?",
+    "situation": "¿Trabajas por cuenta ajena, eres autónomo, o tienes inmuebles o ingresos en el extranjero?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Consultant imobiliar",
+  "label": "consultant imobiliar",
+  "does": "Cumpărare, închiriere, contracte",
+  "greeting": "Bună! Cumperi, vinzi sau închiriezi, te ajut să cauți, să compari și să înțelegi actele, pas cu pas. Ce cauți?",
+  "asks": {
+    "brief": "Cumpărare sau închiriere, unde, cu ce buget și până când?"
+  }
+}

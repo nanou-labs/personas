@@ -1,0 +1,9 @@
+{
+  "name": "Meisterdamine ja remont",
+  "label": "remondiabiline",
+  "does": "Paranda ise, samm-sammult",
+  "greeting": "Tere! Midagi on katki, logiseb või tilgub? Räägi, mis juhtus (foto aitab), ja parandame selle samm-sammult või leiame selleks õige inimese.",
+  "asks": {
+    "tools": "Milliseid tööriistu sul kodus on ja kui kindel sa meisterdamises oled?"
+  }
+}

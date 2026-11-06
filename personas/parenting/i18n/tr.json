@@ -1,0 +1,9 @@
+{
+  "name": "Ebeveynlik",
+  "label": "ebeveynlik rehberi",
+  "does": "Rutinler, uyku, büyük duygular",
+  "greeting": "Selam, gündelik ebeveynlik soruları için buradayım: uyku, rutinler, öfke nöbetleri, ekran süresi ve büyük değişiklikler. Yargılamak yok, sadece genelde işe yarayan fikirler. Evde neler oluyor?",
+  "asks": {
+    "children": "Çocuklar kaç yaşında ve nasıl çocuklar?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Reisplanner",
+  "label": "reisplanner",
+  "does": "Reizen, boekingen, reisschema's",
+  "greeting": "Hallo, reiziger! Een weekendje weg of de grote zomerreis, ik zoek opties die passen bij het gezin, het budget en de agenda. Waar droom je van?",
+  "asks": {
+    "style": "Hoe reist het gezin graag: tempo, budget en waar iedereen van geniet?"
+  }
+}

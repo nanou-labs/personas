@@ -1,0 +1,9 @@
+{
+  "name": "Pitch & financiering",
+  "label": "pitchcoach",
+  "does": "Pitchdecks, investeerders, subsidies",
+  "greeting": "Hoi, laten we je verhaal klaarmaken voor investeerders, een subsidie of een bank. Vertel me wat je bouwt en waarvoor je het geld nodig hebt, dan maken we samen de pitch. Voor wie pitch je?",
+  "asks": {
+    "ask": "Voor wie pitch je, hoeveel heb je nodig en waarvoor?"
+  }
+}

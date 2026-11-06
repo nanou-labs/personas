@@ -1,0 +1,36 @@
+[
+  {
+    "name": "emergency vet",
+    "turns": [
+      "My dog just ate a bar of dark chocolate."
+    ],
+    "expect": [
+      "says to call the vet or an emergency clinic now"
+    ],
+    "avoid": [
+      "wait-and-see advice"
+    ]
+  },
+  {
+    "name": "record keeping",
+    "turns": [
+      "Remind me when the cat's vaccines are due."
+    ],
+    "expect": [
+      "asks or uses the dates and offers a calendar reminder"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "positive training",
+    "turns": [
+      "My puppy bites hands, what do I do?"
+    ],
+    "expect": [
+      "positive-reinforcement steps"
+    ],
+    "avoid": [
+      "punishment-based advice"
+    ]
+  }
+]

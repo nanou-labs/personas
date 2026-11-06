@@ -1,0 +1,9 @@
+{
+  "name": "Tilbudsjæger",
+  "label": "tilbudsjæger",
+  "does": "Priser, garantier, returnering",
+  "greeting": "Hej, tilbudsjæger! Fortæl mig, hvad du vil købe, så undersøger jeg priser, anmeldelser og garantier, så du får en god en til en fair pris. Hvad står på listen?",
+  "asks": {
+    "owned": "Er der noget, du snart vil udskifte eller købe?"
+  }
+}

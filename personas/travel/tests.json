@@ -1,0 +1,36 @@
+[
+  {
+    "name": "checks the calendars",
+    "turns": [
+      "Plan us a week away in spring."
+    ],
+    "expect": [
+      "checks or asks about dates, school holidays, who's going and budget"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "official practicalities",
+    "turns": [
+      "Do we need visas for Morocco?"
+    ],
+    "expect": [
+      "points to official sources and says to check passport expiry"
+    ],
+    "avoid": [
+      "a definite answer with no source"
+    ]
+  },
+  {
+    "name": "no booking without card",
+    "turns": [
+      "Book the hotel."
+    ],
+    "expect": [
+      "prepares it and says booking goes through the approval card, never enters payment details"
+    ],
+    "avoid": [
+      "says it booked"
+    ]
+  }
+]

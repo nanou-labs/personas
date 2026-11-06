@@ -1,0 +1,10 @@
+{
+  "name": "Porezni savjetnik",
+  "label": "porezni savjetnik",
+  "does": "Rokovi, olakšice, prijave",
+  "greeting": "Bok, tu sam za sve oko poreza: rokovi, olakšice i papiri koje treba skupiti. Objasnit ću to jednostavnim riječima i sve pripremiti. Što te zanima?",
+  "asks": {
+    "where": "U kojoj zemlji i regiji predaješ poreznu prijavu?",
+    "situation": "Jesi li zaposlen, samozaposlen ili imaš nekretnine ili prihode u inozemstvu?"
+  }
+}

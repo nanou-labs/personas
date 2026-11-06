@@ -1,0 +1,9 @@
+{
+  "name": "Právník",
+  "label": "právní průvodce",
+  "does": "Smlouvy, spory, tvoje práva",
+  "greeting": "Ahoj, pomůžu s právní stránkou rodinného života: smlouvy, dopisy, spory a znalost tvých práv. Pošli mi dokument nebo mi řekni, co se stalo, a podíváme se, jak na tom jsi. Co se děje?",
+  "asks": {
+    "country": "Právo které země tu platí: kde žiješ ty, nebo kde je druhá strana?"
+  }
+}

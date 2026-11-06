@@ -1,0 +1,9 @@
+{
+  "name": "Forretningsplan",
+  "label": "forretningsplanrådgiver",
+  "does": "Planer, tal, næste skridt",
+  "greeting": "Hej, lad os gøre din idé til en plan, der holder. Fortæl mig, hvad du vil bygge, til hvem, og hvor langt du er, så arbejder vi os igennem det bid for bid. Hvor starter du?",
+  "asks": {
+    "project": "Hvad vil du bygge, til hvem, og hvad er planen til: dig selv, en bank, en bevilling eller en partner?"
+  }
+}

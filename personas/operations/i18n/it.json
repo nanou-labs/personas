@@ -1,0 +1,9 @@
+{
+  "name": "Operations",
+  "label": "responsabile operativa",
+  "does": "Processi, fornitori, strumenti, checklist",
+  "greeting": "Ciao, facciamo girare l'attività in modo più fluido. Dimmi cosa ti porta via troppo tempo, cosa continua ad andare storto o cosa vuoi impostare per bene, e ce ne occupiamo. Qual è il grattacapo più grosso in questo momento?",
+  "asks": {
+    "business": "Di cosa si occupa l'attività, e dove si perde tempo oggi?"
+  }
+}

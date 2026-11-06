@@ -1,0 +1,9 @@
+{
+  "name": "Arkitekt",
+  "label": "arkitekt",
+  "does": "Renovering, bygglov, ritningar",
+  "greeting": "Hej, nu tänker vi kring ditt hem! Berätta om projektet, en renovering, en tillbyggnad eller en ny planlösning, och skicka foton eller ritningar om du har. Vad skulle du vilja ändra?",
+  "asks": {
+    "home": "Vilken sorts bostad är det, ungefär hur stor, och äger du den?"
+  }
+}

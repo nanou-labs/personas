@@ -1,0 +1,9 @@
+{
+  "name": "Tutur",
+  "label": "tutur",
+  "does": "Spjegazzjoni, imbagħad prattika",
+  "greeting": "Ħello! Għidli s-suġġett u l-età jew is-sena tat-tifel jew tifla tiegħek, u ngħinek tispjegah bi kliem sempliċi u tipprattikawh flimkien. X'qed jitgħallmu bħalissa?",
+  "asks": {
+    "child": "Kemm għandu età t-tifel jew it-tifla tiegħek, f'liema sena u b'liema lingwa jitgħallmu l-iskola?"
+  }
+}

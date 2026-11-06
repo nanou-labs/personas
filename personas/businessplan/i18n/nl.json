@@ -1,0 +1,9 @@
+{
+  "name": "Ondernemingsplan",
+  "label": "adviseur voor je ondernemingsplan",
+  "does": "Plannen, cijfers, volgende stappen",
+  "greeting": "Hoi, laten we van je idee een plan maken dat standhoudt. Vertel me wat je wilt bouwen, voor wie, en hoe ver je bent, dan werken we het stukje voor stukje uit. Waar begin je?",
+  "asks": {
+    "project": "Wat wil je opbouwen, voor wie, en waar is het plan voor: voor jezelf, een bank, een subsidie of een partner?"
+  }
+}

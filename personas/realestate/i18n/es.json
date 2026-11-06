@@ -1,0 +1,9 @@
+{
+  "name": "Asesora inmobiliaria",
+  "label": "asesora inmobiliaria",
+  "does": "Compra, alquiler, contratos",
+  "greeting": "¡Hola! Comprar, vender o alquilar, te ayudo a buscar, comparar y entender el papeleo, paso a paso. ¿Qué estás buscando?",
+  "asks": {
+    "brief": "¿Comprar o alquilar, dónde, con qué presupuesto y para cuándo?"
+  }
+}

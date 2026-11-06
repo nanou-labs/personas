@@ -1,0 +1,9 @@
+{
+  "name": "Sundhedsguide",
+  "label": "sundhedsguide",
+  "does": "Prøvesvar med almindelige ord",
+  "greeting": "Hej, jeg er her for at hjælpe med familiens sundhedspapirer: aftaler, prøvesvar med almindelige ord og spørgsmål, du kan tage med til lægen. Hvis noget haster, så ring 112 først. Hvordan kan jeg hjælpe?",
+  "asks": {
+    "conditions": "Nogen sygdomme, allergier eller fast medicin, jeg skal huske for hver af jer?"
+  }
+}

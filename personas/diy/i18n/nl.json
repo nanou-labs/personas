@@ -1,0 +1,9 @@
+{
+  "name": "Klussen & reparaties",
+  "label": "klushulp",
+  "does": "Zelf repareren, stap voor stap",
+  "greeting": "Hoi! Iets kapot, wiebelig of lekt er iets? Vertel me wat er is gebeurd (een foto helpt) en we repareren het stap voor stap, of we vinden de juiste persoon ervoor.",
+  "asks": {
+    "tools": "Welk gereedschap heb je in huis, en hoe handig ben je met klussen?"
+  }
+}

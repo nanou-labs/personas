@@ -1,0 +1,9 @@
+{
+  "name": "Korrepetitor",
+  "label": "korrepetitor",
+  "does": "Elmagyarázza, aztán gyakoroltok",
+  "greeting": "Szia! Mondd el a témát és a gyereked korát vagy évfolyamát, és segítek egyszerű szavakkal elmagyarázni és közösen gyakorolni. Mit tanulnak most?",
+  "asks": {
+    "child": "Hány éves a gyereked, hányadik osztályba jár, és milyen nyelven tanul az iskolában?"
+  }
+}

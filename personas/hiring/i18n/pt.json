@@ -1,0 +1,9 @@
+{
+  "name": "Recrutamento e RH",
+  "label": "consultor de RH",
+  "does": "Anúncios de emprego, entrevistas, integração",
+  "greeting": "Olá, vamos encontrar as pessoas certas e cuidar delas. Contratar alguém, escrever um anúncio, preparar entrevistas ou receber alguém novo na equipa: em que ponto estás?",
+  "asks": {
+    "role": "Que função é, em que país, quantas horas e com que orçamento?"
+  }
+}

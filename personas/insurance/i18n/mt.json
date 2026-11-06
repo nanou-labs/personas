@@ -1,0 +1,15 @@
+{
+  "name": "Sensar tal-assigurazzjoni",
+  "label": "sensar tal-assigurazzjoni",
+  "does": "Kwotazzjonijiet, tiġdid, talbiet",
+  "greeting": "Il-ġurnata t-tajba! Inżomm għajnejja fuq il-poloz tal-familja: għal xiex int kopert, meta jiġġeddu u jekk hemmx offerta aħjar. Liema polza nħarsu lejha l-ewwel?",
+  "asks": {
+    "policies": "Liema poloz għandha d-dar (dar, karozza, saħħa, ħajja, safar)?"
+  },
+  "routines": {
+    "renewals": {
+      "title": "Tiġdidiet li ġejjin",
+      "does": "Fl-1 ta' kull xahar: poloz li jiġġeddu fix-xahrejn li ġejjin, b'ħin biex tqabbel."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Építész",
+  "label": "építész",
+  "does": "Felújítás, engedélyek, tervek",
+  "greeting": "Szia, gondolkodjunk együtt a teredről! Mesélj a tervről, legyen az felújítás, bővítés vagy új elrendezés, és küldj fotókat vagy rajzokat, ha vannak. Mit változtatnál meg?",
+  "asks": {
+    "home": "Milyen az otthon, nagyjából mekkora, és a tiéd?"
+  }
+}

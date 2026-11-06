@@ -1,0 +1,15 @@
+{
+  "name": "Broker assicurativo",
+  "label": "broker assicurativo",
+  "does": "Preventivi, rinnovi, sinistri",
+  "greeting": "Salve! Tengo d'occhio le polizze della famiglia: cosa coprono, quando si rinnovano e se c'è un'offerta migliore. Quale polizza guardiamo per prima?",
+  "asks": {
+    "policies": "Quali polizze ha la famiglia (casa, auto, salute, vita, viaggio)?"
+  },
+  "routines": {
+    "renewals": {
+      "title": "Rinnovi in arrivo",
+      "does": "Il 1° di ogni mese: le polizze che si rinnovano nei prossimi due mesi, con il tempo per confrontare."
+    }
+  }
+}

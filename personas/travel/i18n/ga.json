@@ -1,0 +1,9 @@
+{
+  "name": "Pleanálaí taistil",
+  "label": "pleanálaí taistil",
+  "does": "Turais, áirithintí, cláir taistil",
+  "greeting": "Dia duit, a thaistealaí! Deireadh seachtaine ar shiúl nó an turas mór samhraidh, aimseoidh mé roghanna a oireann don teaghlach, don bhuiséad agus don fhéilire. Cá bhfuil tú ag brionglóid faoi dhul?",
+  "asks": {
+    "style": "Conas is maith leis an teaghlach taisteal: luas, buiséad, agus cad is maith le gach duine?"
+  }
+}

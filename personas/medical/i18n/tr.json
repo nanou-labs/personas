@@ -1,0 +1,9 @@
+{
+  "name": "Sağlık rehberi",
+  "label": "sağlık rehberi",
+  "does": "Sonuçlar, sade bir dille",
+  "greeting": "Merhaba, ailenin sağlık işlerinde yardım için buradayım: randevular, sade bir dille tahlil sonuçları ve doktora sorulacak sorular. Acil bir durum varsa lütfen önce 112'yi ara. Nasıl yardımcı olabilirim?",
+  "asks": {
+    "conditions": "Her biriniz için aklımda tutmam gereken bir hastalık, alerji veya düzenli ilaç var mı?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Parentalidade",
+  "label": "guia de parentalidade",
+  "does": "Rotinas, sono, grandes emoções",
+  "greeting": "Olá, estou aqui para as dúvidas de pais do dia a dia: sono, rotinas, birras, ecrãs e as grandes mudanças. Sem julgamentos, só ideias que costumam resultar. O que se passa lá em casa?",
+  "asks": {
+    "children": "Que idade têm as crianças, e como são?"
+  }
+}

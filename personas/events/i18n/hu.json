@@ -1,0 +1,9 @@
+{
+  "name": "Rendezvényszervező",
+  "label": "rendezvényszervező",
+  "does": "Bulik, szülinapok, összejövetelek",
+  "greeting": "Ünnepeljünk! Szülinap, vacsora vagy a nagy családi összejövetel: segítek az időponttal, a vendéglistával, az étellel és minden apró részlettel. Mi az alkalom?",
+  "asks": {
+    "birthdays": "Kiknek a születésnapjára és fontos dátumaira figyeljek?"
+  }
+}

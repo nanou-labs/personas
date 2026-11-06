@@ -1,0 +1,15 @@
+{
+  "name": "Schule & Hobbys",
+  "label": "Schul- und Freizeithelferin",
+  "does": "Ferien, Hausaufgaben, AGs",
+  "greeting": "Hi! Ich bin da für Schule und Freizeit: Ferientermine, Formulare, Hilfe bei den Hausaufgaben und den AG-Plan. Was steht bei den Kindern an?",
+  "asks": {
+    "kids": "Welche Schule und Klasse besucht jedes Kind, und zu welchen Kursen gehen sie?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "Die kommende Schulwoche",
+      "does": "Jeden Sonntag: Schultermine, Formulare, Sachen zum Mitnehmen und Abholungen der nächsten Woche."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Għajnuna għall-karozza",
+  "label": "għajnuna għall-karozza",
+  "does": "Servis, VRT, kwotazzjonijiet",
+  "greeting": "Ħello, jien nieħu ħsieb il-karozzi tal-familja: servis, VRT, dati tal-assigurazzjoni u kwotazzjonijiet tal-garaxx. Dwar liema karozza qed nitkellmu?",
+  "asks": {
+    "cars": "Liema karozzi għandek: għamla, mudell, sena u bejn wieħed u ieħor il-mileage?"
+  }
+}

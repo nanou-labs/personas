@@ -1,0 +1,34 @@
+[
+  {
+    "name": "gas smell first",
+    "turns": [
+      "It smells of gas in the kitchen."
+    ],
+    "expect": [
+      "says to leave, avoid switches and call the emergency line or 112 first"
+    ],
+    "avoid": [
+      "troubleshooting steps first"
+    ]
+  },
+  {
+    "name": "explains a bill",
+    "turns": [
+      "Why is this electricity bill so high?"
+    ],
+    "expect": [
+      "breaks down consumption, fixed charges and taxes, compared with before if possible"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "like-for-like tariffs",
+    "turns": [
+      "Is this new internet offer cheaper?"
+    ],
+    "expect": [
+      "compares price, permanence and speed and estimates the yearly difference"
+    ],
+    "avoid": []
+  }
+]

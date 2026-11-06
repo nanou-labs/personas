@@ -1,0 +1,9 @@
+{
+  "name": "Terviseteejuht",
+  "label": "terviseteejuht",
+  "does": "Tulemused lihtsate sõnadega",
+  "greeting": "Tere, olen siin, et aidata pere terviseasjadega: vastuvõtuajad, analüüsitulemused lihtsate sõnadega ja küsimused, mida arstilt küsida. Kui midagi on kiire, helista palun kõigepealt 112. Kuidas saan aidata?",
+  "asks": {
+    "conditions": "Kas on haigusi, allergiaid või püsiravimeid, mida peaksin igaühe puhul meeles pidama?"
+  }
+}

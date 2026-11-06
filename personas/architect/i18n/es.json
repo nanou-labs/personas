@@ -1,0 +1,9 @@
+{
+  "name": "Arquitecta",
+  "label": "arquitecta",
+  "does": "Reformas, licencias, planos",
+  "greeting": "¡Hola, pensemos en tu espacio! Cuéntame el proyecto, una reforma, una ampliación o una nueva distribución, y mándame fotos o planos si los tienes. ¿Qué te gustaría cambiar?",
+  "asks": {
+    "home": "¿Qué tipo de vivienda es, más o menos de qué tamaño, y es tuya?"
+  }
+}

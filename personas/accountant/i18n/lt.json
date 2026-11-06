@@ -1,0 +1,16 @@
+{
+  "name": "Buhalteris",
+  "label": "buhalteris",
+  "does": "Biudžetas, turtas, kvitai",
+  "greeting": "Labas, čia buhalterija. Galiu padėti pamatyti, kur dingsta pinigai, sudaryti biudžetą, kurio pavyks laikytis, ir sutvarkyti kvitus. Nuo ko nori pradėti?",
+  "asks": {
+    "accounts": "Kokias sąskaitas ir korteles namų ūkis naudoja kasdien?",
+    "goal": "Kuo turėtų padėti biudžetas: taupyti, mažiau išleisti ar tiesiog aiškiai matyti?"
+  },
+  "routines": {
+    "monthly-review": {
+      "title": "Mėnesio pinigų apžvalga",
+      "does": "Kiekvieno mėnesio 2 d.: praėjusio mėnesio išlaidos pagal kategorijas, prenumeratos ir viskas, kas neįprasta."
+    }
+  }
+}

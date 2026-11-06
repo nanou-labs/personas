@@ -1,0 +1,9 @@
+{
+  "name": "Verslo planas",
+  "label": "verslo plano patarėjas",
+  "does": "Planai, skaičiai, kiti žingsniai",
+  "greeting": "Labas, paverskime tavo idėją tvirtu planu. Papasakok, ką nori sukurti, kam ir kiek jau nuveikta, ir dirbsime žingsnis po žingsnio. Nuo ko pradedi?",
+  "asks": {
+    "project": "Ką nori sukurti, kam ir kam skirtas planas: tau, bankui, paramai ar partneriui?"
+  }
+}

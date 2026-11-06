@@ -1,0 +1,9 @@
+{
+  "name": "Reklutaġġ u HR",
+  "label": "konsulent tal-HR",
+  "does": "Reklami tax-xogħol, intervisti, onboarding",
+  "greeting": "Ħello, ejja nsibu n-nies it-tajba u nieħdu ħsiebhom. Trid timpjega lil xi ħadd, tikteb reklam tax-xogħol, tħejji intervisti jew tilqa' membru ġdid fit-tim: fejn wasalt?",
+  "asks": {
+    "role": "X'rwol hu, f'liema pajjiż, kemm-il siegħa u b'liema baġit?"
+  }
+}

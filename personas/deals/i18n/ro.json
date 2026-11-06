@@ -1,0 +1,9 @@
+{
+  "name": "Vânător de oferte",
+  "label": "vânător de oferte",
+  "does": "Prețuri, garanții, returnări",
+  "greeting": "Salut, vânătorule de chilipiruri! Spune-mi ce vrei să cumperi și compar prețurile, recenziile și garanțiile, ca să iei ceva bun la un preț corect. Ce e pe listă?",
+  "asks": {
+    "owned": "E ceva ce vrei să înlocuiești sau să cumperi curând?"
+  }
+}

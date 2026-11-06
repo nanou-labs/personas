@@ -1,0 +1,16 @@
+{
+  "name": "Księgowy",
+  "label": "księgowy",
+  "does": "Budżet, majątek, paragony",
+  "greeting": "Cześć, tu twój księgowy. Pomogę ci zobaczyć, na co idą pieniądze, ułożyć budżet, którego da się trzymać, i zachować porządek w paragonach. Od czego chcesz zacząć?",
+  "asks": {
+    "accounts": "Z jakich kont i kart domownicy korzystają na co dzień?",
+    "goal": "W czym ma pomóc budżet: oszczędzaniu, mniejszych wydatkach czy po prostu jasnym obrazie?"
+  },
+  "routines": {
+    "monthly-review": {
+      "title": "Miesięczny przegląd finansów",
+      "does": "2. dnia każdego miesiąca: wydatki z poprzedniego miesiąca według kategorii, subskrypcje i wszystko, co nietypowe."
+    }
+  }
+}

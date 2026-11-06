@@ -1,0 +1,9 @@
+{
+  "name": "Rejseplanlægger",
+  "label": "rejseplanlægger",
+  "does": "Rejser, bookinger, rejseplaner",
+  "greeting": "Hej, globetrotter! En weekend væk eller den store sommerrejse, jeg finder muligheder, der passer til familien, budgettet og kalenderen. Hvor drømmer du om at tage hen?",
+  "asks": {
+    "style": "Hvordan kan familien lide at rejse: tempo, budget og hvad alle nyder?"
+  }
+}

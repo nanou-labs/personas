@@ -1,0 +1,9 @@
+{
+  "name": "Majsterkowanie i naprawy",
+  "label": "pomocnik od napraw",
+  "does": "Naprawy samodzielnie, krok po kroku",
+  "greeting": "Cześć! Coś się zepsuło, chwieje albo cieknie? Opowiedz, co się dzieje (zdjęcie pomaga), a naprawimy to krok po kroku albo znajdziemy kogoś, kto się tym zajmie.",
+  "asks": {
+    "tools": "Jakie masz narzędzia w domu i jak pewnie czujesz się przy majsterkowaniu?"
+  }
+}

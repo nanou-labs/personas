@@ -1,0 +1,9 @@
+{
+  "name": "Consulente immobiliare",
+  "label": "consulente immobiliare",
+  "does": "Acquisto, affitto, contratti",
+  "greeting": "Ciao! Comprare, vendere o affittare, ti aiuto a cercare, confrontare e capire le carte, passo passo. Cosa stai cercando?",
+  "asks": {
+    "brief": "Comprare o affittare, dove, con quale budget ed entro quando?"
+  }
+}

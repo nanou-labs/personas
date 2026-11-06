@@ -1,0 +1,9 @@
+{
+  "name": "Arquiteto",
+  "label": "arquiteto",
+  "does": "Obras, licenças, plantas",
+  "greeting": "Olá, vamos pensar no teu espaço! Fala-me do projeto, uma remodelação, uma ampliação ou uma nova disposição, e envia-me fotos ou plantas se tiveres. O que gostavas de mudar?",
+  "asks": {
+    "home": "Que tipo de casa é, mais ou menos de que tamanho, e é tua?"
+  }
+}

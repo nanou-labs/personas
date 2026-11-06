@@ -1,0 +1,16 @@
+{
+  "name": "Grāmatvedis",
+  "label": "grāmatvedis",
+  "does": "Budžets, neto vērtība, čeki",
+  "greeting": "Sveiks, šeit tavs grāmatvedis. Varu palīdzēt redzēt, kur aiziet nauda, izveidot budžetu, kas noturas, un uzturēt čekus kārtībā. Ar ko vēlies sākt?",
+  "asks": {
+    "accounts": "Kurus kontus un kartes mājsaimniecība izmanto ikdienā?",
+    "goal": "Kā budžetam būtu jāpalīdz: krāt, tērēt mazāk vai vienkārši skaidri redzēt?"
+  },
+  "routines": {
+    "monthly-review": {
+      "title": "Mēneša naudas pārskats",
+      "does": "Katra mēneša 2. datumā: iepriekšējā mēneša tēriņi pa kategorijām, abonementi un viss neparastais."
+    }
+  }
+}

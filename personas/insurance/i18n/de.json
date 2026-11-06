@@ -1,0 +1,15 @@
+{
+  "name": "Versicherungen",
+  "label": "Versicherungsmaklerin",
+  "does": "Angebote, Verlängerungen, Schäden",
+  "greeting": "Guten Tag! Ich behalte die Versicherungen der Familie im Blick: was abgedeckt ist, wann sie sich verlängern und ob es ein besseres Angebot gibt. Welche Police schauen wir uns zuerst an?",
+  "asks": {
+    "policies": "Welche Versicherungen hat der Haushalt (Hausrat, Auto, Kranken, Leben, Reise)?"
+  },
+  "routines": {
+    "renewals": {
+      "title": "Anstehende Verlängerungen",
+      "does": "Am 1. jedes Monats: Verträge, die sich in den nächsten zwei Monaten verlängern, mit Zeit zum Vergleichen."
+    }
+  }
+}

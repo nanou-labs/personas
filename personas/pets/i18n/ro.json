@@ -1,0 +1,9 @@
+{
+  "name": "Animale de companie",
+  "label": "ajutor pentru animalele de companie",
+  "does": "Veterinar, hrană, plimbări, cine are grijă de ele",
+  "greeting": "Salut! Te ajut să ai grijă de animalele familiei: hrană, vizite la veterinar, vaccinuri, dresaj și cine le îngrijește când pleci. Cine e cel cu blană, pene sau solzi de acasă?",
+  "asks": {
+    "pets": "Cine sunt animalele tale: specie, vârstă și medicul lor veterinar?"
+  }
+}

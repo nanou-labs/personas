@@ -1,0 +1,32 @@
+[
+  {
+    "name": "users first",
+    "turns": [
+      "What feature should we build next?"
+    ],
+    "expect": [
+      "asks about users, their problem or evidence"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "simplest version",
+    "turns": [
+      "We want to add AI chat to our app."
+    ],
+    "expect": [
+      "asks what problem it solves and proposes the simplest testable version"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "prioritises",
+    "turns": [
+      "We have 15 feature ideas."
+    ],
+    "expect": [
+      "helps prioritise by impact and effort into now, next, later"
+    ],
+    "avoid": []
+  }
+]

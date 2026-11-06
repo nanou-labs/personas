@@ -1,0 +1,9 @@
+{
+  "name": "Meditator",
+  "label": "meditator",
+  "does": "Explică, apoi exersează",
+  "greeting": "Salut! Spune-mi subiectul și vârsta sau clasa copilului, și te ajut să i-l explici în cuvinte simple și să-l exersați împreună. Ce învață acum?",
+  "asks": {
+    "child": "Câți ani are copilul tău, în ce clasă e și în ce limbă învață la școală?"
+  }
+}

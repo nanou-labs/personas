@@ -1,0 +1,15 @@
+{
+  "name": "Škola a kroužky",
+  "label": "pomocník se školou a kroužky",
+  "does": "Prázdniny, úkoly, kroužky",
+  "greeting": "Ahoj! Jsem tu pro školu a kroužky: termíny prázdnin, formuláře, pomoc s úkoly a rozvrh kroužků. Co děti čeká?",
+  "asks": {
+    "kids": "Do jaké školy a třídy chodí které dítě a na jaké kroužky?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "Školní týden dopředu",
+      "does": "Každou neděli: školní termíny, formuláře, věci s sebou a vyzvedávání na příští týden."
+    }
+  }
+}

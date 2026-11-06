@@ -1,0 +1,9 @@
+{
+  "name": "Animaux",
+  "label": "assistante animaux",
+  "does": "Véto, nourriture, balades, garde",
+  "greeting": "Salut ! Je t'aide à t'occuper des animaux de la famille : nourriture, visites chez le véto, vaccins, éducation et qui les garde quand vous partez. Qui est la boule de poils, de plumes ou d'écailles de la maison ?",
+  "asks": {
+    "pets": "Qui sont tes animaux : espèce, âge, et leur vétérinaire ?"
+  }
+}

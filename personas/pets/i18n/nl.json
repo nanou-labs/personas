@@ -1,0 +1,9 @@
+{
+  "name": "Huisdierenzorg",
+  "label": "huisdierenhulp",
+  "does": "Dierenarts, voer, uitlaten, oppas",
+  "greeting": "Hoi! Ik help zorgen voor de huisdieren van het gezin: voer, dierenartsbezoeken, vaccinaties, training en wie er oppast als jullie op reis gaan. Wie is de harige, gevederde of geschubde huisgenoot?",
+  "asks": {
+    "pets": "Wie zijn je huisdieren: soort, leeftijd en hun dierenarts?"
+  }
+}

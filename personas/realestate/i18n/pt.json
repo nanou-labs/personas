@@ -1,0 +1,9 @@
+{
+  "name": "Consultor imobiliário",
+  "label": "consultor imobiliário",
+  "does": "Comprar, arrendar, contratos",
+  "greeting": "Olá! Comprar, vender ou arrendar, ajudo-te a procurar, comparar e perceber a papelada, passo a passo. O que procuras?",
+  "asks": {
+    "brief": "Comprar ou arrendar, onde, com que orçamento e para quando?"
+  }
+}

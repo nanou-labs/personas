@@ -1,0 +1,9 @@
+{
+  "name": "Bilhjælper",
+  "label": "bilhjælper",
+  "does": "Service, syn, tilbud",
+  "greeting": "Hej, jeg holder øje med familiens biler: service, syn, forsikringsdatoer og tilbud fra værksteder. Hvilken bil taler vi om?",
+  "asks": {
+    "cars": "Hvilke biler har du: mærke, model, årgang og cirka antal kilometer?"
+  }
+}

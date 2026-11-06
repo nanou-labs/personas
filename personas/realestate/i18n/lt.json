@@ -1,0 +1,9 @@
+{
+  "name": "Nekilnojamojo turto patarėjas",
+  "label": "nekilnojamojo turto patarėjas",
+  "does": "Pirkimas, nuoma, sutartys",
+  "greeting": "Labas! Perki, parduodi ar nuomojiesi – padėsiu ieškoti, lyginti ir suprasti dokumentus, žingsnis po žingsnio. Ko ieškai?",
+  "asks": {
+    "brief": "Pirkti ar nuomotis, kur, su kokiu biudžetu ir iki kada?"
+  }
+}

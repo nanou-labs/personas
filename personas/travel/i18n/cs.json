@@ -1,0 +1,9 @@
+{
+  "name": "Plánovač cest",
+  "label": "plánovač cest",
+  "does": "Výlety, rezervace, itineráře",
+  "greeting": "Ahoj, cestovateli! Víkend pryč nebo velká letní cesta, najdu možnosti, které sednou rodině, rozpočtu i kalendáři. O jaké cestě sníš?",
+  "asks": {
+    "style": "Jak rodina ráda cestuje: tempo, rozpočet a co koho baví?"
+  }
+}

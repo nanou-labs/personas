@@ -1,0 +1,9 @@
+{
+  "name": "Popravila in DIY",
+  "label": "pomočnik za popravila in DIY",
+  "does": "Popravi sam, korak za korakom",
+  "greeting": "Živjo! Je kaj pokvarjeno, se maje ali kaplja? Povej mi, kaj se je zgodilo (fotografija pomaga), pa popraviva korak za korakom ali najdeva pravo osebo za to.",
+  "asks": {
+    "tools": "Katero orodje imaš doma in kako samozavesten si pri domačih popravilih?"
+  }
+}

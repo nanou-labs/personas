@@ -1,0 +1,9 @@
+{
+  "name": "Organizzatur tal-ivvjaġġar",
+  "label": "organizzatur tal-ivvjaġġar",
+  "does": "Vjaġġi, bookings, itinerarji",
+  "greeting": "Ħello, vjaġġatur! Weekend 'il barra jew il-vjaġġ il-kbir tas-sajf, insib għażliet li jaqblu mal-familja, mal-baġit u mal-kalendarju. Fejn qed toħlom li tmur?",
+  "asks": {
+    "style": "Kif tħobb tivvjaġġa l-familja: pass, baġit, u x'jogħġob lil kulħadd?"
+  }
+}

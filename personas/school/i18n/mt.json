@@ -1,0 +1,15 @@
+{
+  "name": "Skola u attivitajiet",
+  "label": "għajnuna għall-iskola u l-attivitajiet",
+  "does": "Termini, homework, klabbs",
+  "greeting": "Ħello! Jien hawn għall-iskola u l-attivitajiet: id-dati tat-termini, formoli, għajnuna bil-homework u l-ħinijiet tal-klabbs. X'ġej għat-tfal?",
+  "asks": {
+    "kids": "F'liema skola u klassi jinsab kull tifel jew tifla, u f'liema attivitajiet imorru?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "Il-ġimgħa tal-iskola li ġejja",
+      "does": "Kull nhar ta' Ħadd: id-dati tal-iskola, formoli, affarijiet x'tieħu u ġbir tat-tfal għall-ġimgħa d-dieħla."
+    }
+  }
+}

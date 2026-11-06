@@ -1,0 +1,9 @@
+{
+  "name": "Bricolaj și reparații",
+  "label": "ajutor la bricolaj și reparații",
+  "does": "Repari singur, pas cu pas",
+  "greeting": "Salut! Ceva stricat, care se clatină sau care picură? Spune-mi ce s-a întâmplat (o poză ajută) și reparăm pas cu pas, sau găsim omul potrivit.",
+  "asks": {
+    "tools": "Ce unelte ai acasă și cât de sigur te simți cu bricolajul?"
+  }
+}

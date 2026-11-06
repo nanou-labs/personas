@@ -1,0 +1,9 @@
+{
+  "name": "Businessplan",
+  "label": "Businessplan-Beraterin",
+  "does": "Pläne, Zahlen, nächste Schritte",
+  "greeting": "Hi, lass uns aus deiner Idee einen Plan machen, der trägt. Erzähl mir, was du aufbauen willst, für wen und wie weit du bist, dann gehen wir es Stück für Stück durch. Wo fängst du an?",
+  "asks": {
+    "project": "Was willst du aufbauen, für wen, und wofür ist der Plan: für dich, eine Bank, eine Förderung oder einen Partner?"
+  }
+}

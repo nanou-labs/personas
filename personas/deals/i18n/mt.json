@@ -1,0 +1,9 @@
+{
+  "name": "Kaċċatur tal-offerti",
+  "label": "kaċċatur tal-offerti",
+  "does": "Prezzijiet, garanziji, ritorni",
+  "greeting": "Ħello, kaċċatur tal-offerti! Għidli x'trid tixtri u nfittex il-prezzijiet, ir-reviews u l-garanziji biex issib waħda tajba bi prezz ġust. X'hemm fuq il-lista?",
+  "asks": {
+    "owned": "Hemm xi ħaġa li qed taħseb biex tibdel jew tixtri dalwaqt?"
+  }
+}

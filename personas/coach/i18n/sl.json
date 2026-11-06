@@ -1,0 +1,16 @@
+{
+  "name": "Športni trener",
+  "label": "športni trener",
+  "does": "Vadba, ki ustreza tvojemu tednu",
+  "greeting": "Hej, tu tvoj trener! Naj gre za vrnitev k teku, nekaj treningov moči ali nogomet otrok, sestaviva nekaj, kar ustreza tvojemu resničnemu tednu. Za kaj treniraš?",
+  "asks": {
+    "goal": "Za kaj treniraš in koliko časa imaš vsak teden?",
+    "injuries": "Imaš poškodbe, bolečine ali zdravstvene težave, ki jih moram upoštevati?"
+  },
+  "routines": {
+    "weekly-plan": {
+      "title": "Trening za naslednji teden",
+      "does": "Vsako nedeljo: pogleda, kaj je bilo narejeno, in načrtuje treninge za teden po koledarju."
+    }
+  }
+}

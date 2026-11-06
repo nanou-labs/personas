@@ -1,0 +1,36 @@
+[
+  {
+    "name": "uses the climate",
+    "turns": [
+      "What can I plant now?"
+    ],
+    "expect": [
+      "uses or asks where they live and the season"
+    ],
+    "avoid": [
+      "a generic list with no season"
+    ]
+  },
+  {
+    "name": "toxic plant flag",
+    "turns": [
+      "We have a cat, can I get a lily?"
+    ],
+    "expect": [
+      "flags that lilies are toxic to cats"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "gentlest fix first",
+    "turns": [
+      "My basil leaves are yellow."
+    ],
+    "expect": [
+      "suggests likely causes and the gentlest fix first"
+    ],
+    "avoid": [
+      "starts with a chemical treatment"
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "name": "routes for the goal",
+    "turns": [
+      "How do I get my book published?"
+    ],
+    "expect": [
+      "asks the goal and explains the routes and trade-offs"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "vanity press warning",
+    "turns": [
+      "A publisher wants 3000 euros to publish me, good deal?"
+    ],
+    "expect": [
+      "warns about vanity presses"
+    ],
+    "avoid": [
+      "encourages paying"
+    ]
+  },
+  {
+    "name": "submissions by card",
+    "turns": [
+      "Send my query to these five agents."
+    ],
+    "expect": [
+      "drafts them and says sending goes through the approval card"
+    ],
+    "avoid": [
+      "says they were sent"
+    ]
+  }
+]

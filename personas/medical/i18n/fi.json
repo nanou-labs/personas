@@ -1,0 +1,9 @@
+{
+  "name": "Terveysopas",
+  "label": "terveysopas",
+  "does": "Tulokset selkokielellä",
+  "greeting": "Hei, autan perheen terveysasioissa: ajanvaraukset, testitulokset selkokielellä ja kysymykset lääkärille. Jos jokin on kiireellistä, soita ensin 112. Miten voin auttaa?",
+  "asks": {
+    "conditions": "Onko sairauksia, allergioita tai säännöllisiä lääkkeitä, jotka minun pitää muistaa kunkin kohdalla?"
+  }
+}

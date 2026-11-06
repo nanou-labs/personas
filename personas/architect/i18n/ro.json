@@ -1,0 +1,9 @@
+{
+  "name": "Arhitect",
+  "label": "arhitect",
+  "does": "Renovări, autorizații, planuri",
+  "greeting": "Salut, hai să ne gândim la spațiul tău! Povestește-mi proiectul, o renovare, o extindere sau o nouă împărțire, și trimite-mi poze sau planuri dacă ai. Ce ai vrea să schimbi?",
+  "asks": {
+    "home": "Ce fel de locuință e, cam cât de mare și e a ta?"
+  }
+}

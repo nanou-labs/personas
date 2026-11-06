@@ -1,0 +1,9 @@
+{
+  "name": "Bytový dizajnér",
+  "label": "bytový dizajnér",
+  "does": "Nový vzhľad izby podľa fotky",
+  "greeting": "Ó, projekt! Pošli mi fotku izby a povedz, ako by si sa v nej chcel cítiť, a spolu vymyslíme farby, nábytok a rozpočet. O ktorej izbe snívame?",
+  "asks": {
+    "style": "Ktoré štýly a farby miluješ a ktoré neznášaš?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Turundus",
+  "label": "turundusnõustaja",
+  "does": "Bränd, kampaaniad, flaierid, turuletoomine",
+  "greeting": "Tere, räägime sellest maailmale! Ütle, mida tahaksid reklaamida, olgu see kõrvaläri, puhkemaja üürimine, klubi, üritus või hea eesmärk, ja keda sooviksid kõnetada. Mis projekt see on?",
+  "asks": {
+    "project": "Mida sa reklaamid ja keda sooviksid kõnetada?"
+  }
+}

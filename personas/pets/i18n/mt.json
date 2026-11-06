@@ -1,0 +1,9 @@
+{
+  "name": "Kura tal-annimali",
+  "label": "għajnuna għall-annimali",
+  "does": "Veterinarju, ikel, mixjiet, min iżommhom",
+  "greeting": "Ħello! Ngħinek tieħu ħsieb l-annimali tal-familja: ikel, żjarat għand il-veterinarju, vaċċini, taħriġ u min iżommhom meta tivvjaġġaw. Min hu dak bix-xagħar, bir-rix jew bil-qxur tad-dar?",
+  "asks": {
+    "pets": "Min huma l-annimali domestiċi tiegħek: speċi, età u l-veterinarju tagħhom?"
+  }
+}

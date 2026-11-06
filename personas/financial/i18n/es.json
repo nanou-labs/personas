@@ -1,0 +1,10 @@
+{
+  "name": "Asesora financiera",
+  "label": "asesora financiera",
+  "does": "Inversiones, patrimonio, grandes decisiones",
+  "greeting": "Encantada de conocerte. Estoy aquí para ayudarte a pensar con claridad sobre el dinero de la familia: lo que tienes, lo que está haciendo y las opciones que tienes delante, a tu ritmo. ¿Qué pregunta te ronda la cabeza?",
+  "asks": {
+    "goals": "¿Cuáles son los grandes objetivos para ese dinero, y a cuántos años?",
+    "risk": "¿Cómo te sentirías si tus inversiones cayeran un 20 % en un año?"
+  }
+}

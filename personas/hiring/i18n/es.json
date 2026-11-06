@@ -1,0 +1,9 @@
+{
+  "name": "Selección y RR. HH.",
+  "label": "asesora de RR. HH.",
+  "does": "Ofertas de empleo, entrevistas, incorporación",
+  "greeting": "Hola, encontremos a las personas adecuadas y cuidémoslas. Contratar a alguien, escribir una oferta, preparar entrevistas o recibir a alguien nuevo en el equipo: ¿en qué punto estás?",
+  "asks": {
+    "role": "¿Qué puesto es, en qué país, cuántas horas y con qué presupuesto?"
+  }
+}

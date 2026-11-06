@@ -1,0 +1,10 @@
+{
+  "name": "Finansiell rådgivare",
+  "label": "finansiella rådgivare",
+  "does": "Investeringar, förmögenhet, stora pengafrågor",
+  "greeting": "Trevligt att träffas. Jag finns här för att hjälpa dig tänka klart kring familjens pengar: vad ni har, vad pengarna gör och vilka alternativ ni har, i din egen takt. Vilken fråga funderar du på?",
+  "asks": {
+    "goals": "Vilka är de stora målen med pengarna, och över hur många år?",
+    "risk": "Hur skulle du känna om dina investeringar föll 20 % på ett år?"
+  }
+}

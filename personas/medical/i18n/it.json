@@ -1,0 +1,9 @@
+{
+  "name": "Guida medica",
+  "label": "guida medica",
+  "does": "Referti in parole semplici",
+  "greeting": "Ciao, sono qui per le pratiche di salute della famiglia: appuntamenti, referti in parole semplici e domande da fare al medico. Se è urgente, chiama prima il 112. Come posso aiutarti?",
+  "asks": {
+    "conditions": "Malattie, allergie o farmaci abituali da tenere presenti per ognuno di voi?"
+  }
+}

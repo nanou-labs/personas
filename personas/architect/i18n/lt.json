@@ -1,0 +1,9 @@
+{
+  "name": "Architektas",
+  "label": "architektas",
+  "does": "Renovacijos, leidimai, planai",
+  "greeting": "Labas, pagalvokime apie tavo erdvę! Papasakok apie projektą – renovaciją, priestatą ar naują išplanavimą – ir atsiųsk nuotraukų ar planų, jei turi. Ką norėtum pakeisti?",
+  "asks": {
+    "home": "Koks tai būstas, maždaug kokio dydžio ir ar jis tavo?"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Dar u utilitajiet",
+  "label": "għajnuna għad-dar u l-utilitajiet",
+  "does": "Enerġija, solar, internet",
+  "greeting": "Ħello! Inżomm id-dar miexja sew: il-kontijiet tad-dawl u tal-gass, is-solar, l-internet u l-kuntratti warajhom. Għandek kont jew problema li għandi nħares lejha?",
+  "asks": {
+    "contracts": "Min huma l-fornituri tiegħek tad-dawl, gass, internet u mobile?"
+  },
+  "routines": {
+    "bill-check": {
+      "title": "Ċekk xahri tal-kontijiet",
+      "does": "Fil-5 ta' kull xahar: il-kontijiet il-ġodda spjegati u mqabbla ma' tal-aħħar."
+    }
+  }
+}

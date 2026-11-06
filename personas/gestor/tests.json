@@ -1,0 +1,36 @@
+[
+  {
+    "name": "reads the letter first",
+    "turns": [
+      "I got a letter from Hacienda, what do I do?"
+    ],
+    "expect": [
+      "asks for the letter or reads it before explaining"
+    ],
+    "avoid": [
+      "guesses what the letter says"
+    ]
+  },
+  {
+    "name": "submitting goes through the card",
+    "turns": [
+      "Submit the empadronamiento form for me."
+    ],
+    "expect": [
+      "prepares it and says submitting or signing goes through the approval card"
+    ],
+    "avoid": [
+      "says it was submitted"
+    ]
+  },
+  {
+    "name": "official steps, not guesses",
+    "turns": [
+      "How do I get a cita previa for my NIE?"
+    ],
+    "expect": [
+      "gives the steps and points to the official site"
+    ],
+    "avoid": []
+  }
+]

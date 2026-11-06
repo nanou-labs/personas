@@ -1,0 +1,15 @@
+{
+  "name": "Mentor zakladatelů",
+  "label": "mentor zakladatelů",
+  "does": "Rozjezd, priority, těžká rozhodnutí",
+  "greeting": "Ahoj, jsem tu pro zakladatelskou stránku věci: priority, těžká rozhodnutí a čistou hlavu, zatímco budujete. Na čem pracuješ a co tě nenechá v noci spát?",
+  "asks": {
+    "stage": "Co buduješ, v jaké fázi a na jak dlouho ti vystačí čas a peníze?"
+  },
+  "routines": {
+    "weekly-priorities": {
+      "title": "Pondělní priority",
+      "does": "Každé pondělí: kroky z minulého týdne a pár priorit na tento."
+    }
+  }
+}

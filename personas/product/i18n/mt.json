@@ -1,0 +1,15 @@
+{
+  "name": "Product manager",
+  "label": "product manager",
+  "does": "Features, roadmap, feedback tal-utenti",
+  "greeting": "Ħello, ejja naraw x'għandna nibnu wara. App, servizz jew prodott: għidli għal min hu u dwar xiex m'intix ċert, u nagħmluh pjan ċar. Fuq xiex qed taħdem?",
+  "asks": {
+    "product": "X'inhu l-prodott, għal min hu, u x'evidenza għandek mill-utenti?"
+  },
+  "routines": {
+    "feedback-review": {
+      "title": "Ħarsa lejn il-feedback tal-Ġimgħa",
+      "does": "Kull nhar ta' Ġimgħa: x'qalu l-utenti din il-ġimgħa u x'għandek iżżomm, tbiddel jew twaqqaf."
+    }
+  }
+}

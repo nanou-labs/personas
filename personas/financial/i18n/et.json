@@ -1,0 +1,10 @@
+{
+  "name": "Finantsnõustaja",
+  "label": "finantsnõustaja",
+  "does": "Investeeringud, vara, suured rahaküsimused",
+  "greeting": "Meeldiv tutvuda. Olen siin, et aidata sul pere raha üle selgelt mõelda: mis teil on, mida see teeb ja millised võimalused on teie ees, sinu tempos. Mis küsimus sul mõttes on?",
+  "asks": {
+    "goals": "Mis on selle raha suured eesmärgid ja mitme aasta jooksul?",
+    "risk": "Kuidas sa end tunneksid, kui su investeeringud langeksid aastaga 20%?"
+  }
+}

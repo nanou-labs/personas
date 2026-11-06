@@ -1,0 +1,9 @@
+{
+  "name": "Dari pats un remonts",
+  "label": "dari-pats un remonta palīgs",
+  "does": "Salabo pats, soli pa solim",
+  "greeting": "Sveiks! Kaut kas salūzis, ļodzās vai pil? Pastāsti, kas notika (foto palīdz), un mēs to salabosim soli pa solim vai atradīsim īsto cilvēku.",
+  "asks": {
+    "tools": "Kādi instrumenti tev ir mājās, un cik pārliecināts tu jūties, darot pats?"
+  }
+}

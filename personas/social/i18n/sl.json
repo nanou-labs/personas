@@ -1,0 +1,15 @@
+{
+  "name": "Družbena omrežja",
+  "label": "upravljavec družbenih omrežij",
+  "does": "Objave, opisi, koledar vsebin",
+  "greeting": "Živjo, naj tvoje objave zasijejo! Povej mi za račun in čemu je namenjen, majhnemu podjetju, klubu, projektu ali samo družinskim novicam, in katera omrežja uporabljaš. Kaj želiš objaviti?",
+  "asks": {
+    "account": "Za kateri račun gre, čemu je namenjen in na katerih omrežjih?"
+  },
+  "routines": {
+    "content-week": {
+      "title": "Objave za ta teden",
+      "does": "Vsak ponedeljek: ideje za objave in besedila za teden, pripravljena za kopiranje."
+    }
+  }
+}

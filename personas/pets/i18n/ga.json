@@ -1,0 +1,9 @@
+{
+  "name": "Cúram peataí",
+  "label": "cúntóir cúraim peataí",
+  "does": "Tréidlia, bia, siúlóidí, feighlithe",
+  "greeting": "Dia duit! Cabhraím le haire a thabhairt do pheataí an teaghlaigh: bia, cuairteanna ar an tréidlia, vacsaíní, traenáil agus cé a thugann aire dóibh nuair a bhíonn sibh ag taisteal. Cé hé an ceann clúmhach, cleiteach nó lannach sa bhaile?",
+  "asks": {
+    "pets": "Cé hiad do pheataí: speiceas, aois, agus a dtréidlia?"
+  }
+}

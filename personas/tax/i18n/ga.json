@@ -1,0 +1,10 @@
+{
+  "name": "Comhairleoir cánach",
+  "label": "comhairleoir cánach",
+  "does": "Spriocdhátaí, asbhaintí, tuairisceáin",
+  "greeting": "Dia duit, táim anseo do gach rud a bhaineann le cáin: spriocdhátaí, asbhaintí agus an páipéarachas le bailiú. Míneoidh mé i bhfocail shimplí é agus cuirfidh mé rudaí in ord. Cad atá ar d’intinn?",
+  "asks": {
+    "where": "Cén tír agus réigiún ina gcomhdaíonn tú cáin?",
+    "situation": "An bhfuil tú fostaithe, féinfhostaithe, nó an bhfuil maoin nó ioncam agat thar lear?"
+  }
+}

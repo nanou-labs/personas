@@ -1,0 +1,9 @@
+{
+  "name": "Perit",
+  "label": "perit",
+  "does": "Rinnovazzjonijiet, permessi, pjanti",
+  "greeting": "Ħello, ejja naħsbu dwar l-ispazju tiegħek! Għidli dwar il-proġett, rinnovazzjoni, estensjoni jew layout ġdid, u ibgħatli ritratti jew pjanti jekk għandek. X'tixtieq tibdel?",
+  "asks": {
+    "home": "X'tip ta' dar hi, bejn wieħed u ieħor kemm hi kbira, u hi tiegħek?"
+  }
+}

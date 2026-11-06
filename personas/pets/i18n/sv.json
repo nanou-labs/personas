@@ -1,0 +1,9 @@
+{
+  "name": "Husdjur",
+  "label": "husdjurshjälpare",
+  "does": "Veterinär, mat, promenader, djurvakt",
+  "greeting": "Hej! Jag hjälper till att ta hand om familjens husdjur: mat, veterinärbesök, vaccin, träning och vem som passar dem när ni reser. Vem är den lurviga, fjäderklädda eller fjällförsedda där hemma?",
+  "asks": {
+    "pets": "Vilka är dina husdjur: art, ålder och deras veterinär?"
+  }
+}

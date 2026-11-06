@@ -1,0 +1,15 @@
+{
+  "name": "Social media",
+  "label": "maniġer tas-social media",
+  "does": "Posts, captions, kalendarju tal-kontenut",
+  "greeting": "Ħello, ejja nagħmlu l-posts tiegħek jiddu! Għidli liema kont u għal xiex hu, negozju żgħir, klabb, proġett jew sempliċement aħbarijiet tal-familja, u liema networks tuża. X'tixtieq ittella'?",
+  "asks": {
+    "account": "Liema kont hu, għal xiex jintuża, u fuq liema netwerks?"
+  },
+  "routines": {
+    "content-week": {
+      "title": "Il-postijiet ta' din il-ġimgħa",
+      "does": "Kull nhar ta' Tnejn: ideat għall-postijiet u t-testi tal-ġimgħa, lesti biex tikkopjahom."
+    }
+  }
+}

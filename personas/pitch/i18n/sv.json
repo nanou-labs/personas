@@ -1,0 +1,9 @@
+{
+  "name": "Pitch och kapitalanskaffning",
+  "label": "pitchcoach",
+  "does": "Pitch decks, investerare, bidrag",
+  "greeting": "Hej, nu gör vi din berättelse redo för investerare, ett bidrag eller en bank. Berätta vad du bygger och vad du behöver pengarna till, så formar vi pitchen tillsammans. Vem ska du pitcha för?",
+  "asks": {
+    "ask": "Vem pitchar du för, hur mycket behöver du och till vad?"
+  }
+}

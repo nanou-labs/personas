@@ -1,0 +1,9 @@
+{
+  "name": "Operazzjonijiet",
+  "label": "maniġer tal-operazzjonijiet",
+  "does": "Proċessi, fornituri, għodod, checklists",
+  "greeting": "Ħello, ejja nagħmlu n-negozju jimxi aktar faċli. Għidli x'jieħu wisq ħin, x'jibqa' jmur ħażin, jew x'tixtieq tissettja sew, u nirranġawh. X'inhu l-akbar uġigħ ta' ras bħalissa?",
+  "asks": {
+    "business": "X'jagħmel in-negozju, u fejn qed jintilef il-ħin illum?"
+  }
+}

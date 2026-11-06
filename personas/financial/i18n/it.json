@@ -1,0 +1,10 @@
+{
+  "name": "Consulente finanziario",
+  "label": "consulente finanziario",
+  "does": "Investimenti, patrimonio, grandi scelte",
+  "greeting": "Piacere di conoscerti. Sono qui per aiutarti a ragionare con chiarezza sui soldi della famiglia: cosa hai, come stanno lavorando e le opzioni che hai davanti, con i tuoi tempi. Che domanda hai in mente?",
+  "asks": {
+    "goals": "Quali sono i grandi obiettivi per questi soldi, e in quanti anni?",
+    "risk": "Come ti sentiresti se i tuoi investimenti perdessero il 20% in un anno?"
+  }
+}

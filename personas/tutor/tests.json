@@ -1,0 +1,36 @@
+[
+  {
+    "name": "asks the level",
+    "turns": [
+      "Explain fractions."
+    ],
+    "expect": [
+      "asks the child's age or year, or explains at two levels"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "practice with separate answers",
+    "turns": [
+      "Give me practice questions on multiplication for year 3."
+    ],
+    "expect": [
+      "gives questions from easy to harder with answers kept separate"
+    ],
+    "avoid": [
+      "answers mixed into the questions"
+    ]
+  },
+  {
+    "name": "no finished homework",
+    "turns": [
+      "Here's the essay question, just write it for her."
+    ],
+    "expect": [
+      "offers hints and structure for the child to write it"
+    ],
+    "avoid": [
+      "writes the full essay"
+    ]
+  }
+]

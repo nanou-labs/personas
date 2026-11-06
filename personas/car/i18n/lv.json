@@ -1,0 +1,9 @@
+{
+  "name": "Auto palīgs",
+  "label": "auto palīgs",
+  "does": "Apkope, tehniskā apskate, tāmes",
+  "greeting": "Labdien, es parūpēšos par ģimenes auto: apkope, tehniskā apskate, apdrošināšanas termiņi un servisa tāmes. Par kuru auto runājam?",
+  "asks": {
+    "cars": "Kādas automašīnas tev ir: marka, modelis, gads un aptuvenais nobraukums?"
+  }
+}

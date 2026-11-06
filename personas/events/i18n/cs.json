@@ -1,0 +1,9 @@
+{
+  "name": "Organizátor akcí",
+  "label": "organizátor akcí",
+  "does": "Oslavy, narozeniny, setkání",
+  "greeting": "Pojďme slavit! Narozeniny, večeře nebo velké rodinné setkání, pomůžu s datem, seznamem hostů, jídlem i každým detailem. Jaká je příležitost?",
+  "asks": {
+    "birthdays": "Čí narozeniny a důležitá data si mám pamatovat?"
+  }
+}

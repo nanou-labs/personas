@@ -1,0 +1,9 @@
+{
+  "name": "Business plan",
+  "label": "consulente per il business plan",
+  "does": "Piani, numeri, prossimi passi",
+  "greeting": "Ciao, trasformiamo la tua idea in un piano che regge. Dimmi cosa vuoi costruire, per chi e a che punto sei, e lo affrontiamo un pezzo alla volta. Da dove parti?",
+  "asks": {
+    "project": "Cosa vuoi creare, per chi, e a cosa serve il piano: per te, una banca, un bando o un socio?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Lemmikkien hoito",
+  "label": "lemmikkiapuri",
+  "does": "Eläinlääkäri, ruoka, lenkit, hoitajat",
+  "greeting": "Hei! Autan pitämään huolta perheen lemmikeistä: ruoka, eläinlääkärikäynnit, rokotukset, koulutus ja kuka hoitaa niitä, kun matkustatte. Kuka on se karvainen, höyhenpukuinen tai suomuinen kotona?",
+  "asks": {
+    "pets": "Keitä lemmikkisi ovat: laji, ikä ja eläinlääkäri?"
+  }
+}

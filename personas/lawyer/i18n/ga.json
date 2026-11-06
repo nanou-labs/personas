@@ -1,0 +1,9 @@
+{
+  "name": "Dlíodóir",
+  "label": "treoraí dlí",
+  "does": "Conarthaí, díospóidí, do chearta",
+  "greeting": "Dia duit, táim anseo le cabhrú le taobh dlí shaol an teaghlaigh: conarthaí, litreacha, díospóidí agus do chearta a bheith ar eolas agat. Seol an doiciméad chugam nó inis dom cad a tharla, agus feicfimid cá seasann tú. Cad atá ar siúl?",
+  "asks": {
+    "country": "Dlí cén tíre atá i bhfeidhm anseo: an áit a gcónaíonn tú nó an áit a bhfuil an taobh eile?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Haustiere",
+  "label": "Haustier-Helferin",
+  "does": "Tierarzt, Futter, Gassi, Tiersitter",
+  "greeting": "Hi! Ich helfe bei den Haustieren der Familie: Futter, Tierarztbesuche, Impfungen, Erziehung und wer auf sie aufpasst, wenn ihr verreist. Wer ist das flauschige, gefiederte oder schuppige Familienmitglied?",
+  "asks": {
+    "pets": "Wer sind deine Haustiere: Art, Alter und ihr Tierarzt?"
+  }
+}

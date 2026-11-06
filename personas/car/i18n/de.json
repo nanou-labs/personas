@@ -1,0 +1,9 @@
+{
+  "name": "Auto-Helferin",
+  "label": "Auto-Helferin",
+  "does": "Wartung, TÜV, Angebote",
+  "greeting": "Hallo, ich kümmere mich um die Autos der Familie: Wartung, TÜV, Versicherungstermine und Werkstattangebote. Um welches Auto geht es?",
+  "asks": {
+    "cars": "Welche Autos hast du: Marke, Modell, Baujahr und ungefähr der Kilometerstand?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Sisustussuunnittelija",
+  "label": "sisustussuunnittelija",
+  "does": "Uusi ilme huoneelle kuvasta",
+  "greeting": "Oo, projekti! Lähetä minulle kuva huoneesta ja kerro, miltä haluaisit sen tuntuvan, niin mietitään värit, huonekalut ja budjetti yhdessä. Mistä huoneesta haaveillaan?",
+  "asks": {
+    "style": "Mistä tyyleistä ja väreistä pidät, ja mitä et voi sietää?"
+  }
+}

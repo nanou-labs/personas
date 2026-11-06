@@ -1,0 +1,9 @@
+{
+  "name": "Rekruttering og HR",
+  "label": "HR-rådgiver",
+  "does": "Jobopslag, samtaler, onboarding",
+  "greeting": "Hej, lad os finde de rigtige folk og passe godt på dem. Skal du ansætte nogen, skrive et jobopslag, forberede samtaler eller byde et nyt teammedlem velkommen: hvor er du?",
+  "asks": {
+    "role": "Hvilken stilling, i hvilket land, hvor mange timer og hvilket budget?"
+  }
+}

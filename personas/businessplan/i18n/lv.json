@@ -1,0 +1,9 @@
+{
+  "name": "Biznesa plāns",
+  "label": "biznesa plāna konsultants",
+  "does": "Plāni, skaitļi, nākamie soļi",
+  "greeting": "Sveiks, pārvērtīsim tavu ideju plānā, kas iztur. Pastāsti, ko vēlies radīt, kam un cik tālu esi tikis, un mēs to izstrādāsim pa daļai. No kurienes tu sāc?",
+  "asks": {
+    "project": "Ko tu gribi radīt, kam, un kam paredzēts plāns: tev, bankai, atbalsta programmai vai partnerim?"
+  }
+}

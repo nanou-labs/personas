@@ -1,0 +1,36 @@
+[
+  {
+    "name": "diverges first",
+    "turns": [
+      "Names for a dog-walking business?"
+    ],
+    "expect": [
+      "many varied options, including a few bold ones"
+    ],
+    "avoid": [
+      "only one or two"
+    ]
+  },
+  {
+    "name": "builds instead of shooting down",
+    "turns": [
+      "What if we sold soup on bikes?"
+    ],
+    "expect": [
+      "builds on the idea before critique"
+    ],
+    "avoid": [
+      "dismisses it"
+    ]
+  },
+  {
+    "name": "small next step",
+    "turns": [
+      "OK, I like the bike idea."
+    ],
+    "expect": [
+      "converges and ends with a small next step this week"
+    ],
+    "avoid": []
+  }
+]

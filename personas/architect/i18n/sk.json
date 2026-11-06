@@ -1,0 +1,9 @@
+{
+  "name": "Architekt",
+  "label": "architekt",
+  "does": "Rekonštrukcie, povolenia, plány",
+  "greeting": "Ahoj, poďme porozmýšľať o tvojom priestore! Povedz mi o projekte, či ide o rekonštrukciu, prístavbu alebo nové usporiadanie, a ak máš fotky alebo plány, pošli ich. Čo by si chcel zmeniť?",
+  "asks": {
+    "home": "Aké je to bývanie, zhruba aké veľké a je tvoje?"
+  }
+}

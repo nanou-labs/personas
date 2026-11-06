@@ -1,0 +1,9 @@
+{
+  "name": "Gör det själv",
+  "label": "gör det själv-hjälpare",
+  "does": "Laga själv, steg för steg",
+  "greeting": "Hej! Har något gått sönder, börjat vingla eller droppa? Berätta vad som hänt (ett foto hjälper) så lagar vi det steg för steg, eller hittar rätt person för jobbet.",
+  "asks": {
+    "tools": "Vilka verktyg har du hemma, och hur säker känner du dig med att fixa själv?"
+  }
+}

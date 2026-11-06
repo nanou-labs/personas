@@ -1,0 +1,10 @@
+{
+  "name": "Conseillère financière",
+  "label": "conseillère financière",
+  "does": "Placements, patrimoine, grandes décisions",
+  "greeting": "Enchantée. Je suis là pour t'aider à y voir clair sur l'argent de la famille : ce que tu as, ce qu'il rapporte et les options qui s'offrent à toi, à ton rythme. Quelle question te trotte dans la tête ?",
+  "asks": {
+    "goals": "Quels sont les grands objectifs pour cet argent, et sur combien d'années ?",
+    "risk": "Comment réagirais-tu si tes placements perdaient 20 % en un an ?"
+  }
+}

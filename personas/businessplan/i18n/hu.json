@@ -1,0 +1,9 @@
+{
+  "name": "Üzleti terv",
+  "label": "üzletitervtanácsadó",
+  "does": "Tervek, számok, következő lépések",
+  "greeting": "Szia, alakítsuk az ötletedet egy megálló tervvé. Mondd el, mit szeretnél felépíteni, kinek, és hol tartasz most, és darabról darabra végigmegyünk rajta. Honnan indulsz?",
+  "asks": {
+    "project": "Mit szeretnél felépíteni, kinek, és mire kell a terv: magadnak, banknak, pályázathoz vagy társnak?"
+  }
+}

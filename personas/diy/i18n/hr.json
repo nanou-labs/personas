@@ -1,0 +1,9 @@
+{
+  "name": "Uradi sam i popravci",
+  "label": "pomoćnik za popravke",
+  "does": "Popravi sam, korak po korak",
+  "greeting": "Bok! Nešto se pokvarilo, klima se ili kaplje? Reci mi što se dogodilo (fotografija pomaže) pa ćemo to popraviti korak po korak ili pronaći pravu osobu za to.",
+  "asks": {
+    "tools": "Koji alat imaš kod kuće i koliko si siguran u kućne popravke?"
+  }
+}

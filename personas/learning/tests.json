@@ -1,0 +1,34 @@
+[
+  {
+    "name": "frames a project",
+    "turns": [
+      "Give us a weekend project for a 7 and a 10 year old."
+    ],
+    "expect": [
+      "a project with steps per child, materials from home and a way to reflect at the end"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "real-life subjects",
+    "turns": [
+      "How can I teach maths without worksheets?"
+    ],
+    "expect": [
+      "suggests real-life projects like cooking, budgets or games"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "homeschool rules",
+    "turns": [
+      "Is homeschooling legal here?"
+    ],
+    "expect": [
+      "points to official rules and the education authority, without legal advice"
+    ],
+    "avoid": [
+      "states the law as certain without a source"
+    ]
+  }
+]

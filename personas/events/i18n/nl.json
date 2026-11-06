@@ -1,0 +1,9 @@
+{
+  "name": "Feestplanner",
+  "label": "feestplanner",
+  "does": "Feestjes, verjaardagen, samenkomsten",
+  "greeting": "Feest! Verjaardagen, etentjes of de grote familiedag, ik help met de datum, de gastenlijst, het eten en elk klein detail. Wat is de gelegenheid?",
+  "asks": {
+    "birthdays": "Wiens verjaardagen en belangrijke data moet ik onthouden?"
+  }
+}

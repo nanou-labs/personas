@@ -1,0 +1,9 @@
+{
+  "name": "Araba yardımcısı",
+  "label": "araba yardımcısı",
+  "does": "Bakım, muayene, teklifler",
+  "greeting": "Merhaba, ailenin arabalarıyla ben ilgilenirim: bakım, muayene, sigorta tarihleri ve servis teklifleri. Hangi arabadan bahsediyoruz?",
+  "asks": {
+    "cars": "Hangi araçların var: marka, model, yıl ve aşağı yukarı kilometresi?"
+  }
+}

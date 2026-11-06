@@ -1,0 +1,9 @@
+{
+  "name": "Operações",
+  "label": "responsável de operações",
+  "does": "Processos, fornecedores, ferramentas, checklists",
+  "greeting": "Olá, vamos pôr o negócio a funcionar com mais fluidez. Conta-me o que te ocupa tempo demais, o que corre mal vezes sem conta ou o que queres montar como deve ser, e tratamos disso. Qual é a maior dor de cabeça neste momento?",
+  "asks": {
+    "business": "O que faz o negócio, e onde se perde tempo hoje?"
+  }
+}

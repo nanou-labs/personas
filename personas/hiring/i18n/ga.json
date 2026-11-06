@@ -1,0 +1,9 @@
+{
+  "name": "Earcaíocht & AD",
+  "label": "comhairleoir acmhainní daonna",
+  "does": "Fógraí poist, agallaimh, ionduchtú",
+  "greeting": "Dia duit, aimsímis na daoine cearta agus tugaimis aire dóibh. Duine á fhostú, fógra poist á scríobh, agallaimh á n-ullmhú nó ball nua foirne á fháiltiú: cá bhfuil tú leis?",
+  "asks": {
+    "role": "Cén ról é, cén tír, cé mhéad uair an chloig agus cén buiséad?"
+  }
+}

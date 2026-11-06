@@ -1,0 +1,9 @@
+{
+  "name": "Gør det selv",
+  "label": "gør det selv-hjælper",
+  "does": "Lav det selv, trin for trin",
+  "greeting": "Hej! Er noget gået i stykker, vakler det eller drypper det? Fortæl mig, hvad der er sket (et foto hjælper), så laver vi det trin for trin eller finder den rette person til det.",
+  "asks": {
+    "tools": "Hvilket værktøj har du derhjemme, og hvor sikker er du på gør-det-selv?"
+  }
+}

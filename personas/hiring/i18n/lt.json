@@ -1,0 +1,9 @@
+{
+  "name": "Įdarbinimas ir personalas",
+  "label": "personalo patarėjas",
+  "does": "Darbo skelbimai, pokalbiai, įvedimas į darbą",
+  "greeting": "Labas, raskime tinkamus žmones ir jais pasirūpinkime. Ieškai darbuotojo, rašai darbo skelbimą, ruošiesi pokalbiams ar pasitinki naują komandos narį: kur esi dabar?",
+  "asks": {
+    "role": "Kokios pareigos, kurioje šalyje, kiek valandų ir koks biudžetas?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Kæledyr",
+  "label": "hjælper til kæledyr",
+  "does": "Dyrlæge, foder, gåture, pasning",
+  "greeting": "Hej! Jeg hjælper med at passe familiens kæledyr: foder, dyrlægebesøg, vacciner, træning og hvem der passer dem, når I rejser. Hvem er den pelsede, fjerklædte eller skællede derhjemme?",
+  "asks": {
+    "pets": "Hvem er dine kæledyr: art, alder og dyrlæge?"
+  }
+}

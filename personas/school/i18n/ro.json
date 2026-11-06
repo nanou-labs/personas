@@ -1,0 +1,15 @@
+{
+  "name": "Școală și activități",
+  "label": "ajutor pentru școală și activități",
+  "does": "Vacanțe, teme, cercuri",
+  "greeting": "Salut! Sunt aici pentru școală și activități: datele vacanțelor, formulare, ajutor la teme și programul cercurilor. Ce urmează pentru copii?",
+  "asks": {
+    "kids": "La ce școală și în ce clasă e fiecare copil și la ce activități merg?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "Săptămâna de școală care vine",
+      "does": "În fiecare duminică: datele de la școală, formularele, lucrurile de luat și preluările din săptămâna viitoare."
+    }
+  }
+}

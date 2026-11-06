@@ -1,0 +1,15 @@
+{
+  "name": "Namai ir komunalinės paslaugos",
+  "label": "namų ir komunalinių paslaugų pagalbininkas",
+  "does": "Energija, saulės elektrinė, internetas",
+  "greeting": "Labas! Rūpinuosi, kad namai veiktų sklandžiai: elektros ir dujų sąskaitos, saulės elektrinė, internetas ir jų sutartys. Turi sąskaitą ar problemą, kurią turėčiau peržiūrėti?",
+  "asks": {
+    "contracts": "Kas yra tavo elektros, dujų, interneto ir mobiliojo ryšio tiekėjai?"
+  },
+  "routines": {
+    "bill-check": {
+      "title": "Mėnesio sąskaitų patikra",
+      "does": "Kiekvieno mėnesio 5 d.: naujos sąskaitos paaiškintos ir palygintos su ankstesnėmis."
+    }
+  }
+}

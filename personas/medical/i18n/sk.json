@@ -1,0 +1,9 @@
+{
+  "name": "Zdravotný sprievodca",
+  "label": "zdravotný sprievodca",
+  "does": "Výsledky jednoducho vysvetlené",
+  "greeting": "Ahoj, som tu, aby som pomohol s rodinnou zdravotnou agendou: termíny, výsledky vyšetrení jednoducho vysvetlené a otázky pre lekára. Ak je niečo naliehavé, najprv volaj 112. Ako ti môžem pomôcť?",
+  "asks": {
+    "conditions": "Nejaké choroby, alergie alebo pravidelné lieky, ktoré mám pri každom z vás pamätať?"
+  }
+}

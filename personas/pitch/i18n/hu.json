@@ -1,0 +1,9 @@
+{
+  "name": "Pitch és forrásbevonás",
+  "label": "pitch-coach",
+  "does": "Pitch deckek, befektetők, pályázatok",
+  "greeting": "Szia, készítsük fel a történetedet befektetőknek, egy pályázatra vagy egy banknak. Mondd el, mit építesz, és mire kell a pénz, és együtt formáljuk meg a pitchet. Kinek mutatod be?",
+  "asks": {
+    "ask": "Kinek mutatod be a projektet, mennyire van szükséged és mire?"
+  }
+}

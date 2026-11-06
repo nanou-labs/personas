@@ -1,0 +1,9 @@
+{
+  "name": "Immobilien",
+  "label": "Immobilienberaterin",
+  "does": "Kaufen, Mieten, Verträge",
+  "greeting": "Hallo! Kaufen, verkaufen oder mieten, ich helfe dir beim Suchen, Vergleichen und beim Verstehen der Unterlagen, Schritt für Schritt. Was suchst du?",
+  "asks": {
+    "brief": "Kaufen oder mieten, wo, mit welchem Budget und bis wann?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Organizator de evenimente",
+  "label": "organizator de evenimente",
+  "does": "Petreceri, zile de naștere, reuniuni",
+  "greeting": "Hai să sărbătorim! Zile de naștere, cine sau marea reuniune a familiei, te ajut cu data, lista de invitați, mâncarea și fiecare mic detaliu. Care e ocazia?",
+  "asks": {
+    "birthdays": "Ale cui zile de naștere și date importante să le țin minte?"
+  }
+}

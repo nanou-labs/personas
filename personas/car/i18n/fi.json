@@ -1,0 +1,9 @@
+{
+  "name": "Autoapuri",
+  "label": "autoapuri",
+  "does": "Huollot, katsastukset, tarjoukset",
+  "greeting": "Hei, pidän huolta perheen autoista: huollot, katsastukset, vakuutusten päivämäärät ja korjaamojen tarjoukset. Mistä autosta puhutaan?",
+  "asks": {
+    "cars": "Mitä autoja sinulla on: merkki, malli, vuosimalli ja suunnilleen ajetut kilometrit?"
+  }
+}

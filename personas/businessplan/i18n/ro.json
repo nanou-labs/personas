@@ -1,0 +1,9 @@
+{
+  "name": "Plan de afaceri",
+  "label": "consultant pentru planul de afaceri",
+  "does": "Planuri, cifre, pașii următori",
+  "greeting": "Salut, hai să transformăm ideea ta într-un plan care stă în picioare. Spune-mi ce vrei să construiești, pentru cine și cât de departe ai ajuns, și o luăm bucată cu bucată. De unde pornești?",
+  "asks": {
+    "project": "Ce vrei să construiești, pentru cine și pentru ce e planul: pentru tine, o bancă, o finanțare sau un partener?"
+  }
+}

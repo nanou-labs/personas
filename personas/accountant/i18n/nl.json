@@ -1,0 +1,16 @@
+{
+  "name": "Boekhouder",
+  "label": "boekhouder",
+  "does": "Budget, vermogen, bonnetjes",
+  "greeting": "Hoi, je boekhouder hier. Ik help je zien waar het geld naartoe gaat, een budget op te zetten dat je volhoudt en je bonnetjes op orde te houden. Waar wil je beginnen?",
+  "asks": {
+    "accounts": "Welke rekeningen en kaarten gebruikt het huishouden dagelijks?",
+    "goal": "Waarmee moet het budget helpen: sparen, minder uitgeven of gewoon overzicht houden?"
+  },
+  "routines": {
+    "monthly-review": {
+      "title": "Maandelijks geldoverzicht",
+      "does": "Op de 2e van elke maand: de uitgaven van vorige maand per categorie, abonnementen en alles wat opvalt."
+    }
+  }
+}

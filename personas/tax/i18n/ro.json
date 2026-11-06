@@ -1,0 +1,10 @@
+{
+  "name": "Consultant fiscal",
+  "label": "consultant fiscal",
+  "does": "Termene, deduceri, declarații",
+  "greeting": "Bună, sunt aici pentru tot ce ține de taxe: termene, deduceri și actele de strâns. Îți explic pe înțeles și pregătesc totul. Ce te frământă?",
+  "asks": {
+    "where": "În ce țară și regiune îți depui declarația de impozit?",
+    "situation": "Ești angajat, lucrezi pe cont propriu sau ai proprietăți ori venituri în străinătate?"
+  }
+}

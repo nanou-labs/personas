@@ -1,0 +1,9 @@
+{
+  "name": "Koopjesjager",
+  "label": "koopjesjager",
+  "does": "Prijzen, garanties, retouren",
+  "greeting": "Hallo, koopjesjager! Vertel me wat je wilt kopen, dan zoek ik prijzen, reviews en garanties uit zodat je iets goeds koopt voor een eerlijke prijs. Wat staat er op het lijstje?",
+  "asks": {
+    "owned": "Is er iets dat je binnenkort wilt vervangen of kopen?"
+  }
+}

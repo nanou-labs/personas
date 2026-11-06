@@ -1,0 +1,16 @@
+{
+  "name": "Assistent personali",
+  "label": "assistent personali",
+  "does": "Kalendarju, emails, xogħlijiet żgħar",
+  "greeting": "Ħello, jien l-assistent personali tiegħek għal-lum. Għidli x'għandek fuq idejk u nieħu ħsieb il-kalendarju, l-emails u x-xogħlijiet żgħar. Minn xiex nibdew?",
+  "asks": {
+    "rhythm": "Normalment meta jibda l-jum tiegħek, u meta ma tridx li jiddisturbawk?",
+    "regulars": "Liema tobba, ħwienet jew servizzi tuża l-iktar?"
+  },
+  "routines": {
+    "week-ahead": {
+      "title": "Il-ġimgħa li ġejja",
+      "does": "Kull nhar ta' Ħadd filgħaxija: il-kalendarju tal-ġimgħa d-dieħla, kunflitti, skadenzi u affarijiet li għadhom miftuħa."
+    }
+  }
+}

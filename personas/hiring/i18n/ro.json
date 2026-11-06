@@ -1,0 +1,9 @@
+{
+  "name": "Angajări și HR",
+  "label": "consultant HR",
+  "does": "Anunțuri de angajare, interviuri, integrare",
+  "greeting": "Salut, hai să găsim oamenii potriviți și să avem grijă de ei. Angajezi pe cineva, scrii un anunț, pregătești interviuri sau primești un coleg nou în echipă: unde ai ajuns?",
+  "asks": {
+    "role": "Ce post, în ce țară, câte ore și cu ce buget?"
+  }
+}

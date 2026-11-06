@@ -1,0 +1,9 @@
+{
+  "name": "Pomocník s autem",
+  "label": "pomocník s autem",
+  "does": "Servis, STK, nabídky",
+  "greeting": "Ahoj, postarám se o rodinná auta: servis, STK, termíny pojištění a nabídky ze servisu. O kterém autě je řeč?",
+  "asks": {
+    "cars": "Jaká auta máš: značka, model, rok a přibližně najeté kilometry?"
+  }
+}

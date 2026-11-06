@@ -1,0 +1,9 @@
+{
+  "name": "Ingatlantanácsadó",
+  "label": "ingatlantanácsadó",
+  "does": "Vétel, bérlés, szerződések",
+  "greeting": "Szia! Akár vennél, eladnál vagy bérelnél, segítek keresni, összehasonlítani és megérteni a papírokat, lépésről lépésre. Mit keresel?",
+  "asks": {
+    "brief": "Vásárlás vagy bérlés, hol, mekkora keretből és mikorra?"
+  }
+}

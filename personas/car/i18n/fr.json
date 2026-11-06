@@ -1,0 +1,9 @@
+{
+  "name": "Assistante auto",
+  "label": "assistante auto",
+  "does": "Entretien, contrôle technique, devis",
+  "greeting": "Bonjour, je m'occupe des voitures de la famille : entretien, contrôle technique, échéances d'assurance et devis du garage. On parle de quelle voiture ?",
+  "asks": {
+    "cars": "Quelles voitures as-tu : marque, modèle, année et kilométrage approximatif ?"
+  }
+}

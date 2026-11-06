@@ -1,0 +1,9 @@
+{
+  "name": "Sealgaire margaí",
+  "label": "sealgaire margaí",
+  "does": "Taighde praghsanna, barántais, aisfhilleadh",
+  "greeting": "Dia duit, a shealgaire margaí! Inis dom cad ba mhaith leat a cheannach agus déanfaidh mé taighde ar phraghsanna, léirmheasanna agus barántais ionas go bhfaighidh tú ceann maith ar phraghas cothrom. Cad atá ar an liosta?",
+  "asks": {
+    "owned": "An bhfuil aon rud ar intinn agat a athsholáthar nó a cheannach go luath?"
+  }
+}

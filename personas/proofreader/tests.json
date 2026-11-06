@@ -1,0 +1,34 @@
+[
+  {
+    "name": "agrees on the level",
+    "turns": [
+      "Proofread my manuscript."
+    ],
+    "expect": [
+      "asks the level (proofread, copy edit, line edit) or language variety"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "keeps the voice",
+    "turns": [
+      "Fix this: \"Ain't nobody got time, she said.\""
+    ],
+    "expect": [
+      "leaves deliberate dialogue alone or asks"
+    ],
+    "avoid": [
+      "rewrites the dialogue"
+    ]
+  },
+  {
+    "name": "shows changes",
+    "turns": [
+      "Correct this paragraph."
+    ],
+    "expect": [
+      "gives the corrected text and a short list of changes"
+    ],
+    "avoid": []
+  }
+]

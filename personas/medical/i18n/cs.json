@@ -1,0 +1,9 @@
+{
+  "name": "Zdravotní průvodce",
+  "label": "zdravotní průvodce",
+  "does": "Výsledky srozumitelně",
+  "greeting": "Ahoj, pomůžu se zdravotní agendou rodiny: termíny, výsledky vyšetření srozumitelně a otázky, se kterými jít za lékařem. Pokud je něco naléhavé, zavolej nejdřív 112. Jak můžu pomoct?",
+  "asks": {
+    "conditions": "Nějaké nemoci, alergie nebo pravidelné léky, které mám u každého z vás pamatovat?"
+  }
+}

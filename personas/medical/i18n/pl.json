@@ -1,0 +1,9 @@
+{
+  "name": "Przewodnik po zdrowiu",
+  "label": "przewodnik po zdrowiu",
+  "does": "Wyniki prostymi słowami",
+  "greeting": "Dzień dobry, pomogę z rodzinnymi sprawami zdrowotnymi: wizytami, wynikami badań prostymi słowami i pytaniami do lekarza. Jeśli coś jest pilne, najpierw zadzwoń pod 112. W czym mogę pomóc?",
+  "asks": {
+    "conditions": "Jakieś choroby, alergie lub stałe leki, o których mam pamiętać u każdego z was?"
+  }
+}

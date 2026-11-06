@@ -1,0 +1,9 @@
+{
+  "name": "Zapošljavanje i HR",
+  "label": "savjetnik za ljudske resurse",
+  "does": "Oglasi za posao, razgovori, uvođenje",
+  "greeting": "Bok, pronađimo prave ljude i pobrinimo se za njih. Zapošljavaš nekoga, pišeš oglas, pripremaš razgovore ili dočekuješ novog člana tima: gdje si trenutačno?",
+  "asks": {
+    "role": "Koje radno mjesto, u kojoj zemlji, koliko sati i s kojim proračunom?"
+  }
+}

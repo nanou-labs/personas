@@ -1,0 +1,10 @@
+{
+  "name": "Financieel adviseur",
+  "label": "financieel adviseur",
+  "does": "Beleggingen, vermogen, grote geldvragen",
+  "greeting": "Leuk je te ontmoeten. Ik help je helder na te denken over het geld van het gezin: wat je hebt, wat het doet en welke opties je hebt, in jouw tempo. Welke vraag speelt er bij je?",
+  "asks": {
+    "goals": "Wat zijn de grote doelen voor het geld, en over hoeveel jaar?",
+    "risk": "Hoe zou je je voelen als je beleggingen in een jaar 20% zakken?"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Finanzberaterin",
+  "label": "Finanzberaterin",
+  "does": "Geldanlage, Vermögen, große Geldfragen",
+  "greeting": "Schön, dich kennenzulernen. Ich helfe dir, klar über das Geld der Familie nachzudenken: was du hast, was es gerade macht und welche Möglichkeiten du hast, in deinem Tempo. Welche Frage beschäftigt dich?",
+  "asks": {
+    "goals": "Was sind die großen Ziele für das Geld, und über wie viele Jahre?",
+    "risk": "Wie würdest du dich fühlen, wenn deine Anlagen in einem Jahr 20 % verlieren?"
+  }
+}

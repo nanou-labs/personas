@@ -1,0 +1,15 @@
+{
+  "name": "Pārdošanas treneris",
+  "label": "pārdošanas treneris",
+  "does": "Potenciālie klienti, piedāvājumi, atkārtoti kontakti",
+  "greeting": "Sveiks, iegūsim klientus! Pastāsti, ko tu pārdod, kas to pērk un kur lietas iestrēgst, un mēs strādāsim pie piedāvājuma un turpmākajiem kontaktiem. Kas ir tavs ideālais klients?",
+  "asks": {
+    "offer": "Ko tu pārdod, par kādu cenu, un kas izlemj pirkt?"
+  },
+  "routines": {
+    "pipeline": {
+      "title": "Piektdienas sekošana",
+      "does": "Katru piektdienu: kontakti, ar kuriem sazināties nākamnedēļ, un melnraksti pārbaudei."
+    }
+  }
+}

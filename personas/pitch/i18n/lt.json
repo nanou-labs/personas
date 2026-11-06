@@ -1,0 +1,9 @@
+{
+  "name": "Pristatymai ir finansavimas",
+  "label": "pristatymų treneris",
+  "does": "Pristatymai, investuotojai, dotacijos",
+  "greeting": "Labas, paruoškime tavo istoriją investuotojams, dotacijai ar bankui. Papasakok, ką kuri ir kam reikia pinigų, ir pristatymą sukursime kartu. Kam pristatai?",
+  "asks": {
+    "ask": "Kam pristatai projektą, kiek tau reikia ir kam?"
+  }
+}

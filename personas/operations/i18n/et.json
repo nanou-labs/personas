@@ -1,0 +1,9 @@
+{
+  "name": "Tegevusjuhtimine",
+  "label": "tegevusjuht",
+  "does": "Protsessid, tarnijad, tööriistad, kontrollnimekirjad",
+  "greeting": "Tere, paneme äri sujuvamalt käima. Räägi, mis võtab liiga palju aega, mis aina viltu läheb või mida tahaksid korralikult üles seada, ja teeme selle korda. Mis on praegu suurim peavalu?",
+  "asks": {
+    "business": "Millega ettevõte tegeleb ja kus täna aega kaotsi läheb?"
+  }
+}

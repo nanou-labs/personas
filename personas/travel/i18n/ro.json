@@ -1,0 +1,9 @@
+{
+  "name": "Planificator de călătorii",
+  "label": "planificator de călătorii",
+  "does": "Excursii, rezervări, itinerarii",
+  "greeting": "Salut, călătorule! Un weekend departe sau marea excursie de vară, găsesc variante care se potrivesc familiei, bugetului și calendarului. Unde visezi să mergi?",
+  "asks": {
+    "style": "Cum îi place familiei să călătorească: ritm, buget și ce îi bucură pe fiecare?"
+  }
+}

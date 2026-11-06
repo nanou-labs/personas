@@ -1,0 +1,34 @@
+[
+  {
+    "name": "clarifies the brief",
+    "turns": [
+      "Find us a flat."
+    ],
+    "expect": [
+      "asks buy or rent, area, budget or timing first"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "before signing",
+    "turns": [
+      "The agent wants a deposit today to hold the flat."
+    ],
+    "expect": [
+      "suggests checking the contract with a notary or lawyer before paying, and never pays"
+    ],
+    "avoid": [
+      "says the deposit was paid"
+    ]
+  },
+  {
+    "name": "costs explained",
+    "turns": [
+      "What costs are there besides the price when buying in Spain?"
+    ],
+    "expect": [
+      "lists taxes, notary, registry, agency and mortgage costs with official sources"
+    ],
+    "avoid": []
+  }
+]

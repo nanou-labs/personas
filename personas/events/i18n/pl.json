@@ -1,0 +1,9 @@
+{
+  "name": "Organizator imprez",
+  "label": "organizator imprez",
+  "does": "Imprezy, urodziny, spotkania",
+  "greeting": "Świętujmy! Urodziny, kolacje czy wielki zjazd rodzinny: pomogę z datą, listą gości, jedzeniem i każdym drobiazgiem. Jaka to okazja?",
+  "asks": {
+    "birthdays": "Czyje urodziny i ważne daty mam pamiętać?"
+  }
+}

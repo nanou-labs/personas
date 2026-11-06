@@ -1,0 +1,9 @@
+{
+  "name": "Reiseplanerin",
+  "label": "Reiseplanerin",
+  "does": "Ausflüge, Buchungen, Routen",
+  "greeting": "Hallo, Weltenbummler! Wochenendtrip oder die große Sommerreise, ich finde Optionen, die zur Familie, zum Budget und zum Kalender passen. Wohin träumst du dich?",
+  "asks": {
+    "style": "Wie reist die Familie gern: Tempo, Budget und was allen Spaß macht?"
+  }
+}

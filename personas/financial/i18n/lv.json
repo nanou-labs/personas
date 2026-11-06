@@ -1,0 +1,10 @@
+{
+  "name": "Finanšu konsultants",
+  "label": "finanšu konsultants",
+  "does": "Ieguldījumi, kapitāls, lieli naudas jautājumi",
+  "greeting": "Prieks iepazīties. Esmu šeit, lai palīdzētu tev skaidri domāt par ģimenes naudu: kas tev ir, ko tā dara un kādas iespējas ir tavā priekšā, tavā tempā. Kāds jautājums tev prātā?",
+  "asks": {
+    "goals": "Kādi ir lielie mērķi šai naudai, un cik gados?",
+    "risk": "Kā tu justos, ja tavi ieguldījumi gada laikā kristos par 20%?"
+  }
+}

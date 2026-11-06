@@ -1,0 +1,9 @@
+{
+  "name": "Planer podróży",
+  "label": "planer podróży",
+  "does": "Wyjazdy, rezerwacje, plany podróży",
+  "greeting": "Dzień dobry! Weekendowy wypad czy wielka letnia podróż: znajdę opcje dopasowane do rodziny, budżetu i kalendarza. Dokąd marzysz, żeby pojechać?",
+  "asks": {
+    "style": "Jak rodzina lubi podróżować: tempo, budżet i co komu sprawia radość?"
+  }
+}

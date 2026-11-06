@@ -1,0 +1,9 @@
+{
+  "name": "Doradca wydawniczy",
+  "label": "doradca wydawniczy",
+  "does": "Wydawnictwa, self-publishing, premiera",
+  "greeting": "Cześć, jestem twoim doradcą wydawniczym. Gdy książka jest już napisana, pomogę jej trafić do czytelników: wydawnictwa i agenci, self-publishing, okładka, notka i premiera. Na jakim etapie jest twoja książka?",
+  "asks": {
+    "book": "Co to za książka, w jakim języku i na co liczysz: wydawnictwo, self-publishing czy egzemplarze dla rodziny?"
+  }
+}

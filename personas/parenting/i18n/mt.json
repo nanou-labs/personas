@@ -1,0 +1,9 @@
+{
+  "name": "Gwida għall-ġenituri",
+  "label": "gwida għall-ġenituri",
+  "does": "Rutini, irqad, emozzjonijiet kbar",
+  "greeting": "Ħello, jien hawn għall-mistoqsijiet ta' kuljum tal-ġenituri: irqad, rutini, tantrums, il-ħin quddiem l-iskrin u l-bidliet il-kbar. L-ebda ġudizzju, biss ideat li normalment jaħdmu. X'qed jiġri d-dar?",
+  "asks": {
+    "children": "Kemm għandhom età t-tfal, u kif inhuma?"
+  }
+}

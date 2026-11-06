@@ -1,0 +1,9 @@
+{
+  "name": "Cúntóir cairr",
+  "label": "cúntóir cairr",
+  "does": "Seirbhísiú, iniúchtaí, meastacháin",
+  "greeting": "Dia duit, tabharfaidh mé aire do ghluaisteáin an teaghlaigh: seirbhísiú, tástálacha, dátaí árachais agus meastacháin ón ngaráiste. Cén carr atá i gceist againn?",
+  "asks": {
+    "cars": "Cé na carranna atá agat: déantús, samhail, bliain agus thart ar an míleáiste?"
+  }
+}

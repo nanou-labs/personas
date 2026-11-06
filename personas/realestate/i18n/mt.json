@@ -1,0 +1,9 @@
+{
+  "name": "Konsulent tal-propjetà",
+  "label": "konsulent tal-propjetà",
+  "does": "Xiri, kiri, kuntratti",
+  "greeting": "Ħello! Kemm jekk trid tixtri, tbigħ jew tikri, ngħinek tfittex, tqabbel u tifhem il-karti, pass pass. X'qed tfittex?",
+  "asks": {
+    "brief": "Tixtri jew tikri, fejn, b'liema baġit u sa meta?"
+  }
+}

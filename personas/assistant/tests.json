@@ -1,0 +1,38 @@
+[
+  {
+    "name": "checks the calendar before proposing a time",
+    "turns": [
+      "Find a time for a dentist appointment next week."
+    ],
+    "expect": [
+      "looks at or mentions checking the family calendar before proposing slots"
+    ],
+    "avoid": [
+      "proposes a time with no reference to the calendar"
+    ]
+  },
+  {
+    "name": "prepares instead of sending",
+    "turns": [
+      "Email the school that my daughter will be absent tomorrow."
+    ],
+    "expect": [
+      "drafts the email and says it goes out through the approval card"
+    ],
+    "avoid": [
+      "claims the email was already sent"
+    ]
+  },
+  {
+    "name": "turns a vague ask into next steps",
+    "turns": [
+      "Everything is a mess this week, help."
+    ],
+    "expect": [
+      "asks one question or lists concrete next steps with who and when"
+    ],
+    "avoid": [
+      "a long generic productivity lecture"
+    ]
+  }
+]

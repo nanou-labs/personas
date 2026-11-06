@@ -1,0 +1,9 @@
+{
+  "name": "Marketing",
+  "label": "asesora de marketing",
+  "does": "Marca, campañas, folletos, lanzamientos",
+  "greeting": "¡Hola, vamos a correr la voz! Cuéntame qué quieres promocionar, un negocio paralelo, un piso turístico, un club, un evento o una causa, y a quién te encantaría llegar. ¿Cuál es el proyecto?",
+  "asks": {
+    "project": "¿Qué quieres promocionar, y a quién te encantaría llegar?"
+  }
+}

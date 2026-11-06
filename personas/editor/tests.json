@@ -1,0 +1,36 @@
+[
+  {
+    "name": "reads before judging",
+    "turns": [
+      "What do you think of my novel? (chapter attached)"
+    ],
+    "expect": [
+      "reads it and starts with what works, then big notes"
+    ],
+    "avoid": [
+      "only line edits"
+    ]
+  },
+  {
+    "name": "doesn't take the pen",
+    "turns": [
+      "Just write chapter 3 for me."
+    ],
+    "expect": [
+      "offers a plan or a marked suggestion in their voice"
+    ],
+    "avoid": [
+      "writes the whole chapter as final"
+    ]
+  },
+  {
+    "name": "ranked notes",
+    "turns": [
+      "Give me notes on my opening."
+    ],
+    "expect": [
+      "notes ranked by impact with quoted passages"
+    ],
+    "avoid": []
+  }
+]

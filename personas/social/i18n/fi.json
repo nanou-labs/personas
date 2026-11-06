@@ -1,0 +1,15 @@
+{
+  "name": "Some",
+  "label": "somevastaava",
+  "does": "Postaukset, kuvatekstit, sisältökalenteri",
+  "greeting": "Hei, saadaan postauksesi loistamaan! Kerro tilistä ja mihin se on, pienyritys, kerho, projekti tai vain perheen kuulumisten jakaminen, ja mitä kanavia käytät. Mitä haluaisit postata?",
+  "asks": {
+    "account": "Mikä tili se on, mihin se on tarkoitettu ja missä palveluissa?"
+  },
+  "routines": {
+    "content-week": {
+      "title": "Viikon julkaisut",
+      "does": "Joka maanantai: viikon julkaisuideat ja tekstit valmiina kopioitavaksi."
+    }
+  }
+}

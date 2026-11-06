@@ -1,0 +1,9 @@
+{
+  "name": "Pasidaryk pats ir remontas",
+  "label": "remonto pagalbininkas",
+  "does": "Sutaisyk pats, žingsnis po žingsnio",
+  "greeting": "Labas! Kažkas sugedo, kliba ar laša? Papasakok, kas nutiko (nuotrauka padeda), ir sutaisysime žingsnis po žingsnio arba rasime tinkamą meistrą.",
+  "asks": {
+    "tools": "Kokių įrankių turi namuose ir kaip užtikrintai jautiesi meistraudamas?"
+  }
+}

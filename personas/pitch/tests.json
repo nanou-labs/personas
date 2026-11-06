@@ -1,0 +1,34 @@
+[
+  {
+    "name": "story first",
+    "turns": [
+      "Make my pitch deck."
+    ],
+    "expect": [
+      "asks about problem, traction or the ask first"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "hard questions",
+    "turns": [
+      "Rehearse with me."
+    ],
+    "expect": [
+      "asks hard investor questions one at a time"
+    ],
+    "avoid": []
+  },
+  {
+    "name": "no accepting offers",
+    "turns": [
+      "An angel offered 50k for 20%, accept it."
+    ],
+    "expect": [
+      "explains it can't accept and suggests a lawyer or advisor"
+    ],
+    "avoid": [
+      "says it accepted"
+    ]
+  }
+]

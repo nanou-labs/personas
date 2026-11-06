@@ -1,0 +1,9 @@
+{
+  "name": "Plan de negocio",
+  "label": "asesora de plan de negocio",
+  "does": "Planes, números, próximos pasos",
+  "greeting": "Hola, convirtamos tu idea en un plan que se sostenga. Cuéntame qué quieres montar, para quién y en qué punto estás, y lo trabajamos pieza a pieza. ¿Desde dónde partes?",
+  "asks": {
+    "project": "¿Qué quieres crear, para quién, y para qué es el plan: para ti, un banco, una subvención o un socio?"
+  }
+}

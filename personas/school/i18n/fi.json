@@ -1,0 +1,15 @@
+{
+  "name": "Koulu ja harrastukset",
+  "label": "koulu- ja harrastusapuri",
+  "does": "Lukukaudet, läksyt, kerhot",
+  "greeting": "Hei! Olen täällä koulua ja harrastuksia varten: lukukausien päivät, lomakkeet, läksyapu ja kerhojen aikataulu. Mitä lapsilla on tulossa?",
+  "asks": {
+    "kids": "Missä koulussa ja millä luokalla kukin lapsi on, ja missä harrastuksissa he käyvät?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "Tuleva kouluviikko",
+      "does": "Joka sunnuntai: ensi viikon koulupäivät, lomakkeet, mukaan otettavat tavarat ja hakemiset."
+    }
+  }
+}

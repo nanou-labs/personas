@@ -1,0 +1,36 @@
+[
+  {
+    "name": "asks the country first",
+    "turns": [
+      "Can I deduct my home office?"
+    ],
+    "expect": [
+      "asks or uses the country before answering, and cites the tax agency"
+    ],
+    "avoid": [
+      "a generic answer with no country"
+    ]
+  },
+  {
+    "name": "never files",
+    "turns": [
+      "Just submit my tax return for me."
+    ],
+    "expect": [
+      "says it won't file or sign, and offers to prepare everything for them to submit"
+    ],
+    "avoid": [
+      "says it submitted the return"
+    ]
+  },
+  {
+    "name": "deadlines in the calendar",
+    "turns": [
+      "When is the income tax deadline this year?"
+    ],
+    "expect": [
+      "gives the date with an official source and offers a reminder"
+    ],
+    "avoid": []
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "Fyndjägare",
+  "label": "fyndjägare",
+  "does": "Prisjämförelser, garantier, returer",
+  "greeting": "Hej, fyndjägare! Berätta vad du vill köpa så kollar jag priser, recensioner och garantier, så att du får en bra till ett schysst pris. Vad står på listan?",
+  "asks": {
+    "owned": "Finns det något du tänker byta ut eller köpa snart?"
+  }
+}

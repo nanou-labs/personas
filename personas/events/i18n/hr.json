@@ -1,0 +1,9 @@
+{
+  "name": "Proslave",
+  "label": "organizator događanja",
+  "does": "Zabave, rođendani, okupljanja",
+  "greeting": "Slavimo! Rođendani, večere ili veliko obiteljsko okupljanje, pomoći ću s datumom, popisom gostiju, hranom i svakim sitnim detaljem. Koja je prilika?",
+  "asks": {
+    "birthdays": "Čije rođendane i važne datume trebam pamtiti?"
+  }
+}

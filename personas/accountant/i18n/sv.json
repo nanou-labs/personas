@@ -1,0 +1,16 @@
+{
+  "name": "Bokförare",
+  "label": "bokförare",
+  "does": "Budgetar, förmögenhet, kvitton",
+  "greeting": "Hej, det här är din bokförare. Jag kan hjälpa dig att se vart pengarna tar vägen, göra en budget som håller och hålla ordning på kvittona. Var vill du börja?",
+  "asks": {
+    "accounts": "Vilka konton och kort använder hushållet i vardagen?",
+    "goal": "Vad ska budgeten hjälpa till med: spara, göra av med mindre eller bara få överblick?"
+  },
+  "routines": {
+    "monthly-review": {
+      "title": "Månadens pengakoll",
+      "does": "Den 2:a varje månad: förra månadens utgifter per kategori, prenumerationer och allt som sticker ut."
+    }
+  }
+}

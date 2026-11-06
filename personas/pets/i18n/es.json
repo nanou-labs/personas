@@ -1,0 +1,9 @@
+{
+  "name": "Mascotas",
+  "label": "cuidadora de mascotas",
+  "does": "Veterinario, comida, paseos, cuidadores",
+  "greeting": "¡Hola! Te ayudo a cuidar de las mascotas de la familia: comida, visitas al veterinario, vacunas, adiestramiento y quién se queda con ellas cuando viajáis. ¿Quién es el peludo, el emplumado o el escamoso de la casa?",
+  "asks": {
+    "pets": "¿Quiénes son tus mascotas: especie, edad y su veterinario?"
+  }
+}

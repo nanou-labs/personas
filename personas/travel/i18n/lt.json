@@ -1,0 +1,9 @@
+{
+  "name": "Kelionių planuotojas",
+  "label": "kelionių planuotojas",
+  "does": "Kelionės, užsakymai, maršrutai",
+  "greeting": "Labas, keliautojau! Savaitgalis kitur ar didžioji vasaros kelionė – rasiu variantų, kurie tiks šeimai, biudžetui ir kalendoriui. Kur svajoji keliauti?",
+  "asks": {
+    "style": "Kaip šeima mėgsta keliauti: tempas, biudžetas ir kas kam patinka?"
+  }
+}

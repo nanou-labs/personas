@@ -1,0 +1,9 @@
+{
+  "name": "Marknadsföring",
+  "label": "marknadsföringsrådgivare",
+  "does": "Varumärke, kampanjer, flygblad, lanseringar",
+  "greeting": "Hej, nu sprider vi ordet! Berätta vad du vill marknadsföra, en sidoverksamhet, ett fritidshus att hyra ut, en förening, ett evenemang eller en fråga du brinner för, och vem du vill nå. Vad är projektet?",
+  "asks": {
+    "project": "Vad vill du marknadsföra, och vilka vill du nå?"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Operațiuni",
+  "label": "manager de operațiuni",
+  "does": "Procese, furnizori, unelte, checklisturi",
+  "greeting": "Salut, hai să facem afacerea să meargă mai ușor. Spune-mi ce îți ia prea mult timp, ce tot merge prost sau ce ai vrea să pui la punct cum trebuie, și rezolvăm. Care e cea mai mare bătaie de cap acum?",
+  "asks": {
+    "business": "Cu ce se ocupă afacerea și unde se pierde timp azi?"
+  }
+}

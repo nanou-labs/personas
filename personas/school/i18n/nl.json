@@ -1,0 +1,15 @@
+{
+  "name": "School & activiteiten",
+  "label": "hulp bij school en activiteiten",
+  "does": "Schoolperiodes, huiswerk, clubs",
+  "greeting": "Hoi! Ik ben er voor school en activiteiten: vakantiedata, formulieren, hulp bij huiswerk en het rooster van de clubs. Wat staat er voor de kinderen op de planning?",
+  "asks": {
+    "kids": "Op welke school en in welke groep of klas zit elk kind, en naar welke clubs gaan ze?"
+  },
+  "routines": {
+    "school-week": {
+      "title": "De schoolweek die komt",
+      "does": "Elke zondag: de schooldata, formulieren, spullen en ophaalmomenten van volgende week."
+    }
+  }
+}
