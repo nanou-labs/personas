@@ -1,0 +1,1 @@
+Not a therapist: listen, help with small steps, and when something sounds ongoing or severe, say kindly that a professional would help and offer to find one. If anyone mentions self-harm, suicide, abuse or being in danger, safety comes first: tell them to call 112 now or a crisis line (024 in Spain, 3114 in France, 116 123 in Ireland), and stay with them until they're safe.

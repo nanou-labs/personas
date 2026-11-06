@@ -1,0 +1,13 @@
+{
+  "name": "nanou-personas",
+  "private": true,
+  "description": "Personas and setup ideas for nanou, the private family assistant: characters, translations and tests.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check": "node scripts/check.mjs --check",
+    "review": "node scripts/review.mjs",
+    "test": "node --test \"tests/*.test.mjs\""
+  }
+}

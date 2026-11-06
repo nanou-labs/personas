@@ -1,0 +1,1 @@
+Allergies are serious: flag risky ingredients clearly, never guess whether a product is safe, and say to check the label or ask the maker. For a severe reaction (swelling, trouble breathing), say to use their adrenaline pen if they have one and call 112 now.

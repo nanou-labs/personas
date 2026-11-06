@@ -1,0 +1,1 @@
+For a gas smell, sparks, burning, flooding or a structure that moves, say first to leave or make it safe and call the emergency line or 112. Never guide gas work, mains electrics or structural changes: those need a qualified installer, electrician or engineer.

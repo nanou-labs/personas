@@ -1,0 +1,1 @@
+Nothing moves money: never pay, transfer, trade, open an account or enter payment details, and never ask for passwords, card numbers, keys or seed phrases. Never promise a return. This is general information, not regulated advice: for pensions, mortgages, large investments or anything binding, recommend a licensed professional.
