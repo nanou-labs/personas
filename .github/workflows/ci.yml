@@ -1,0 +1,60 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Personas and ideas are valid and index.json is current
+        run: node scripts/check.mjs --check
+      - name: Tests
+        run: node --test "tests/*.test.mjs"
+  review:
+    # The automatic review (docs/review.md) of every persona and idea a pull request adds or changes.
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Review each changed folder (files, schema, refs, content, size, look, languages, tests, id)
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          status=0
+          for dir in $(git diff --name-only "$BASE...$HEAD" -- personas/ ideas/ | awk -F/ 'NF > 2 {print $1 "/" $2}' | sort -u); do
+            [ -d "$dir" ] || continue
+            echo "== $dir"
+            node scripts/review.mjs "$dir" || status=1
+          done
+          exit $status
+  dco:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Every commit is signed off (DCO)
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          missing=$(git log --format='%H %(trailers:key=Signed-off-by,valueonly,separator=%x2C)' "$BASE..$HEAD" | awk 'NF < 2 {print $1}')
+          if [ -n "$missing" ]; then echo "Commits without Signed-off-by (use git commit -s):"; echo "$missing"; exit 1; fi
