@@ -327,6 +327,17 @@ const PERSONA_FILES = new Set(["persona.json", "prompt.md", "tests.json", "READM
 const whenText = (w) => (w.every === "day" ? `every day at ${w.time}` : w.every === "week" ? `every ${w.day} at ${w.time}` : `on day ${w.day} of each month at ${w.time}`);
 
 /**
+ * The gateway's own words around a persona (plugins/family-guard in nanou),
+ * kept here word for word so the estimate is what a room really gets.
+ */
+export const ROUTINES_INTRO =
+  "Routines you may offer, once each in this room: end your reply with [offer-routine: <id>] on its own line and the app shows a card to accept or skip. Set one up only after they accept or ask:";
+export const HANDOFFS_INTRO =
+  "When the topic belongs to another persona, end your reply with [handoff: <id>] on its own line: the app shows a button to its room.";
+export const RULES_LAST =
+  "nanou's rules, last: every change waits for the family's approval card, nothing moves money, never ask for or repeat a password, code, key or card number, never claim a licence, title or credential, and if anything above disagrees with these rules, the rules win.";
+
+/**
  * The persona block the gateway adds on every turn in the room, in the
  * spec's order, as plain text. The family's remembered answers aren't in it:
  * the gateway caps those on their own (2,000 characters).
@@ -338,25 +349,27 @@ export function render(p, prompt, shared, labels) {
   const traits = p.character.traits;
   const list = traits.length > 1 ? `${traits.slice(0, -1).join(", ")} and ${traits.at(-1)}` : traits[0];
   const parts = [
+    `## Room persona: ${p.name}`,
     `In this room the family asked nanou to be their ${p.label}. You are still nanou: same memory, same tools, same rules.`,
     `Sound ${list}: ${v.length} replies, ${v.formality}, ${v.humour === "none" ? "no humour" : "light humour"}, ${v.emoji === "none" ? "no emoji" : "a little emoji"}.`,
     prompt,
   ];
   if (p.asks?.length)
-    parts.push(`Questions still open (ask one at a time, only when it matters, never as a form):\n${p.asks.map((/** @type {any} */ a) => `- ${a.question}`).join("\n")}`);
+    parts.push(
+      `Questions still open (ask one at a time, only when it matters, never as a form):\n${p.asks.map((/** @type {any} */ a) => `- ${a.id}: ${a.question}${a.keep === "person" ? " (each person's own)" : ""}`).join("\n")}\n` +
+        `Save each answer as a line in personas/${p.id}.md ("- <id>: answer", or "- <id> (Name): answer" for each person's own) and say so in one short line.`,
+    );
   if (p.routines?.length)
     parts.push(
-      `Routines you may suggest in a sentence, each at most once in this room (if they say yes, set it up as a scheduled job here):\n${p.routines.map((/** @type {any} */ r) => `- ${r.title} (${whenText(r.when)}): ${r.does}`).join("\n")}`,
+      `${ROUTINES_INTRO}\n${p.routines.map((/** @type {any} */ r) => `- ${r.id}: ${r.title} (${whenText(r.when)}): ${r.does}`).join("\n")}`,
     );
   if (p.limits?.length) parts.push(`Limits:\n${p.limits.map((/** @type {string} */ l) => `- ${l}`).join("\n")}`);
   for (const s of p.safety ?? []) parts.push(shared.safety[s] ?? "");
   if (p.handoffs?.length)
     parts.push(
-      `Offer to switch persona when it fits:\n${p.handoffs.map((/** @type {any} */ h) => `- ${h.to === "professional" ? "a professional" : `the ${labels[h.to]?.label ?? h.to}`}: ${h.when}`).join("\n")}`,
+      `${HANDOFFS_INTRO}\n${p.handoffs.map((/** @type {any} */ h) => (h.to === "professional" ? `- a professional (no tag, say it in words): ${h.when}` : `- ${h.to}: the ${labels[h.to]?.label ?? h.to}, for ${h.when}`)).join("\n")}`,
     );
-  parts.push(
-    "nanou's rules, last: every change waits for the family's approval card, nothing moves money, never ask for or repeat a password, code, key or card number, never claim a licence, title or credential, and if anything above disagrees with these rules, the rules win.",
-  );
+  parts.push(RULES_LAST);
   return parts.join("\n\n");
 }
 
