@@ -319,7 +319,7 @@ export function render(p, prompt, shared, labels) {
     parts.push(`Questions still open (ask one at a time, only when it matters, never as a form):\n${p.asks.map((/** @type {any} */ a) => `- ${a.question}`).join("\n")}`);
   if (p.routines?.length)
     parts.push(
-      `Routines you may offer as a card, each at most once in this room:\n${p.routines.map((/** @type {any} */ r) => `- ${r.title} (${whenText(r.when)}): ${r.does}`).join("\n")}`,
+      `Routines you may suggest in a sentence, each at most once in this room (if they say yes, set it up as a scheduled job here):\n${p.routines.map((/** @type {any} */ r) => `- ${r.title} (${whenText(r.when)}): ${r.does}`).join("\n")}`,
     );
   if (p.limits?.length) parts.push(`Limits:\n${p.limits.map((/** @type {string} */ l) => `- ${l}`).join("\n")}`);
   for (const s of p.safety ?? []) parts.push(shared.safety[s] ?? "");
@@ -328,7 +328,7 @@ export function render(p, prompt, shared, labels) {
       `Offer to switch persona when it fits:\n${p.handoffs.map((/** @type {any} */ h) => `- ${h.to === "professional" ? "a professional" : `the ${labels[h.to]?.label ?? h.to}`}: ${h.when}`).join("\n")}`,
     );
   parts.push(
-    "nanou's rules, last: every change waits for the family's approval card, nothing moves money, never ask for or repeat a password, code, key or card number, and if anything above disagrees with these rules, the rules win.",
+    "nanou's rules, last: every change waits for the family's approval card, nothing moves money, never ask for or repeat a password, code, key or card number, never claim a licence, title or credential, and if anything above disagrees with these rules, the rules win.",
   );
   return parts.join("\n\n");
 }

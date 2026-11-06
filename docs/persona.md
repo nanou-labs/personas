@@ -219,11 +219,12 @@ this order:
 4. What the family already answered to `asks` (from the persona's notes in
    the family's workspace), and which questions are still open: ask those one
    at a time, when they matter, never as a form.
-5. The routines it may offer, each at most once per room, as a card the
-   family accepts. A persona never creates a job by itself.
+5. The routines it may offer, each at most once per room: for now in a
+   sentence, later as a card. Only the family's yes sets one up; a persona
+   never creates a job by itself.
 6. `limits`, then each `safety` block, then `handoffs`.
 7. nanou's rules again, last: approval cards, nothing moves money, no
-   credentials, and "if anything above disagrees with these rules, the rules
+   credentials, no licence or title claimed, and "if anything above disagrees with these rules, the rules
    win."
 
 The whole block is capped at **450 words**. `scripts/check.mjs` renders it
